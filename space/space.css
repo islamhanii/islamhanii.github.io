@@ -1,0 +1,298 @@
+/*start css code decoration*/
+
+html,body,h1,h2,h3,h4,h5,h6
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    transition: 5   s;
+}
+.co-one
+{
+    color:#E8491D;
+}
+.co-two
+{
+    color: white;
+}
+.co-three
+{
+    color: 
+}
+.co-one, a.active
+{
+    color:#E8491D;
+}
+.bg-one
+{
+ background-color:  #35424A;  
+}
+.bg-two
+{
+ background-color:    
+}
+.gap-h
+{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+/*end css code decoration*/
+
+
+
+/*start css code header*/
+
+.head-section {
+    padding: 50px 20px 10px 20px;
+    text-align: center;
+}
+
+
+header
+{
+    align-items: center;    
+    display: flex;
+    height: 75px;
+    justify-content: space-between;
+    border-bottom: 5px solid #E8491D
+}
+header nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+header nav ul li
+{
+    margin-right: 25px;
+}
+header nav ul li a
+{
+    text-decoration: none;
+    
+}
+header nav ul li a:hover
+{
+    color: #E8491D;
+}
+
+/*end css code header*/
+
+
+/*start css code section1*/
+
+#back
+{
+    height: auto;
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-position: center;
+   
+
+}
+#back section ,#back section 
+{
+    padding: 100px;
+    text-align: center;
+    background-color: rgba(2,2,2,0.5);
+}
+#back section h1
+{
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: 'Merriweather', serif;
+}
+#back section p
+{
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    line-height: 1.5em;
+}
+
+
+/*start css code section2*/
+
+
+.div1
+{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    border-bottom: 5px solid #E8491D;
+}
+.div1 h3
+{
+    line-height: 75px;
+}
+.div1 form
+{
+    line-height: 75px;
+}
+.div1 form input
+{
+    width: 200px;
+    height: 35px;
+    text-align: center;
+}
+.div1 form button
+{
+    width: 100px;
+    height: 35px;
+    background-color: #E8491D;
+    border: 0;
+}
+.div1 form button:hover
+{
+   background-color:white;
+}
+
+
+/*end css code section2*/
+
+
+
+/*start css code section3*/
+.section3
+{
+     display: grid;
+    grid-template-columns: auto auto auto;
+    
+   
+}
+.section3 .box
+{
+    border: 1px solid ;
+     margin-left: 20px;
+    text-align: center;
+    transition: 0.5s;
+    margin: 20px;
+    border-radius: 10px;
+   
+}
+.section3 .box img
+{
+    width: 200px;
+    padding-top: 20px;
+    box-shadow: 3px 3px 10px grey;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.section3 .box h2
+{
+    padding-top: 20px;
+}
+.section3 .box img:hover
+{
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transform: rotateY(180deg);
+}
+
+
+/*end css code section3*/
+
+
+/*start css code section4*/
+
+
+.section4
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+.section4 .text
+{
+    background-color: #ccc;
+    width: 50%;
+    text-align: justify;
+    padding: 20px;
+    
+}
+ .section4 .text h2
+{
+    font-size: 30px;
+}
+.section4 .img  
+ {
+    width: 50%;
+    padding:10px;
+    border: 1px solid #000;
+    
+}
+
+.section4 .img img
+{
+    max-width: 100%
+}
+.section4 .img:hover
+{
+    background-color:#E8491D; 
+}
+
+/*end css code section4*/
+
+
+/*start css code footer*/
+
+
+footer
+{
+    margin: 0;
+}
+footer .footer
+{
+    text-align: center;
+    margin: 0;
+    line-height: 75px;
+}
+
+/*end css code footer*/
+
+
+/*start css code p*/
+.list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*start css code pagination*/
+
+
+.list ul li {
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 5px 7px;
+    font-size: 25px;
+    height: 40px;
+    width: 25px;
+    text-align: center;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: #E8491D;
+    display: block;
+    line-height: 50px;
+}
+
+.list ul .active {
+    background-color: #35424A;
+    color: #fff;
+}
+
+.list ul .active a {
+    color: #fff;
+}
+
+
+/*end css code pagination*/

@@ -1,0 +1,103 @@
+/*Start Search*/
+.search
+{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    
+    display: flex;
+}
+
+.search input,
+.search button
+{
+    padding: 8px 16px;
+}
+
+.search input
+{
+    width: 60%;
+    margin-right: 5px;
+}
+
+.search button {width: 40%;}
+/*End Search*/
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/*Start Members And Groups And Active*/
+.group-members{font-weight: 700;}
+
+.group-members nav:last-of-type ul,
+.active nav:last-of-type ul
+{
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+    margin-bottom: 20px;
+}
+
+.group-members nav:last-of-type ul li
+{
+    color: #fff;
+    background-color: #77af12;
+    
+    padding: 5px 10px;
+    margin: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.group-members nav:last-of-type ul li:hover {background-color: #679710;}
+
+.green-active {background-color: #679710 !important;}
+
+.group-members nav:last-of-type div
+{
+    display: flex;
+    align-items: flex-start;
+    
+    margin-bottom: 10px;
+}
+
+.group-members nav:last-of-type div img,
+.active nav:last-of-type ul img
+{
+    width: 50px;
+    height: 50px;
+    
+    margin-right: 10px;
+}
+
+.group-members nav:last-of-type div div
+{
+    color: #333;
+    
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    
+    margin-top: 3px;
+}
+
+.group-members nav:last-of-type div div span:last-of-type
+{
+    color: #6595af;
+    background-color: #e4ecf1;
+    
+    padding: 3px 6px;
+    margin: 2px;
+}
+/*End Members And Groups And Active*/
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/*Start Active*/
+.active nav:last-of-type ul
+{
+    justify-content: space-around;
+}
+
+.active nav:last-of-type ul img {margin-bottom: 10px;}
+/*End Active*/

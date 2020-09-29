@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Welcome to html 5">
+        <title> HTML 5 </title>
+        <link rel="stylesheet" href="css.css">
+        <!--[if lt IE 9]>
+            <script src="html5shiv.min.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+        
+        <!--Start Header-->
+        <header id="main">
+            <h1>HTML5 Learning</h1>
+        </header>
+        <!--End Header-->
+        
+        <!--Start Nav-->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contect Us</a></li>
+            </ul>
+        </nav>
+        <!--End Nav-->
+        
+        <!--Start Main-->
+        <main>
+            <p>Welcome to our <span>HTML5 Learning</span> with Islam Hani</p>
+        </main>
+        <!--End Main-->
+        
+        <!--Start Body Div-->
+            <div id="bodyDiv">
+                
+                <!--Start Post Div-->
+                <div id="post">
+                    
+                    <!--Start Article-->
+                    
+                    <!--Progress description-->
+                    <article>
+                        <header>
+                            <h3>Article #01</h3>
+                            <p>Created by <span>Islam</span> on <span>30/4/2020</span></p>
+                        </header>
+
+                        <section>
+                            <p>This section content the progress description</p>
+                            <div>
+                                Design: <progress max="10" value="7"></progress> <br>
+                                Coding: <progress max="100" value="65"></progress>
+                            </div>
+                        </section>
+                    </article>
+
+                    <!--Details description-->
+                    <article>
+                        <header>
+                            <h3>Article #02</h3>
+                            <p>Created by <span>Islam</span> on <span>30/4/2020</span></p>
+                        </header>
+
+                        <section>
+                            <p>This section content the details description</p>
+                            <details>
+                                <summary>References</summary>
+                                <ul>
+                                    <li>Ref 1</li>
+                                    <li>Ref 2</li>
+                                    <li>Ref 3</li>
+                                </ul>
+                            </details>
+                        </section>
+                    </article>
+
+                    <!--Figure description-->
+                    <article>
+                        <header>
+                            <h3>Article #03</h3>
+                            <p>Created by <span>Islam</span> on <span>30/4/2020</span></p>
+                        </header>
+
+                        <section>
+                            <p>This section content the figure description</p>
+                            <figure>
+                                <img src="rate.jpg" alt="Rate.jpg" title="Rate.jpg">
+                                <img src="rate.jpg" alt="Rate.jpg" title="Rate.jpg">
+                                <img src="rate.jpg" alt="Rate.jpg" title="Rate.jpg">
+                                <figcaption>Three Images Of Rates Caption <a href="#">Here</a></figcaption>
+                            </figure>
+                        </section>
+                    </article>
+                    
+                    <!--Video Audio description-->
+                    <article>
+                        <header>
+                            <h3>Article #04</h3>
+                            <p>Created by <span>Islam</span> on <span>31/4/2020</span></p>
+                        </header>
+
+                        <section>
+                            <p>This section content the Video description</p>
+                            <video controls loop preload="none" poster="poster.jpg">
+                                <source src="Home.mp4" type="video/mp4">
+                                <source src="Home.ogg" type="video/ogg">
+                                <source src="Home.webm" type="video/webm">
+                                <track src="islam.vtt" kind="subtitles" srclang="ar" label="Arabic">
+                                This Browser does not provide Vedio technology
+                            </video>
+                        </section>
+                        
+                        <section>
+                            <p>This section content the Image description</p>
+                            <audio controls loop preload="none">
+                                <source src="iphone.ogg" type="audio/ogg">
+                                <source src="iphone.mp3" type="audio/mpeg">
+                                This Browser does not provide Audio technology
+                            </audio>
+                        </section>
+                    </article>
+                    
+                    <!--Form inputs description-->
+                    <article>
+                        <header>
+                            <h3>Article #05</h3>
+                            <p>Created by <span>Islam</span> on <span>31/4/2020</span></p>
+                        </header>
+
+                        <section>
+                            <p>This section content the New Form Inputs description</p>
+                            
+                            <form>
+                                <input type="color" name="color" value="#758426" disabled>
+                                <input type="range" name="range" min="0" max="10" step="2" value="8">
+                                <input type="number" name="number" min="0" max="30" step="2" placeholder="Number">
+                                <input type="email" name="email" placeholder="Email" required>
+                                <input type="search" name="search" placeholder="Search" autocomplete="off">
+                                <input type="url" name="url" placeholder="URL">
+                                <label>Time</label>
+                                <input type="time" name="time">
+                                <label>Date Time</label>
+                                <input type="datetime-local" name="dateTime"><br>
+                                <label>Date</label>
+                                <input type="date" name="date">
+                                <label>Month</label>
+                                <input type="month" name="month">
+                                <label>Week</label>
+                                <input type="week" name="week"><br>
+                                <input type="submit" value="Send">
+                            </form>
+                        </section>
+                    </article>
+                    
+                    <!--Form attributes description-->
+                    <article>
+                        <header>
+                            <h3>Article #06</h3>
+                            <p>Created by <span>Islam</span> on <span>31/4/2020</span></p>
+                        </header>
+
+                        <section>
+                            <p>This section content the New Form Attributes description</p>
+                            
+                            <form action="get.php" method="get" enctype="application/x-www-form-urlencoded">
+                                <input type="text" name="userName" placeholder="User Name" min="6" max="10" required>
+                                <input type="email" name="email" placeholder="Email" required>
+                                <input type="file" name="files" multiple required>
+                                <input type="password" name="password" pattern="[a-zA-Z0-9]{8}" placeholder="Password" required>
+                                <input type="submit" formaction="post.php" formmethod="post" value="Send Post" formtarget="_blank">
+                                <input type="submit" value="Send Get" formnovalidate>
+                            </form>
+                        </section>
+                    </article>
+                    
+                    <!--Canvas description-->
+                    <article>
+                        <header>
+                            <h3>Article #07</h3>
+                            <p>Created by <span>Islam</span> on <span>1/5/2020</span></p>
+                        </header>
+
+                        <section id="canvas">
+                            <p>This section content the Canvas description</p>
+                        </section>
+                    </article>
+                    
+                    <!--Svg description-->
+                    <article>
+                        <header>
+                            <h3>Article #08</h3>
+                            <p>Created by <span>Islam</span> on <span>2/5/2020</span></p>
+                        </header>
+
+                        <section>
+                            <p>This section content the SVG description</p>
+                            <svg>
+                                <rect x="0" y="0" width="100%" height="100%" fill="#333"/>
+                                <rect x="10" y="10" width="70" height="70" ry="10" ry="10" fill="#ae4545"/>
+                                <circle cx="300" cy="150" r="60" stroke='#ae454f' fill='#ae45af' stroke-width='3'/>
+                                <ellipse cx="500" cy="150" rx="50" ry="100" fill='#afefca' stroke='#48efef' stroke-width='5'/>
+                                <line x1="50" y1="250" x2="250" y2="275" stroke='#cf88a1' stroke-width='3'/>
+                            </svg>
+                        </section>
+                    </article>
+                    
+                    <!--End Article-->
+                    
+                </div>
+                <!--Start Post Div-->
+                
+                <!--Start Aside-->
+                <aside>
+                    
+                    <section>
+                        <h3>Categories</h3>
+                        <ul>
+                            <li><a href="#">Intro</a></li>
+                            <li><a href="#">Semantics</a></li>
+                            <li><a href="#">Api</a></li>
+                            <li><a href="#">New Attributes</a></li>
+                            <li><a href="#">Multimedia Elements</a></li>
+                        </ul>
+                    </section>
+                    
+                    <section>
+                        <h3>Performance</h3>
+                        <p>
+                            Cpu: <meter low="0.4" high="0.8" optimum="1" value="0.7"></meter>
+                        </p>
+                    </section>
+                    
+                    <section>
+                        <h3>Top Members</h3>
+                        <ul>
+                            <li>Islam: 120 points</li>
+                            <li>Ahmed: 100 points</li>
+                            <li>Mohamed: 80 points</li>
+                            <li><bdi>علي</bdi>: 60 points</li>
+                        </ul>
+                    </section>
+                    
+                    <section>
+                        <h3>What is the best Browser?</h3>
+                        
+                        <input list="browsers" name="browser">
+                        <datalist id="browsers">
+                            <option value="Chrome"></option>
+                            <option value="Firefox"></option>
+                            <option value="Safari"></option>
+                            <option value="Opera"></option>
+                        </datalist>
+                        
+                        <input type="submit" value="Choose" name="choice">
+                    </section>
+                    
+                    <section>
+                        <h3>Calculate your Age in Days</h3>
+                        <form oninput="result.value = parseInt(age.value)*parseInt(days.value)">
+                            <input type="text" name="age">
+                            <input type="hidden" name="days" value="365">
+                            <output name="result"></output>
+                        </form>
+                    </section>
+                    
+                </aside>
+                <!--End Aside-->
+                
+            </div>
+        <!--End Body Div-->
+
+        <div class="clearFix"></div>
+        
+        <!--Start Footer-->
+        <footer>
+            Copyrights &copy; Islam Hani 2020
+        </footer>
+        <!--End Footer-->
+        
+        <script src="script.js"></script>
+        
+    </body>
+    
+</html>

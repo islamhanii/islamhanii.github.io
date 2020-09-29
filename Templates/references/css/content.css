@@ -1,0 +1,149 @@
+/*Start content*/
+.content
+{
+    max-width: 1230px;
+    margin: auto;
+    min-height: calc(100vh - 350px);
+}
+
+.content > section
+{
+    padding: 10px 10px 20px;
+    margin: 0 10px 50px;
+}
+
+.content section > select, .content section > div select
+{
+    padding: 5px;
+    margin: 0 0 10px 20px;
+    
+    cursor: pointer;
+    font-size: 20px;
+    
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.content section > div{display: inline}
+
+.content section > header img
+{
+    width: 50px;
+    height: 50px;
+    
+    padding: 5px;
+    
+    position: relative;
+    top: 15px;
+    
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.content h1
+{
+    padding: 10px 0;
+    margin-left: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.content nav
+{
+    display: flex;
+    justify-content: space-around;
+    
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.content nav article
+{
+    width: 90%;
+    background-color: #fff;
+    
+    padding: 10px;
+    margin: 20px 10px;
+    
+    cursor: pointer;
+    font-size: 18px;
+    
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    
+    -webkit-transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.content nav article:hover
+{
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    transform: scale(1.03);
+    
+    -webkit-box-shadow: 0 3px 5px #888;
+    -moz-box-shadow: 0 3px 5px #888;
+    box-shadow: 0 3px 5px #888;
+}
+
+.content nav article > span
+{
+    border-bottom: 3px solid #333;
+    font-size: 20px;
+    padding-bottom: 5px;
+    
+    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.content nav article > div
+{
+    float: right;
+    padding: 10px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+    
+    -webkit-border-radius: 0 10px 0 0;
+    -moz-border-radius: 0 10px 0 0;
+    border-radius: 0 10px 0 0;
+}
+
+.content nav article p
+{
+    font-family: 'Fira Code', monospace;
+    line-height: 1.5;
+    color: #333;
+}
+
+.content nav article p span
+{
+    color: #22c7ff;
+    word-break: break-all;
+}
+
+.content nav article p span object
+{
+    color: #ff2288;
+    border-bottom: 1px dashed #888;
+}
+
+.content nav article p span img
+{
+    display: block;
+    margin: 10px auto;
+    
+    max-width: 70%;
+    cursor: zoom-in;
+    
+    box-shadow: 0 3px 5px #888;
+}
+/*End content*/

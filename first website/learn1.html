@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="This is my first Page">
+        <title>Our Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <div id="header">
+            <div>
+                <a href="#Para"> Paragraph </a>
+                <a href="#LI"> Links-Images </a>
+                <a href="#List"> Lists</a>
+                <a href="#Form"> Form </a>
+                <a href="#IForm"> IForm </a>
+            </div>
+        </div>
+        <div id='container'>
+            <!--Paragraph-->
+            <div class="deepcont">
+                <h1 id="Para"> Paragraph </h1>
+                <p>
+                    Welcome to my page. this page is done with html and css. I am proud for make this
+                    page, and happy for learning web and know how to put the page in the middle of 
+                    the page.
+                </p>
+                <p>
+                    This is my paragraph This is my paragraph This is my paragraph This is my paragraph
+                    This is my paragraph This is my paragraph This is my paragraph This is my paragraph
+                    This is my paragraph This is my paragraph This is my paragraph This is my paragraph
+                </p>
+            </div>
+
+            <br>
+
+            <!--Links & Images-->
+            <div class="deepcont">
+                <h1 id= "LI">Links-Images</h1>
+
+                <div class="img">
+                    <a href="https://peer.egybest.pw/series/dark-2017/" target="_blank"> 
+                        <img src="dark.jpg" title="Dark" alt="Dark"> 
+                    </a>
+                    <a class="link" href="https://peer.egybest.pw/series/dark-2017/" target="_blank"> Dark </a>
+                </div>
+
+                <div class="img">
+                    <a href="https://peer.egybest.pw/series/see/" target="_blank"> 
+                        <img src="see.jpg" title="SEE" alt="SEE"> 
+                    </a>
+                    <a class="link" href="https://peer.egybest.pw/series/see/" target="_blank"> See </a>
+                </div>
+
+                <div class="img">
+                    <a href="https://peer.egybest.pw/series/la-casa-de-papel-2017/" target="_blank"> 
+                        <img src="la%20case.jpg" title="La Case De Papel" alt="La Case De Papel"> 
+                    </a>
+                    <a class="link" href="https://peer.egybest.pw/series/la-casa-de-papel-2017/" target="_blank"> La Case De Papel </a>
+                </div>
+
+            </div>
+
+            <br>
+
+            <!--Lists-->
+            <div class="deepcont">
+                <h1 id="List">Lists</h1>
+                <ul class="siz18">
+                    <li>HTML
+                    <li>CSS
+                    <li>JavaScript
+                        <ul>
+                            <li>jQuary
+                                <ol>
+                                    <li>Version 1.0
+                                    <li>Version 2.0
+                                </ol>
+                            <li>Dojo
+                            <li>Mootools
+                        </ul>
+                </ul>
+
+                <ol reversed class="siz18">
+                    <li>Learn HTML
+                    <li>Learn CSS
+                    <li>Learn JavaScript
+                </ol>
+            </div>
+
+            <br>
+
+            <!--Form-->
+            <div class="deepcont">
+                <h1 id="Form">Form</h1>
+                <form name="register" class="siz18">
+
+                    <fieldset>
+                        <legend>Personnal information</legend>
+                        <!--<label>User Name</label>-->
+                        <input type="text" placeholder="UserName" maxlength="10"><br>
+
+                        <!--<label>Password</label>-->
+                        <input type="email" placeholder="@gmail.com"><br>
+
+                        <input type="password" placeholder="Password" maxlength="26">
+                        <input type="checkbox">
+                        <label>Remember me</label><br>
+
+                        <br><br>
+
+                        <label>Upload Your CV</label>
+                        <input type="file">
+
+                        <br><br>
+                                                        <!--readonly-->
+                        <textarea rows="7" cols="50" placeholder="Write Your Commint" ></textarea>
+
+                        <br><br>
+
+
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+
+                        <legend>Your favorite</legend>
+                        <label>Choice Your Browser</label> <br>
+                        <input type="radio" name="Browser" value="Chrome"> 
+                        <label>Chorme</label>  <br>
+                        <input type="radio" name="Browser" value="Firefox"> 
+                        <label>Firefox</label><br>
+                        <input type="radio" name="Browser" value="Opera"> 
+                        <label>Opera</label>
+
+                        <br>
+
+                        <label>Choice Your Mobile</label> <br>
+                        <input type="radio" name="Mobile" value="Samsung"> 
+                        <label>Samsung</label>  <br>
+                        <input type="radio" name="Mobile" value="iPhone"> 
+                        <label>iPhone</label><br>
+                        <input type="radio" name="Mobile" value="Oppo"> 
+                        <label>Oppo</label>
+
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+
+                        <legend>Send options</legend>
+                            <!--disable, multiple, selected-->
+                        <select name="Time">
+
+                            <optgroup label="Near Time">
+                                <option value="1">Now</option>
+                                <option value="2">Tomorrow</option>
+                                <option value="3">After a week</option>
+                            </optgroup>
+
+                            <optgroup label="Far Time">
+                                <option value="4">a Year</option>
+                                <option value="5">5 Years</option>
+                                <option value="6">10 Years</option>
+                            </optgroup>
+
+                        </select>
+
+                        <input type="submit" value="Sign Up"> 
+                        <input type="button" value="Check"> 
+                        <input type="reset">
+
+                    </fieldset>
+
+                    <br><br>
+
+                    <input type="date">
+                    <input type="month">
+                    <input type="color">
+                    <input type="range">
+                    <input type="search" value="Search">
+                    <input type="time">
+                    <input type="week">
+
+                </form>
+            </div>
+
+            <br>
+
+            <!--Form-->
+            <div class="deepcont">
+                <h1 id="IForm">IForm</h1>
+                <iframe name="My_Page" src="https://islamhanii.github.io/first website/learn1.html" width="1200" height="400"></iframe>
+            </div>
+            
+        </div>
+        
+        <footer>
+            <!--  &nbsp; (make space)  -->
+            <!--  &lt; (<)  &gt; (>)  -->
+            <!--  &amp; (&)  -->
+            <!--  &trade; (Trademark)  -->
+
+            <p>Copyrights &copy; Islam Hani</p>
+
+        </footer>
+        
+    </body>
+
+</html>

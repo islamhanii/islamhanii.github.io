@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="This Page describes All what i learn about html and css and javaScript"/>
+        <title>References</title>
+        <link rel="icon" href="../images/pageLogo.png"/>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Fredoka+One&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        
+        <link rel="stylesheet" href="../css/loading.css"/>
+        <link rel="stylesheet" href="../css/normalize.css"/>
+        <link rel="stylesheet" href="../css/global-main.css"/>
+        <link rel="stylesheet" href="../css/header.css"/>
+        <link rel="stylesheet" href="../css/content.css"/>
+        <link rel="stylesheet" href="../css/up-footer-image.css"/>
+        <link rel="stylesheet" href="../css/media.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.min.js"></script>
+        <![end if]-->
+        
+    </head>
+    
+    <body>
+        
+        <div id="loading">
+            <div>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <!--Start Header-->
+        <header id="header">
+            
+            <div id="up-header">
+                <div>
+                    <a href="index.html">
+                        <img src="../images/pageLogo.png" alt="Page Logo"/>
+                        <span>References</span>
+                    </a>
+                </div>
+
+                <ul>
+                    <a href="../html-page/index.html">    <li>HTML</li>       </a>
+                    <a href="../css-page/index.html">     <li>CSS</li>        </a>
+                    <a href="../javascript-page/index.html">  <li>JavaScript</li> </a>
+                </ul>
+
+                <button id="list-button" class="transition1_2">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+            
+            <header id="down-header">
+
+                <ul>
+                    <a href="../html-page/index.html">    <li>HTML</li>       </a>
+                    <a href="../css-page/index.html">     <li>CSS</li>        </a>
+                    <a href="../javascript-page/index.html">  <li>JavaScript</li> </a>
+                </ul>
+
+            </header>
+        </header>
+        <!--End Header-->
+        
+        <div class="fullcontainer">
+            
+            <main>This Page Describes All I Learn About CSS</main>
+            
+            <!--Start Content-->
+            
+            <div class="content">
+                
+                <!--Start CSS-->
+                <section id="main">
+                    
+                    <header>
+                        <img src="images/css3.png" alt="CSS3 image"/>
+                        <h1 id="css3">CSS 3</h1>
+                    </header>
+                    
+                    <select id="elements" name="coordinate" onchange="elements()">
+                        <option value="All">All</option>
+                        <option value="Background">Background</option>
+                        <option value="Text">Text</option>
+                        <option value="Font">Font</option>
+                        <option value="List">List</option>
+                        <option value="Border">Border</option>
+                        <option value="Box">Box</option>
+                        <option value="Flex">Flex</option>
+                        <option value="Grid">Grid</option>
+                        <option value="Media Query">Media Query</option>
+                        <option value="Column">Column</option>
+                        <option value="InLine">InLine</option>
+                        <option value="Selectors">Selectors</option>
+                        <option value="Prefixs">Prefixs</option>
+                        <option value="Others">Others</option>
+                    </select>
+                    
+                    <div id="second" onchange="elements2()"></div>
+                    
+                    <nav>
+                        
+                        <article>
+                            <span>Color</span>
+                            <div> Background </div>
+                            <p>
+                                <span>background-color: <object>#636363</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Image</span>
+                            <div> Background </div>
+                            <p>
+                                <span>background-image: <object>url('src')</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Attachment</span>
+                            <div> Background </div>
+                            <p>
+                                <span>background-attachment: <object>scroll(default) fixed</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Repeat</span>
+                            <div> Background </div>
+                            <p>
+                                <span>background-repeat: <object>no-repeat repeat</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Position</span>
+                            <div> Background </div>
+                            <p>
+                                <span>background-position: <object>left right center ...</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Size</span>
+                            <div> Background </div>
+                            <p>
+                                <span>background-size: <object>contain cover</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Background</span>
+                            <div> InLine </div>
+                            <p>
+                                <span>background: <object>color image  repeat scroll position</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Color</span>
+                            <div> Text </div>
+                            <p>
+                                <span>color: <object>#636363</object>;</span><br/>
+                                <span>color: <object>rgba(255, 0, 0, 0.3)</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Letter Spacing</span>
+                            <div> Text </div>
+                            <p>
+                                <span>letter-spacing: <object>px normal</object>;</span><br>
+                                Take negative values
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Word Spacing</span>
+                            <div> Text </div>
+                            <p>
+                                <span>word-spacing: <object>px normal</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Align</span>
+                            <div> Text </div>
+                            <p>
+                                <span>text-align: <object>center right left</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Decoration</span>
+                            <div> Text </div>
+                            <p>
+                                <span>text-decoration: <object>none underline overline line-through</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Indent</span>
+                            <div> Text </div>
+                            <p>
+                                <span>text-indent: <object>px</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Transform</span>
+                            <div> Text </div>
+                            <p>
+                                <span>text-transform: <object>capitalize uppercase lowercase ...</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>White Space</span>
+                            <div> Text </div>
+                            <p>
+                                <span>white-space: <object>normal nowrap</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Family</span>
+                            <div> Font </div>
+                            <p>
+                                <span>font-family: <object>'Tahoma', san-serif</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Style</span>
+                            <div> Font </div>
+                            <p>
+                                <span>font-style: <object>normal italic</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Size</span>
+                            <div> Font </div>
+                            <p>
+                                <span>font-size: <object>px</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Line Height</span>
+                            <div> Font </div>
+                            <p>
+                                <span>line-height: <object>1 1.5 2</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Font</span>
+                            <div> InLine </div>
+                            <p>
+                                <span>font: <object>style weight size/line-height family</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Type</span>
+                            <div> List </div>
+                            <p>
+                                <span>list-style-type: <object>disc(default) none circle ...</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Position</span>
+                            <div> List </div>
+                            <p>
+                                <span>list-style-position: <object>outside(default) inside</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Image</span>
+                            <div> List </div>
+                            <p>
+                                <span>list-style-image: <object>url('src')</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>List</span>
+                            <div> InLine </div>
+                            <p>
+                                <span>list-style: <object>type position image</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Width</span>
+                            <div> Border </div>
+                            <p>
+                                <span>border-width: <object>px</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Style</span>
+                            <div> Border </div>
+                            <p>
+                                <span>border-style: <object>solid dotted dashed ...</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Color</span>
+                            <div> Border </div>
+                            <p>
+                                <span>border-color: <object>#636363</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Border</span>
+                            <div> InLine </div>
+                            <p>
+                                <span>border: <object>width style color</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Margin</span>
+                            <div> Box </div>
+                            <p>
+                                <span>margin: <object>px auto</object>;</span><br/>
+                                Take negative values
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Padding</span>
+                            <div> Box </div>
+                            <p>
+                                <span>padding: <object>px</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Width</span>
+                            <div> Box </div>
+                            <p>
+                                <span>width: <object>px</object>;</span><br/>
+                                <span>min-width: <object>px</object>;</span><br/>
+                                <span>max-width: <object>px</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Height</span>
+                            <div> Box </div>
+                            <p>
+                                <span>height: <object>px</object>;</span><br>
+                                <span>min-height: <object>px</object>;</span><br/>
+                                <span>max-height: <object>px</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Display</span>
+                            <div> Box </div>
+                            <p>
+                                <span>display: <object>inline block flex grid ...</object>;</span><br/>
+                                none: remove element and it's place
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Visiblity</span>
+                            <div> Box </div>
+                            <p>
+                                <span>visiblity: <object>visible(default) hidden</object>;</span><br/>
+                                hidden: remove element and keep it's place
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Position</span>
+                            <div> Box </div>
+                            <p>
+                                <span>position: <object>fixed relative absloute</object>;</span><br/>
+                                <span>top, bottom, left, right: <object>px</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Float</span>
+                            <div> Box </div>
+                            <p>
+                                <span>float: <object>none(default) left right</object>;</span><br/>
+                                <span>clear: <object>right left both</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Overflow</span>
+                            <div> Box </div>
+                            <p>
+                                <span>overflow: <object>visible(default) hidden scroll auto</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Z Index</span>
+                            <div> Box </div>
+                            <p>
+                                <span>Z-index: <object>(down)1 2 3 ...(up)</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Cursor</span>
+                            <div> Others </div>
+                            <p>
+                                <span>cursor: <object>pointer zoom-in ...</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Box Sizing</span>
+                            <div> Box/Prefixs </div>
+                            <p>
+                                <span>box-sizing: <object>content-box(default) border-box</object>;</span><br/>
+                                Uses -webkit- and -moz-
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Radius</span>
+                            <div> Border/Prefixs </div>
+                            <p>
+                                <span>border-radius: <object>px</object>;</span><br/>
+                                Uses -webkit- and -moz-
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Box Shadow</span>
+                            <div> Box/Prefixs </div>
+                            <p>
+                                <span>box-shadow: <object>hori ver blur spread color inset/outset</object>;</span><br/>
+                                Uses -webkit- and -moz-
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Text Overflow</span>
+                            <div> Text </div>
+                            <p>
+                                <span>text-overflow: <object>clip(default) ellipsis</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Word Wrap</span>
+                            <div> Text </div>
+                            <p>
+                                <span>word-wrap: <object>normal(default) break-word</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Attributes</span>
+                            <div> Selectors </div>
+                            <p>
+                                <span>a[target="_blank"]: <object>Anchor which target is _blank</object></span><br>
+                                <span>input[name="submit"]: <object>Inout which name is submit</object></span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Symbols</span>
+                            <div> Selectors </div>
+                            <p>
+                                <span>div>p: <object>All direct childs of type p</object></span><br>
+                                <span>*: <object>All</object></span><br>
+                                <span>div+p: <object>p is previoUsesd by div</object></span><br>
+                                <span>div~p: <object>all p after this div</object></span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Pseudo Classes</span>
+                            <div> Selectors </div>
+                            <p>
+                                <span>p:first-letter: <object>first letter in p</object></span><br>
+                                <span>p:first-line: <object>first line in p</object></span><br>
+                                <span>div:before : <object>Take content</object></span><br>
+                                <span>div:after : <object>Take content</object></span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Transform</span>
+                            <div> Others/Prefixs </div>
+                            <p>
+                                <span>transform: <object>rotate(deg)</object>;</span><br/>
+                                <span>transform: <object>scale(1.5,1.5)</object>;</span><br/>
+                                <span>transform: <object>translate(px,px)</object>;</span><br/>
+                                <span>transform: <object>skew(deg, deg)</object>;</span><br/>
+                                <span>transform: <object>rotateX(deg) rotateY(deg) rotateZ(deg)</object>;</span><br/>
+                                Uses -webkit-, -moz-,-ms- and -o-
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Origin</span>
+                            <div> Others/Prefixs </div>
+                            <p>
+                                <span>transform-origin: <object>top bottom left right</object>;</span><br/>
+                                Uses -webkit-, -moz-,-ms- and -o-
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Style</span>
+                            <div> Others/Prefixs </div>
+                            <p>
+                                <span>transform-style: <object>flat(default) preserve-3d</object>;</span><br/>
+                                Uses -webkit- and -moz-
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>perspective</span>
+                            <div> Others </div>
+                            <p>
+                                <span>perspective: <object>px</object>;</span><br/>
+                                transform dimensions box
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>backface</span>
+                            <div> Others/Prefixs </div>
+                            <p>
+                                <span>backface-visibility: <object>visible(default) hidden</object>;</span><br/>
+                                Uses -webkit- and -moz-
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Transition</span>
+                            <div> Others/Prefixs </div>
+                            <p>
+                                <span>transition: <object>proprity duration function</object>;</span><br/>
+                                Uses -webkit-
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Direction</span>
+                            <div> Flex/Prefixs </div>
+                            <p>
+                                <span>flex-direction: <object>row(default) row-reverse column ...</object>;</span><br/>
+                                Uses -webkit-, -moz- and -ms-
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Wrap</span>
+                            <div> Flex/Prefixs </div>
+                            <p>
+                                <span>flex-wrap: <object>nowrap(default) wrap ...</object>;</span><br/>
+                                Uses -webkit-
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Grow</span>
+                            <div> Flex/Prefixs </div>
+                            <p>
+                                <span>flex-grow: <object>0 1 2 3 ...</object>;</span><br/>
+                                Uses -webkit-
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Shrink</span>
+                            <div> Flex/Prefixs </div>
+                            <p>
+                                <span>flex-shrink: <object>0 1 2 3 ...</object>;</span><br/>
+                                Uses -webkit-
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Justify Content</span>
+                            <div> Flex </div>
+                            <p>
+                                <span>justify-content: <object>flex-start flex-end center ....</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Align Content</span>
+                            <div> Flex </div>
+                            <p>
+                                <span>align-content: <object>flex-start flex-end center ....</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Align Items</span>
+                            <div> Flex </div>
+                            <p>
+                                <span>align-items: <object>stretch(default) flex-start flex-end center</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Count</span>
+                            <div> Column/Prefixs </div>
+                            <p>
+                                <span>column-count: <object>1 2 3 ...</object>;</span><br/>
+                                Uses -webkit- and -moz-
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Rule</span>
+                            <div> Column/Prefixs </div>
+                            <p>
+                                <span>column-rule: <object>width style color</object>;</span><br/>
+                                Uses -webkit- and -moz-
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Width</span>
+                            <div> Column/Prefixs </div>
+                            <p>
+                                <span>column-width: <object>px</object>;</span><br/>
+                                Uses -webkit- and -moz-
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Span</span>
+                            <div> Column/Prefixs </div>
+                            <p>
+                                <span>column-span: <object>all ...</object>;</span><br/>
+                                Uses -webkit-. It make an element above others
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Animation</span>
+                            <div> Others/Prefixs </div>
+                            <p>
+                                <span>animation: 
+                                    <object>keyframe duration delay count function direction mode play</object>;
+                                </span><br/>
+                                Uses -webkit-, -moz- and -o-
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Key Frames</span>
+                            <div> Others/Prefixs </div>
+                            <p>
+                                <span>@keyframes{ <object>to,from,0%,100%...{}</object>}</span><br/>
+                                Uses -webkit-, -moz- and -o-
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Attributes</span>
+                            <div> Selectors </div>
+                            <p>
+                                <span>p[class ^= "an"]: <object>p whos class start with "an"</object></span><br/>
+                                <span>p[class $= "an"]: <object>p whos class End with "an"</object></span><br/>
+                                <span>p[class *= "an"]: <object>p whos class contains "an"</object></span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Pseudo Classes</span>
+                            <div> Selectors </div>
+                            <p>
+                                <span>input:checked: <object>the checked input</object></span><br/>
+                                <span>input:enabled: <object>the enabled input</object></span><br/>
+                                <span>input:disabled: <object>the disabled input</object></span><br/>
+                                <span>input:empty: <object>the empty input</object></span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Pseudo Classes</span>
+                            <div> Selectors </div>
+                            <p>
+                                <span>div p:first-child: <object>first child of type p in this div</object></span><br/>
+                                <span>div p:last-child: <object>last child of type p in this div</object></span><br/>
+                                <span>div p:not(selector): <object>child of type p in this div and not condition</object></span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Pseudo Classes</span>
+                            <div> Selectors </div>
+                            <p>
+                                <span>p:nth-of-type(n): <object>p has number n</object></span><br>
+                                <span>p:nth-last-of-type(n): <object>p has number n from last</object></span><br>
+                                <span>p:nth-child(n): <object>p has number n of all different childs</object></span><br/>
+                                <span>p:nth-last-child(n): <object>p has number n of all different childs from last</object></span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Pseudo Classes</span>
+                            <div> Selectors </div>
+                            <p>
+                                <span>p:only-child: <object>The only child ever</object></span><br/>
+                                <span>p:only-of-type: <object>The only p in the parent</object></span><br/>
+                                <span>::selection: <object>The coordinate of the text after user select</object></span><br/>
+                                <span>-n+N: <object>Mean the first N of specific type</object></span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Templete Columns</span>
+                            <div> Grid </div>
+                            <p>
+                                <span>grid-templete-columns: <object>% repeat(num, size)</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Templete Rows</span>
+                            <div> Grid </div>
+                            <p>
+                                <span>grid-templete-rows: <object>% repeat(num, size)</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Start AND End</span>
+                            <div> Grid </div>
+                            <p>
+                                <span>grid-column: <object>Start / End</object>;</span><br/>
+                                <span>grid-row: <object>Start / End</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Area</span>
+                            <div> Grid </div>
+                            <p>
+                                <span>grid-area: <object>name<sub>1</sub></object>;</span><br/>
+                                <span>grid-area: <object>name<sub>2</sub></object>; ...</span><br/>
+                                <span>grid-template-areas: <br/>
+                                    <object>
+                                        "name<sub>n</sub> name<sub>n</sub> ..."<br/>
+                                        "name<sub>n</sub> name<sub>n</sub> ..." ....
+                                    </object>;
+                                </span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Align Items</span>
+                            <div> Grid </div>
+                            <p>
+                                <span>align-items: <object>start center end</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Justify Content</span>
+                            <div> Grid </div>
+                            <p>
+                                <span>justify-content: <object>start center end</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>User Select</span>
+                            <div> Others/Prefixs </div>
+                            <p>
+                                <span>user-select: <object>none all text...</object>;</span><br/>
+                                Uses -webkit-, -moz- and -ms-
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Meta</span>
+                            <div> Media Query </div>
+                            <p>
+                                <span>&lt;meta 
+                                    <object>name="viewport" content="width, initial-scale, user-scalabe, 
+                                            maximum-scale, minimum-scale</object>&gt;
+                                </span><br/>
+                                <span>
+                                    <img src="images/media.JPG" title="Description" alt="Describtion" onclick="openImage('images/media.JPG')"/>
+                                </span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>@Media</span>
+                            <div> Media Query </div>
+                            <p>
+                                <span>@media <object>not|only mediatype and (expressions), (expressions)</object> {}</span> => ,: mean OR<br/>
+                                <span>
+                                    <img src="images/types.JPG" title="Types" alt="Types" onclick="openImage('images/types.JPG')"/>
+                                </span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Screen</span>
+                            <div> Media Query </div>
+                            <p>
+                                <span>Show the width of screens used</span><br/>
+                                <span>
+                                    <img src="images/sizes.jpg" title="Sizes" alt="Sizes" onclick="openImage('images/sizes.jpg')"/>
+                                </span>
+                            </p>
+                        </article>
+                        
+                    </nav>
+                    
+                </section>
+                <!--End CSS-->
+            </div>
+            
+            <!--End Content-->
+            
+        </div>
+        
+        <nav id="goUp">
+            <i class="fa fa-chevron-circle-up" title="up"></i>
+        </nav>
+        
+        <footer id="footer">
+            <p>Find Me On Social Media</p>
+            
+            <div>
+                <a href="https://www.facebook.com/eslam.hany.752" target="_blank">
+                    <i class="fa fa-facebook-square" title="facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/islamhani10/" target="_blank">
+                    <i class="fa fa-instagram" title="instagram"></i>
+                </a>
+                <a href="https://twitter.com/islamha58723976" target="_blank">
+                    <i class="fa fa-twitter-square" title="twitter"></i>
+                </a>
+                <a href="https://github.com/islamhanii" target="_blank">
+                    <i class="fa fa-github-square" title="github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/islam-hani-2572131ab/" target="_blank">
+                    <i class="fa fa-linkedin-square"  title="linkedin"></i>
+                </a>
+            </div>
+            
+            <p>Copyrights &copy; Islam Hani 2020</p>
+        </footer>
+        
+        <nav id="blacken">
+            
+        </nav>
+        
+        <nav id="display">
+            <div>
+                <img src alt="image"/>
+            </div>
+            <span onclick="closeImage()">X</span>
+        </nav>
+        
+        <script src="../js/script1.js"></script>
+    </body>
+</html>

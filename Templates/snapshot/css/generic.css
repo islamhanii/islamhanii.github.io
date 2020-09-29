@@ -1,0 +1,51 @@
+#generic {
+    width: 90%;
+    margin: 50px auto;
+}
+
+#generic h1,
+#generic h3{
+    font-weight: 500;
+}
+
+#generic p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #42515F;
+    
+    margin: 25px 0;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+/*Start Captions*/
+#captions {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#captions div {
+    width: 48%;
+    
+    column-count: 1;
+}
+
+#captions div nav:first-of-type {
+    padding: 15px;
+    background-color: #f2f2f2;
+    
+    border: 1px solid #d8d8d8;
+    
+    margin: 0 20px 20px 0;
+    float: left;
+}
+
+#captions h3 {
+    margin: 0;
+}
+
+#captions p {
+    font-size: 14px;
+}
+/*End Captions*/

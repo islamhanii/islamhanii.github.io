@@ -1,0 +1,106 @@
+body
+{
+    margin: 0px;
+/*    background-color: #3b3b3a;*/
+    text-transform: capitalize;
+    font-family: monospace;
+}
+
+#fullCont
+{
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    width: 1280px;
+    height: 741px;
+    margin: auto;
+    padding-top: 150px;
+}
+
+#Cont
+{
+    width: 420px;
+    margin: auto;
+    text-align: center;
+    border: 2px groove #ffce00;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #6e7fa7;
+}
+
+
+#Wel
+{
+    font-size: 42px;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffce00;
+}
+
+#Para, #Pol
+{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: normal;
+    color: #06fc9d;
+}
+
+.input0, .input1, #Sub
+{
+    margin: 8px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ffce00;
+}
+
+.input0{ width: 150px; }
+
+.input1{ width: 360px; }
+
+#Container2, #Wel
+{
+    margin: 20px;
+}
+
+#link
+{ 
+    text-decoration: none; 
+    color: #ffce00;
+    font-style: oblique;
+}
+
+#link:hover
+{
+    color: #d0ac17;
+    font-weight: bold;
+}
+
+#Sub
+{ 
+    width: 402px;
+    background-color: #d0ac17;
+    font-family: monospace;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#Sub:hover
+{
+    background-color: #957a0c;
+}
+
+footer
+{
+    color: #000;
+    text-align: center;
+    font-family: cursive, inherit;
+    margin-top: 120px;
+}
+
+footer div
+{
+    margin: auto;
+    font-size: 20px;
+    font-weight: 700;
+}

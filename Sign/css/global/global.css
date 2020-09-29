@@ -1,0 +1,75 @@
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body
+{
+    
+    font-family: 'Ubuntu', sans-serif;
+    
+    background-image: url('../../images/Colorful-Plait-Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.textselect
+{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.trans_half_second
+{
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+}
+
+.trans_second
+{
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+}
+
+.scale:hover
+{
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.boxshadow:hover
+{
+    -webkit-box-shadow: 0px 2px 3px #353;
+    -moz-box-shadow: 0px 2px 3px #353;
+    box-shadow: 0px 2px 3px #353;
+}
+
+.boxshadowinleft
+{
+    -webkit-box-shadow: 3px 3px 3px #353 inset;
+    -moz-box-shadow: 3px 3px 3px #353 inset;
+    box-shadow: 3px 3px 3px #353 inset;
+}
+
+.boxshadowinright
+{
+    -webkit-box-shadow: -3px 3px 3px #353 inset;
+    -moz-box-shadow: -3px 3px 3px #353 inset;
+    box-shadow: -3px 3px 3px #353 inset;
+}

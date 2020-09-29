@@ -1,0 +1,115 @@
+@media screen and (max-width:5120px)
+{
+    /*Start Inputs*/
+
+    .enter
+    {
+        margin: 20px auto;
+    }
+    .enter > div
+    {
+        position: relative;
+        max-width: 280px;
+        margin: auto;
+    }
+
+    .textinput
+    {
+        width: 100%;
+        height: 50px;
+        background-color: #f1f1f1;
+        border: 0px;
+        border-radius: 5px;
+        margin: 10px 0;
+        padding-left: 30px;
+        color: #898989;
+    }
+
+    .enter > div img
+    {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        top: 25px;
+        left: 5px;
+    }
+
+    .enter > div:nth-of-type(2) span, .enter > div:nth-of-type(3) span
+    {
+        position: absolute;
+        top: 42px;
+        left: 290px;
+        cursor: pointer
+    }
+
+    .enter > div:nth-of-type(3) p
+    {
+        color: #b1cfb1;
+        cursor: pointer;
+        margin-bottom: 30px;
+    }
+
+    .enter > div:nth-of-type(2) span:hover, .enter > div:nth-of-type(3) span:hover, .enter > div:nth-of-type(3) p:hover
+    {
+        color: #00c799;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    .enter input[type="submit"]
+    {
+        background-color: #00c799;
+        color: #fff;
+        border: 0px;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 50px;
+        padding: 15px 0;
+        border-radius: 30px;
+        font-weight: 700;
+    }
+
+    .enter input[type="submit"]:hover
+    {
+        background-color: #06e6b2;
+    }
+    /*End Inputs*/
+    
+    /*--------------------------------------------------------------------------------------------------------*/
+    
+    .container section:nth-of-type(2)
+    {
+        display: none;
+    }
+    
+    .fullcontainer > div:nth-last-of-type(1)
+    {
+        display: none;
+    }
+    
+    #signup input[type="submit"]
+    {
+        margin-top: 30px;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width:780px)
+{
+    .container
+    {
+        margin: 150px 100px 100px;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width:600px)
+{
+    .container
+    {
+        margin: 150px auto 100px;
+        width: 400px;
+    }
+}

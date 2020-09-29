@@ -1,0 +1,27 @@
+/*Start Selectors*/
+#selectors {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+#selectors h1 {
+    margin: 0;
+}
+
+#selectors button {
+    padding: 14px 28px;
+    margin-left: 5px;
+}
+
+#selectors button.active {background-color: #22313F;}
+/*End Selectors*/
+
+/*Start Gallery*/
+#gallery {
+    padding-top: 20px;
+}
+/*End Gallery*/

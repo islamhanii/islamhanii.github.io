@@ -1,0 +1,341 @@
+<!DOCTYPE>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="This is my first templete using grid, flex, animation and mediaQuary"/>
+        <title>Dashboard</title>
+        
+        <link rel="icon" href="images/face1.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway&display=swap"/>
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/header-side.css"/>
+        <link rel="stylesheet" href="css/main1.css"/>
+        <link rel="stylesheet" href="css/main2.css"/>
+        <link rel="stylesheet" href="css/media.css"/>
+        <link rel="stylesheet" href="css/animation.css"/>
+        
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.min.js"></script>
+        <![end if]-->
+    </head>
+
+    <body>
+        <div id="grid-container">
+            <!--Start Header-->
+            <header id="header">
+                <div class="scale" onclick="getOut()">
+                    <i class="fa fa-bars"></i> Menu
+                </div>
+                
+                <div>
+                    <a href="index.html"><i class="fa fa-home transition scale"></i></a>
+                </div>
+            </header>
+            <!--End Header-->
+            
+            <!--Start Sidebar-->
+            <aside id="menu">
+                <header>
+                    <div>
+                        <a href="images/face1.png"><img src="images/face1.png" alt="Person Face"/></a>
+                    </div>
+                    
+                    <div>
+                        <span>Welcome, <strong>Islam</strong></span><br/>
+                        <a href="#"><i class="fa fa-envelope transition"></i></a>
+                        <a href="#"><i class="fa fa-user transition"></i></a>
+                        <a href="#"><i class="fa fa-cog transition"></i></a>
+                    </div>
+                </header>
+                
+                <div>
+                    <div>
+                        <p>Dashboard</p>
+                    </div>
+                    
+                    <div>
+                        <a href="#" class="transition">
+                            <i class="fa fa-users"></i> Overview
+                        </a>
+
+                        <a href="#" class="transition">
+                            <i class="fa fa-eye fa-fw"></i> Views
+                        </a>
+
+                        <a href="#" class="transition">
+                            <i class="fa fa-users fa-fw"></i> Traffics
+                        </a>
+
+                        <a href="#" class="transition">
+                            <i class="fa fa-bullseye fa-fw"></i> Geo
+                        </a>
+
+                        <a href="#" class="transition">
+                            <i class="fa fa-diamond fa-fw"></i> Orders
+                        </a>
+
+                        <a href="#" class="transition">
+                            <i class="fa fa-bell fa-fw"></i> News
+                        </a>
+
+                        <a href="#" class="transition">
+                            <i class="fa fa-bank fa-fw"></i> General
+                        </a>
+
+                        <a href="#" class="transition">
+                            <i class="fa fa-history fa-fw"></i> History
+                        </a>
+
+                        <a href="#" class="transition">
+                            <i class="fa fa-cog fa-fw"></i> Settings
+                        </a>
+                    </div>
+                </div>
+            </aside>
+            <!--End Sidebar-->
+            
+            <!--Start Main-->
+            <nav id="main">
+                <p><i class="fa fa-dashboard"></i> My Dashboard</p>
+                <!--Start Heading-->
+                <div class="heading">
+                    <section class="transition">
+                        <div>
+                            <i class="fa fa-comment"></i>
+                            <p>52</p>
+                        </div>
+                        <span>Messages</span>
+                    </section>
+                    
+                    <section class="transition">
+                        <div>
+                            <i class="fa fa-eye"></i>
+                            <p>99</p>
+                        </div>
+                        <span>Views</span>
+                    </section>
+                    
+                    <section class="transition">
+                        <div>
+                            <i class="fa fa-share-alt"></i>
+                            <p>23</p>
+                        </div>
+                        <span>Shares</span>
+                    </section>
+                    
+                    <section class="transition">
+                        <div>
+                            <i class="fa fa-users"></i>
+                            <p>50</p>
+                        </div>
+                        <span>Users</span>
+                    </section>
+                </div>
+                <!--Start Heading-->
+                
+                <!--Start Area-->
+                <div class="area">
+                    <section>
+                        <p>Regions</p>
+                        <a href="images/region.jpg" class="transition"><img src="images/region.jpg" alt="Region.jpg"/></a>
+                    </section>
+                    
+                    <section>
+                        <p>Feeds</p>
+                        <div class="transition">
+                            <span><i class="fa fa-user"></i></span>
+                            <span>New record, over 90 views.</span>
+                            <span>10 mins</span>
+                        </div>
+                        
+                        <div class="transition">
+                            <span><i class="fa fa-bell"></i></span>
+                            <span>Database error.</span>
+                            <span>15 mins</span>
+                        </div>
+                        
+                        <div class="transition">
+                            <span><i class="fa fa-users"></i></span>
+                            <span>New record, over 40 users.</span>
+                            <span>17 mins</span>
+                        </div>
+                        
+                        <div class="transition">
+                            <span><i class="fa fa-comment"></i></span>
+                            <span>New comments.</span>
+                            <span>25 mins</span>
+                        </div>
+                        
+                        <div class="transition">
+                            <span><i class="fa fa-bookmark"></i></span>
+                            <span>Check transactions.</span>
+                            <span>28 mins</span>
+                        </div>
+                        
+                        <div class="transition">
+                            <span><i class="fa fa-laptop"></i></span>
+                            <span>CPU overload.</span>
+                            <span>35 mins</span>
+                        </div>
+                        
+                        <div class="transition">
+                            <span><i class="fa fa-share-alt"></i></span>
+                            <span>New shares.</span>
+                            <span>39 mins</span>
+                        </div>
+                    </section>
+                </div>
+                <!--End Area-->
+                
+                <!--Start Stats-->
+                <div class="stats">
+                    <p>General Stats</p>
+                    <section>
+                        <span>New Visitors</span>
+                        <p><span>25%</span></p>
+                    </section>
+                    
+                    <section>
+                        <span>New Users</span>
+                        <p><span>50%</span></p>
+                    </section>
+                    
+                    <section>
+                        <span>Bounce Rate</span>
+                        <p><span>75%</span></p>
+                    </section>
+                </div>
+                <!--End Stats-->
+                
+                <!--Start Country-->
+                <div class="country">
+                    <p>Countries</p>
+                    <article>
+                        <section>
+                            <span>United States</span>
+                            <span>65%</span>
+                        </section>
+
+                        <section>
+                            <span>UK</span>
+                            <span>15.7%</span>
+                        </section>
+
+                        <section>
+                            <span>Russia</span>
+                            <span>5.6%</span>
+                        </section>
+
+                        <section>
+                            <span>Spain</span>
+                            <span>2.1%</span>
+                        </section>
+
+                        <section>
+                            <span>India</span>
+                            <span>1.9%</span>
+                        </section>
+
+                        <section>
+                            <span>France</span>
+                            <span>1.5%</span>
+                        </section>
+                    </article>
+                    <button class="transition">More Countries &nbsp;<i class="fa fa-arrow-right"></i></button>
+                </div>
+                <!--End Country-->
+                
+                <!--Start User-->
+                <div class="user">
+                    <p>Recent Users</p>
+                    <article>
+                        <section>
+                            <img src="images/face1.png"/>
+                            <span>Mike</span>
+                        </section>
+                        
+                        <section>
+                            <img src="images/face2.png"/>
+                            <span>Jill</span>
+                        </section>
+                        
+                        <section>
+                            <img src="images/face3.png"/>
+                            <span>Jane</span>
+                        </section>
+                    </article>
+                </div>
+                <!--End User-->
+                
+                <!--Start Comments-->
+                <div class="comment">
+                    <p>Recent Comments</p>
+                    <article>
+                        <img src="images/face4.png"/>
+                        <section>
+                            <p><object>John</object> Sep 29, 2014, 9:12 PM</p>
+                            <span>
+                                Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </span>
+                        </section>
+                    </article>
+                    
+                    <article>
+                        <img src="images/face5.png"/>
+                        <section>
+                            <p><object>Bo</object> Sep 28, 2014, 10:15 PM</p>
+                            <span>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                        </section>
+                    </article>
+                </div>
+                <!--End Comments-->
+                
+                <!--Start Abstract-->
+                <div class="abstract">
+                    <section>
+                        <p>Demographic</p>
+                        <ul>
+                            <li>Language</li>
+                            <li>Country</li>
+                            <li>City</li>
+                        </ul>
+                    </section>
+                    
+                    <section>
+                        <p>System</p>
+                        <ul>
+                            <li>Browser</li>
+                            <li>OS</li>
+                            <li>More</li>
+                        </ul>
+                    </section>
+                    
+                    <section>
+                        <p>Target</p>
+                        <ul>
+                            <li>Users</li>
+                            <li>Active</li>
+                            <li>Geo</li>
+                            <li>Interests</li>
+                        </ul>
+                    </section>
+                </div>
+                <!--End Abstract-->
+                
+                <footer>
+                    Copyrights &copy; <span>Islam Hani 2020</span>
+                </footer>
+                
+            </nav>
+            <!--End Main-->
+        </div>
+        
+        <script src="js/script1.js"></script>
+    </body>
+    
+</html>

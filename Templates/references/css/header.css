@@ -1,0 +1,110 @@
+#header
+{
+    width: 100%;
+    z-index: 2;
+    background-color: #333;
+    
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    
+    margin: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+/*Start Up Header*/
+#up-header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#up-header div
+{
+    margin-left: 20px;
+    padding: 10px 0;
+}
+
+#up-header div img
+{
+    width: 40px;
+    height: 40px;
+    
+    position: relative;
+    top: 5px;
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#up-header div span
+{
+    font-size: 35px;
+    
+    margin-left: 5px;
+}
+
+#up-header ul
+{
+    margin:  0 30px 0 0;
+    display: flex;
+}
+
+#header ul li
+{
+    font-size: 24px;
+    padding: 22px 10px;
+    
+    -webkit-transition: background 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out;
+}
+
+#up-header > button
+{
+    background: none;
+    font-size: 40px;
+    cursor: pointer;
+    
+    margin: 5px 20px 5px 0;
+    padding: 5px 10px;
+    
+    border: 1px solid #ffffff0f;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#up-header > button:hover {background-color: #ffffff30;}
+/*End Up Header*/
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+/*Start Down Header*/
+#down-header
+{
+    border-top: 1px groove #555;
+    
+    height: 1px;
+    overflow: hidden;
+}
+
+#down-header ul
+{
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#down-header ul li
+{
+    padding: 10px 0 !important;
+    font-size: 24px;
+}
+/*End Down Header*/

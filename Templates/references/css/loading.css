@@ -1,0 +1,103 @@
+/*Start Loading*/
+#loading 
+{
+    background-color: #333;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    
+    z-index: 10;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+
+#loading div
+{
+    width: 112px;
+    
+    position: relative;
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+
+#loading div span
+{
+    position: absolute;
+    
+    width: 20px;
+    height: 20px;
+    
+    display: block;
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+        
+    animation: loading1 1s infinite ease-in-out;
+}
+
+#loading div span:nth-of-type(2)
+{
+    left: 23px;
+    
+    animation-delay: 0.2s;
+}
+
+#loading div span:nth-of-type(3)
+{
+    left: 46px;
+    
+    animation-delay: 0.4s;
+}
+
+#loading div span:nth-of-type(4)
+{
+    left: 69px;
+    
+    animation-delay: 0.6s;
+}
+
+#loading div span:nth-of-type(5)
+{
+    left: 92px;
+    
+    animation-delay: 0.8s;
+}
+
+.pause-load div span {animation-play-state: paused !important;}
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+@keyframes loading1
+{
+    0%, 100%
+    {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+    
+    50%
+    {
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
+        transform: translateY(-10px);
+        
+        opacity: 0.5;
+        
+        box-shadow: 0 20px 5px #3a3a3a;
+    }
+}
+/*End Loading*/

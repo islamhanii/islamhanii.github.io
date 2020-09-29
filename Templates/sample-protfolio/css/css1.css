@@ -1,0 +1,302 @@
+/*Start Skills*/
+#skills { padding: 50px 0; }
+
+#skills .minumize { overflow: hidden; }
+
+#skills .minumize > div
+{
+    width: 46%;
+    height: 350px;
+}
+
+#skills .minumize div h2
+{
+    color: #454f51;
+    margin-bottom: 25px;
+}
+
+#skills .minumize div p { margin-bottom: 20px; }
+
+#skills .minumize button, #resume .minumize div button
+{
+    background: none;
+    border: 2px solid #2ecc71;
+    color: #2ecc71;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+#skills .minumize button:hover, #resume .minumize div button:hover
+{
+    border: 2px solid #4eec91;
+    color: #4eec91;
+}
+
+/*-----------------------------------------------*/
+
+#skills .minumize .right { padding-top: 35px; }
+
+#skills .minumize div h3
+{
+    color: #454f51;
+    margin-bottom: 10px;
+}
+
+.progress
+{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.progress span
+{
+    height: 25px;
+    background-color: #2ecc71;
+    display: block;
+    padding: 5px;
+    text-align: right;
+}
+
+#progress1 span, #progress3 span { width: 90%; }
+
+#progress2 span { width: 80%; }
+
+#progress4 span { width: 70%; }
+/*End skills*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*Start Resume*/
+#resume
+{
+    background-color: #efefef;
+    padding: 50px;
+}
+
+#resume .minumize div { text-align: center; }
+
+#resume .minumize div h2
+{
+    color: #454f51;
+    margin-bottom: 30px;
+}
+
+#resume .minumize div p { margin-bottom: 30px; }
+/*End Resume*/
+
+/*------------------------------------------------------*/
+
+/*Start Education/ Experience*/
+#education, #experience { padding: 50px 0 0; }
+
+#education .minumize { border-bottom: 2px solid #e2e2e2; }
+
+#education .minumize h2, #education .minumize > div h3, #experience .minumize h2, #experience .minumize > div h3 { color: #454f51; }
+
+#education .minumize > div, #experience .minumize > div
+{
+    width: 46%;
+    margin: 20px 0;
+}
+
+#education .minumize > div p, #experience .minumize > div p { margin-bottom: 20px; }
+
+/*------------------------------------------------------*/
+
+#education .minumize > div div, #experience .minumize > div div
+{
+    border-bottom: 2px solid #e2e2e2;
+    padding-bottom: 25px;
+}
+
+#education .minumize > div div p, #experience .minumize > div div p { margin: 10px 0 15px; }
+
+#education .minumize > div div span, #experience .minumize > div div span
+{
+    background-color: #2eac51;
+    padding: 5px 10px;
+}
+
+#education .minumize .right > p, #experience .minumize .right > p { margin: 15px 0 50px; }
+
+/*End Education/ Experience*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*Start Testemonials*/
+#testemonials
+{
+    text-align: center;
+    background-color: #efefef;
+    padding: 60px 0;
+}
+
+#testemonials .minumize { padding: 0 50px; }
+
+#testemonials .minumize p { font-style: italic; }
+
+#testemonials .minumize h3
+{
+    color: #454f51;
+    margin: 20px 0;
+}
+
+#testemonials .minumize ul
+{
+    width: 60px;
+    margin: 0px auto;
+    padding: 0px;
+    
+}
+
+#testemonials .minumize ul li
+{
+    list-style-type: none;
+    border: 1px solid #2eac51;
+    border-radius: 25%;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    float: left;
+    
+}
+
+#testemonials .minumize ul li:first-child, #testemonials .minumize ul li:hover { background-color: #2eac51; }
+/*End Testemonials*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*Start Portfolio*/
+#portfolio
+{
+    text-align: center;
+    padding: 60px 0;
+}
+
+#portfolio .minumize h2 { color: #454f51; }
+
+#portfolio .minumize p { margin: 30px 50px 70px; }
+
+#portfolio .minumize img
+{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 0 18px 30px 18px;
+    border-radius: 20px;
+    cursor: zoom-in;
+}
+
+#portfolio .minumize img:hover
+{
+    -webkit-box-shadow: 10px 10px 20px #c4c5c4;
+    -moz-box-shadow: 10px 10px 20px #c4c5c4;
+    box-shadow: 10px 10px 20px #c4c5c4;
+}
+/*End Portfolio*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*Start Contact Me*/
+#contact
+{
+    background-color: #252f31;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+#contact .minumize > div
+{
+    width: 46%;
+    height: 520px;
+}
+
+#contact .minumize .left { margin-top: 30px; }
+
+#contact .minumize .left p { margin-bottom: 25px; }
+
+#contact .minumize .left .indent
+{
+    color: #888;
+    padding-left: 40px;
+}
+
+/*-----------------------------------------------------*/
+
+#contact .minumize .right { margin: 15px 25px 0 50px; }
+
+#contact .minumize .right label
+{
+    display: block;
+    padding-bottom: 10px;
+}
+
+#contact .minumize .right input[type="text"], #contact .minumize .right textarea, #contact .minumize .right input[type="submit"]
+{
+    background: none;
+    background-color: #454f51;
+    border: 1px solid #454f51;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+#contact .minumize .right textarea 
+{ 
+    height: 250px; 
+    resize: none;
+}
+
+#contact .minumize .right input[type="submit"]
+{
+    width: auto;
+    background-color: #151f21;
+    border: 1px solid #151f21;
+    height: auto;
+    padding: 12px 20px;
+}
+
+#contact .minumize .right input[type="submit"]:hover
+{
+    background-color: #050f11;
+    border: 1px solid #050f11;
+}
+/*End Contact Me*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*Start Footer*/
+footer
+{
+    background-color: #151f21;
+    text-align: center;
+}
+
+footer div { padding: 30px 0; }
+
+footer div p
+{
+    color: #888;
+    font-family: cursive, sans-serif;
+    margin-bottom: 10px;
+}
+
+footer div img
+{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 3px;
+    cursor: pointer;
+    border: 2px solid #151f21;
+}
+
+footer div img:hover
+{
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+/*End Footer*/

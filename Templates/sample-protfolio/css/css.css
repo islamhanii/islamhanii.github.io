@@ -1,0 +1,180 @@
+/*Start Global*/
+*
+{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    overflow-x: auto;
+    overflow-y: scroll;
+    font-family: Arial, sans-serif;
+}
+
+.container
+{
+    width: 1263px;
+    margin: auto;
+}
+
+.minumize
+{
+    width: 80%;
+    margin: auto;
+}
+
+.left { float: left }
+
+.right { float: right; }
+
+a { text-decoration: none; }
+
+p
+{
+    line-height: 25px;
+    color: #888;
+}
+
+.clear { clear: both; }
+
+.color_wt { color: #fff; }
+
+.pointer { cursor: pointer }
+
+.upper { text-transform: uppercase; }
+/*End Global*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*start Header*/
+
+#slider
+{
+    background-image: url("../images/slider.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#slider .minumize { padding-top: 250px; }
+
+#slider h1
+{
+    border: 1px solid #fff;
+    width: 445px;
+    border-left: 0;
+    border-right: 0;
+    padding: 2px;
+    margin: auto;
+}
+
+#slider button
+{
+    background: none;
+    border: 1px solid #fff;
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+}
+
+#slider button:hover
+{
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+}
+
+/*-----------------------------------------------------*/
+
+#navbar
+{
+    background-color: #252f31;
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+#navbar .minumize h3::first-letter
+{
+    background-color: #454f51;
+    padding: 2px 8px;
+    margin: 0 10px 0 0;
+}
+
+#navbar .minumize span, #navbar .minumize ul li a:hover
+{
+    color: #2ecc71;
+}
+
+#navbar .minumize ul li
+{
+    display: inline;
+    list-style: none;
+    padding-left: 15px;
+}
+/*End Header*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*Start Home*/
+#home .minumize > div
+{
+    width: 30%;
+    margin: 50px 0;
+}
+
+#home .minumize div + div { margin: 50px 0 50px 50px; }
+
+#home .minumize h2
+{
+    padding-bottom: 25px;
+    color: #454f51;
+}
+/*End Home*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*Start About Us*/
+#about > img
+{
+    width: 470px;
+    height: 570px;
+}
+
+#about div div img
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/*-----------------------------------------------------*/
+
+#content
+{
+    background-color: #efefef;
+    width: 793px;
+    height: 570px;
+}
+
+#content { padding: 55px 120px 75px 65px; }
+
+#about h2, #about h3 { color: #454f51; }
+
+#header { margin: 20px; }
+
+#header p { margin-top: 30px; }
+
+/*-----------------------------------------------------*/
+
+#body { width: 100%; }
+
+.hobbies { padding: 20px 8px; }
+
+.hobbies div
+{
+    width: 250px;
+    margin: -5px 0 0 5px;
+}
+
+/*End About Us*/

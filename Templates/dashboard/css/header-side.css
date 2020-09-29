@@ -1,0 +1,183 @@
+/*Start Global*/
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    font-family: "Raleway", sans-serif;
+}
+
+.transition
+{
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in;
+}
+
+.scale:hover
+{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+a
+{
+    text-decoration: none;
+    color: #333;
+}
+
+strong
+{
+    color: #111;
+}
+
+#grid-container
+{
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-areas: 
+        "header header"
+        "sidebar main";
+}
+
+#grid-container > header
+{
+    grid-area: header;
+}
+
+#grid-container > aside
+{
+    grid-area: sidebar;
+}
+
+#grid-container > nav
+{
+    grid-area: main;
+}
+/*Start Global*/
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*Start Header*/
+#grid-container > header
+{
+    z-index: 2;
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+}
+
+#grid-container > header div:nth-of-type(1)
+{
+    padding: 10px 0 10px 20px;
+    font-size: 32px;
+    color: #fff;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#grid-container > header div:nth-of-type(2) i
+{
+    font-size: 60px;
+    color: #fff;
+}
+
+#grid-container > header a
+{
+    padding: 5px 20px 5px 0;
+}
+/*End Header*/
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*Start Sidebar*/
+aside
+{
+    z-index: 2;
+    -webkit-box-shadow: 3px 0px 5px -3px #888;
+    -mox-box-shadow: 3px 0px 5px -3px #888;
+    box-shadow: 3px 0 5px -3px #888;
+}
+
+aside header
+{
+    display: flex;
+    border-bottom: 1px solid #eee;
+    color: #555;
+}
+
+aside header div
+{
+    margin: 25px 20px 20px 15px;
+}
+
+/*------------------------------------------------*/
+
+aside header div:nth-of-type(1) img
+{
+    width: 50px;
+    height: 50px;
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+    -webkit-box-shadow: 0 2px 10px #555;
+    -mox-box-shadow: 0 2px 10px #555;
+    box-shadow: 0 2px 10px #888;
+}
+
+/*------------------------------------------------*/
+
+aside header div:nth-of-type(2) i
+{
+    float: left;
+    padding: 8px 16px;
+}
+
+aside header div:nth-of-type(2) i:hover
+{
+    background-color: #ddd;
+}
+
+/*------------------------------------------------*/
+
+aside > div
+{
+    color: #333;
+}
+
+aside > div div:nth-of-type(1)
+{
+    margin: 30px 15px 10px;
+    font-size: 20px;
+}
+
+aside > div div:nth-of-type(2)
+{
+    display: flex;
+    flex-flow: column;
+}
+
+aside div div:nth-of-type(2) a
+{
+    padding: 8px 16px;
+}
+
+aside div div:nth-of-type(2) a:nth-of-type(1)
+{
+    color: #fff;
+    background-color: #2196F3;
+}
+
+aside div div:nth-of-type(2) a:hover
+{
+    background-color: #ddd;
+    color: #333;
+}
+/*End Sidebar*/
+
+/*---------------------------------------------------------------------------------------------------*/

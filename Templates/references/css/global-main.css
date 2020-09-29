@@ -1,0 +1,77 @@
+/*Start Global*/
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    outline: none;
+}
+
+body
+{
+    color: #333;
+    background-color: #eee;
+    
+    font-family: 'Fredoka One', cursive;
+    
+    overflow: hidden;
+}
+
+a {text-decoration: none;}
+
+img, a, select, main,
+header,
+footer p,
+#display span,
+#main > nav > article > div {user-select: none;}
+
+ul {margin: 0; padding: 0;}
+li {list-style: none;}
+
+.fullcontainer
+{
+    max-width: 1263px;
+    
+    margin: auto;
+    padding: 100px 0 30px;
+}
+
+.transition1_2
+{
+    -webkit-transition: all 0.5s  ease-in-out;
+    transition: all 0.5s  ease-in-out;
+}
+
+.seemore:hover
+{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.warning
+{
+    user-select: none;
+    
+    color: #fff !important;
+    background-color: #bc3737;
+    
+    padding: 0 7px;
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+/*End Global*/
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Start Main*/
+main
+{
+    text-align: center;
+    font-size: 24px;
+    
+    margin: 30px 10px;
+}
+/*End Main*/

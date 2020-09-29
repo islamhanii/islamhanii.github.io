@@ -1,0 +1,35 @@
+*::selection{color: #fff}
+
+body > header div img {border: 1px solid #ff2288;}
+
+#loading div span {background-color: #ce156a;}
+
+.content section > select, .content section > div select {border: 2px solid #ff2288;}
+
+.content h1
+{
+    width: 95px;
+    border-bottom: 5px solid #ff2288;
+}
+
+.content nav article
+{
+    border-left: 10px solid #ff2288;
+}
+
+body > header div span,
+body > header ul a,
+#up-header > button i {color: #ff2288;}
+
+*::selection,
+body > header div img,
+.content section > header img,
+.content nav article > div
+{
+    background-color: #ff2288;
+}
+
+footer {background-color: #ce156a;}
+
+body > header ul a:nth-of-type(2) li,
+body > header ul li:hover{background-color: #6f425cc9;}

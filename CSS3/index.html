@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Welcome to css 3"/>
+        <title> CSS 3 </title>
+        <link rel="stylesheet" href="css3.css"/>
+        <link rel="stylesheet" href="css3-2.css"/>
+        <link rel="stylesheet" href="css3-3.css"/>
+        <link rel="stylesheet" href="normalize.css"/>
+        <!--[if lt IE 9]>
+            <script src="html5shiv.min.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+        
+        <div id="container">
+            
+            <!--Start Radius div-->
+            <div class="radius green smalldiv pointer">
+                <section>radius</section>
+            </div>
+            <!--End Radius div-->
+
+            <!---------------------------------------------------------------------------------------------->
+
+            <!--Start Shadow div-->
+            <div class="shadow pink smalldiv pointer">
+                <section>shadow </section>
+            </div>
+            <!--End Shadow div-->
+
+            <!---------------------------------------------------------------------------------------------->
+
+            <!--Start Box sizing div-->
+            <div class="boxSizing blue smalldiv">
+                <nav id="nav1">Box</nav>
+                <nav id="nav2">Sizing</nav>
+            </div>
+            <!--End Box sizing div-->
+
+            <!---------------------------------------------------------------------------------------------->
+
+            <!--Start Text Shadow div-->
+            <div class="textShadow yellow smalldiv pointer">
+                <section>Text Shadow</section>
+            </div>
+            <!--End Text Shadow div-->
+
+            <!---------------------------------------------------------------------------------------------->
+
+            <!--Start Text Overflow-->
+            <div class="orange smalldiv">
+                <section id="textOverflow">Text Overflow Text Overflow Text Overflow Text Overflow Text Overflow</section>
+                <input onclick="seeMore('sm1')" id="sm1" class="seeMore" type="button" value="see more">
+            </div>
+            <!--End Text Overflow-->
+
+            <!---------------------------------------------------------------------------------------------->
+
+            <!--Start Word Wrap-->
+            <div class="green smalldiv">
+                <section id="wordWrap">WordwrapWordwrapWordwrap</section>
+            </div>
+            <!--End Word Wrap-->
+
+            <!---------------------------------------------------------------------------------------------->
+
+            <!--Start Transform-->
+            <div class="rotate pink smalldiv pointer">
+                <section>Rotate Box 30 Deg</section>
+            </div>
+
+            <div class="scale blue smalldiv pointer">
+                <section>Scale</section>
+            </div>
+
+            <div class="translate yellow smalldiv pointer">
+                <section>Translate</section>
+            </div>
+
+            <div class="skew orange smalldiv pointer">
+                <section>Skew</section>
+            </div>
+
+            <div class="rotate3d green smalldiv pointer">
+                <section>Rotate 3D</section>
+            </div>
+
+            <div class="backface pink smalldiv pointer">
+                <section class="front">Front Face</section>
+                <section class="back">Back Face</section>
+            </div>
+            <!--End Transform-->
+
+            <nav class="clear"></nav>
+
+            <hr>
+            <!---------------------------------------------------------------------------------------------->
+
+            <h1>Flex CSS3</h1>
+
+            <!--Start Flex-->
+            <div class="flex">
+
+                <div class="templete">
+                    <div id="flexbox">
+                        
+                        <div>
+                            Div 1
+                        </div>
+                        
+                        <div>
+                            Div 2<br>
+                            Div 2
+                        </div>
+                        
+                        <div>
+                            Div 3<br>
+                            Div 3<br>
+                            Div 3
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    
+                    <span>Div Dimensions</span>
+                    <input type="number" min="1" max="3" id="divwidth" placeholder="Div Number">
+                    <input type="text" id="width" placeholder="n+'px' OR auto">
+                    <button onclick="divwidth()">Set Width</button> <br>
+                    
+                    <input type="number" min="1" max="3" id="divheight" placeholder="Div Number">
+                    <input type="text" id="height" placeholder="n+'px' OR auto">
+                    <button onclick="divheight()">Set Height</button>
+                    
+                    <span>Box Direction</span>
+                    <button onclick="boxdirection('ltr')">LTR</button>
+                    <button onclick="boxdirection('rtl')">RTL</button>
+                    
+                    <span>Flex Direction</span>
+                    <button onclick="flexdirection('row')">Row (default)</button>
+                    <button onclick="flexdirection('row-reverse')">Row Reverse</button>
+                    <button onclick="flexdirection('column')">Column</button>
+                    <button onclick="flexdirection('column-reverse')">Column Reverse</button>
+                    
+                    <span>Flex Wrap</span>
+                    <button onclick="flexwrap('nowrap')">No Wrap</button>
+                    <button onclick="flexwrap('wrap')">Wrap</button>
+                    
+                    <span>Justify Content</span>
+                    <button onclick="justify('flex-start')">Flex Start</button>
+                    <button onclick="justify('flex-end')">Flex End</button>
+                    <button onclick="justify('center')">Center</button>
+                    <button onclick="justify('space-between')">Space Between</button>
+                    <button onclick="justify('space-around')">Space Around</button>
+                    
+                    <span>Align Content</span>
+                    <button onclick="aligncontent('flex-start')">Flex Start</button>
+                    <button onclick="aligncontent('flex-end')">Flex End</button>
+                    <button onclick="aligncontent('center')">Center</button>
+                    <button onclick="aligncontent('space-between')">Space Between</button>
+                    <button onclick="aligncontent('space-around')">Space Around</button>
+                    
+                    <span>Align Items</span>
+                    <button onclick="alignitems('stretch')">Stretch (def)</button>
+                    <button onclick="alignitems('flex-start')">Flex Start</button>
+                    <button onclick="alignitems('flex-end')">Flex End</button>
+                    <button onclick="alignitems('center')">Center</button>
+                    
+                    <span>Flex Grow</span>
+                    <input type="number" min="1" max="3" id="grow" placeholder="Div Number">
+                    <input type="number" id="gvalue" placeholder="Grow Value">
+                    <button onclick="flexgrow()">Grow</button>
+                    
+                </div>
+                
+                <nav class="clear"></nav>
+                
+            </div>
+            <!--End Flex-->
+            
+            <hr>
+            <!---------------------------------------------------------------------------------------------->
+            
+            <h1>Colmuns CSS3</h1>
+            
+            <!--Start Columns-->
+            <div id="columns">
+                <h2>BLOCK &amp; STREAM CIPHER</h2>
+                
+                <h4>Introduction</h4>
+                <p>
+                    The internet of things rapidly growing day over day and the world work to secure it more and more. Secure file 
+                    transfer protocols such as FTPS, SFTP/SCP, HTTPS and WebDAVS encrypt and decrypt data through symmetric key ciphers 
+                    (private key). Today we will discuss all about these ciphers which classified into two main groups: Stream ciphers 
+                    and Block ciphers.
+                </p>
+                
+                <h4>Block Cipher</h4>
+                <p>
+                    An encryption algorithm that encrypts and decrypts a fixed size of n-bits of data(Block) at time. The usual size of 
+                    each block are 64 bits or more than 64 bits. It takes a 64 bits of plain text and encrypt it to 64 bits of 
+                    cipher-text. In case if the plain-text is small than 64 bits block, we use the padding schemes. The popular block 
+                    ciphers used today are DES, 3DES, AES, IDEA, Twofish, and Blowfish.
+                </p>
+                
+                <h4>Stream Cipher</h4>
+                <p>
+                    An encryption algorithm that encrypts and decrypts 1 bit or byte of plaintext at time. It uses an infinite stream of 
+                    pseudorandom bits as the key. This pseudorandom should be unpredictable and never reuse the key. Its key should be 
+                    longer than the plain-text as example if you want to encrypt 500 Mb video file, you need at least 4 Gb key. The 
+                    popular stream ciphers used are SALSA, SOSEMANUK, PANAMA, and many others, but not have the popularity as RC4.
+                </p>
+            </div>
+            <!--End Columns-->
+            
+            <hr>
+            <!---------------------------------------------------------------------------------------------->
+            <h1>Animation CSS3</h1>
+            
+            <div class="animation anim1">
+                
+                <div class="normal">
+                    
+                    <div>Follow Me On Twitter</div>
+                    <a href="https://www.twitter.com" target="_blank">@Examble</a>
+                    
+                </div>
+                
+                <div class="transition">
+                        
+                    <div>Follow Me On Facebook</div>
+                    <a href="https://www.facebook.com" target="_blank">@Examble</a>
+                    
+                </div>
+                
+                <div class="animated">
+                        
+                    <div>Follow Me On Youtube</div>
+                    <a href="https://www.youtube.com" target="_blank">@Examble</a>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="animation anim2">
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            
+            <div class="animation anim3">
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            
+        </div>
+        
+        <script src="js.js"></script>
+    </body>
+    
+</html>

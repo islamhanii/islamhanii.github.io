@@ -1,0 +1,68 @@
+/*Start Experience*/
+.grid-container > nav
+{
+    margin-left: 15px;
+    padding: 0 20px;
+}
+
+#main1, #main2
+{
+    padding-bottom: 20px;
+}
+
+#main1 article, #main2 article
+{
+    margin: 30px 10px 15px;
+}
+
+#main1 article:nth-last-of-type(n+2), #main2 article:nth-last-of-type(n+2)
+{
+    margin-bottom:  0;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 25px;
+}
+
+#main1 article object
+{
+    padding: 5px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#main1 article p, #main2 article p{margin-bottom: 20px;}
+
+#main1 article > span, #main2 article > span{line-height: 1.5}
+/*End Experience*/
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
+/*Start Education*/
+#main2
+{
+    margin-top: 20px;
+}
+/*End Education*/
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
+footer
+{
+    padding: 10px 0;
+}
+
+footer i
+{
+    padding: 0 5px;
+    -webkit-transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+}
+
+footer i:hover
+{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}

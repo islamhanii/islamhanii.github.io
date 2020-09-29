@@ -1,0 +1,101 @@
+@media screen and (max-width:1080px)
+{
+    .container
+    {
+        max-width: 580px;
+        height: 575px;
+        margin: 150px auto 100px;
+        background-color: #ffffff;
+        text-align: center;
+        border-radius: 20px;
+    }
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width:5120px)
+{
+    
+    /*Start Main Buttons*/
+    .container > nav:nth-of-type(1)
+    {
+        display: flex;
+        border-bottom: 2px solid #a2eea2;
+    }
+    
+    .swapbutton
+    {
+        font-family: 'Fredoka One', cursive;
+        width: 50%;
+        color: #00c799;
+        cursor: pointer;
+        padding: 15px 5px;
+        font-size: 20px;
+    }
+    
+    .swapbutton:hover
+    {
+        background-color: #d1eed1;
+        color: #111;
+    }
+    
+    .container > nav:nth-of-type(1) div:nth-child(1)
+    {
+        border-radius: 20px 0 0;
+        background-color: #b1ccb1;
+        color: #111;
+    }
+    
+    .container > nav:nth-of-type(1) div:nth-child(2)
+    {
+        border-radius: 0 20px 0 0;
+        border-left: 1px solid #a2eea2;
+    }
+    /*End Main Buttons*/
+    
+    /*------------------------------------------------------------------------------------------------------*/
+    
+    /*Start Container text*/
+    .container section
+    {
+        padding: 10px;
+        color: #b1cfb1;
+        font-size: 18px;
+    }
+
+    .container section h1
+    {
+        color: #00c799;
+    }
+
+    .images
+    {
+        width: 150px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .images img
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+    .images nav
+    {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        padding: 6px;
+        margin: 0 5px;
+        border-radius: 50%;
+        border: 1px solid #d8d8d8;
+        cursor: pointer;
+    }
+
+    .images nav:hover
+    {
+        background-color: #e1e1e1;
+    }
+    /*End Container text*/
+}

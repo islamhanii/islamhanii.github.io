@@ -1,0 +1,92 @@
+/*Srart Global*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input {outline: none;}
+
+input,
+#output {
+    border: 0;
+    
+    padding: 8px 16px;
+    
+    border-radius: 5px;
+}
+
+/*End Global*/
+
+/*----------------------------------------------------------------------------------------------*/
+
+/*Start Main*/
+
+#full-container {
+    background-color: #626862;
+    
+    /*dimensions*/
+    min-height: 100%;
+    
+    /*flexs*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#full-container > div {
+    /*dimensions*/
+    min-width: 50%;
+    
+    /*box layout*/
+    padding: 20px;
+    
+    /*colors*/
+    background-color: #333833;
+    
+    /*fonts*/
+    font-family: sans-serif;
+}
+
+#input {
+    width: 100%;
+    text-align: center;
+}
+
+#input,
+#output {
+    display: flex;
+    
+    color: #333;
+    background-color: #fff;
+}
+
+#output {
+    align-items: center;
+    flex-direction: column;
+}
+
+#actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#actions input {
+    color: #fff;
+    background-color: #02af9e;
+    
+    width: 150px;
+    
+    margin: 15px 5px;
+    
+    cursor: pointer;
+}
+
+#full-container div div input:hover {background-color: #019889}
+#full-container div div input:active {background-color: #fb6262}
+
+#full-container div > nav span {color: #02af9e;}
+
+/*Start Main*/

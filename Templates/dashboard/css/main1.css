@@ -1,0 +1,185 @@
+/*Start Main*/
+#grid-container nav
+{
+    z-index: 1;
+    background-color: #eee;
+    padding: 20px 0;
+}
+
+#grid-container nav > p
+{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 20px;
+}
+/*End Main*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*Start Heading*/
+.heading
+{
+    color: #fff;
+    display: flex;
+    margin: 0 15px 0 20px;
+}
+
+.heading section
+{
+    font-size: 20px;
+    padding: 15px 15px 25px;
+    width: 25%;
+    margin-right: 10px;
+}
+
+.heading section div
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.heading section div p
+{
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.heading i
+{
+    font-size: 50px;
+}
+
+.heading section:nth-of-type(1)
+{
+    background-color: #f44336;
+}
+
+.heading section:nth-of-type(2)
+{
+    background-color: #2196F3;
+}
+
+.heading section:nth-of-type(3)
+{
+    background-color: #009688;
+}
+
+.heading section:nth-of-type(4)
+{
+    background-color: #ff9800;
+}
+/*End Heading*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*Start Area*/
+.area
+{
+    margin: 30px 15px 0;
+    display: flex;
+}
+
+.area p
+{
+    font-size: 18px;
+}
+
+.area section
+{
+    margin: 0 10px 0 5px;
+}
+
+.area section:nth-of-type(1)
+{
+    width: 33.33%;
+}
+
+.area section:nth-of-type(2)
+{
+    width: 66.67%;
+}
+
+.area section:nth-of-type(1) img
+{
+    width: 100%;
+}
+
+.area section:nth-of-type(2) div
+{
+    display: grid;
+    grid-template-columns: 12.5% 70% 17.5%;
+    padding: 10px 20px;
+}
+
+.area section:nth-of-type(2) div:nth-of-type(odd)
+{
+    background-color: #fff;
+}
+
+.area section:nth-of-type(2) div:nth-of-type(even) i
+{
+    color: #f44336;
+}
+
+.area section:nth-of-type(2) div:nth-of-type(1) i, .area section:nth-of-type(2) div:nth-of-type(5) i
+{
+    color: #2196F3;
+}
+
+.area section:nth-of-type(2) div:nth-of-type(7) i
+{
+    color: #009688;
+}
+
+.area section:nth-of-type(2) div:nth-of-type(3) i
+{
+    color: #c9c92e;
+}
+/*End Area*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*Start Stats*/
+.stats
+{
+    margin: 50px 25px 0 20px; 
+}
+
+.stats > p
+{
+    font-size: 18px;
+}
+
+.stats section p
+{
+    background-color: #ccc;
+    font-size: 14px;
+}
+
+.stats section p span
+{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.stats section:nth-of-type(1) p span
+{
+    background-color: #009688;
+    width: 25%;
+}
+
+.stats section:nth-of-type(2) p span
+{
+    background-color: #ff9800;
+    width: 50%;
+}
+
+.stats section:nth-of-type(3) p span
+{
+    background-color: #f44336;
+    width: 75%;
+}
+/*End Stats*/

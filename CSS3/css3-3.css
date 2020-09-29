@@ -1,0 +1,356 @@
+/* css3 uses -webkit-, -moz-, -ms-, -o-
+
+    *keyframes                  2 + -o-
+    *animation                  2 + -o-
+*/
+
+
+/*
+    animation: name duration timing-function delay count direction mode play;
+*/
+
+/*Start All animations*/
+.animation
+{
+    text-align: left;
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+    background-color: #ffff1d;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #d1d11d;
+    box-shadow: 5px 5px 30px -5px #d1d11d,
+                -5px -5px 30px -5px #dad11d;
+}
+/*Start All animations*/
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Start links*/
+.anim1 div div
+{
+    padding: 20px 10px;
+    color: #fff;
+    font-weight: 900;
+    position: relative;
+    z-index: 2;
+    cursor: default;
+}
+
+.anim1
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.normal div
+{
+    background-color: #05cece;
+}
+
+.transition div
+{
+    background-color: #5050e0;
+}
+
+.animated div
+{
+    background-color: #ff0404;
+}
+
+/*-----------------------------------------------------------*/
+
+.normal::before, .transition::before, .animated::before
+{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.normal::before
+{
+    content: 'Normal Hover';
+}
+
+.transition::before
+{
+    content: 'Transition Hover';
+}
+
+.animated::before
+{
+    content: 'Animation Hover';
+}
+
+/*-----------------------------------------------------------*/
+
+.anim1 div a
+{
+    text-decoration: none;
+    color: #fff;
+    
+    display: inline-block;
+    width: 100%;
+    background-color: #333;
+    line-height: 50px;
+    position: relative;
+    top: -50px;
+    z-index: 1;
+}
+
+.transition a
+{
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.animated:hover a
+{
+    -webkit-transform-origin: top;
+    -moz-transform-origin: top;
+    -ms-transform-origin: top;
+    -o-transform-origin: top;
+    transform-origin: top;
+    animation: link 1s ease-in-out;
+}
+
+.anim1 div:hover a
+{
+    top: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.anim1 a:hover
+{
+    color: #f14d3c;
+}
+
+/*Start links*/
+
+/*------------------------------------------------------------------------------------------------------*/
+/*Start Loading*/
+.anim2, .anim3
+{
+    cursor: pointer;
+}
+.anim2 div
+{
+    width: 100px;
+    margin: 200px auto;
+    position: relative;
+}
+
+.anim2 div span
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #4b4bb4;
+    display: block;
+    animation: loading 1s infinite ease-in-out paused;
+}
+
+.anim2 div span:nth-of-type(2)
+{
+    left: 23px;
+    animation-delay: 0.2s;
+}
+
+.anim2 div span:nth-of-type(3)
+{
+    left: 46px;
+    animation-delay: 0.4s;
+}
+
+.anim2 div span:nth-of-type(4)
+{
+    left: 69px;
+    animation-delay: 0.6s;
+}
+
+.anim2 div span:nth-of-type(5)
+{
+    left: 92px;
+    animation-delay: 0.8s;
+}
+
+.anim2:hover div span
+{
+    animation-play-state: running;
+}
+/*End Loading*/
+
+/*----------------------------------------------------*/
+
+/*Start Loading 2*/
+.anim3 div
+{
+    width: 100px;
+    margin: 200px auto;
+    position: relative;
+}
+
+.anim3 div span
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #4b4bb4;
+    display: block;
+    border-radius: 50%;
+    animation: loading1 1s infinite ease-in-out paused;
+}
+
+.anim3 div span:nth-of-type(2)
+{
+    left: 30px;
+    animation-delay: 0.2s;
+}
+
+.anim3 div span:nth-of-type(3)
+{
+    left: 60px;
+    animation-delay: 0.4s;
+}
+
+.anim3 div span:nth-of-type(4)
+{
+    left: 90px;
+    animation-delay: 0.6s;
+}
+
+.anim3 div span:nth-of-type(5)
+{
+    left: 120px;
+    animation-delay: 0.8s;
+}
+
+.anim3:hover div span
+{
+    animation-play-state: running;
+}
+/*End Loading 2*/
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Start Link Animation*/
+@keyframes link
+{
+    0%
+    {
+        transform: rotateX(-50deg);
+    }
+    
+    20%
+    {
+        -webkit-transform: rotateX(50deg);
+        -moz-transform: rotateX(50deg);
+        -ms-transform: rotateX(50deg);
+        -o-transform: rotateX(50deg);
+        transform: rotateX(50deg);
+    }
+    
+    40%, 80%
+    {
+        -webkit-transform: rotateX(-30deg);
+        -moz-transform: rotateX(-30deg);
+        -ms-transform: rotateX(-30deg);
+        -o-transform: rotateX(-30deg);
+        transform: rotateX(-30deg);
+    }
+    
+    60%
+    {
+        -webkit-transform: rotateX(30deg);
+        -moz-transform: rotateX(30deg);
+        -ms-transform: rotateX(30deg);
+        -o-transform: rotateX(30deg);
+        transform: rotateX(30deg);
+    }
+    
+    100%
+    {
+        -webkit-transform: rotateX(0);
+        -moz-transform: rotateX(0);
+        -ms-transform: rotateX(0);
+        -o-transform: rotateX(0);
+        transform: rotateX(0);
+    }
+}
+
+/*---------------------------------------------------------*/
+
+@keyframes loading
+{
+    0%, 50%, 100%
+    {
+        height: 20px;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+    
+    25%
+    {
+        height: 100px;
+        -webkit-transform: translateY(-50px);
+        -moz-transform: translateY(-50px);
+        -ms-transform: translateY(-50px);
+        -o-transform: translateY(-50px);
+        transform: translateY(-50px);
+        background-color: #d90aff;
+    }
+}
+
+/*---------------------------------------------------------*/
+
+@keyframes loading1
+{
+    0%, 100%
+    {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+    
+    50%
+    {
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
+        transform: translateY(-10px);
+        opacity: 0.5;
+        
+        box-shadow: 0 20px 5px #d1d1c1;
+    }
+}
+/*End Link Animation*/
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Selectors
+    * [class ^= "islam"]    Start with 'islam'
+    * [class $= "islam"]    End with 'islam'
+    * [class *= "islam"]    Contains 'islam'
+
+    * :checked
+    * :enabled
+    * :disabled
+    * :empty
+
+    * :not(selector)
+    * :first-child
+    * :last-child
+
+    * selector:first-of-type
+    * selector:last-of-type
+
+    * selector:only-child
+    * selector:only-of-type
+    * ::selection               text selector
+*/

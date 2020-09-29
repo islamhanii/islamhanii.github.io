@@ -1,0 +1,100 @@
+@media screen and (min-width:1081px) and (max-width: 5120px)
+{
+    /*Start Global*/
+    .fullcontainer
+    {
+        max-width: 1080px;
+        min-width: 800px;
+        margin: 150px auto 100px;
+        height: 575px;
+        border-radius: 20px;
+        display: flex;
+        align-items: stretch;
+        background-color: #fff;
+    }
+    
+    .container
+    {
+        background-color: #ffffff;
+        text-align: center;
+        border-radius: 20px 0 0 20px;
+        flex-grow: 1;
+        z-index: 1;
+    }
+    
+    .container > nav:nth-of-type(1)
+    {
+        display: none;
+    }
+    /*Start Global*/
+    
+    /*-------------------------------------------------------------------------------------------------------------------*/
+    
+    /*Start Welcome*/
+    
+    #welcome
+    {
+        display: flex;
+        z-index: 2;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    #welcome > nav
+    {
+        background-color: #00c799;
+        border-radius: 0 20px 20px 0;
+        text-align: center;
+        color: #eee;
+        width: 380px;
+    }
+    
+    #welcome > nav p
+    {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    #welcome > nav div
+    {
+        color: #fff;
+        border: 2px solid #eee;
+        cursor: pointer;
+        width: 200px;
+        margin: 40px auto;
+        padding: 15px 0;
+        border-radius: 30px;
+        font-weight: 700;
+    }
+    
+    #welcome > nav div:hover
+    {
+        background-color: #eee;
+        color: #00c799;
+    }
+    
+    #welcome > nav section
+    {   
+        padding: 170px 70px;
+    }
+    
+    #welcome > nav section:nth-of-type(1) p
+    {
+        width: 180px;
+        margin: auto;
+    }
+    
+    #welcome > nav section:nth-of-type(2)
+    {
+        display: none;
+    }
+    /*End Welcome*/
+    
+}
+
+@media screen and (min-width:1080px) and (max-width:1280)
+{
+    .fullcontainer
+    {
+        margin: 150px 100px;
+    }
+}

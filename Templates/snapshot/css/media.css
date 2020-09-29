@@ -1,0 +1,57 @@
+@media screen and (max-width: 968px) {
+    #captions div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #upper-footer > div {
+        width: 100%;
+    }
+    
+    #gallery .photos nav {
+        width: 50%;
+    }
+    
+    #welcome div span {
+        width: 50%;
+    }
+    
+    #selectors {
+        flex-direction: column;
+    }
+    
+    #selectors h1 {
+        margin-bottom: 25px;
+    }
+    
+    #selectors button {
+        margin: 0 0 8px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    #by {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #welcome div span {
+        width: 75%;
+    }
+    
+    #contact-us form div {
+        width: 100% !important;
+    }
+    
+    #contact-us form div button {
+        width: 100%;
+    }
+    
+    #gallery .photos nav {
+        width: 100%;
+    }
+}

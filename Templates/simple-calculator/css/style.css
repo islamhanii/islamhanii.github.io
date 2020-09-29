@@ -1,0 +1,161 @@
+/*Start Global*/
+
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a{text-decoration: none; color: inherit;}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+.back-lightblack{ background-color: #333 }
+.back-white{ background-color: #fff }
+.white{color: #fff;}
+
+/*End Global*/
+
+/*-------------------------------------------------------------------------------------------------*/
+
+/*Start Header*/
+
+body > header
+{
+    padding-top: 50px;
+    text-align: center;
+}
+
+body > header div:nth-of-type(2) h1
+{
+    font-weight: 500;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+/*End Header*/
+
+/*-------------------------------------------------------------------------------------------------*/
+
+/*Start Calculator*/
+
+#grid-container
+{
+    max-width: 500px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-areas: 
+        "out out out out out"
+        "seven eight nine cl cl"
+        "four five six plus multi"
+        "one two three minus divide"
+        "zero zero dot power equal";
+}
+
+#output{grid-area: out;}
+#zero{grid-area: zero;}
+#one{grid-area: one;}
+#two{grid-area: two;}
+#three{grid-area: three;}
+#four{grid-area: four;}
+#five{grid-area: five;}
+#six{grid-area: six;}
+#seven{grid-area: seven;}
+#eight{grid-area: eight;}
+#nine{grid-area: nine;}
+#dot{grid-area: dot;}
+#clear{grid-area: cl;}
+#equal{grid-area: equal;}
+#plus{grid-area: plus;}
+#minus{grid-area: minus;}
+#multiply{grid-area: multi;}
+#power{grid-area: power;}
+#divide{grid-area: divide;}
+
+#grid-container div::selection
+{
+    user-select: none;
+}
+
+#grid-container div
+{
+    font-size: 32px;
+    margin: 5px;
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#grid-container div:nth-of-type(1)
+{
+    background-color: #fff;
+    line-height: 1.5;
+    color: #333;
+    font-weight: 700;
+    word-break: break-all;
+}
+
+#grid-container div:nth-of-type(n+2)
+{
+    text-align: center;
+    background-color: #e65c5d;
+    cursor: pointer;
+}
+
+#grid-container div:nth-of-type(12){background-color: #daa624;}
+#grid-container div:nth-of-type(14){background-color: #83ac3d;}
+
+#grid-container div:nth-of-type(n+15){background-color: #222931;}
+
+#grid-container div:nth-of-type(n+2):hover
+{
+    -webkit-transform: scale(1.025);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    
+    background-color: #bf4a4b;
+    
+}
+
+#grid-container div:nth-of-type(12):hover{background-color: #cc9b21;}
+#grid-container div:nth-of-type(14):hover{background-color: #6d9032;}
+#grid-container div:nth-of-type(n+15):hover{background-color: #1b2127;}
+
+/*End Calculator*/
+
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+footer
+{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer i
+{
+    padding: 0 5px;
+    -webkit-transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+}
+
+footer i:hover
+{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}

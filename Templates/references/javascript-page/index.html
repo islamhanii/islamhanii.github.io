@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="This Page describes All what i learn about html and css and javaScript"/>
+        <title>References</title>
+        <link rel="icon" href="../images/pageLogo.png"/>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Fredoka+One&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        
+        <link rel="stylesheet" href="../css/loading.css"/>
+        <link rel="stylesheet" href="../css/normalize.css"/>
+        <link rel="stylesheet" href="../css/global-main.css"/>
+        <link rel="stylesheet" href="../css/header.css"/>
+        <link rel="stylesheet" href="../css/content.css"/>
+        <link rel="stylesheet" href="../css/up-footer-image.css"/>
+        <link rel="stylesheet" href="../css/media.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.min.js"></script>
+        <![end if]-->
+        
+    </head>
+    
+    <body>
+        
+        <div id="loading">
+            <div>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <!--Start Header-->
+        <header id="header">
+            
+            <div id="up-header">
+                <div>
+                    <a href="index.html">
+                        <img src="../images/pageLogo.png" alt="Page Logo"/>
+                        <span>References</span>
+                    </a>
+                </div>
+
+                <ul>
+                    <a href="../html-page/index.html">    <li>HTML</li>       </a>
+                    <a href="../css-page/index.html">     <li>CSS</li>        </a>
+                    <a href="../javascript-page/index.html">  <li>JavaScript</li> </a>
+                </ul>
+
+                <button id="list-button" class="transition1_2">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+            
+            <header id="down-header">
+
+                <ul>
+                    <a href="../html-page/index.html">    <li>HTML</li>       </a>
+                    <a href="../css-page/index.html">     <li>CSS</li>        </a>
+                    <a href="../javascript-page/index.html">  <li>JavaScript</li> </a>
+                </ul>
+
+            </header>
+        </header>
+        <!--End Header-->
+        
+        <div class="fullcontainer">
+            
+            <main>This Page Describes All I Learn About JavaScript</main>
+            
+            <!--Start Content-->
+            
+            <div class="content">
+                
+                <!--Start javaScript-->
+                <section id="main">
+                    
+                    <header>
+                        <img src="images/js.png" alt="JS image"/>
+                        <h1 id="script">&nbsp;javaScript</h1>
+                    </header>
+                    
+                    <select id="elements" name="elements" onchange="elements()">
+                        <option value="All">All</option>
+                        <option value="Basics">Basics</option>
+                        <option value="DOM">DOM</option>
+                        <option value="BOM">BOM</option>
+                        <option value="jQuery">jQuery</option>
+                    </select>
+                    
+                    <div id="second" onchange="elements2()"></div>
+                    
+                    <nav>
+                        
+                        <article>
+                            <span>Numbers</span>
+                            <div> Basics </div>
+                            <p>
+                                <span>num1 = <object>num.toExponential(num[3])</object>;</span> 45555 => 4.555e+4<br/>
+                                <span>num1 = <object>num.toFixed(2)</object>;</span> 4.578 => 4.58<br/>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Strings</span>
+                            <div> Basics </div>
+                            <p>
+                                <span>new = <object>replace(World, New World)</object>;</span><br/>
+                                <span>new = <object>str.concat(str1, str2)</object>;</span><br/>
+                                <span>new = <object>str.toLowerCase()</object>;</span><br/>
+                                <span>new = <object>str.toUpperCase()</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Tostrings</span>
+                            <div> Basics </div>
+                            <p>
+                                <span>str = <object>num.toString()</object>;</span><br/>
+                                <span>str = <object>array.join("/")</object>;</span><br/>
+                                <span>str = <object>array.toString()</object>;</span><br/>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Outputs</span>
+                            <div> Basics </div>
+                            <p>
+                                <span>alert(<object>message</object>);</span><br/>
+                                <span>console.log(<object>message</object>);</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Characters</span>
+                            <div> Basics </div>
+                            <p>
+                                <span>char = <object>str.charAt(index)</object>;</span><br/>
+                                <span>ASCII = <object>str.charCodeAt(index)</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Length</span>
+                            <div> Basics </div>
+                            <p>
+                                <span>size = <object>element.length</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Search</span>
+                            <div> Basics </div>
+                            <p>
+                                <span>wordBegin = <object>str.indexOf(word, start)</object></span> or
+                                <span><object>str.lastIndexOf(word, start)</object>;</span><br/>
+                                <span>wordBegin = <object>str.search(/world/g)</object>;</span><br/>
+                                i => "all letters are same"<br/>
+                                g => "global search"<br/>
+                                m => "multi line search"
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Substrings</span>
+                            <div> Basics </div>
+                            <p>
+                                <span>subStr = <object>str.slice(start, end)</object>;</span><br/>
+                                <span>subStr = <object>str.substr(start, length)</object>;</span><br/>
+                                <span>subStr = <object>str.substring(start, end)</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Date</span>
+                            <div> Basics </div>
+                            <p>
+                                <span>date = <object>new Date()</object>;</span>=> default juneury,1 1970<br/>
+                                <span>
+                                    date = <object>new Date(year, month, day, hours, minutes, seconds, milliseconds)</object>;
+                                </span><br/>
+                                <span>monthDay = <object>date.getDate()</object>;</span> => 1:31<br/>
+                                <span>weekDay = <object>date.getDay()</object>;</span> => 0:6 sun:stur
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Date</span>
+                            <div> Basics </div>
+                            <p>
+                                <span>year = <object>date.getFullYear()</object>;</span> => 2020<br/>
+                                <span>hours = <object>date.getHours()</object>; ...</span> => 0:23<br/>
+                                <span>str = <object>date.toLocaleString()</object>;</span><br/>
+                                <span>str = <object>date.toISOString()</object>;</span><br/>
+                                <span>str = <object>date.toDateString()</object>;</span><br/>
+                                <span>str = <object>date.toTimeString()</object>;</span><br/>
+                                <span>document.<object>lastModified</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Array</span>
+                            <div> Basics </div>
+                            <p>
+                                <span>array = <object>split(" ", no.splits)</object>;</span><br/>
+                                <span>array&#91;<object>array.length</object>&#93;;</span>=> AddLast<br/>
+                                <span>array.<object>push&#40;thing&#41;</object>;</span>=> AddLast<br/>
+                                <span>array.<object>unshift&#40;thing&#41;</object>;</span>=>AddFirst<br/>
+                                <span>
+                                    array.<object>splice&#40;index, no.removes, add item1, add item2, add item3...&#41;</object>;
+                                </span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Array</span>
+                            <div> Basics </div>
+                            <p>
+                                <span>array.<object>sort()</object>;</span><br/>
+                                <span>array.<object>reverse()</object>;</span><br/>
+                                <span>array.<object>slice&#40;start,end&#41;</object>;</span>=> Cut<br/>
+                                <span>array.<object>concat&#40;array2&#41;</object>;</span>=> Concat<br/>
+                                <span>array.<object>pop()</object>;</span>=> RemoveLast<br/>
+                                <span>array.<object>shift()</object>;</span>=> RemoveFirst
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Funcation</span>
+                            <div> Basics </div>
+                            <p>
+                                <span><object>function&#40;&#41;&#123;&#125;</object></span><br/>
+                                <span><object>function&#40;para1, para2, ...&#41;&#123;&#125;</object></span><br/>
+                                <span>element.<object>action = function&#40;&#41;&#123;&#125;;</object></span><br/>
+                                => don't forget to use "use strict";<br/>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Others</span>
+                            <div> Basics </div>
+                            <p>
+                                <span>removeOverSpace = <object>str.trim&#40;&#41;</object>;</span><br/>
+                                <span>str.<object>link&#40;link&#41;</object>;</span> =>link a specific word<br/>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>ByItems</span>
+                            <div> DOM </div>
+                            <p>
+                                <span>document.<object>getElementById&#40;IdName&#41;</object>;</span><br/>
+                                <span>document.<object>getElementsByTagName&#40;TagName&#41;</object>;</span><br/>
+                                <span>document.<object>getElementsByClassName&#40;ClassName&#41;</object>;</span>=>IE 8 not work<br/>
+                                <span>document.<object>querySelector&#40;selector path&#41;</object>;</span>=>IE 8 not work<br/>
+                                <span>document.<object>querySelectorAll&#40;selector path&#41;</object>;</span>=>IE 8 not work
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>ByObjects</span>
+                            <div> DOM </div>
+                            <p>
+                                <span>document.<object>body</object>;</span><br/>
+                                <span>document.<object>title</object>;</span><br/>
+                                <span>document.<object>images</object>;</span><br/>
+                                <span>document.<object>forms</object>;</span><br/>
+                                <span>document.<object>anchors</object>;</span><br/>
+                                <span>document.<object>links</object>;</span> ....
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Content</span>
+                            <div> DOM </div>
+                            <p>
+                                <span>element.<object>innerText</object>;</span><br/>
+                                <span>element.<object>outerText</object>;</span><br/>
+                                <span>element.<object>innerHTML</object>;</span><br/>
+                                <span>element.<object>outerHTML</object>;</span><br/>
+                                <span>element.<object>textContent</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Attributes</span>
+                            <div> DOM </div>
+                            <p>
+                                <span>element.<object>getAttribute&#40;name&#41;</object>;</span><br/>
+                                <span>element.<object>setAttribute&#40;name, value&#41;</object>;</span><br/>
+                                <span>element.<object>hasAttribute&#40;name&#41;</object>;</span><br/>
+                                <span>element.<object>removeAttribute&#40;name&#41;</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>ClassList</span>
+                            <div> DOM </div>
+                            <p>
+                                <span>element.<object>classList.length&#40;&#41;</object>;</span><br/>
+                                <span>element.<object>classList.item&#40;index&#41;</object>;</span><br/>
+                                <span>element.<object>classList.contains&#40;word&#41;</object>;</span><br/>
+                                <span>element.<object>classList.add&#40;class1, class2, ...&#41;</object>;</span><br/>
+                                <span>element.<object>classList.remove&#40;class1, class2, ...&#41;</object>;</span><br/>
+                                <span>element.<object>classList.toggle&#40;class&#41;</object>;</span>=>add,remove
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Create</span>
+                            <div> DOM </div>
+                            <p>
+                                <span>element = document.<object>createElement&#40;type&#41;</object>;</span><br/>
+                                <span>text = document.<object>createTextNode&#40;text&#41;</object>;</span><br/>
+                                <span>comment = document.<object>createComment&#40;text&#41;</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Children</span>
+                            <div> DOM </div>
+                            <p>
+                                <span>childrenNum = element.<object>childElementCount</object>;</span><br/>
+                                <span>children = element.<object>children</object>;</span><br/>
+                                <span>children = element.<object>childNodes</object>;</span> => includes text, comments<br/>
+                                <span>fChild = element.<object>firstElementChild</object>;</span><br/>
+                                <span>fChild = element.<object>firstChild</object>;</span> => includes text, comments
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Children</span>
+                            <div> DOM </div>
+                            <p>
+                                <span>lChild = element.<object>lastElementChild</object>;</span><br/>
+                                <span>lChild = element.<object>lastChild</object>;</span><br/>
+                                => includes text, comments<br/>
+                                <span>element.<object>appendChild&#40;element text comment&#41;</object>;</span><br/>
+                                <span>element.<object>insertBefore&#40;element, before element&#41;</object>;</span><br/>
+                                <span>element.<object>removeChild&#40;element&#41;</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Parent &amp; Next</span>
+                            <div> DOM </div>
+                            <p>
+                                <span>parent = element.<object>parentNode</object>;</span><br/>
+                                => includes text, comment<br/>
+                                <span>parent = element.<object>parentElement</object>;</span><br/>
+                                <span>next = element.<object>nextSibling</object>;</span><br/>
+                                => includes text, comment<br/>
+                                <span>next = element.<object>nextElementSibling</object>;</span><br/>
+                                *previous is like next
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Node</span>
+                            <div> DOM </div>
+                            <p>
+                                <span>specificNode.<object>nodeName</object>;</span><br/>
+                                <span>specificNode.<object>tagName</object>;</span><br/>
+                                <span>specificNode.<object>nodeValue</object>;</span><br/>
+                                <span>specificNode.<object>nodeType</object>;</span><br/>
+                                => element: 1, text: 3, comment: 8<br/>
+                                <span>specificNode.<object>cloneNode&#40;Bollean&#41;</object>;</span><br/>
+                                => true: take all, false:take elements only
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Page Screen</span>
+                            <div> DOM </div>
+                            <p>
+                                <span>element.<object>clientHeight</object>;</span><br/>
+                                <span>element.<object>clientWidth</object>;</span><br/>
+                                =>no scroll, margin, border<br/>
+                                <span>element.<object>scrollHeight</object>;</span><br/>
+                                <span>element.<object>scrolltWidth</object>;</span><br/>
+                                =>like client plus include invisable area<br/>
+                                <span>element.<object>offsetHeight</object>;</span><br/>
+                                <span>element.<object>offsettWidth</object>;</span><br/>
+                                =>no margin
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Actions</span>
+                            <div> DOM </div>
+                            <p>
+                                <span>element.<object>focus&#40;&#41;</object>;</span>=>feild focus<br/>
+                                <span>element.<object>blur&#40;&#41;</object>;</span>=>remove feild focus<br/>
+                                <span>element.<object>click&#40;&#41;</object>;</span>=>click on<br/>
+                                <span>element.<object>load&#40;&#41;</object>;</span>=>while loading<br/>
+                                <span>element.<object>scroll&#40;&#41;</object>;</span>=>while scrolling<br/>
+                                <span>element.<object>addEventListener&#40;action, function&#41;</object>;</span>=>add action 
+                                (IE 8 not work)
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Events</span>
+                            <div> DOM </div>
+                            <p>
+                                <span>element.<object>onclick</object></span>=>When click<br/>
+                                <span>element.<object>ondblclick</object></span>=>When double click<br/>
+                                <span>element.<object>onload</object></span>=>When load<br/>
+                                <span>element.<object>onscroll</object></span>=>When scroll<br/>
+                                <span>element.<object>onresize</object></span>=>When resize<br/>
+                                <span>element.<object>onfocus</object></span>=>When focus<br/>
+                                <span>element.<object>onblur</object></span>=>When blur<br/>
+                                <span>element.<object>onsubmit</object></span>=>When submit
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Events</span>
+                            <div> DOM </div>
+                            <p>
+                                <span>element.<object>oncontextmenu</object></span>=>When right click<br/>
+                                <span>element.<object>onmouseover</object></span>=>When go over<br/>
+                                <span>element.<object>onmouseout</object></span>=>When go out<br/>
+                                <span>element.<object>onkeydown</object></span>=>When press<br/>
+                                <span>element.<object>onkeyup</object></span>=>When release<br/>
+                                <span>
+                                    <a class="seemore" href="https://www.w3schools.com/jsref/dom_obj_event.asp" target="_blank">
+                                        See More
+                                    </a>
+                                </span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Window</span>
+                            <div> BOM </div>
+                            <p>
+                                <span>window.<object>scrollBy(X, Y)</object>;</span><br/>
+                                <span>window.<object>scrollTo(X, Y)</object>;</span><br/>
+                                <span>window.<object>pageXOffset</object>;</span><br/>
+                                <span>window.<object>pageYOffset</object>;</span><br/>
+                                <span>
+                                    <img src="images/window.JPG" title="Window" alt="Window" onclick="openImage('images/window.JPG')"/>
+                                </span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Window</span>
+                            <div> BOM </div>
+                            <p>
+                                <span>window.<object>confirm(message)</object>;</span> => return true or false<br/>
+                                <span>window.<object>prompt(message, example(opt))</object>;</span> => return text or null<br/>
+                                <span>setTimeout<object>(function, ms)</object>;</span><br/>
+                                <span>clearTimeout<object>(timeout ID)</object>;</span><br/>
+                                <span>setInterval<object>(function, ms)</object>;</span><br/>
+                                <span>clearInterval<object>(interval ID)</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Window</span>
+                            <div> BOM </div>
+                            <p>
+                                <span>window.<object>open(URL, Target, Coordination, History Replace: true, false)</object>;</span><br/>
+                                <span>window.<object>close()</object>;</span> => can't close your original window<br/>
+                                <span>window.<object>stop()</object>;</span><br/>
+                                <span>window.<object>focus()</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Location</span>
+                            <div> BOM </div>
+                            <p>
+                                <span>window.<object>location.href</object>;</span> => page link<br/>
+                                <span>window.<object>location.host</object>;</span> => page host<br/>
+                                <span>window.<object>location.hash</object>;</span> => page hash<br/>
+                                <span>window.<object>location.protocol</object>;</span> => page protocol
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Location</span>
+                            <div> BOM </div>
+                            <p>
+                                <span>window.<object>location.search</object>;</span> => what after ?<br/>
+                                <span>window.<object>location.pathname</object>;</span> => path without protocol and search<br/>
+                                <span>window.<object>location.reload</object>;</span> => page reload<br/>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Location</span>
+                            <div> BOM </div>
+                            <p>
+                                <span>window.<object>location.assign(path)</object>;</span> => default history<br/>
+                                <span>window.<object>location.replace(path)</object>;</span> => replace in history<br/>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>History</span>
+                            <div> BOM </div>
+                            <p>
+                                <span>history.<object>forword()</object>;</span><br/>
+                                <span>history.<object>back()</object>;</span><br/>
+                                <span>history.<object>go(Number)</object>;</span> => can be positive or negative
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Navigator</span>
+                            <div> BOM </div>
+                            <p>
+                                <span>navigator.<object>appCodeName</object>;</span> => ex:Mozilla<br/>
+                                <span>navigator.<object>appName</object>;</span> => ex:Netscape<br/>
+                                <span>navigator.<object>appVersion</object>;</span><br/>
+                                <span>navigator.<object>platform</object>;</span> => ex:win32
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Navigator</span>
+                            <div> BOM </div>
+                            <p>
+                                <span>navigator.<object>cookieEnabled</object>;</span> => ex:true<br/>
+                                <span>navigator.<object>language</object>;</span> => ex:en-US<br/>
+                                <span>navigator.<object>onLine</object>;</span> => ex:true<br/>
+                                <span>navigator.<object>product</object>;</span> => ex:Gecko
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Screen</span>
+                            <div> BOM </div>
+                            <p>
+                                <span>screen.<object>width</object>;</span><br/>
+                                <span>screen.<object>height</object>;</span><br/>
+                                <span>screen.<object>availWidth</object>;</span><br/>
+                                <span>screen.<object>availHeight</object>;</span><br/>
+                                <span>screen.<object>colorDepth</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Syntax</span>
+                            <div> jQuery </div>
+                            <p>
+                                <span>$(element).<object>event(function(){})</object>;</span><br/>
+                                <span>$(element).<object>effect()</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Events</span>
+                            <div> jQuery </div>
+                            <p>
+                                <span>$(element).<object>click</object></span> => When click<br/>
+                                <span>$(element).<object>dblclick</object></span> => When double click<br/>
+                                <span>$(element).<object>mouseenter</object></span> => When mouse hover
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Events</span>
+                            <div> jQuery </div>
+                            <p>
+                                <span>$(element).<object>mouseleave</object></span> => When mouse leave<br/>
+                                <span>$(element).<object>hover</object></span> => When hover, can take two functions
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>ِAnimation</span>
+                            <div> jQuery </div>
+                            <p>
+                                <span>$(element).<object>hide(speed, next function)</object>;</span> => To hide<br/>
+                                <span>$(element).<object>show(speed, next function)</object>;</span> => To show<br/>
+                                <span>$(element).<object>toggle(speed, next function)</object>;</span> => To hide/show<br/>
+                                => Based on height width margin padding overflow opacity<br/>
+                                <span class="warning">!</span> Make sometimes mistakes in display value<br/>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>ِAnimation</span>
+                            <div> jQuery </div>
+                            <p>
+                                <span>$(element).<object>fadeOut(speed, next function)</object>;</span> => To hide<br/>
+                                <span>$(element).<object>fadeIn(speed, next function)</object>;</span> => To show<br/>
+                                <span>$(element).<object>fadeToggle(speed, next function)</object>;</span> => To hide/show<br/>
+                                <span>$(element).<object>fadeTo(speed, opacity, next function)</object>;</span> => To specific opacity<br/>
+                                => Based on opacity<br/>
+                                <span class="warning">!</span> Make sometimes mistakes in display value<br/>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>ِAnimation</span>
+                            <div> jQuery </div>
+                            <p>
+                                <span>$(element).<object>slideDown(speed, next function)</object>;</span> => To hide<br/>
+                                <span>$(element).<object>slideUp(speed, next function)</object>;</span> => To show<br/>
+                                <span>$(element).<object>slideToggle(speed, next function)</object>;</span> => To hide/show opacity<br/>
+                                => Based on height margin-top-bottom padding-top-bottom overflow<br/>
+                                <span class="warning">!</span> Make sometimes mistakes in display value<br/>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>ِAnimation</span>
+                            <div> jQuery </div>
+                            <p>
+                                <span>$(element).<object>animate({css propreties}, speed, next function)</object>;</span><br/>
+                                <span>$(element).<object>stop(clearQueue, goToEnd)</object>;</span>=>take value true or false(def)<br/>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Get/Set</span>
+                            <div> jQuery </div>
+                            <p>
+                                <span>$(element).<object>text()</object>;</span> => get inner text<br/>
+                                <span>$(element).<object>html()</object>;</span> => get inner html text<br/>
+                                <span>$(element).<object>text(text)</object>;</span> => set as text<br/>
+                                <span>$(element).<object>html(text)</object>;</span> => set as html
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Get/Set</span>
+                            <div> jQuery </div>
+                            <p>
+                                <span>$(element).<object>val()</object>;</span> => get input value<br/>
+                                <span>$(element).<object>val(text)</object>;</span> => set input value<br/>
+                                <span>$(element).<object>attr(attribute)</object>;</span> => get attribute<br/>
+                                <span>$(element).<object>attr({attribute:value, ....})</object>;</span> => set attribute
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Add Element</span>
+                            <div> jQuery </div>
+                            <p>
+                                <span>$(element).<object>append(element)</object>;</span> => in the last of the element<br/>
+                                <span>$(element).<object>prepend(element)</object>;</span> => in the first of the element<br/>
+                                <span>$(element).<object>before(element)</object>;</span> => before the element<br/>
+                                <span>$(element).<object>after(element)</object>;</span> => after the element
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Remove Element</span>
+                            <div> jQuery </div>
+                            <p>
+                                <span>$(element).<object>remove()</object>;</span> => remove all of type<br/>
+                                <span>$(element).<object>remove(condition)</object>;</span> => remove all of type and have condition<br/>
+                                <span>$(element).<object>empty()</object>;</span> => remove content all of type<br/>
+                                <span>$(element).<object>empty(condition)</object>;</span> => remove content all of type and have condition
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Classes</span>
+                            <div> jQuery </div>
+                            <p>
+                                <span>$(element).<object>addClass(classes)</object>;</span><br/>
+                                <span>$(element).<object>removeClass(classes)</object>;</span><br/>
+                                <span>$(element).<object>toggleClass(classes)</object>;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Css</span>
+                            <div> jQuery </div>
+                            <p>
+                                <span>$(element).<object>addClass(classes)</object>;</span><br/>
+                                <span>$(element).<object>removeClass(classes)</object>;</span><br/>
+                                <span>$(element).<object>toggleClass(classes)</object>;</span>
+                            </p>
+                        </article>
+                        
+                    </nav>
+                    
+                </section>
+                <!--End javaScript-->
+            </div>
+            
+            <!--End Content-->
+            
+        </div>
+        
+        <nav id="goUp">
+            <i class="fa fa-chevron-circle-up" title="up"></i>
+        </nav>
+        
+        <footer id="footer">
+            <p>Find Me On Social Media</p>
+            
+            <div>
+                <a href="https://www.facebook.com/eslam.hany.752" target="_blank">
+                    <i class="fa fa-facebook-square" title="facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/islamhani10/" target="_blank">
+                    <i class="fa fa-instagram" title="instagram"></i>
+                </a>
+                <a href="https://twitter.com/islamha58723976" target="_blank">
+                    <i class="fa fa-twitter-square" title="twitter"></i>
+                </a>
+                <a href="https://github.com/islamhanii" target="_blank">
+                    <i class="fa fa-github-square" title="github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/islam-hani-2572131ab/" target="_blank">
+                    <i class="fa fa-linkedin-square"  title="linkedin"></i>
+                </a>
+            </div>
+            
+            <p>Copyrights &copy; Islam Hani 2020</p>
+        </footer>
+        
+        <nav id="blacken">
+            
+        </nav>
+        
+        <nav id="display">
+            <div>
+                <img src alt="image"/>
+            </div>
+            <span onclick="closeImage()">X</span>
+        </nav>
+        
+        <script src="../js/script1.js"></script>
+    </body>
+</html>

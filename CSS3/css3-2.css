@@ -1,0 +1,166 @@
+/* css3 uses -webkit-, -moz-, -ms-, -o-
+
+    flex-flow: flex-direction flex-wrap
+    *flex-direction             3
+    *flex-wrap                  1
+    *flex-grow                  1
+    *column-count               2
+    *column-rule                2
+    *column-width               2
+    *column-span                1
+*/
+
+/*Start Flex*/
+
+.flex
+{
+    width: 1004px;
+    height: 1004px;
+    margin: 30px auto;
+    background-color: #ffff0b;
+    border: 2px solid #dcdc11;
+}
+
+/*-----------------------------------------------------*/
+
+.templete
+{
+    width: 600px;
+    height: 1000px;
+    float: left;
+    overflow: auto;
+}
+
+/*-----------------------------------------------------*/
+
+#flexbox
+{
+    direction: ltr;
+    display: flex;
+    width: 600px;
+    height: 1000px;
+    flex-grow: 0;
+}
+
+#flexbox div
+{
+    background-color: #ae4589;
+    width: 250px;
+    height: auto;
+    overflow: hidden;
+    -webkit-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+}
+
+#flexbox div:nth-of-type(2)
+{
+    background-color: #4589ae;
+}
+
+#flexbox div:nth-of-type(3)
+{
+    background-color: #f14d3c;
+}
+
+/*-----------------------------------------------------*/
+
+.buttons
+{
+    float: right;
+    width: 400px;
+    height: 1000px;
+    border-left: 2px dotted #aeaa48;
+    overflow: auto;
+    padding: 10px 0;
+}
+
+.buttons span
+{
+    display: block;
+    padding: 10px 0;
+}
+
+.buttons span:first-of-type ~ span
+{
+    border-top: 2px dotted #aeaa48;
+    margin-top: 10px;
+}
+
+.buttons input[type="text"], .buttons input[type="number"]
+{
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+}
+
+.buttons button
+{
+    width: 180px;
+    padding: 10px;
+    margin: 5px 0;
+    background: #49bb93;
+    border: 1px solid #49bb93;
+    border-radius: 20px;
+    cursor: pointer;
+    
+    -webkit-transition: all 1s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.buttons button:hover
+{
+    background: #ff4d4d;
+    border: 1px solid #ff4d4d;
+}
+/*End Flex*/
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*Start Columns*/
+#columns
+{
+    border: 2px dashed #49bb93;
+    padding: 20px;
+    margin: 50px;
+    text-align: left;
+    column-count: 4;
+    column-rule: 2px dotted #49bb93;
+}
+
+#columns h2, #columns h4
+{
+    color: #49bb93;
+    -webkit-transition: color 1s ease-in-out;
+}
+
+#columns h2:hover, #columns h4:hover
+{
+    color: #ff4d4d;
+}
+
+#columns h2, #columns h4, #columns p
+{
+    text-align: left;
+}
+
+#columns h2
+{
+    column-span: all;
+    font-size: 32px;
+    margin: 0 0 20px;
+}
+
+#columns h4
+{
+    margin: 10px 0 0;
+    font-size: 24px;
+}
+
+#columns p
+{
+    text-indent: 40px;
+    margin: 5px 0 0;
+    line-height: 1.5;
+}
+/*End Columns*/

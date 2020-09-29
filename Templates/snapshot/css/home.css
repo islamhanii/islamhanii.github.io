@@ -1,0 +1,86 @@
+/*Start Welcome*/
+#welcome {
+    overflow: hidden;
+    
+    background-image: url(../images/banner.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    min-height: 75vh;
+    
+    color: #eee;
+    
+    z-index: 1;
+}
+
+#welcome::before {
+    display: block;
+    
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.65;
+    z-index: 2;
+}
+
+#welcome div {
+    opacity: 0;
+    visibility: hidden;
+    top: 50;
+    
+    z-index: 3;
+    position: relative;
+}
+
+#welcome div h1 {
+    margin: 0 0 0.5em 0;
+    
+    font-size: 3em;
+    font-weight: 600;
+}
+
+#welcome div p {
+    font-size: 22px;
+    margin: 0 0 1.5em 0;
+}
+
+#welcome div span {
+    cursor: pointer;
+    user-select: none;
+    
+    background: none;
+    
+    border: 2px solid #56493e88;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    
+    font-size: 20px;
+    
+    display: block;
+    width: 32%;
+    
+    line-height: 3;
+    padding: 0 36px;
+    margin: 0 auto 10px;
+    
+    -webkit-transition: background-color 0.25s ease-in-out;
+    -moz-transition: background-color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
+}
+
+#welcome div span:hover {background-color: #fff1;}
+/*End Welcome*/

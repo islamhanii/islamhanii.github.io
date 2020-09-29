@@ -1,0 +1,145 @@
+/*Start Global*/
+#main section,
+.photos nav img,
+.photos h2,
+.activity-posts nav:last-of-type ul li img
+{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#main section:nth-of-type(n+2)
+{
+    background-color: #fff;
+}
+
+#main section
+{
+    margin: 0 20px;
+}
+
+#main section:nth-of-type(n+2) nav
+{
+    padding: 0 20px 10px;
+    margin-bottom: 20px;
+}
+
+#main section:nth-of-type(n+2) > nav:first-of-type
+{
+    color: #333;
+    background-color: #f2f2f2;
+    
+    font-size: 16px;
+    
+    margin-top: 0 !important;
+    padding: 15px 20px;
+    
+    border-radius: 10px 10px 0 0;
+}
+/*End Global*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+/*Start Photos*/
+.photos 
+{
+    position: relative;
+    margin-bottom: 360px !important;
+}
+.photos nav
+{
+    position: relative;
+}
+
+.photos nav img
+{
+    position: absolute;
+    width: 100%;
+    height: 340px;
+    
+    -webkit-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+    
+    opacity: 0;
+}
+
+.photo-active
+{
+    opacity: 1 !important;
+    border-color: #fffd !important;
+}
+
+.photos h2
+{
+    position: absolute;
+    bottom: -300;
+    left: 20;
+    
+    color: #fff;
+    background-color: #333;
+    padding: 8px 16px;
+}
+
+.photos ul
+{
+    position: absolute;
+    display: flex;
+    
+    bottom: -330;
+    left: 45%;
+}
+
+.photos ul li
+{
+    width: 15px;
+    height: 15px;
+    
+    border: 3px solid #ffffff88;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+    background: none;
+    
+    margin-right: 10px;
+    
+    cursor: pointer;
+}
+
+.photos ul li:hover {border-color: #fffd}
+/*End Photos*/
+
+/*--------------------------------------------------------------------------------------*/
+
+/*Start Activity And Posts*/
+.activity-posts nav:last-of-type ul li
+{
+    display: flex;
+    
+    border-bottom: 1px solid #e8e8e8;
+    
+    padding: 15px 0 20px;
+}
+
+.activity-posts nav:last-of-type ul li img
+{
+    width: 75px;
+    height: 75px;
+}
+
+.activity-posts nav:last-of-type ul li p
+{
+    margin: 5px 0 10px 20px;
+    
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.activity-posts nav:last-of-type ul li p span
+{
+    color: #333;
+    
+    font-weight: 700;
+}
+/*End Activity And Posts*/

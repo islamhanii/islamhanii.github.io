@@ -1,0 +1,61 @@
+@media screen and (max-width: 400px)
+{
+    #header div div img {width: 35px; height: 35px;}
+    
+    #header div div span
+    {
+        font-size: 25px;
+        top: -5px;
+    }
+}
+
+@media screen and (max-width: 599px)
+{
+    .content nav article
+    {
+        font-size: 15px;
+    }
+    
+    .content section > select, .content section > div select
+    {
+        font-size: 18px;
+    }
+    
+    #header div ul {display: none;}
+}
+
+@media screen and (min-width: 600px)
+{
+    #header div > button,
+    #down-header {display: none;}
+}
+
+@media screen and (min-width: 1025px)
+{
+    #header div > button,
+    #down-header {display: none;}
+    
+    .content nav article
+    {
+        width: 30%;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 768px)
+{
+    .content nav article
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px)
+{
+    .content nav article
+    {
+        width: 45%;
+    }
+}

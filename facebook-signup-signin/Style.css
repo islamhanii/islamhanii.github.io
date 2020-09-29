@@ -1,0 +1,260 @@
+body
+{
+    margin: 0px;
+    overflow-y: scroll;
+}
+
+a,abbr
+{
+    text-decoration: none;
+}
+
+#backup,#middle
+{
+    background-repeat: repeat-x;
+    max-width: 100%;
+    min-width: 1100px;
+    
+}
+
+#backup
+{
+    background-image: url('backup.JPG');   
+    height: 80px;
+    border: 1px solid #383838;
+    font-family: "Comic Sans SM",cursive;
+    overflow: hidden;
+}
+
+#middle
+{
+    background-image: url('middle.JPG');
+    height: 650px;
+    font-family: Verdana, sans-serif;
+}
+
+.floatleft
+{
+    float: left;
+}
+
+.floatright
+{
+    float: right;
+}
+
+#headercont, #middlecont
+{
+    width: 1100px;
+    margin: auto;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+#headercont div
+{
+    display: inline-block;
+}
+
+#headercont h1
+{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 15px 50px 10px;
+}
+
+#headercont a h1
+{
+    color: #FFF;
+}
+
+/*------------------------------------------*/
+
+#righttop
+{
+    margin-top: 15px;
+}
+
+#backup p
+{
+    margin: 0px;
+    font-weight: normal;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+#righttop input
+{
+    width: 150px;
+    border: 1px solid #333;
+    height: 20px;
+}
+
+#logbutton
+{
+    background-color: #0068AB;
+    color: #FFF;
+    border: 1px solid #004888;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 4px 5px;
+}
+
+#righttop div,#logbutton
+{
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+
+#forget a
+{
+    color: #CECEFF;
+    margin: 172px;
+}
+
+#forget a:hover, #span a:hover, #sub a:hover
+{
+    text-decoration: underline;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+#middlerightcont
+{
+    margin: 50px 0 0 120px;
+    text-align: right;
+}
+
+#middlerightcont p
+{
+    font-size: 24px;
+    color: #0068AB;
+}
+
+#middlerightcont span
+{
+    font-size: 17.5px;
+}
+
+/*------------------------------------------*/
+
+#middleleftcont
+{
+    margin-left: 180px;
+    padding: 5px;
+    width: 400px;
+}
+
+#middleleftcont input
+{
+    margin: 6px 6px 6px 0px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    font-size: 18px;
+}
+
+.smallin
+{
+    width: 160px;
+}
+
+.largein
+{
+    display: block;
+    width: 352px;
+}
+
+/*------------------------------------------*/
+
+#personal
+{
+    color: #888;
+    font-weight: 700;
+}
+
+#personal p
+{
+    margin: 10px 0 5px 0;
+}
+
+#personal select
+{
+    padding: 5px 10px;
+    margin-right: -5px;
+    border: 1px solid #F0F0F0;
+}
+
+#personal a
+{
+    color: #DDD;
+    background-color: #686868;
+    padding: 0 5px;
+    margin: 0px 8px;
+    border-radius: 30px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#personal span
+{
+    color: #000;
+    font-weight: normal;
+    margin: 0px 10px 0 0;
+}
+
+#gender
+{
+    margin: 10px;
+}
+
+#span, #sub
+{
+    width: 320px;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #555;
+}
+
+#span a, #sub a
+{
+    color: #0068AB;
+}
+
+#sub
+{
+    font-weight: 700;
+    
+}
+
+#sub input
+{
+    color: #FFF;
+    background-color: #009833;
+    font-weight: 700;
+    padding: 10px 60px;
+    margin: 20px 0px;
+    border: 1px solid #005833;
+}
+
+#sub input:hover
+{
+    background-color: #00a833;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+footer
+{
+    color: #000;
+    text-align: center;
+    font-family: cursive;
+}
+
+footer div
+{
+    margin: auto;
+    font-size: 20px;
+    font-weight: 700;
+}

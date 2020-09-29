@@ -1,0 +1,290 @@
+/*Start Global*/
+body
+{
+        background-color: #dfdfdf;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive, sans-serif;
+}
+
+a
+{
+    text-decoration-line: none;
+}
+
+a:hover
+{
+    color: #ae4448;
+}
+
+.clearFix
+{
+    clear: both;
+}
+
+input[type="range"]
+{
+     height: 2px;
+    -webkit-appearance: none;
+     background-color: #333;
+}
+
+input[type="submit"], details
+{
+    cursor: pointer;
+}
+
+input[type="file"]
+{
+    width: 190px;
+}
+/*End Global*/
+
+
+/*Start Main Header*/
+#main
+{
+    background-color: #3f6724;
+    text-align: center;
+    color: #FFF;
+    padding: 10px;
+}
+/*End Main Header*/
+
+
+/*Start Nav*/
+nav
+{
+    background-color: #86b169;
+    padding: 10px;
+}
+
+nav ul
+{
+    text-align: center;
+}
+
+nav ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+nav ul li::after
+{
+    content: " |";
+    color: #000;
+}
+
+nav ul li:last-child::after
+{
+    content: "";
+}
+
+nav ul li a
+{
+    color: #000;
+}
+/*End Nav*/
+
+
+/*Start Main*/
+main
+{
+    background-color: #e0fdcc;
+    padding: 10px;
+}
+
+main p
+{
+    text-align: center;
+    color: #000;
+}
+/*End Main*/
+
+
+/*Start Body Div*/
+#bodyDiv
+{
+    width: 1260px;
+    margin: auto;
+}
+/*End Body Div*/
+
+
+/*Start Article*/
+#post
+{
+    width: 60%;
+    float: left
+}
+
+article
+{
+    border: 1px solid #333;
+    margin: 20px;
+    width: 800px;
+    background-color: #f0ffe6;
+    border-radius: 10px 0 0 0;
+}
+
+article header
+{
+    background-color: #86b169;
+    color: #000;
+    border-radius: 10px 0 0 0;
+    padding: 10px;
+}
+
+article section
+{
+    padding: 10px;
+}
+
+article section details summary
+{
+    background-color: #333;
+    color: #EEE;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+article section details ul
+{
+    padding: 10px;
+    background-color: #EEE;
+    border-radius: 0 0 10px 10px;
+}
+
+article section details ul li
+{
+    list-style-type: none;
+}
+
+article section figure
+{
+    background-color: #EEE;
+    padding: 5px;
+    margin: 10px auto;
+    border: 1px solid #9f9f9f;
+    width: 630px;
+}
+
+article section figcaption
+{
+    text-align: center;
+}
+
+article section figure img
+{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 5px;
+    float: left;
+}
+
+article section video
+{
+    width: 500px;
+    margin: 10px 0px 10px 130px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+article section audio
+{
+    margin: 10px 0 10px 220px;
+    background-color: #333;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+article section svg
+{
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+circle
+{
+    opacity: 0.5;
+}
+
+circle:hover
+{
+    opacity: 1;
+}
+/*End Article*/
+
+
+/*Start Aside*/
+aside
+{
+    width: 350px;
+    float: right;
+}
+
+aside section
+{
+    border: 1px solid #333;
+    border-radius: 0 10px 0 0;
+    margin: 20px;
+    background-color: #e0fdcc;
+}
+
+aside h3
+{
+    background-color: #3f6724;
+    border-radius: 0 10px 0 0;
+    padding: 10px;
+    color: #EEE;
+}
+
+aside ul
+{
+    padding: 5px;
+}
+
+aside ul li
+{
+    list-style-type: none;
+}
+
+aside ul li a
+{
+    color: #000;
+}
+
+aside p
+{
+    padding: 5px;
+}
+
+section input
+{
+    margin: 10px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    padding: 2px;
+}
+/*End Aside*/
+
+
+/*Start Footer*/
+footer
+{
+    background-color: #3f6724;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+}
+/*End Footer*/

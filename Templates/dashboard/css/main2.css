@@ -1,0 +1,230 @@
+/*Start Country*/
+.country
+{
+    margin: 50px 25px 0 15px;
+}
+
+.country p
+{
+    font-size: 18px;
+}
+
+.country article
+{
+    border: 1px solid #ccc;
+}
+
+.country section
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    cursor: pointer;
+}
+
+.country section span
+{
+    padding: 10px 15px;
+}
+
+.country section span:nth-of-type(even)
+{
+    padding-left: 38%;
+}
+
+.country section:nth-of-type(odd)
+{
+    background-color: #fff;
+}
+
+.country section:hover
+{
+    background-color: #ccc;
+}
+
+button
+{
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #666;
+    border: 0;
+    margin: 25px 0;
+}
+
+button:hover
+{
+    background-color: #ccc;
+    color: #000;
+}
+/*End Country*/
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*Start Users*/
+.user
+{
+    margin: 5px 25px 0 15px;
+}
+
+.user p
+{
+    font-size: 18px;
+}
+
+.user article
+{
+    -webkit-box-shadow: 0px 4px 10px #888;
+    -mox-box-shadow: 0px 4px 10px #888,;
+    box-shadow: 0px 4px 10px #888;
+}
+
+.user article section
+{
+    background-color: #fff;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.user article section:nth-of-type(n+1)
+{
+    border-top: 1px solid #ddd;
+}
+
+.user article section img
+{
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+    -webkit-box-shadow: 0 2px 10px #555;
+    -mox-box-shadow: 0 2px 10px #555;
+    box-shadow: 0 2px 10px #888;
+}
+
+.user article section span
+{
+    position: relative;
+    top: -8px;
+    left: 10px;
+}
+/*End Users*/
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*Start Comments*/
+.comment
+{
+    margin: 30px 25px 0 15px;
+}
+
+.comment > p
+{
+    font-size: 18px;
+}
+
+.comment article
+{
+    margin-bottom: 30px;
+}
+
+.comment article img
+{
+    width: 96px;
+    height: 96px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    
+    -webkit-box-shadow: 0 2px 10px #555;
+    -mox-box-shadow: 0 2px 10px #555;
+    box-shadow: 0 2px 10px #888;
+}
+
+.comment article section
+{
+    display: inline-block;
+    width: 75%;
+    position: relative;
+    top: -20px;
+    left: 70px;
+}
+
+.comment article section p
+{
+    color: #555;
+}
+
+.comment object
+{
+    color: #000;
+    font-size: 20px;
+}
+
+.comment article section span
+{
+    font-size: 14px;
+}
+/*End Comments*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*Start Abstract*/
+.abstract
+{
+    background-color: #616161;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding:  30px 0;
+}
+
+.abstract section
+{
+    width: 30%;
+}
+
+.abstract section p
+{
+    font-size: 18px;
+    border-bottom: 5px solid #03c303;
+    padding-bottom: 5px;
+}
+
+.abstract section:nth-of-type(2) p
+{
+    border-bottom-color: #f44336;
+}
+
+.abstract section:nth-of-type(3) p
+{
+    border-bottom-color: #ff9800;
+}
+
+.abstract section ul
+{
+    padding: 0;
+}
+
+.abstract section ul li
+{
+    list-style-type: none;
+    margin: 20px 0;
+    font-size: 14px;
+}
+/*End Abstract*/
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+footer
+{
+    text-align: right;
+    font-weight: 700;
+    padding: 20px 20px 10px;
+}
+
+footer span
+{
+    text-decoration: underline;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+    
+        <meta charset="utf-8"/>
+        <meta name="description" content="A sign-in and sign-up page with animation"/>
+        <title>Sign-in-up Page</title>
+        <link rel="icon" href="images/mainicon.png"/>
+        <link rel="stylesheet" href="css/global/normalize.css"/>
+        <link rel="stylesheet" href="css/global/global.css"/>
+        <link rel="stylesheet" href="css/mobile/mobile1.css"/>
+        <link rel="stylesheet" href="css/mobile/mobile2.css"/>
+        <link rel="stylesheet" href="css/screens/screens%201.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Catamaran&family=Ubuntu&display=swap" rel="stylesheet"/>
+        
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.min.js"></script>
+        <![end if]-->
+           
+    </head>
+    
+    <body>
+        
+        <nav class="fullcontainer trans_second">
+            
+            <div class="container trans_second">
+                <!--Start Main Buttons-->
+                <nav>
+                    <div id="left" class="swapbutton trans_half_second textselect boxshadowinleft" onclick="swap(0)"> Sign In </div>
+
+                    <div id="right" class="swapbutton trans_half_second textselect"  onclick="swap(1)"> Sign Up </div>
+                </nav>
+                <!--End Main Buttons-->
+
+                <!---------------------------------------------------------------------------------------------------->
+
+                <!--Start Sign in-->
+                <section id="signin" class="trans_second">
+
+                    <h1>Sign In Our Site</h1>
+
+                    <div class="images">
+
+                        <nav class="trans_half_second scale boxshadow">
+                            <a href="#"> <img src="images/facebook1.png" alt="facebook logo"/> </a>
+                        </nav>
+
+                        <nav class="trans_half_second scale boxshadow">
+                            <a href="#"> <img src="images/gmail1.png" alt="gmail logo"/> </a>
+                        </nav>
+
+                        <nav class="trans_half_second scale boxshadow">
+                            <a href="#"> <img src="images/linkedin1.png" alt="linkedin logo"/> </a>
+                        </nav>
+
+                    </div>
+
+                    <span>or use your email account.</span>
+
+                    <!-------------------------------------------------------------------->
+
+                    <form class="enter">
+
+                        <div>
+                            <input id="mail1" class="textinput" type="email" name="email" placeholder= "Email" required/>
+                            <img src="images/mail.png" alt="mail box" class="textselect">
+                        </div>
+
+                        <div>
+                            <input id="pass1" class="textinput" type="password" name="password" placeholder= "Password" required/>
+                            <img src="images/lock.png" alt="mail box" class="textselect">
+                            <span id="showpass1" class="trans_half_second scale textselect" onclick="password(0)">Show</span>
+                        </div>
+
+                        <div>
+                            <p class="trans_half_second scale textselect">Forget your password ?</p>
+
+                            <input class="trans_half_second scale boxshadow textselect" type="submit" name="submit" value="SIGN IN"/>
+                        </div>
+
+                    </form>
+
+                </section>
+                <!--Start Sign in-->
+
+                <!---------------------------------------------------------------------------------------------------->
+
+                <!--Start Sign up-->
+                <section id="signup" class="trans_second">
+
+                    <h1>Create Account</h1>
+
+                    <div class="images">
+                        <nav class="trans_half_second scale boxshadow">
+                            <a href="#"> <img src="images/facebook1.png" alt="facebook logo"/> </a>
+                        </nav>
+
+                        <nav class="trans_half_second scale boxshadow">
+                            <a href="#"> <img src="images/gmail1.png" alt="gmail logo"/> </a>
+                        </nav>
+
+                        <nav class="trans_half_second scale boxshadow">
+                            <a href="#"> <img src="images/linkedin1.png" alt="linkedin logo"/> </a>
+                        </nav>
+                    </div>
+
+                    <span>or use your email account.</span>
+
+                    <!-------------------------------------------------------------------->
+
+                    <form class="enter">
+
+                        <div>
+                            <input id="user" class="textinput" type="text" name="fullname" placeholder= "Full Name" required/>
+                            <img src="images/user.png" alt="user image" class="textselect">
+                        </div>
+
+                        <div>
+                            <input id="mail2" class="textinput" type="email" name="email" placeholder= "Email" required/>
+                            <img src="images/mail.png" alt="mail box" class="textselect">
+                        </div>
+
+                        <div>
+                            <input id="pass2" class="textinput" type="password" name="password" placeholder= "Password" required/>
+                            <img src="images/lock.png" alt="mail box" class="textselect">
+                            <span id="showpass2" class="trans_half_second scale textselect" onclick="password(1)">Show</span>
+                        </div>
+                        <div>
+                            <input class="trans_half_second scale boxshadow textselect" type="submit" name="submit" value="SIGN UP"/>
+                        </div>
+
+                    </form>
+
+                </section>
+                <!--End Sign up-->
+
+            </div>
+            
+            <!------------------------------------------------------------------------------------------------>
+            
+            <div id="welcome">
+                <nav>
+                    <section class="trans_second">
+                        <h1>Hello, Friend !</h1>
+                        <p>Enter your personnal details and start journey with us.</p>
+                        <div id="signupscreen" class="trans_half_second scale boxshadow" onclick="swap(1)">
+                            SIGN UP
+                        </div>
+                    </section>
+                    
+                    <section class="trans_second">
+                        <h1>Welcome Back !</h1>
+                        <p>To Keep connected with us please login with your personal info.</p>
+                        <div id="signinscreen" class="trans_half_second scale boxshadow" onclick="swap(0)">
+                            SIGN IN
+                        </div>
+                    </section>
+                </nav>
+            </div>
+        </nav>
+        
+        <script src="js/script1.js"></script>
+    </body>
+
+</html>

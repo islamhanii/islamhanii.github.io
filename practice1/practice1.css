@@ -1,0 +1,420 @@
+/*start css code decoration*/
+
+html,body,h1,h2,h3,h4,h5,h6
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    transition: .05s;
+}
+.co-one
+{
+    color:#E8491D;
+}
+.co-two
+{
+    color: white;
+}
+.co-three
+{
+    color: 
+}
+.co-one, a.active
+{
+    color:#E8491D;
+}
+.bg-one
+{
+ background-color:  #35424A;  
+}
+.bg-two
+{
+ background-color:    
+}
+.gap-h
+{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+/*end css code decoration*/
+
+
+/*start code css section1*/
+#section1
+{
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-image: url(download.jfif);
+}
+#section1 section
+{
+    padding: 140px;
+    text-align: center;
+    background-color: rgba(2,2,2,0.5);
+}
+#section1 section h1
+{
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: 'Merriweather', serif;
+}
+#section1 section button
+{
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(2,2,2,0.5);
+    border: 0;
+}
+#section1 section button:hover
+{
+    background-color:gray;
+}
+/*end code css section1*/
+
+/*start css code header*/   
+
+header
+{
+    margin-top: -20px;
+    align-items: center;    
+    display: flex !important;
+    height: 75px;
+    justify-content: space-between;
+    border-bottom: 5px solid #E8491D
+}
+header nav
+{
+    justify-content: space-between
+}
+header nav ul
+{
+    list-style-type: none;
+    display: flex;
+    
+}
+header nav ul li
+{
+    margin-right: 25px;
+}
+header nav ul li a
+{
+    text-decoration: none;
+    
+}
+header nav ul li a:hover
+{
+    color: #E8491D;
+    text-decoration: none;
+}
+
+/*end css code header*/
+
+/*start css code section2*/
+.section2
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+   
+}
+.section2 .box
+{
+    margin-left: 20px;  
+    transition: 0.5s;
+    margin: 20px;
+   
+}
+.section2 .box h2
+{
+    
+    padding-top: 20px;
+}
+/*end code css section2*/
+
+/*start code css section3*/
+.section3
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+.section3 .img  
+ {
+    width: 50%;
+    padding:10px;
+    
+}
+
+.section3 .img img
+{
+    height: 100%;
+    width: 90%;
+}
+.section3 .text
+{
+    background-color: #ccc;
+    width: 50%;
+    text-align: justify;
+    padding: 20px;
+    
+}
+ .section3 .text h2
+{
+    font-size: 30px;
+}
+.section3 .text .icons
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.section3 .text .icons .box
+{
+    padding: 10px;
+}
+/*end code css section3*/
+
+/*start code css section4*/
+.section4
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+.section4 .text
+{
+    width: 50%;
+    text-align: justify;
+    padding: 20px;
+    
+}
+.section4 .text button
+{
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(2,2,2,0.5);
+    border: 0;
+    color: white;
+}
+.section4 .text button:hover
+{
+    background-color:green;
+}
+ .section4 .text h2
+{
+    font-size: 30px;
+}
+.section4 .progress1
+{
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 100%;
+    display: block;
+}
+
+/*end code css section4*/
+
+
+/*start code css section5*/
+
+.section5 
+{
+    text-align: center;
+    background-color: #ccc;
+    padding: 50px;
+    
+}
+.section5 .text button
+{
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(2,2,2,0.1);
+    border: 0;
+    color: blue;
+}
+.section5 .text button:hover
+{
+    background-color:green;
+    color: white;
+}
+
+/*end code css section5*/
+
+
+/*start code css section6*/
+.section6
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+    border-bottom: 1px solid gray;
+}
+.section6 .text
+{
+    width: 50%;
+    text-align: justify;
+    padding: 20px;
+}
+.section6 .text2 .box1
+{
+    border-bottom: 1px solid gray;
+    height: auto;
+}
+.section6 .text2 .box1 .p
+{
+    margin-right: 450px;
+    background-color: green;
+    width: 45px;
+}
+.section6 .text2 .box2
+{
+    border-bottom: 1px solid gray;
+    height: auto;
+}
+.section6 .text2 .box2 .p
+{
+    margin-right: 450px;
+    background-color: green;
+    width: 45px;
+}
+
+/*end code css section6*/
+
+/*start code css section7*/
+.section7
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    margin-bottom: 0;
+}
+.section7 .text
+{
+    width: 50%;
+    text-align: justify;
+    padding: 20px;
+}
+.section7 .text2 .box1
+{
+    border-bottom: 1px solid gray;
+    height: auto;
+}
+.section7 .text2 .box1 .p
+{
+    margin-right: 450px;
+    background-color: green;
+    width: 45px;
+}
+.section7 .text2 .box2
+{
+    border-bottom: 1px solid gray;
+    height: auto;
+}
+.section7 .text2 .box2 .p
+{
+    margin-right: 450px;
+    background-color: green;
+    width: 45px;
+}
+
+/*end code css section7*/
+
+
+
+/*start code css section8*/
+
+.section8
+{
+    text-align: center;
+    background-color: rgba(2,2,2,0.05);
+    padding: 50px;
+}
+
+/*end code css section8*/
+
+/*start code css section9*/
+
+.section9
+{
+    text-align: center;
+    padding: 50px;
+}
+.section9 .picture
+{
+     display: grid;
+    grid-template-columns: auto auto auto;
+    
+   
+}
+.section9 .picture .box
+{
+    transition: 0.5s;
+   
+}
+.section9 .picture .box img
+{
+    width: 350px;
+    padding-top: 20px;
+    box-shadow: 3px 3px 10px grey;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.section9 .box img:hover
+{
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transform: rotateY(180deg);
+}
+
+/*end code css section9*/
+
+
+/*start code css section10*/
+
+.section10
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+.section10 .text b
+{
+    color: white;
+}
+.section10 .form  
+ {
+    width: 50%;
+    padding:10px;
+    
+}
+.section10 .form button
+{
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(2,2,2,0.1);
+    border: 0
+    color:blue;
+}
+.section10 .form button:hover
+{
+    background-color:green;
+    color: white;
+}
+/*end code css section10*/

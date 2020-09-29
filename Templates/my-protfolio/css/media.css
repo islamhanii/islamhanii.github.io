@@ -1,0 +1,22 @@
+@media screen and (max-width:820px)
+{
+    .grid-container
+    {
+        grid-template-columns: 100%;
+        grid-template-rows: minmax(600px,auto) auto;
+        grid-template-areas: 
+            "aside"
+            "nav1"
+            "nav2";
+    }
+    
+    aside
+    {
+        margin-bottom: 20px;
+    }
+    
+    .grid-container nav
+    {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="This Page describes All what i learn about html and css and javaScript"/>
+        <title>References</title>
+        <link rel="icon" href="../images/pageLogo.png"/>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Fredoka+One&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        
+        <link rel="stylesheet" href="../css/loading.css"/>
+        <link rel="stylesheet" href="../css/normalize.css"/>
+        <link rel="stylesheet" href="../css/global-main.css"/>
+        <link rel="stylesheet" href="../css/header.css"/>
+        <link rel="stylesheet" href="../css/content.css"/>
+        <link rel="stylesheet" href="../css/up-footer-image.css"/>
+        <link rel="stylesheet" href="../css/media.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.min.js"></script>
+        <![end if]-->
+        
+    </head>
+    
+    <body>
+        
+        <div id="loading">
+            <div>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <!--Start Header-->
+        <header id="header">
+            
+            <div id="up-header">
+                <div>
+                    <a href="index.html">
+                        <img src="../images/pageLogo.png" alt="Page Logo"/>
+                        <span>References</span>
+                    </a>
+                </div>
+
+                <ul>
+                    <a href="../html-page/index.html">    <li>HTML</li>       </a>
+                    <a href="../css-page/index.html">     <li>CSS</li>        </a>
+                    <a href="../javascript-page/index.html">  <li>JavaScript</li> </a>
+                </ul>
+
+                <button id="list-button" class="transition1_2">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+            
+            <header id="down-header">
+
+                <ul>
+                    <a href="../html-page/index.html">    <li>HTML</li>       </a>
+                    <a href="../css-page/index.html">     <li>CSS</li>        </a>
+                    <a href="../javascript-page/index.html">  <li>JavaScript</li> </a>
+                </ul>
+
+            </header>
+        </header>
+        <!--End Header-->
+        
+        <div class="fullcontainer">
+            
+            <main>This Page Describes All I Learn About HTML</main>
+            
+            <!--Start Content-->
+            
+            <div class="content">
+                
+                <!--Start HTML-->
+                <section id="main">
+                    
+                    <header>
+                        <img src="images/html5.png" alt="HTML5 image"/>
+                        <h1 id="html5">HTML 5</h1>
+                    </header>
+                    
+                    <select id="elements" name="elements" onchange="elements()">
+                        <option value="All">All</option>
+                        <option value="Head">Head</option>
+                        <option value="Inline">Inline</option>
+                        <option value="Block">Block</option>
+                    </select>
+                    
+                    <div id="second" onchange="elements2()"></div>
+                    
+                    <nav>
+                        
+                        <article>
+                            <span>Meta</span>
+                            <div> Head </div>
+                            <p>
+                                <span>&lt;meta <object>charset name content ...</object>/&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Title</span>
+                            <div> Head </div>
+                            <p>
+                                <span>&lt;title&gt; <object>Title-name</object> &lt;/title&gt;</span><br/>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Link</span>
+                            <div> Head </div>
+                            <p>
+                                <span>&lt;link <object>rel href</object>/&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Script</span>
+                            <div> Head </div>
+                            <p>
+                                <span>&lt;script <object>src</object>&gt;&lt;/script&gt;</span><br/>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Header</span>
+                            <div> Block </div>
+                            <p>
+                                <span>&lt;hn&gt; <object>Header</object> &lt;/hn&gt;</span><br/>
+                                Where 1 &lt;&#61; n &lt;&#61; 6
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Paragraph</span>
+                            <div> Block </div>
+                            <p>
+                                <span>&lt;p&gt; <object>Span P</object> &lt;/p&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Span</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>&lt;span&gt; <object>Span</object> &lt;/span&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Div</span>
+                            <div> Block </div>
+                            <p>
+                                <span>&lt;div&gt; <object>p span div nav ...</object> &lt;/div&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Nav</span>
+                            <div> Block </div>
+                            <p>
+                                <span>&lt;nav&gt; <object>p span div nav ...</object> &lt;/nav&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Article</span>
+                            <div> Block </div>
+                            <p>
+                                <span>&lt;article&gt; <object>p span div nav ...</object> &lt;/article&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Section</span>
+                            <div> Block </div>
+                            <p>
+                                <span>&lt;section&gt; <object>p span div nav ...</object> &lt;/section&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Anchor</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>&lt;a <object>href target</object>&gt; <object>link-name</object> &lt;/a&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Aside</span>
+                            <div> Block </div>
+                            <p>
+                                <span>&lt;aside&gt; <object>p span div nav ...</object> &lt;/aside&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Details</span>
+                            <div> Block </div>
+                            <p>
+                                <span>&lt;details&gt; <object>summary p span div nav ...</object> &lt;/details&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Summary</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>&lt;summary&gt; <object>details-name</object> &lt;/summary&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Figure</span>
+                            <div> Block </div>
+                            <p>
+                                <span>&lt;figure&gt; <object>img figcaption</object> &lt;/figure&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Image</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>&lt;img <object>src alt name</object> /&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Figure Caption</span>
+                            <div> Block </div>
+                            <p>
+                                <span>&lt;figcaption&gt; <object>figure-caption</object> &lt;/figcaption&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Header</span>
+                            <div> Block </div>
+                            <p>
+                                <span>&lt;header&gt; <object>p span div nav ...</object> &lt;/header&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Footer</span>
+                            <div> Block </div>
+                            <p>
+                                <span>&lt;footer&gt; <object>p span div nav ...</object> &lt;/footer&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Ordered List</span>
+                            <div> Block </div>
+                            <p>
+                                <span>&lt;ol&gt; <object>p span li a img...</object> &lt;/ol&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Unordered List</span>
+                            <div> Block </div>
+                            <p>
+                                <span>&lt;ul&gt; <object>p span li a img...</object> &lt;/ul&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>List Item</span>
+                            <div> Block </div>
+                            <p>
+                                <span>&lt;li&gt; <object>p span a img...</object> &lt;/li&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Abbr</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>&lt;abbr <object>title</object>&gt; <object>Text-value</object> &lt;/li&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Button</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>&lt;button&gt; <object>Text-value</object> &lt;/button&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Canvas</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>&lt;canvas&gt; <object>Work from js</object> &lt;/canvas&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Data List</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>&lt;datalist&gt; <object>option</object> &lt;/datalist&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Select</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>&lt;select&gt; <object>option</object> &lt;/select&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Option</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>&lt;option&gt; <object>option-name</object> &lt;/option&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Ifarme</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>&lt;iframe <object>src</object>&gt;&lt;/iframe&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Output</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>&lt;output&gt;<object>Output-value</object> &lt;/output&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Label</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>&lt;label&gt;<object>Label-value</object> &lt;/label&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Object</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>&lt;object&gt;<object>object-value</object> &lt;/object&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Meter</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>&lt;meter <object>low high optimum value</object>&gt;&lt;/meter&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Progress</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>&lt;progress <object>max value</object>&gt;&lt;/progress&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Text Area</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>&lt;textarea <object>placeholder</object>&gt;&lt;/textarea&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Sub and Sup</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>&lt;sub&gt; <object>sub-value</object> &lt;/sub&gt;</span> <br>
+                                <span>&lt;sup&gt; <object>sup-value</object> &lt;/sup&gt;</span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Input</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>
+                                    &lt;input <object>type value placeholder required multiple formnovalidate formaction 
+                                    formmethod formtarget disabled</object>/&gt;
+                                </span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Audio</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>
+                                    &lt;audio <object>controls loop preload</object>&gt;<br/>
+                                    &lt;source <object>src=".ogg" type="audio/ogg"</object> /&gt;<br/>
+                                    &lt;source <object>src=".mp3" type="audio/mpeg"</object> /&gt;<br/>
+                                    <object>Text-error-message</object> <br/>
+                                    &lt;/audio&gt;
+                                </span>
+                            </p>
+                        </article>
+                        
+                        <article>
+                            <span>Video</span>
+                            <div> Inline </div>
+                            <p>
+                                <span>
+                                    &lt;video <object>controls loop preload poster</object>&gt;<br/>
+                                    &lt;source <object>src=".ogg" type="video/ogg"</object> /&gt;<br/>
+                                    &lt;source <object>src=".mp4" type="video/mp4"</object> /&gt;<br/>
+                                    &lt;source <object>src=".webm" type="video/webm"</object> /&gt;<br/>
+                                    &lt;track <object>src=".vtt" kind srclang label</object> /&gt;<br/>
+                                    <object>Text-error-message</object> <br/>
+                                    &lt;/video&gt;
+                                </span>
+                            </p>
+                        </article>
+                        
+                    </nav>
+                    
+                </section>
+                <!--End HTML-->
+                
+            </div>
+            
+            <!--End Content-->
+            
+        </div>
+        
+        <nav id="goUp">
+            <i class="fa fa-chevron-circle-up" title="up"></i>
+        </nav>
+        
+        <footer id="footer">
+            <p>Find Me On Social Media</p>
+            
+            <div>
+                <a href="https://www.facebook.com/eslam.hany.752" target="_blank">
+                    <i class="fa fa-facebook-square" title="facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/islamhani10/" target="_blank">
+                    <i class="fa fa-instagram" title="instagram"></i>
+                </a>
+                <a href="https://twitter.com/islamha58723976" target="_blank">
+                    <i class="fa fa-twitter-square" title="twitter"></i>
+                </a>
+                <a href="https://github.com/islamhanii" target="_blank">
+                    <i class="fa fa-github-square" title="github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/islam-hani-2572131ab/" target="_blank">
+                    <i class="fa fa-linkedin-square"  title="linkedin"></i>
+                </a>
+            </div>
+            
+            <p>Copyrights &copy; Islam Hani 2020</p>
+        </footer>
+        
+        <script src="../js/script1.js"></script>
+    </body>
+</html>

@@ -1,0 +1,113 @@
+/*  start media query section3 for 900px*/
+
+
+@media screen and (max-width:900px)
+{
+    .section3
+{
+     display: grid;
+    grid-template-columns: auto auto;
+}
+}
+
+
+/*  end media query section3 for 900px*/
+
+
+
+/*  start media query html for 762px*/
+
+
+@media screen and (max-width:762px)
+{
+/* start haeder*/
+    header h2
+    {
+        border-bottom: 2px solid white;
+        padding-bottom: 10px;
+    }
+    header
+    {
+        padding-top: 10px;
+        display: flex;
+        height: auto;
+        justify-content: center;
+        flex-direction: column
+    }
+    
+/* end haeder*/
+    
+    
+/* start section1 */
+    
+    #back section ,#back section 
+{
+    padding: 100px;
+    text-align: center;
+    background-color: rgba(2,2,2,0.5);
+    padding: 50px 30px;
+}
+#back section h1
+{
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-family: 'Merriweather', serif;
+    
+}
+#back section p
+{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+    
+/* end section1 */
+    
+    
+    
+/* start section3 */
+    .section3
+{
+     display: grid;
+    grid-template-columns:auto; 
+}
+    /*section4*/
+    .div1
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    .div form
+    {
+        text-align: center;
+    }
+    
+    
+/* end section3 */
+
+    
+/* start section4 */    
+    
+
+    .section4
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    .section4 .text
+    {
+        width: 100%;
+    }
+    .section4 .img
+    {
+        width: 100%
+    }
+}
+
+/* end section4 */
+
+
+
+
+/*  end media query html for 762px*/
+
