@@ -1,0 +1,31 @@
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.carousel-indicators .active,
+#gear-button {
+    background-color: #ff1e56;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus,
+.about h1 span,
+.testimonials .carousel-inner .item span,
+.footer h3,
+.footer .copyright span,
+#go-up i {
+    color: #ff1e56;
+}
+
+.tool-box .color-option,
+#gear-button,
+.dropdown-menu,
+.carousel-indicators .active,
+.testimonials .carousel-indicators li.active {
+    border-color: #ff1e56;
+}
+
+.dropdown-menu .divider {
+    background-color: #8e1130;
+}
