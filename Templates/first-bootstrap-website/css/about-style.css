@@ -1,0 +1,38 @@
+.bread-holder {background-color: #f5f5f5;}
+
+.bread-holder .breadcrumb {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.about-us {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-height: 65.6vh;
+}
+
+.about-us img {
+    margin-top: 20px;
+    background-color: #d85f04;
+}
+
+.about-features {
+    background-color: #eee;
+    padding-top: 40px;
+}
+
+.about-features div[class*="col"] {margin-bottom: 40px;}
+
+.about-features h1 {margin-bottom: 40px;}
+
+.about-ceo {padding-top: 40px;}
+
+.about-ceo .text {margin-bottom: 40px;}
+
+.about-ceo .btn-primary,
+.about-ceo .btn-primary:hover,
+.about-ceo .btn-primary:focus {
+    background-color: #333;
+    border-color: #333;
+    outline: none;
+}

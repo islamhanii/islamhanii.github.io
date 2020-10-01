@@ -27,11 +27,3 @@
 @media (min-width: 1200px) {
     
 }
-
-
-/*Special Screen*/
-@media (max-width: 1199px) {
-    .footer .images{
-        text-align: center;
-    }
-}
