@@ -1,0 +1,33 @@
+.bread-holder {background-color: #f5f5f5;}
+
+.bread-holder .breadcrumb {
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+
+.faq {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-height: 86.2vh;
+}
+
+.faq-questions {
+    padding-top: 40px;
+}
+
+.faq-questions .panel-heading a {
+    font-weight: bold;
+}
+
+.faq-questions .panel-heading a:after {
+    content: '\e114';
+    font-family: 'Glyphicons Halflings';
+    float: right;
+}
+
+.faq-questions .panel-heading a.collapsed:after {
+    content: '\e080';
+    color: #bbb;
+}

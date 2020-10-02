@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="css/font-awesome.min.css"/>
         <link rel="stylesheet" href="css/bootstrap.css"/>
         <link rel="stylesheet" href="css/home-about-faq-style.css"/>
-        <link rel="stylesheet" href="css/about-style.css"/>
+        <link rel="stylesheet" href="css/faq-style.css"/>
         <link rel="stylesheet" href="css/default-theme.css"/>
         
         <!--[if lt IE 9]>
@@ -63,8 +63,8 @@
                 <ul class="nav navbar-nav navbar-right">
                     
                     <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
-                    <li class="active"><a href="about.html">About</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="active"><a href="faq.html">FAQ</a></li>
                     
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
@@ -96,67 +96,89 @@
             <div class="container">
                 <ol class="breadcrumb">
                     <li><a href="index.html">Home</a></li>
-                    <li class="active">About Us</li>
+                    <li class="active">FAQ</li>
                 </ol>
             </div>
         </div>
         <!--End Breadcrumb-->
         
-        <!--Start About Us-->
-        <section class="about-us text-center">
-            <div class="container">
-                <h1><strong>About Us</strong></h1>
+        <!--Start FAQ-->
+        <section class="faq">
+            <div class="container text-center">
+                <h1><strong>Frequently Asked Questions</strong></h1>
                 <hr/>
                 <p class="lead">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.
                 </p>
-                <img class="img-thumbnail" src="images/about-us/about-us.jpeg" alt="about us"/>
             </div>
-        </section>
-        <!--End About Us-->
-        
-        <!--Start About Features-->
-        <section class="about-features text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <i class="fa fa-code fa-3x"></i>
-                        <h3><strong>We Love Coding</strong></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <i class="fa fa-child fa-3x"></i>
-                        <h3><strong>We Are Happy</strong></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <i class="fa fa-group fa-3x"></i>
-                        <h3><strong>We Are Social</strong></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.</p>
+            
+            <!--Start FAQ Accordion-->
+            <div class="faq-questions">
+                <div class="container">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">How to use Bootstrap version 3.0?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">How to use Media Queries?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">How to create your own Slider?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFour">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">How to create your own Accordion?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="panel-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <!--End FAQ Accordion-->
         </section>
-        <!--End About Features-->
+        <!--End FAQ-->
         
-        <!--Start About CEO-->
-        <section class="about-ceo">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-5">
-                        <img src="images/about-us/ceo.png"/>
-                    </div>
-                    <div class="text col-sm-7">
-                        <h2><strong>We are happy to help you</strong></h2>
-                        <p class="lead">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies.
-                        </p>
-                        <button class="btn btn-primary">Contact Us</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End About CEO-->
+        
         
         <!--Start Footer-->
         <section class="footer">
