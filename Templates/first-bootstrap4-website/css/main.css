@@ -1,0 +1,14 @@
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {text-decoration: none;}
+
+ul {padding: 0;}
+
+li {list-style-type: none;}
+
+/*ff1e56*/
