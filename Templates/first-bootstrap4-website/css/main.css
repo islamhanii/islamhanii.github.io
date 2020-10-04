@@ -1,3 +1,8 @@
+/*
+    #first-color: #08526d
+    #second-color: #ec1c23
+*/
+
 *
 {
     -webkit-box-sizing: border-box;
@@ -10,5 +15,3 @@ a {text-decoration: none;}
 ul {padding: 0;}
 
 li {list-style-type: none;}
-
-/*ff1e56*/
