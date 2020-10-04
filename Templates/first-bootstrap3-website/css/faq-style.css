@@ -5,12 +5,10 @@
     padding: 10px 0;
 }
 
-
-
 .faq {
     padding-top: 40px;
     padding-bottom: 40px;
-    min-height: 86.2vh;
+    min-height: calc(100vh - 500px);;
 }
 
 .faq-questions {
