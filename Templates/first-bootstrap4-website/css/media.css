@@ -1,0 +1,16 @@
+@media (max-width: 980px) {
+    #main-slider .slider-heading .holder {
+        justify-content: center;
+    }
+
+    #main-slider .slider-heading h1 {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 840px) {
+    #main-slider .slider-heading h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+}

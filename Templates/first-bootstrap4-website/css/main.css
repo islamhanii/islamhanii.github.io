@@ -1,17 +1,129 @@
-/*
-    #first-color: #08526d
-    #second-color: #ec1c23
-*/
+/*Start Global*/
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+/*End Global*/
 
-*
-{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+/*---------------------------------------------------------------------------------------------------------*/
+
+/*Start Upper Bar*/
+.upper-bar {
+    background-color: #08526d;
+    color: #fff;
+
+    padding: 15px;
 }
 
-a {text-decoration: none;}
+.upper-bar span {color: #bfc6c9;}
 
-ul {padding: 0;}
+.upper-bar .get-quote {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 2px 10px;
+    border: 1px solid #ec1c23;
+}
 
-li {list-style-type: none;}
+.upper-bar .row div:nth-of-type(2) {text-align: right;}
+/*End Upper Bar*/
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+/*Start Navbar*/
+.navbar .collapse {justify-content: flex-end;}
+
+.navbar .navbar-brand {font-size: 40px;}
+.navbar .navbar-brand strong {color: #08526d;}
+.navbar .navbar-brand span {
+    color: #ec1c23;
+    font-weight: normal;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: bold;
+
+    padding: 0 !important;
+    margin-left: 37px;
+
+    color: #0008;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: #ec1c23 !important;
+}
+/*End Navbar*/
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+/*Start Main Slider*/
+#main-slider {
+    min-height: 760px;
+    max-height: 760px;
+}
+
+#main-slider .carousel-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+#main-slider .carousel-item {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    height: 100%;
+}
+
+#main-slider .carousel-one {
+    background-image: url("../images/slider01.jpg");
+}
+
+#main-slider .carousel-two {
+    background-image: url("../images/slider02.jpg");
+}
+
+#main-slider .carousel-three {
+    background-image: url("../images/slider03.jpg");
+}
+
+/*--------------------------------------------------*/
+
+#main-slider .slider-heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+#main-slider .slider-heading .holder {
+    background-color: #000a;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+#main-slider .slider-heading h1 {
+    font-size: 70px;
+    color: #fff;
+    margin-left: 100px;
+    line-height: 1.5em;
+}
+
+#main-slider .slider-heading h1 span {
+    background-color: #ec1c23;
+    padding: 10px 5px;
+}
+/*End Main Slider*/
+
+#main-slider .carousel-indicators li {
+    height: 10px;
+    width: 40px;
+}
