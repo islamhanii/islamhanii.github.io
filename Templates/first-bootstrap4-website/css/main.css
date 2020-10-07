@@ -1,6 +1,13 @@
 /*Start Global*/
 body {
     font-family: 'Ubuntu', sans-serif;
+    height: 3000px;
+}
+
+button:focus {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
 }
 /*End Global*/
 
@@ -56,12 +63,11 @@ body {
 /*---------------------------------------------------------------------------------------------------------*/
 
 /*Start Main Slider*/
-#main-slider {
-    min-height: 760px;
-    max-height: 760px;
+.main-slider {
+    height: 700px;
 }
 
-#main-slider .carousel-inner {
+.main-slider .carousel-inner {
     position: absolute;
     top: 0;
     left: 0;
@@ -69,7 +75,7 @@ body {
     width: 100%;
     height: 100%;
 }
-#main-slider .carousel-item {
+.main-slider .carousel-item {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -78,21 +84,21 @@ body {
     height: 100%;
 }
 
-#main-slider .carousel-one {
+.main-slider .carousel-one {
     background-image: url("../images/slider01.jpg");
 }
 
-#main-slider .carousel-two {
+.main-slider .carousel-two {
     background-image: url("../images/slider02.jpg");
 }
 
-#main-slider .carousel-three {
+.main-slider .carousel-three {
     background-image: url("../images/slider03.jpg");
 }
 
 /*--------------------------------------------------*/
 
-#main-slider .slider-heading {
+.main-slider .slider-heading {
     position: absolute;
     top: 0;
     left: 0;
@@ -101,7 +107,7 @@ body {
     height: 100%;
 }
 
-#main-slider .slider-heading .holder {
+.main-slider .slider-heading .holder {
     background-color: #000a;
     width: 100%;
     height: 100%;
@@ -110,20 +116,146 @@ body {
     align-items: center;
 }
 
-#main-slider .slider-heading h1 {
+.main-slider .slider-heading h1 {
     font-size: 70px;
     color: #fff;
     margin-left: 100px;
     line-height: 1.5em;
 }
 
-#main-slider .slider-heading h1 span {
+.main-slider .slider-heading h1 span {
     background-color: #ec1c23;
     padding: 10px 5px;
 }
-/*End Main Slider*/
 
-#main-slider .carousel-indicators li {
+.main-slider .carousel-indicators li {
     height: 10px;
     width: 40px;
 }
+/*End Main Slider*/
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+/*Start Features*/
+.features {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.features i {
+    background-color: #ec1c23;
+    color: #fff;
+    
+    width: 58px;
+    height: 58px;
+    line-height: 60px;
+    
+    margin-bottom: 10px;
+}
+
+.features h4 {color: #08526d;}
+
+.features p {color: #989898;}
+/*End Features*/
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+/*Start Overview*/
+.overview {
+    background-color: #f0f5f7;
+    
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.overview h2 {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.overview p {
+    color: #6a6a6a;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+.overview h4 {
+    color: #8b8a8a;
+    margin-bottom: 40px;
+}
+
+.overview button {
+    background-color: #ec1c23;
+    color: #fff;
+    border-color: #ec1c23;
+    font-size: 20px;
+    font-weight: bold;
+    
+    padding: 8px 16px;
+}
+
+.overview button:hover,
+.overview button:focus {
+    background-color: #f13e44 !important;
+    border-color: #f13e44 !important;
+}
+/*End Overview*/
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+/*Start Featured Work*/
+
+.featured-work {    
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.featured-work h2 {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.featured-work p {
+    color: #6a6a6a;
+    width: 80%;
+    margin: 0 auto 25px;
+}
+
+.featured-work .choices {
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 60px;
+}
+
+.featured-work button {
+    border: 2px solid #08526d;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding: 10px 0;
+    
+    color: #08526d;
+    width: calc(95%/6);
+}
+
+.featured-work button.active,
+.featured-work button:hover {
+    border: 2px solid #ec1c23;
+    background-color: #ec1c23;
+    color: #fff;
+}
+
+/*---------------------------------------------------*/
+
+.featured-work .photos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured-work .photos img {
+    width: 25%;
+    opacity: 1;
+}
+
+/*End Featured Work*/

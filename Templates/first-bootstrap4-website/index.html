@@ -66,7 +66,7 @@
         <!--End Navbar-->
 
         <!--Start Slider-->
-        <div id="main-slider" class="carousel slide" data-ride="carousel">
+        <div class="main-slider carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#main-slider" data-slide-to="0" class="active"></li>
                 <li data-target="#main-slider" data-slide-to="1"></li>
@@ -91,9 +91,85 @@
         </div>
         <!--End Slider-->
         
+        <!--Start Features-->
+        <div class="features text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg col-md-6">
+                        <i class="fa fa-heart fa-2x rounded-circle"></i>
+                        <h4>Great Idea</h4>
+                        <p>Lorem ipsum dolor sit amet, sectetur adipisicing elit, eiusmod tempor incididunalquis nostrud exercitation</p>
+                    </div>
+                    
+                    <div class="col-lg col-md-6">
+                        <i class="fa fa-cogs fa-2x rounded-circle"></i>
+                        <h4>Quick Settings</h4>
+                        <p>Lorem ipsum dolor sit amet, sectetur adipisicing elit, eiusmod tempor incididunalquis nostrud exercitation</p>
+                    </div>
+                    
+                    <div class="col-lg col-md-6">
+                        <i class="fa fa-cloud fa-2x rounded-circle"></i>
+                        <h4>Cloud Services</h4>
+                        <p>Lorem ipsum dolor sit amet, sectetur adipisicing elit, eiusmod tempor incididunalquis nostrud exercitation</p>
+                    </div>
+                    
+                    <div class="col-lg col-md-6">
+                        <i class="fa fa-bookmark fa-2x rounded-circle"></i>
+                        <h4>Cross Dev</h4>
+                        <p>Lorem ipsum dolor sit amet, sectetur adipisicing elit, eiusmod tempor incididunalquis nostrud exercitation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Features-->
+        
+        <!--Start Overview-->
+        <div class="overview text-center">
+            <div class="container">
+                <h2 class="h1"><strong>Company Overview</strong></h2>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lvoluptatem.
+                </p>
+                <h4>Lets Start Today</h4>
+                <button class="btn btn-primary">View More</button>
+            </div>
+        </div>
+        <!--End Overview-->
+        
+        <!--Start Featured Work-->
+        <div class="featured-work text-center">
+            <div class="container">
+                <h2 class="h1"><strong>Featured Work</strong></h2>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lvoluptatem.
+                </p>
+                <div class="choices">
+                    <button id="all" class="btn active" onclick="choosePhotos('all')">All</button>
+                    <button id="websites" class="btn" onclick="choosePhotos('websites')">Websites</button>
+                    <button id="logos" class="btn" onclick="choosePhotos('logos')">Logos</button>
+                    <button id="graphic" class="btn" onclick="choosePhotos('graphic')">Graphic</button>
+                    <button id="marketing" class="btn" onclick="choosePhotos('marketing')">Marketing</button>
+                    <button id="videos" class="btn" onclick="choosePhotos('videos')">Videos</button>
+                </div>
+            </div>
+            <div class="photos">
+                <img class="websites" src="images/01.jpg" alt="image 01"/>
+                <img class="logos" src="images/02.jpg" alt="image 02"/>
+                <img class="logos" src="images/03.jpg" alt="image 03"/>
+                <img class="websites" src="images/04.jpg" alt="image 04"/>
+                <img class="graphic" src="images/05.jpg" alt="image 05"/>
+                <img class="videos" src="images/06.jpg" alt="image 06"/>
+                <img class="websites" src="images/07.jpg" alt="image 07"/>
+                <img class="marketing" src="images/08.jpg" alt="image 08"/>
+            </div>
+        </div>
+        <!--End Featured Work-->
+        
         <script src="js/jquery-3.5.1.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugin.js"></script>
+        <script src="js/script1.js"></script>
     </body>
     
 </html>
