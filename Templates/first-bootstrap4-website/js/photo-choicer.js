@@ -48,14 +48,5 @@ function choosePhotos(name) {
         }
     }
 }
-/*
-function initailOpcity() {
-    "use strict";
-    let photo = document.querySelectorAll(".photos img");
-    for(let i=0; i<photo.length; i++) {
-        photo[i].style.opcity = 1;
-    }
-}
 
-window.onload = initailOpcity;*/
 window.addEventListener('laod', choosePhotos('all'));
