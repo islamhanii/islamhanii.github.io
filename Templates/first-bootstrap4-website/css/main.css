@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
 }
 
+button:focus,
 a:focus {
     -webkit-box-shadow: none !important;
     -moz-box-shadow: none !important;
