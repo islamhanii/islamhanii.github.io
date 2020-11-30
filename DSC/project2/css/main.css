@@ -89,7 +89,7 @@ h1, h2 {
 }
 
 #updates .container div article > img {
-    width: 310px;
+    width: 100%;
     height: 210px;
     border-radius: 10px;
 }
