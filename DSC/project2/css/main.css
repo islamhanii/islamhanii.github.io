@@ -51,12 +51,28 @@ h1, h2 {
 
 /*--------------------------------------------------------*/
 
-#design .container div:nth-of-type(2) {max-width: 45%;}
+#design .container div:nth-of-type(2) {
+    max-width: 45%;
+    position: relative;
+}
 
-#design .container div:nth-of-type(2) img {
+#design .container div:nth-of-type(2) img:first-of-type {
     max-width: 100%;
     height: 500px;
 }
+
+#design .container div:nth-of-type(2) img:nth-of-type(n+2) {
+    position: absolute;
+    bottom: 10px;
+    
+    width: 150px;
+    height: 175px;
+    border: 5px solid #fff;
+}
+
+#design .container div:nth-of-type(2) img:nth-of-type(2) {left: 20px;}
+#design .container div:nth-of-type(2) img:nth-of-type(3) {left: 190px;}
+#design .container div:nth-of-type(2) img:nth-of-type(4) {left: 360px;}
 /*End Design Quality*/
 
 /*----------------------------------------------------------------------------------------------------------------*/
