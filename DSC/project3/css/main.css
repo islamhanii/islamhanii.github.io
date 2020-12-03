@@ -1,0 +1,117 @@
+/*Start Global*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    padding: 0;
+    margin: 0;
+    font-family: 'Texturina', serif;
+}
+
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+}
+/*End Global*/
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/*Start Updates*/
+#updates {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#updates .container h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+
+#updates .container > div {
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#updates .container div article {
+    max-width: 360px;
+    background-color: #f8f7fd;
+    padding: 26px;
+    margin-bottom: 30px;
+}
+
+#updates .container div article:nth-of-type(n+2) {margin-left: 10px;}
+
+#updates .container div article h3 {
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+#updates .container div article > img {
+    width: 100%;
+    max-height: 205px;
+    border-radius: 10px;
+}
+
+/*-----------------------------------------------------*/
+
+#updates .personal {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#updates .personal > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#updates .personal * {
+    line-height: 3.125;
+}
+
+#updates .personal img {
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+
+#updates .personal > div:nth-of-type(1) span,
+#updates .personal > div:nth-of-type(2) div:nth-of-type(2) {
+    margin-left: 10px;
+}
+/*End Updates*/
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/*Start Responsive*/
+@media screen and (max-width: 1135px) {
+    #updates .container > div {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #updates .container div article:nth-of-type(n+2) {margin-left: 0;}
+}
+
+@media screen and (max-width: 315px) {
+    #updates .personal > div:last-of-type {
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
+/*End Responsive*/
