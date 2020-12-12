@@ -22,3 +22,23 @@ function checkAnswer(num, ques) {
         else {ques.parentElement.style.borderLeftColor = "#f00";}
     }
 }
+
+function random() {
+    let array = [];
+    let question = document.getElementsByClassName("question-box");
+    for(let i=0; i<question.length; i++) {
+        array.push(question[i].outerHTML);
+    }
+    
+    let container = question[0].parentElement;
+    container.innerHTML = "";
+    
+    while(array.length > 0) {
+        let random = Math.floor(Math.random() * array.length);
+        container.innerHTML = container.innerHTML + array[random];
+        array.splice(random, 1);
+    }
+}
+
+
+window.onload = random();
