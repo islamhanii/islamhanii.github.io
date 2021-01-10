@@ -54,8 +54,30 @@ header svg {
 
 /*------------------------------------------------------------------------------------*/
 
+#search-box {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 30px 0;
+}
+
+#search-box input {
+    width: 100%;
+    font-size: 18px;
+    padding: 8px 16px;
+    border: 2px solid #00a1ff;
+    outline: none;
+    border-radius: 5px;
+}
+
+#search-box input:focus {
+    border-width: 3px;
+}
+
+/*------------------------------------------------------------------------------------*/
+
 #questions {
     padding: 40px 0 20px;
+    min-height: calc(100vh - 200px);
 }
 
 #questions .container {
