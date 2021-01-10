@@ -139,6 +139,8 @@ header svg {
 .color-input::before,
 .finish::before {cursor: auto !important;}
 
+.correct::before {background-color: #03c603 !important;}
+
 /*------------------------------------------------------------------------------------*/
 
 footer p {font-size: 20px;}

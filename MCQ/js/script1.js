@@ -50,7 +50,10 @@ function checkAnswer(num, ques) {
         }
         
         if(num === answers[name]) {ques.parentElement.style.borderLeftColor = "#03c603";}
-        else {ques.parentElement.style.borderLeftColor = "#f00";}
+        else {
+            ques.parentElement.style.borderLeftColor = "#f00";
+            choices[answers[name]-1].classList.add("correct");
+        }
     }
 }
 
