@@ -58,7 +58,7 @@ function checkAnswer(num, ques) {
 }
 
 
-window.onload = random();
+window.onload = random;
 
 let searchWord = document.getElementById("search-box").firstElementChild;
 searchWord.onkeyup = search;
