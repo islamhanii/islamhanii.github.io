@@ -25,7 +25,7 @@ function listToggle() {
         list.style.display = "flex";
         var listo = window.setInterval(() => {
             if(hValue >= 115) {
-                list.style.height = "auto";
+                list.style.height = "116px";
                 this.classList.add("active");
                 window.clearInterval(listo);
             }
