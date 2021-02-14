@@ -1,0 +1,116 @@
+#gallery {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f2f2f2;
+}
+#gallery div {
+  width: 25%;
+  display: flex;
+  overflow: hidden;
+  cursor: pointer;
+}
+#gallery div img {
+  width: 100%;
+  -webkit-transition: 0.25s ease-in-out transform;
+  -moz-transition: 0.25s ease-in-out transform;
+  transition: 0.25s ease-in-out transform;
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01);
+  transform: scale(1.01);
+}
+#gallery div:hover img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#figure {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 57px;
+  width: calc(100% - 54px);
+  height: 100%;
+  display: none;
+  align-items: center;
+  background-color: #3335;
+}
+#figure figure {
+  display: none;
+  opacity: 0;
+  margin: auto;
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+  width: 0%;
+  max-width: 85%;
+  max-height: 90vh;
+}
+#figure figure img {
+  width: 100%;
+  max-height: calc(90vh - 70px);
+}
+#figure figure figcaption {
+  font-size: 14px;
+  color: #444;
+  text-align: center;
+  padding: 15px 0;
+}
+#figure figure span {
+  cursor: pointer;
+  background-color: #222;
+  color: #fff;
+  padding: 8px 16px;
+  position: absolute;
+  top: 0;
+  right: -45px;
+}
+#figure .lds-dual-ring {
+  background-color: #0d1217;
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  margin: auto;
+}
+#figure .lds-dual-ring::after {
+  margin: 10px;
+}
+
+@media screen and (max-width: 968px) {
+  #gallery div {
+    width: calc(100%/3);
+  }
+}
+@media screen and (max-width: 768px) {
+  #gallery div {
+    width: 50%;
+  }
+
+  #selectors {
+    flex-direction: column;
+  }
+
+  #selectors h1 {
+    margin-bottom: 25px;
+  }
+
+  #selectors button {
+    margin: 0 0 8px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 540px) {
+  #gallery div {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=gallery-box.css.map */

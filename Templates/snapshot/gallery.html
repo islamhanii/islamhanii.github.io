@@ -1,191 +1,169 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 
 <html lang="en">
 
     <head>
         <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta name="description" content=""/>
-        <title>Gallery - Snapshot</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+        <meta name="description" content="this page contains some photos shoted by me"/>
         
-        <link rel="icon" href=""/>
-        <link rel="stylesheet" href="css/font-awesome.min.css"/>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/normalize.css"/>
+        <title>Gallery - Snapshot</title>
+        <link rel="icon" href="images/icon.png"/>
+        
+        <link rel="stylesheet" href="css/icons.css"/>
         <link rel="stylesheet" href="css/global.css"/>
-        <link rel="stylesheet" href="css/photos.css"/>
         <link rel="stylesheet" href="css/gallery.css"/>
-        <link rel="stylesheet" href="css/media.css"/>
-        <!--[if lt IE 9]>
-            <script src="js/html5shiv.min.js"></script>
-        <![end if]-->
+        <link rel="stylesheet" href="css/gallery-box.css"/>
+        <link rel="stylesheet" href="css/animate.css"/>
     </head>
 
     <body>
-        <div id="full-container">
-            <header id="header">
+        <header id="header">
+            <nav id="left-navbar">
                 <ul>
-                    <li>
-                        <a href="index.html" class="header-icons fa fa-home" title="Home"></a>
-                    </li>
-                    <li>
-                        <a href="gallery.html" class="header-icons active fa fa-camera-retro" title="Gallery"></a>
-                    </li>
-                    <li>
-                        <a href="generic.html" class="header-icons fa fa-file-text-o" title="Generic"></a>
-                    </li>
+                    <li><a class="i-home i-xl" title="Home" href="index.html"></a></li>
+                    <li><a class="i-camera-retro active i-xl" title="Gallery"></a></li>
+                    <li><a class="i-file-alt i-xl2" title="Generic" href="generic.html"></a></li>
                 </ul>
-            </header>
-
-            <nav id="main">
-                
-                <header id="by">
-                    <span>Snapshot by TEMPLATED</span>
-                </header>
-                
-                <section>
-                    <div id="selectors">
-                        <h1>Gallery</h1>
-                        <div class="button">
-                            <button id="all" class="active" onclick="selecting('all')">All</button>
-                            <button id="people" onclick="selecting('people')">People</button>
-                            <button id="places" onclick="selecting('places')">Places</button>
-                            <button id="things" onclick="selecting('things')">Things</button>
-                        </div>
-                    </div>
-                    
-                    <div id="gallery">
-                        <div id="photos" class="photos">
-                            <nav class="people">
-                                <img src="images/thumbs/01.jpg" alt="Gallery1" onclick="showFigure('01')"/>
-                            </nav>
-
-                            <nav class="places">
-                                <img src="images/thumbs/05.jpg" alt="Gallery2" onclick="showFigure('05')"/>
-                            </nav>
-
-                            <nav class="things">
-                                <img src="images/thumbs/09.jpg" alt="Gallery3" onclick="showFigure('09')"/>
-                            </nav>
-
-                            <nav class="people">
-                                <img src="images/thumbs/02.jpg" alt="Gallery4" onclick="showFigure('02')"/>
-                            </nav>
-
-                            <nav class="places">
-                                <img src="images/thumbs/06.jpg" alt="Gallery5" onclick="showFigure('06')"/>
-                            </nav>
-
-                            <nav class="things">
-                                <img src="images/thumbs/10.jpg" alt="Gallery6" onclick="showFigure('10')"/>
-                            </nav>
-
-                            <nav class="people">
-                                <img src="images/thumbs/03.jpg" alt="Gallery7" onclick="showFigure('03')"/>
-                            </nav>
-
-                            <nav class="places">
-                                <img src="images/thumbs/07.jpg" alt="Gallery8" onclick="showFigure('07')"/>
-                            </nav>
-
-                            <nav class="things">
-                                <img src="images/thumbs/11.jpg" alt="Gallery5" onclick="showFigure('11')"/>
-                            </nav>
-
-                            <nav class="people">
-                                <img src="images/thumbs/04.jpg" alt="Gallery6" onclick="showFigure('04')"/>
-                            </nav>
-
-                            <nav class="places">
-                                <img src="images/thumbs/08.jpg" alt="Gallery7" onclick="showFigure('08')"/>
-                            </nav>
-
-                            <nav class="things">
-                                <img src="images/thumbs/12.jpg" alt="Gallery8" onclick="showFigure('12')"/>
-                            </nav>
-                        </div>
-                    </div>
-                </section>
-                
-                <footer id="full-footer">
-                    <footer id="upper-footer">
-                        <div id="about-me">
-                            <h3>About Me</h3>
-                            <p>
-                                Mus sed interdum nunc dictum rutrum scelerisque erat a parturient condimentum potenti dapibus vestibulum condimentum per tristique porta. Torquent a ut consectetur a vel ullamcorper a commodo a mattis ipsum class quam sed eros vestibulum quisque a eu nulla scelerisque a elementum vestibulum.
-                            </p>
-                            <p>
-                                Aliquet dolor ultricies sem rhoncus dolor ullamcorper pharetra dis condimentum ullamcorper rutrum vehicula id nisi vel aptent orci litora hendrerit penatibus erat ad sit. In a semper velit eleifend a viverra adipiscing a phasellus urna praesent parturient integer ultrices montes parturient suscipit posuere quis aenean. Parturient euismod ultricies commodo arcu elementum suspendisse id dictumst at ut vestibulum conubia quisque a himenaeos dictum proin dis purus integer mollis parturient eros scelerisque dis libero parturient magnis.
-                            </p>
-                            <h3>Follow Me</h3>
-                            
-                            <ul>
-                                <li>
-                                    <a href="https://twitter.com/islamha58723976" class="fa fa-twitter" title="Twitter"></a>
-                                </li>
-                                
-                                <li>
-                                    <a href="https://www.facebook.com/eslam.hany.752" class="fa fa-facebook" title="Facebook"></a>
-                                </li>
-                                
-                                <li>
-                                    <a href="https://www.instagram.com/islamhani10/" class="fa fa-instagram" title="Instagram"></a>
-                                </li>
-                                
-                                <li>
-                                    <a href="https://www.linkedin.com/in/islam-hani-2572131ab/" class="fa fa-linkedin" title="Linkedin"></a>
-                                </li>
-                            </ul>
-                        </div>
-                        
-                        <div id="contact-us">
-                            <h3>Get in Touch</h3>
-                            
-                            <form>
-                                
-                                <div>
-                                    <label>Name</label>
-                                    <input type="text" placeholder="Name"/>
-                                </div>
-                                
-                                <div>
-                                    <label>Email</label>
-                                    <input type="email" placeholder="Email"/>
-                                </div>
-                                
-                                <div>
-                                    <label>Message</label>
-                                    <textarea placeholder="Message" rows="6"></textarea>
-                                </div>
-                                
-                                <div class="button">
-                                    <button>Send Message</button>
-                                </div>
-                                
-                            </form>
-                        </div>
-                    </footer>
-                    
-                    <footer id="lower-footer">
-                        <p>&copy; Islam Hani 2020</p>
-                    </footer>
-                </footer>
-                
-                <div id="figure">
-                    <figure id="box">
-                        <div>
-                            <img id="image" src='' alt="Figure Viewer"/>
-                        </div>
-                        
-                        <figcaption>This right here is a caption</figcaption>
-                    
-                        <span id="exit" onclick="exit()">X</span>
-                    </figure>
-                </div>
             </nav>
+            <nav id="top-navbar">
+                <div>
+                    <ul id="list-button">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>Snapshot by SOMEONE</p>
+                </div>
+                <ul id="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active">Gallery</a></li>
+                    <li><a  href="generic.html">Generic</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="new">
+            <div id="by">
+                <span>Snapshot by SOMEONE</span>
+            </div>
+
+            <div id="selectors">
+                <h1>Gallery</h1>
+                <div class="button">
+                    <button id="all" class="active" onclick="selecting('all')">All</button>
+                    <button id="people" onclick="selecting('people')">People</button>
+                    <button id="places" onclick="selecting('places')">Places</button>
+                    <button id="things" onclick="selecting('things')">Things</button>
+                </div>
+            </div>
+
+            <div id="gallery">
+                <div class="people">
+                    <img src="images/thumbs/01.jpg" alt="Gallery1" onclick="showFigure('01')"/>
+                </div>
+                <div class="people">
+                    <img src="images/thumbs/02.jpg" alt="Gallery4" onclick="showFigure('02')"/>
+                </div>
+                <div class="people">
+                    <img src="images/thumbs/03.jpg" alt="Gallery7" onclick="showFigure('03')"/>
+                </div>
+                <div class="people">
+                    <img src="images/thumbs/04.jpg" alt="Gallery6" onclick="showFigure('04')"/>
+                </div>
+                <div class="places">
+                    <img src="images/thumbs/05.jpg" alt="Gallery2" onclick="showFigure('05')"/>
+                </div>
+                <div class="places">
+                    <img src="images/thumbs/06.jpg" alt="Gallery5" onclick="showFigure('06')"/>
+                </div>
+                <div class="places">
+                    <img src="images/thumbs/07.jpg" alt="Gallery8" onclick="showFigure('07')"/>
+                </div>
+                <div class="places">
+                    <img src="images/thumbs/08.jpg" alt="Gallery7" onclick="showFigure('08')"/>
+                </div>
+                <div class="things">
+                    <img src="images/thumbs/09.jpg" alt="Gallery3" onclick="showFigure('09')"/>
+                </div>
+                <div class="things">
+                    <img src="images/thumbs/10.jpg" alt="Gallery6" onclick="showFigure('10')"/>
+                </div>
+                <div class="things">
+                    <img src="images/thumbs/11.jpg" alt="Gallery5" onclick="showFigure('11')"/>
+                </div>
+                <div class="things">
+                    <img src="images/thumbs/12.jpg" alt="Gallery8" onclick="showFigure('12')"/>
+                </div>
+            </div>
+        </div>
+
+        <footer id="full-footer">
+            <header id="upper-footer">
+                <div id="about-me">
+                    <h3>About Me</h3>
+                    <p>
+                        Mus sed interdum nunc dictum rutrum scelerisque erat a parturient condimentum potenti dapibus vestibulum condimentum per tristique porta. Torquent a ut consectetur a vel ullamcorper a commodo a mattis ipsum class quam sed eros vestibulum quisque a eu nulla scelerisque a elementum vestibulum.
+                    </p>
+                    <p>
+                        Aliquet dolor ultricies sem rhoncus dolor ullamcorper pharetra dis condimentum ullamcorper rutrum vehicula id nisi vel aptent orci litora hendrerit penatibus erat ad sit. In a semper velit eleifend a viverra adipiscing a phasellus urna praesent parturient integer ultrices montes parturient suscipit posuere quis aenean. Parturient euismod ultricies commodo arcu elementum suspendisse id dictumst at ut vestibulum conubia quisque a himenaeos dictum proin dis purus integer mollis parturient eros scelerisque dis libero parturient magnis.
+                    </p>
+                    <h3>Follow Me</h3>
+                    <ul>
+                        <li><a href="" class="i-twitter" title="Twitter"></a></li>
+                        <li><a href="" class="i-facebook" title="Facebook"></a></li>
+                        <li><a href="" class="i-instagram" title="Instagram"></a></li>                        
+                        <li><a href="" class="i-linkedin" title="Linkedin"></a></li>
+                    </ul>
+                </div>
+                
+                <div id="contact-us">
+                    <h3>Get in Touch</h3>
+                    <form>
+                        <div>
+                            <label>Name</label>
+                            <input type="text" placeholder="Name"/>
+                        </div>
+                        
+                        <div>
+                            <label>Email</label>
+                            <input type="email" placeholder="Email"/>
+                        </div>
+                        
+                        <div>
+                            <label>Message</label>
+                            <textarea placeholder="Message" rows="6"></textarea>
+                        </div>
+                        
+                        <div class="button">
+                            <button>Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </header>
+            
+            <footer id="lower-footer">
+                <p>&copy; Copyrights 2021</p>
+            </footer>
+        </footer>
+        
+        <div id="figure">
+            <figure id="box">
+                <div>
+                    <img id="image" src='' alt="Figure Viewer"/>
+                </div>
+                
+                <figcaption>This right here is a caption</figcaption>
+            
+                <span id="exit" onclick="exit()">X</span>
+            </figure>
         </div>
         
-        <script src="js/script2.js"></script>
+        <div id="loader">
+            <div class="lds-dual-ring"></div>
+        </div>
+        <script src="js/load.js"></script>
+        <script src="js/gallery.js"></script>
+        <script src="js/show-photo.js"></script>
     </body>
-    
 </html>

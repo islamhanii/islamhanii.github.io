@@ -1,86 +1,96 @@
-/*Start Welcome*/
-#welcome {
-    overflow: hidden;
-    
-    background-image: url(../images/banner.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-    position: relative;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    
-    min-height: 75vh;
-    
-    color: #eee;
-    
-    z-index: 1;
+/*Start Carosal*/
+#main {
+  background-image: url(../images/banner.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 75vh;
+}
+#main .content {
+  background-color: #000a;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#main .content div {
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  position: relative;
+}
+#main .content div h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+#main .content div p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+#main .content div button {
+  color: #fff;
+  background-color: unset;
+  border: 2px solid #56493e88;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 15px 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#main .content div button:hover {
+  background-color: #fff1;
 }
 
-#welcome::before {
-    display: block;
-    
-    content: '';
-    position: absolute;
+#new {
+  margin: 50px 0;
+}
+#new h2 {
+  font-size: 2em;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#new .button {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+#new .button a {
+  display: block;
+  margin: auto;
+}
+#new .button a button {
+  color: #fff;
+  background-color: #19B5FE;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+#new .button a button:hover {
+  background-color: #0ea7ef;
+}
+
+/*End Carosal*/
+@media screen and (max-width: 768px) {
+  #message {
+    display: none;
+  }
+
+  #new .button a {
+    width: 90%;
+  }
+  #new .button a button {
     width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: #000;
-    opacity: 0.65;
-    z-index: 2;
+  }
 }
 
-#welcome div {
-    opacity: 0;
-    visibility: hidden;
-    top: 50;
-    
-    z-index: 3;
-    position: relative;
-}
-
-#welcome div h1 {
-    margin: 0 0 0.5em 0;
-    
-    font-size: 3em;
-    font-weight: 600;
-}
-
-#welcome div p {
-    font-size: 22px;
-    margin: 0 0 1.5em 0;
-}
-
-#welcome div span {
-    cursor: pointer;
-    user-select: none;
-    
-    background: none;
-    
-    border: 2px solid #56493e88;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    
-    font-size: 20px;
-    
-    display: block;
-    width: 32%;
-    
-    line-height: 3;
-    padding: 0 36px;
-    margin: 0 auto 10px;
-    
-    -webkit-transition: background-color 0.25s ease-in-out;
-    -moz-transition: background-color 0.25s ease-in-out;
-    transition: background-color 0.25s ease-in-out;
-}
-
-#welcome div span:hover {background-color: #fff1;}
-/*End Welcome*/
+/*# sourceMappingURL=home.css.map */
