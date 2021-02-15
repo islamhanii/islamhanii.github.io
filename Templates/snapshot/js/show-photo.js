@@ -48,7 +48,7 @@ function showFigure(num) {
         ex = "open";
     }
     else {
-        window.open("images/fulls/" + num + ".jpg");
+        window.open("images/fulls/" + num + ".jpg","_top");
     }
 }
 
