@@ -59,12 +59,10 @@
   display: flex;
   justify-content: center;
 }
-#new .button button {
+#new .button a {
   display: block;
   margin: auto;
   border: none;
-}
-#new .button button a {
   color: #fff;
   background-color: #19B5FE;
   -webkit-border-radius: 5px;
@@ -75,7 +73,7 @@
   font-weight: 700;
   cursor: pointer;
 }
-#new .button button a:hover {
+#new .button a:hover {
   background-color: #0ea7ef;
 }
 
