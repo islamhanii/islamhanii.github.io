@@ -23,6 +23,18 @@ function showFigure(num) {
         figure.innerHTML += "<div id='imgloader' class='lds-dual-ring'></div>";
         figure.style.display = "flex";
 
+        if(document.getElementById("box") == undefined) {
+            figure.innerHTML += `<div id='box'>
+                                    <div>
+                                        <img id='image' alt='Figure Viewer'/>
+                                    </div>
+                                    
+                                    <p class='figcaption'>This right here is a caption</p>
+                                
+                                    <span id='exit' onclick='exit()'>X</span>
+                                </div>`;
+        }
+
         let image = document.getElementById("image"),
             path = "images/fulls/" + num + ".jpg";
 
