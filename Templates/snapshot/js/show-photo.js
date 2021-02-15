@@ -23,7 +23,7 @@ function showFigure(num) {
         figure.innerHTML += "<div id='imgloader' class='lds-dual-ring'></div>";
         figure.style.display = "flex";
 
-        if(document.getElementById("box") == undefined) {
+         if(document.getElementById("box") == undefined) {
             figure.innerHTML += `<div id='box'>
                                     <div>
                                         <img id='image' alt='Figure Viewer'/>
