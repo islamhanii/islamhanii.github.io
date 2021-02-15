@@ -104,6 +104,7 @@ body {
   background-color: #0d1217;
   color: #c0c2c5;
   padding: 8px 0;
+  font-weight: 700;
 }
 #header #top-navbar #list li a.active {
   color: #fff !important;
