@@ -81,7 +81,7 @@
   margin: auto;
 }
 #figure .lds-dual-ring::after {
-  margin: 10px;
+  margin: 12px;
 }
 
 @media screen and (max-width: 968px) {
