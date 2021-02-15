@@ -41,7 +41,7 @@
   align-items: center;
   background-color: #3335;
 }
-#figure figure {
+#figure > div {
   display: none;
   opacity: 0;
   margin: auto;
@@ -52,17 +52,17 @@
   max-width: 85%;
   max-height: 90vh;
 }
-#figure figure img {
+#figure > div img {
   width: 100%;
   max-height: calc(90vh - 70px);
 }
-#figure figure figcaption {
+#figure > div .figcaption {
   font-size: 14px;
   color: #444;
   text-align: center;
   padding: 15px 0;
 }
-#figure figure span {
+#figure > div span {
   cursor: pointer;
   background-color: #222;
   color: #fff;
