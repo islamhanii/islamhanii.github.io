@@ -30,26 +30,25 @@ h2, p {font-family: Texturina;}
 
 /*------------------------------------------------------------------------------------*/
 
-header,
-footer {
+header {
     background-color: #333;
     color: #fff;
     padding: 15px 0;
 }
 
-header .container,
-footer .container {
+header .container {
     display: flex;
     justify-content: center;
 }
 
-header h1 {
-    font-size: 2.5em;
-    letter-spacing: 3px;
+header p {
+    font-size: 20px;
 }
 header svg {
-    width: 40px;
+    width: 25px;
     padding-left: 5px;
+    position: relative;
+    bottom: -3px;
 }
 
 /*------------------------------------------------------------------------------------*/
@@ -95,6 +94,7 @@ header svg {
     margin-bottom: 20px;
     
     border-left: 5px solid #00a1ff;
+    border-right: 5px solid #00a1ff;
     border-radius: 10px;
 }
 
@@ -141,13 +141,3 @@ header svg {
 .finish::before {cursor: auto !important;}
 
 .correct::before {background-color: #03c603 !important;}
-
-/*------------------------------------------------------------------------------------*/
-
-footer p {font-size: 20px;}
-footer svg {
-    width: 25px;
-    padding-left: 5px;
-    position: relative;
-    bottom: -3px;
-}
