@@ -1,0 +1,98 @@
+.navbar {
+  color: #fff;
+  background: #21325b;
+}
+.navbar .navbar-brand {
+  font-size: 28px;
+}
+.navbar [class^="icon-"], .navbar [class*=" icon-"] {
+  color: #fff;
+}
+.navbar .search input:focus {
+  box-shadow: 0 0 0 0.25rem #1B9CFC88;
+}
+.navbar .search button {
+  border-color: #0378d1;
+  background: #0378d1;
+  font-weight: 700;
+}
+.navbar .search button:focus {
+  box-shadow: 0 0 0 0.25rem #1B9CFC88;
+}
+.navbar button:focus {
+  box-shadow: 0 0 0 0.25rem #fff8;
+}
+
+.sign {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  min-height: calc(100vh - 68px);
+  background-color: #f2f2f2;
+}
+.sign div {
+  max-width: 520px;
+}
+.sign form {
+  background-color: #fff;
+  padding: 30px 4%;
+  border: 1px solid #e4e4e4;
+  margin: 30px 20px;
+}
+.sign form h3, .sign form p {
+  text-align: center;
+}
+.sign form h3.h1, .sign form p.h1 {
+  font-weight: 400;
+  margin-top: 0;
+}
+.sign form div.google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 0;
+  background-color: unset;
+  color: #167ee6;
+  border: 1px solid #167ee6;
+}
+.sign form div.google img {
+  width: 22px;
+  margin-right: 8px;
+}
+.sign form div.google p {
+  margin: 0;
+  font-weight: 500;
+}
+.sign form button {
+  width: 100%;
+  border-radius: 0;
+}
+.sign form button[type="submit"] {
+  background-color: #21325b;
+  border: #21325b;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+.sign form .login p {
+  font-size: 15px;
+  font-weight: 500;
+}
+.sign form .login p a {
+  text-decoration: none;
+}
+
+.sign input:not([type="submit"], [type="file"]),
+.sign select {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+.sign input:not([type="submit"], [type="file"]):focus,
+.sign select:focus {
+  box-shadow: none !important;
+}
+
+/*# sourceMappingURL=sign.css.map */

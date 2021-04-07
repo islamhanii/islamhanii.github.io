@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+        <meta name="description" content=""/>
+        
+        <title>Sign Up</title>
+        
+        <link rel="icon" href="../images/logo.png"/>
+        <link rel="stylesheet" href="../css/fonts.css"/>
+        <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="../css/sign.css"/>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">OEMS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-list"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn icon-search" type="submit"></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="sign">
+            <div class=" container">
+                <form class="row g-3">
+                    <h3 class="mb-2">Sign Up In Our Community</h3>
+
+                    <div class="col-12 mb-2">
+                        <div class="btn btn-primary google" title="Google Signup">
+                            <p><img src="../images/google.png"/>SIGN UP WITH GOOGLE</p>
+                        </div>
+                    </div>
+
+                    <!--This is First Name Field-->
+                    <div class="col-12">
+                        <input type="text" name="fname" placeholder="First Name" class="form-control" id="fname" required>
+                        <div class="valid-feedback">Looks Good</div>   <!--Message for Right Input-->
+                        <div class="invalid-feedback">Please Enter valid name</div> <!--Message for Wrong Input-->
+                        <!--
+                            Add class named "is-valid" in (input Field) to display valid feedback
+                            And class named "is-invalid" in (input Field) to display invalid feedback
+                        -->
+                    </div>
+
+                    <!--This is Last Name Field-->
+                    <div class="col-12">
+                        <input type="text" name="lname" placeholder="Last Name" class="form-control" id="lname" required>
+                        <div class="valid-feedback">3</div>
+                        <div class="invalid-feedback">4</div>
+                    </div>
+
+                    <!--This is Email Field-->
+                    <div class="col-12">
+                        <input type="email" name="email" placeholder="Email" class="form-control" id="email" required>
+                        <div class="valid-feedback">5</div>
+                        <div class="invalid-feedback">6</div>
+                    </div>
+
+                    <!--This is Password Field-->
+                    <div class="col-12">
+                        <input type="password" name="password" placeholder="Password" class="form-control" id="password" required>
+                        <div class="valid-feedback">7</div>
+                        <div class="invalid-feedback">8</div>
+                    </div>
+
+                    <!--This is Sign Up As Field-->
+                    <div class="col-12">
+                        <select class="form-select" id="selector" required>
+                          <option selected disabled value="">Sign Up As</option>
+                          <option>Teacher</option>
+                          <option>Student</option>
+                        </select>
+                        <div class="valid-feedback">9</div>
+                        <div class="invalid-feedback">10</div>
+                    </div>
+
+                    <!--This is Input Image Field-->
+                    <div class="mt-4">
+                        <input class="form-control" type="file" id="formFile">
+                      </div>
+
+                    <div class="col-12 mb-1 mt-5">
+                        <button class="btn btn-primary" type="submit">NEXT</button>
+                    </div>
+                    <div class="col-12 login">
+                        <p class="lead">
+                            Already a member?
+                            <a href="../login/index.html" title="Log In">Log In</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script src="../js/popper.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+    </body>
+</html>
