@@ -25,7 +25,7 @@
 }
 
 h1,
-span {font-family: Ubuntu;}
+span, button {font-family: Ubuntu;}
 h2, p {font-family: Texturina;}
 
 /*------------------------------------------------------------------------------------*/
@@ -125,8 +125,8 @@ header svg {
     cursor: pointer;
 }
 
-.question-box div:hover input::before {
-    background-color: #00a1ff;
+.question-box div input[type="checkbox"]::before {
+    border-radius: 20%;
 }
 
 .question-box span {
@@ -135,9 +135,22 @@ header svg {
 
 .color-input::before {background-color: #00a1ff !important;}
 
-.finish::before {background-color: #e8e8e8 !important;}
-
 .color-input::before,
 .finish::before {cursor: auto !important;}
 
 .correct::before {background-color: #03c603 !important;}
+.wrong::before {background-color: #f00 !important;}
+
+
+.question-box button {
+    font-weight: 700;
+    padding: 5px 8px;
+    background-color: #5cc1fc;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.question-box button:active {
+    background-color: #30a3e6;
+}
