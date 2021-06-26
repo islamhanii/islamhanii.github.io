@@ -376,9 +376,9 @@
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">In this problem we are using an indexing approach to match a query image to a database of images. 
-                        -	Suppose we already computed a set of visual words by K-means quantization, we have a total of 10,000 visual words (w1 through w10000)
-                        -	Suppose the query image has the following visual words: W40, W50
+                    <h2 class="question">In this problem we are using an indexing approach to match a query image to a database of images.<br/> 
+                        -	Suppose we already computed a set of visual words by K-means quantization, we have a total of 10,000 visual words (w1 through w10000)<br/>
+                        -	Suppose the query image has the following visual words: W40, W50<br/>
                         -	Suppose we have 1 million images in the database, the table below shows the index containing visual words (only a portion of the table is shown), each visual word has an associated “inverse document frequency” (IDF). For each database image each image has a “term frequency” (TF) for the visual word also (given after the DB image name)
                         For the given query image, the top 3 matching database images using TF*IDF as score are:</h2>
                     <img src="images/graph4.jpg" style="max-width: 100%;"/>
@@ -596,8 +596,8 @@
                 <div class="question-box">
                     <h2 class="question">The following are the steps that are repeated during RANSAC algorithm to find most appropriate image transformation based on keypoint matches.
                         <br/>
-                        1. Sample (randomly) the number of points required to fit the model
-                        2. Score by the fraction of inliers within a preset threshold of the model
+                        1. Sample (randomly) the number of points required to fit the model<br/>
+                        2. Score by the fraction of inliers within a preset threshold of the model<br/>
                         3. Solve for model parameters using samples
                         <br/>
                         The correct order of applyibg these steps is:</h2>
@@ -682,6 +682,78 @@
                     </div>
                     <div>
                         <button onclick="correctQues(this, 'q42')">Submit</button>
+                    </div>
+                </div>
+                
+                <div class="question-box">
+                    <h2 class="question">A 2D rotation transform requires two parameters to be fully specified.</h2>
+                    <div onclick="toggleInput(this, 1)">
+                        <input type="radio" name="q43"/>
+                        <span>True</span>
+                    </div>
+                    <div onclick="toggleInput(this, 2)">
+                        <input type="radio" name="q43"/>
+                        <span>False</span>
+                    </div>
+                </div>
+                
+                <div class="question-box">
+                    <h2 class="question">SIFT is a rotation invariant descriptor.</h2>
+                    <div onclick="toggleInput(this, 1)">
+                        <input type="radio" name="q44"/>
+                        <span>True</span>
+                    </div>
+                    <div onclick="toggleInput(this, 2)">
+                        <input type="radio" name="q44"/>
+                        <span>False</span>
+                    </div>
+                </div>
+                
+                <div class="question-box">
+                    <h2 class="question">SIFT uses histogram of image intensities as a descriptor.</h2>
+                    <div onclick="toggleInput(this, 1)">
+                        <input type="radio" name="q45"/>
+                        <span>True</span>
+                    </div>
+                    <div onclick="toggleInput(this, 2)">
+                        <input type="radio" name="q45"/>
+                        <span>False</span>
+                    </div>
+                </div>
+                
+                <div class="question-box">
+                    <h2 class="question">Corners are the only type of keypoints that can be used in images.</h2>
+                    <div onclick="toggleInput(this, 1)">
+                        <input type="radio" name="q46"/>
+                        <span>True</span>
+                    </div>
+                    <div onclick="toggleInput(this, 2)">
+                        <input type="radio" name="q46"/>
+                        <span>False</span>
+                    </div>
+                </div>
+                
+                <div class="question-box">
+                    <h2 class="question">When clustering an image using color values, regions belonging to same cluster needs to be adjacent.</h2>
+                    <div onclick="toggleInput(this, 1)">
+                        <input type="radio" name="q47"/>
+                        <span>True</span>
+                    </div>
+                    <div onclick="toggleInput(this, 2)">
+                        <input type="radio" name="q47"/>
+                        <span>False</span>
+                    </div>
+                </div>
+                
+                <div class="question-box">
+                    <h2 class="question">K means will always result in the clusters independent of initialization of cluster centers.</h2>
+                    <div onclick="toggleInput(this, 1)">
+                        <input type="radio" name="q48"/>
+                        <span>True</span>
+                    </div>
+                    <div onclick="toggleInput(this, 2)">
+                        <input type="radio" name="q48"/>
+                        <span>False</span>
                     </div>
                 </div>
             </div>

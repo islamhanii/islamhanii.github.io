@@ -1,7 +1,7 @@
 /*global document, window*/
 /*jslint plusplus:true, unused:false*/
 
-var answers = {"q1":2, "q2":3, "q3":2, "q4":1, "q5":1, "q6":[1,4], "q7":1, "q8":2, "q9":2, "q10":2, "q11":1, "q12":1, "q13":2, "q14":2, "q15":1, "q16":1, "q17":2, "q18":1, "q19":2, "q20":2, "q21":2, "q22":2, "q23":1, "q24":2, "q25":1, "q26":2, "q27":1, "q28":[1,2,3], "q29":2, "q30":1, "q31":1, "q32":1, "q33":[1], "q34":2, "q35":[2], "q36":1, "q37":2, "q38":1, "q39":1, "q40":1, "q41":[1,3], "q42":[1]};
+var answers = {"q1":2, "q2":3, "q3":2, "q4":1, "q5":1, "q6":[1,4], "q7":1, "q8":2, "q9":2, "q10":2, "q11":1, "q12":1, "q13":2, "q14":2, "q15":1, "q16":1, "q17":2, "q18":1, "q19":2, "q20":2, "q21":2, "q22":2, "q23":1, "q24":2, "q25":1, "q26":2, "q27":1, "q28":[1,2,3], "q29":2, "q30":1, "q31":1, "q32":1, "q33":[1], "q34":2, "q35":[2], "q36":1, "q37":2, "q38":1, "q39":1, "q40":1, "q41":[1,3], "q42":[1], "q43":2, "q44":1, "q45":2, "q46":2, "q47":2, "q48":2};
 
 var question = document.getElementsByClassName("question");
 
@@ -55,6 +55,7 @@ function toggleInput(ques, num) {
             choices[i].disabled = true;
             choices[i].classList.add("finish");
             choices[i].parentElement.style.cursor = "auto";
+            choices[i].parentElement.removeAttribute("onclick");
         }
         if(num === answers[name]) {
             choices[num-1].classList.add("correct");
