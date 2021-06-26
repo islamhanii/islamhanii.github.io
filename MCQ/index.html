@@ -30,1802 +30,658 @@
         <section id="questions">
             <div class="container">
                 <div class="question-box">
-                    <h2 class="question">A transaction processing database relies on a multi-dimensional data model.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">If we initialize the k-means clustering algorithm with the same number of clusters but with different starting positions for the centers, the algorithm will always converge to the same solution.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q1"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q1"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">A data warehousing is essential part of the data centered DSS.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">You are using k-means clustering in color space (RGB) to segment an image. However, you notice that although pixels of similar color are indeed clustered together into the same clusters, there are many discontiguous regions because these pixels are often not directly next to each other. A possible solution to that problem:</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q2"/>
-                        <span>True</span>
+                        <span>Run K-means one more time with different cluster centers initialization</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q2"/>
-                        <span>False</span>
+                        <span>Use a different color space</span>
+                    </div>
+                    <div onclick="toggleInput(this, 3)">
+                        <input type="radio" name="q2"/>
+                        <span>Concatenate the coordinates (x, y) with the color features as input to the k-means algorithm</span>
+                    </div>
+                    <div onclick="toggleInput(this, 4)">
+                        <input type="radio" name="q2"/>
+                        <span>Debug your code carefully as this issue should not happen</span>
                     </div>
                 </div>
-                
+
                 <div class="question-box">
-                    <h2 class="question">The data mining techniques provide "foresights" to decision makers.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">Given an image containing a cat, automatically labelling the image as "containing cat" (without specifying where the cat exists in the image) is considered an object detection task.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q3"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q3"/>
                         <span>False</span>
                     </div>
                 </div>
-                
+
                 <div class="question-box">
-                    <h2 class="question">"Hindsight and insight" phases are the main functions of a model-centered DSS.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">A Gaussian pyramid is a hierarchy of images. The bottom layer is an input image. The next layer is obtained by blurring the image in the previous layer and downsampling it, and so on. They are used in many computer vision algorithms such as SIFT.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q4"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q4"/>
                         <span>False</span>
                     </div>
                 </div>
-                
+
                 <div class="question-box">
-                    <h2 class="question">GAMS is a language used to implement mathematical programming models.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">One can make a visual descriptor rotationally invariant by assigning orientations to the key points and then rotating the patch to a canonical orientation. In SIFT this is done by constructing Histograms of Gradients in a neighborhood around the feature point and assigning the largest bin as the corresponding direction of the keypoint. Later, all detected features are rotated so that the corresponding orientations are vertically aligned.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q5"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q5"/>
                         <span>False</span>
                     </div>
                 </div>
-                
+
                 <div class="question-box">
-                    <h2 class="question">GAMS is an "integrated and not a "declarative" modeling language.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q6"/>
-                        <span>True</span>
+                    <h2 class="question">You have designed an algorithm for classifying if an image contains a person or not. You obtain an accuracy of 98% on the training set and 33% on the validation set.</h2>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q6"/>
+                        <span>This is an instance of overﬁtting</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q6"/>
-                        <span>False</span>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q6"/>
+                        <span>This is an instance of underﬁtting</span>
+                    </div>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q6"/>
+                        <span>The training has failed</span>
+                    </div>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q6"/>
+                        <span>The training succeeded but the training and testing examples are sampled from diﬀerent distributions</span>
+                    </div>
+                    <div>
+                        <button onclick="correctQues(this, 'q6')">Submit</button>
+                    </div>
+                </div>
+
+                <div class="question-box">
+                    <h2 class="question">Given the graph below, what is a reasonable number to use for clusters?</h2>
+                    <img src="images/graph.jpg" style="max-width: 100%;"/>
+                    <div onclick="toggleInput(this, 1)">
+                        <input type="radio" name="q7"/>
+                        <span>4</span>
+                    </div>
+                    <div onclick="toggleInput(this, 2)">
+                        <input type="radio" name="q7"/>
+                        <span>1</span>
+                    </div>
+                    <div onclick="toggleInput(this, 3)">
+                        <input type="radio" name="q7"/>
+                        <span>7</span>
+                    </div>
+                    <div onclick="toggleInput(this, 4)">
+                        <input type="radio" name="q7"/>
+                        <span>10</span>
+                    </div>
+                    <div onclick="toggleInput(this, 5)">
+                        <input type="radio" name="q7"/>
+                        <span>2</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">A DSS is an information technology relying on analytical data, computational models in addition to the insights of decision maker.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q7"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q7"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">A Group DSS (GDSS) needs a Communication Management Software System.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">We need class labels when performing clustering.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q8"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q8"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">Business intelligance can be viewed as a Model-centered DSS.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">In regular shallow neural networks one needs to use a non-linear activation function between layers while in deep neural networks this is not needed.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q9"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q9"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">Data Mining and "what if" analysis is the business intelligant tool for knowledge generation.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">In regression, the predicted output is discrete, this is in contrast to classification.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q10"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q10"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">institutionalization is an important phase in constructing Special Purpose DSS.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">In mean shift clustering algorithm we find cluster centers as the modes of the probability density function of input features.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q11"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q11"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">AHP is viewed as a Tool-based general purpose DSS.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">In general we need more manual work when building a labelled dataset for semantic image segmentation compared to the case of image classification.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q12"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q12"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">"What if" Analysis in business intelligance is the only tool for providing "foresights" to decision maker.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">Object localization is different than object detection because in object localization we could have multiple instances of the target object.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q13"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q13"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">Multi-dimensional database model with cube structure is designed to reflact the management view in supporting decisions.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">In the following figure:</h2>
+                    <img src="images/graph2.jpg" style="max-width: 100%;"/>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q14"/>
-                        <span>True</span>
+                        <span>All plots show a case of underfitting</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q14"/>
-                        <span>False</span>
+                        <span>Left plot is a case of underfitting, middle plot is a case of good fitting and right plot is a case of overfitting</span>
+                    </div>
+                    <div onclick="toggleInput(this, 3)">
+                        <input type="radio" name="q14"/>
+                        <span>Left plot is a case of overfitting, middle plot is a case of good fitting and right plot is a case of overfitting</span>
+                    </div>
+                    <div onclick="toggleInput(this, 4)">
+                        <input type="radio" name="q14"/>
+                        <span>Left plot is a case of underfitting, middle plot is a case of underfitting and right plot is a case of overfitting</span>
+                    </div>
+                    <div onclick="toggleInput(this, 5)">
+                        <input type="radio" name="q14"/>
+                        <span>None of the above</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">Data Viewing and Manipulation operations are tools used by OLAP to generate Ad-Hoc Reports for Decision Makers.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">Viola Jones detector is originally developed to detect frontal faces but the same algorithm can be also used for profile detection and other objects.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q15"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q15"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">Extraction, Transformation and Loading (ETL) software is classified as a database management system (DBMS).</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">Some of the reasons we use convnets instead of fully connected layers in images are computational efficiency (sharing of weights) and preserving spatial structure.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q16"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q16"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">"Heirarchy of attributes" is viewed as part of the design phases of the multi-dimensional data warehouse.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">We can solve the object detection problem as a regression problem to find all boxes of objects in images.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q17"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q17"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">"Classification Rules" are used to mine unsupervised data.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">The main idea behind resnet blocks is to add shortcuts in the network blocks so that we can learn identity mapping in the worst case scenario. This helps learning even when we increase number of layers.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q18"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q18"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">Changes in external Environment are generally tested using Optimization models.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">In the case of L2 regularization we have two terms in the loss function: a data term and a regularization term. The regularization term is multiplied by a parameter, let’s call it “lambda”. If we increase lambda we are risking more overfitting.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q19"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q19"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">The accounting framework of a corporation (income Statement and balance sheet) is used in model building to ensure the consistency of the generated results.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">Single shot detection (SSD) and You-only-look-once (YOLO) detection algorithms operate on regions extracted from a separate region proposal network (separate from the network that performs detection).</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q20"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q20"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">AHP as a special purpose DSS needs to arrange the objectives and criteria of the DM problem into network structure.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">A condition for a point to be a corner feature in an image is that there is a large intensity gradient along the X direction only.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q21"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q21"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">Visual DSS relies on a spreed sheet modeling approach.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">Using gradient-based feature descriptors does not guarantee invariance against linear illumination changes.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q22"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q22"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">DSS generator should add experimental capabilities of results to the model building language.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">The goal of the L2 loss in the following architecture is to predict the location of the object of interest.</h2>
+                    <img src="images/graph3.jpg" style="max-width: 100%;"/>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q23"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q23"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">Simulation models are added to a business intelligance software system to allow for "what if" analysis in DSS.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">Being a template-based method, Viola Jones can be also very suitable for deformable objects.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q24"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q24"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">Structured Modeling language is used in DSS to permit graphical representation of the modeling domain.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">Bag of words feature matching does not take into account spatial feature arrangement when matching images.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q25"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q25"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">Both IDSC and DPSS general purpose DSS tools uses an issue-oriented approach to support the decision making process.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">In this problem we are using an indexing approach to match a query image to a database of images. 
+                        -	Suppose we already computed a set of visual words by K-means quantization, we have a total of 10,000 visual words (w1 through w10000)
+                        -	Suppose the query image has the following visual words: W40, W50
+                        -	Suppose we have 1 million images in the database, the table below shows the index containing visual words (only a portion of the table is shown), each visual word has an associated “inverse document frequency” (IDF). For each database image each image has a “term frequency” (TF) for the visual word also (given after the DB image name)
+                        For the given query image, the top 3 matching database images using TF*IDF as score are:</h2>
+                    <img src="images/graph4.jpg" style="max-width: 100%;"/>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q26"/>
-                        <span>True</span>
+                        <span>10, 11, 50</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q26"/>
-                        <span>False</span>
+                        <span>12, 212, 142</span>
+                    </div>
+                    <div onclick="toggleInput(this, 3)">
+                        <input type="radio" name="q26"/>
+                        <span>212, 142, 132</span>
+                    </div>
+                    <div onclick="toggleInput(this, 4)">
+                        <input type="radio" name="q26"/>
+                        <span>122, 345, 765</span>
+                    </div>
+                    <div onclick="toggleInput(this, 5)">
+                        <input type="radio" name="q26"/>
+                        <span>None of the above</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">In business intelligance systems, data mining models support policy experiments.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">In designing cascaded object detection systems it is usually the case that the first detector in the cascade has high recall and possibly high false positive rate.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q27"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q27"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">GAMS is particularly designed permit managers and decision makers in constructing their own models.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q28"/>
-                        <span>True</span>
+                    <h2 class="question">Select all valid solutions for improving data annotation quality.</h2>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q28"/>
+                        <span>Consensus / Multiple Annotation / “Wisdom of the Crowds”</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q28"/>
-                        <span>False</span>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q28"/>
+                        <span>Using a gold Standard</span>
+                    </div>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q28"/>
+                        <span>Using a second tier of workers who grade others”</span>
+                    </div>
+                    <div>
+                        <button onclick="correctQues(this, 'q28')">Submit</button>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">Tacit Knowledge can be easily classified, documented and stored.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">You are building an image classifier for a new set of classes for which there is no existing classifier. You want to start from an already trained classifier, you select the Resnet trained on the imagenet dataset. If you have a small number of labelled images in your dataset a good option would be to fine tune many layers in the already trained Resnet classifier.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q29"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q29"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">Analytical data can be properly handled using a transaction processing data base system.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">Random forest classifier is an example of an ensemble classifier methods.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q30"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q30"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">Insight Analysis is considered part of the data-centered DSS.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">Running a detector through an image results in many possible overlapping boxes with different detection scores, a popular method to select the best detection window(s) is called Non-maxima suppression.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q31"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q31"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">In a Strategic decision making process, external data are not strongly needed to support the policy maker.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">The main purpose of 1x1 convolution is to:</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q32"/>
-                        <span>True</span>
+                        <span>Perform dimensionality reduction</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q32"/>
-                        <span>False</span>
+                        <span>This is not a valid operation, doing a convolution with a kernel size of 1 does not have any effect</span>
+                    </div>
+                    <div onclick="toggleInput(this, 3)">
+                        <input type="radio" name="q32"/>
+                        <span>I don’t think we studied this in computer vision</span>
+                    </div>
+                    <div onclick="toggleInput(this, 4)">
+                        <input type="radio" name="q32"/>
+                        <span>1x1 convolution is an approximate way for performing 3x3 convolution</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">Executive information system (EIS) is generally used to support middle management decisions.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q33"/>
-                        <span>True</span>
+                    <h2 class="question">The goal of building a vocabulary of visual words is:</h2>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q33"/>
+                        <span>Enabling faster search of matching visual features between a query image and database images</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q33"/>
-                        <span>False</span>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q33"/>
+                        <span>Enabling matching visual features between a query image and database images</span>
+                    </div>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q33"/>
+                        <span>Building  a vocabulary of visual words will be a key step in building a visual dictionary</span>
+                    </div>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q33"/>
+                        <span>None of the above</span>
+                    </div>
+                    <div>
+                        <button onclick="correctQues(this, 'q33')">Submit</button>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">Multi-dimensional database model, Data warehousing and OLAP are generally used to support ad-hoc reports.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">We expect that all matching keypoints between two images of the same non-rigid object to agree on the same geometric transformation.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q34"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q34"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">The Interpretation capability of  modeling language describes variables, structure and mathematical  specification of a model.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q35"/>
-                        <span>True</span>
+                    <h2 class="question">For an image location to qualify as corner the following must be statisifed (select the most appropriate response)</h2>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q35"/>
+                        <span>there is low image gradient in both directions</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q35"/>
-                        <span>False</span>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q35"/>
+                        <span>there is high image gradient in both directions</span>
+                    </div>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q35"/>
+                        <span>there is high image gradient in the horitzontal direction</span>
+                    </div>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q35"/>
+                        <span>there is high image gradient in the vertical direction</span>
+                    </div>
+                    <div>
+                        <button onclick="correctQues(this, 'q35')">Submit</button>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">Declarative  modeling languages concentrate only on the solution strategy of optimization models.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">In regression the predicted label is.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q36"/>
-                        <span>True</span>
+                        <span>Continuous</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q36"/>
-                        <span>False</span>
+                        <span>Discrete</span>
+                    </div>
+                    <div onclick="toggleInput(this, 3)">
+                        <input type="radio" name="q36"/>
+                        <span>can be discrete or continuous</span>
+                    </div>
+                    <div onclick="toggleInput(this, 4)">
+                        <input type="radio" name="q36"/>
+                        <span>None of the provided answers</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">DSS Generator as a modeling language support model experimentation and analysis of its results.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">Lapplacian of Gaussian is an approximation of Difference-Of-Gaussians.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q37"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q37"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">IDE of GAMS   is used to link a specific solver or solution algorithm to GAMS software.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">In TF IDF scoring the goal of IDF is to decrease the weight of very common visual words when matching images.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q38"/>
                         <span>True</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q38"/>
                         <span>False</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">Special purpose Decision Support Systems (DSS) concentrate on relatively small  size problems and they are less expensive than  general purpose DSS.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">The following are the steps that are repeated during RANSAC algorithm to find most appropriate image transformation based on keypoint matches.
+                        <br/>
+                        1. Sample (randomly) the number of points required to fit the model
+                        2. Score by the fraction of inliers within a preset threshold of the model
+                        3. Solve for model parameters using samples
+                        <br/>
+                        The correct order of applyibg these steps is:</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q39"/>
-                        <span>True</span>
+                        <span>1,3,2</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q39"/>
-                        <span>False</span>
+                        <span>1,2,3</span>
+                    </div>
+                    <div onclick="toggleInput(this, 3)">
+                        <input type="radio" name="q39"/>
+                        <span>3,2,1</span>
+                    </div>
+                    <div onclick="toggleInput(this, 4)">
+                        <input type="radio" name="q39"/>
+                        <span>3,1,2</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">Special Purpose DSS can be viewed as a domain-driven or a tool-driven system.</h2>
-                    <div onclick="checkAnswer(1, this)">
+                    <h2 class="question">[choose the most appropriate answer] In SIFT, we build a ... to compute the dominant orientation at a keypoint.</h2>
+                    <div onclick="toggleInput(this, 1)">
                         <input type="radio" name="q40"/>
-                        <span>True</span>
+                        <span>gradient orientation histogram</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
+                    <div onclick="toggleInput(this, 2)">
                         <input type="radio" name="q40"/>
-                        <span>False</span>
+                        <span>color intensity histogram</span>
                     </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Cairo University senior management DSS covers both the  data-centered and the model-centered DSS analytical tools.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q41"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q41"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Cairo University Senior Management DSS can be viewed as an integrated general purpose Decision Support System.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q42"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q42"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">In a Data Centered DSS, OLAP tool provides insights whereas Data mining provides hindsights to the problem or decision under consideration.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q43"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q43"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">In a decision support cycle, models are essentially needed to validate and approve a selected decision.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q44"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q44"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Group decision support systems (GDSS) generally need additional software systems to manage communication and ideas generated by the members of the group.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q45"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q45"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Decision Support systems (DSS) is used to support reporting and database related capabilities along with few or simple analytical tools.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q46"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q46"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Structured modeling language can be used to graphically implement and solve a mathematical programming model.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q47"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q47"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Simulation and optimization Models are mainly used to assess alternative options and investigate the impact of external conditions within a DSS environment.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q48"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q48"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Hierarchical representation (or structure) of a problem is not a necessary step in developing a special purpose DSS using analytic hierarchy process (AHP).</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q49"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q49"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">General Purpose DSS is broadly classified into Data, Model and Knowledge centered Decision support systems.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q50"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q50"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Decision maker insights are required to move from a decision making domain to a specific decision support system or model.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q51"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q51"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Muti-dimensional database model are designed to properly handle analytical data and generate ad-hoc reports.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q52"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q52"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Algebraic modeling languages include solution algorithms as an integral part of the language.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q53"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q53"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Analytical database (based on data warehousing technology) is generally needed by most of the DSS types.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q54"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q54"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Management information system (MIS) is concerned with reporting and database capabilities, with simple application programs for periodic reporting.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q55"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q55"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Special purpose DSS is classified as:</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q56"/>
-                        <span>Model versus data centered DSS</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q56"/>
-                        <span>Tool versus domain oriented DSS</span>
-                    </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q56"/>
-                        <span>Single versus group DSS</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">What would be the main contribution of DSS to information technology?</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q57"/>
-                        <span>The inclusion of a model base and its management system</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q57"/>
-                        <span>The inclusion of an Expert System</span>
-                    </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q57"/>
-                        <span>The inclusion of a relational database and its management system</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">What would be the role of a model building language in a DSS context?</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q58"/>
-                        <span>Formulate or build a model</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q58"/>
-                        <span>Implement a model on computer</span>
-                    </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q58"/>
-                        <span>Integrate a model into the model base</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">What would be the role of data mining tools in a DSS:</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q59"/>
-                        <span>Formulate or build mathematical Models</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q59"/>
-                        <span>Discover data patterns and relationships</span>
-                    </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q59"/>
-                        <span>Test alternative policy measures</span>
-                    </div>
-                </div>
-
-                <div class="question-box">
-                    <h2 class="question">The structured modeling language in DSS is mainly used to:</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q60"/>
-                        <span>Implement mathematical optimization models</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q60"/>
-                        <span>Represent a modeling domain parameters, relations and variables</span>
-                    </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q60"/>
-                        <span>Develop a relational database model</span>
-                    </div>
-                </div>
-
-                <div class="question-box">
-                    <h2 class="question">The main contribution of DSS to computer management systems is:</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q61"/>
-                        <span>Data base manipulation systems</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q61"/>
-                        <span>Knowledge management systems</span>
-                    </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q61"/>
-                        <span>Modeling and model base management systems</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">The principal contribution of DSS to information technology is the inclusion of a model base and its management system.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q62"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q62"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">The role of a model building language in a DSS context is implement a model on computer.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q63"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q63"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Special purpose DSS is classified as tool versus domain oriented DSS.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q64"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q64"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">The role of data mining tools in a DSS is to discover data patterns and relationships.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q65"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q65"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">The structured modeling language in DSS is mainly used to represent a modeling domain parameters, relations and variables.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q66"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q66"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Excel software is viewed as a specialized modeling language based on spread sheet approach.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q67"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q67"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">The explanation capability of a modeling language describes the modeling structure and mathematical specification of a model.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q68"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q68"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">The comprehensive set of solvers linked to Gams enhance its effectiveness as a modeling language.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q69"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q69"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Declarative modeling languages concentrate only on mathematical specification of the model and the selection of its solver.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q70"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q70"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">In principle, general purpose DSS provides general software capabilities that can fit several applications.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q71"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q71"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Multi-Dimensional database model is strictly need for developing the data warehouse of a DSS.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q72"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q72"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Multi-dimensional DB along with OLAP operations are the tools for generating Ad-hoc reports based on the selection of decision Makers.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q73"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q73"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">In an Executive/Enterprise information system (EIS), external data are not strongly needed to support the strategic decision-making process.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q74"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q74"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">In a decision support cycle, models are essentially used to assess alternative scenarios and options as well as to estimate the cost and risk associated with a specific decision.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q75"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q75"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">In a model centered DSS, data warehousing and OLAP operations may be useful but they don’t represent a main prerequisite.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q76"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q76"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Data warehousing represents the comprehensive database of DSS whereas Data Marts are purpose or subject specific multi-dimensional data structure.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q77"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q77"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Data viewing and manipulation tools of the OLAP can support both the data-centered and the model-centered  DSS activities.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q78"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q78"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Data warehouse model can have either a relational or a multidimensional data structure.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q79"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q79"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">In principle, a model management system can support the complete life-cycle of the model building process.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q80"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q80"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">"Hierarchy of attributes" is viewed as part of the design phases of the multi-dimenstional data warehouse.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q81"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q81"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">General Purpose DSS should include analytical data and modeling tools that can be used in different DSS context and applications.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q82"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q82"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Development Planning Support System (DPSS) can be viewed as general purpose addressing socioeconomic planning issues of Kuwait.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q83"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q83"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Multi-dimensional Database model is designed and strictly needed to generate ad-hoc reports reflecting policy maker's view.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q84"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q84"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">The efficiency criteria of a modeling language is used to assess the effective communications with decision makers.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q85"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q85"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Cairo University Senior Management DSS can be used to compare its performance with both private and public universities in Egypt.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q86"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q86"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">The ________ capability of modeling language describes variables, structure and mathematical specification of a model.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q87"/>
-                        <span>simulation</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q87"/>
-                        <span>goal-seeking</span>
-                    </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q87"/>
-                        <span>explanation</span>
-                    </div>
-                    <div onclick="checkAnswer(4, this)">
-                        <input type="radio" name="q87"/>
-                        <span>interpertation</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Information and Decision Support Center (IDSC) can be viewed as a general purpose addressing planning issues in Kuwait.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q88"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q88"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">The effectiveness criteria of a modeling language is used to assess the effective communications with decision makers.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q89"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q89"/>
-                        <span>False</span>
+                    <div onclick="toggleInput(this, 3)">
+                        <input type="radio" name="q40"/>
+                        <span>scale space pyramid</span>
                     </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">In a model centered DSS, data warehousing and OLAP operations are needed but they do not represent its main concentration.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q90"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q90"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Cairo University Senior Management DSS can be used to compare its performance with other _______ universities in Egypt.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q91"/>
-                        <span>private</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q91"/>
-                        <span>public</span>
-                    </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q91"/>
-                        <span>public and private</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Fisheries sector DSS in Kuwait relies mainly on an integer mathematical programming model.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q92"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q92"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">The explanation capability of VDSS language describes the structure and mathematical specification of a model.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q93"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q93"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Information and Decision Support Center (IDSC) is viewed as a leading general purpose DSS in the Arab region that concentrates on socioeconomic issues.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q94"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q94"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">__________ is viewed as a leading general purpose DSS in the Arab region that concentrates on socioeconomic issues.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q95"/>
-                        <span>Information and Decision Support Center</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q95"/>
-                        <span>Development Planning Support System</span>
-                    </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q95"/>
-                        <span>Both</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Development Planning support system (DPSS) is viewed as a special purpose DSS because it concentrates only on development planning issues.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q96"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q96"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Cairo University senior management DSS covers __________ decision support systems and analytical tools.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q97"/>
-                        <span>data-centered</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q97"/>
-                        <span>model-centered</span>
-                    </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q97"/>
-                        <span>both</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Multi-dimensional Database model is strictly needed to interact with the online analytical process (OLAP).</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q98"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q98"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">The comprehensive set of solvers linked to GAMS enhance its efficiency as a modeling language.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q99"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q99"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Cairo university senior management DSS can be viewed as a data centered Decision Support System.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q100"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q100"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Analytical Data can be properly handled using a operational processing database system.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q101"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q101"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Star Schema can be viewed as a rational database model.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q102"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q102"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Star Schema can be viewed as a multi-dimensional database model.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q103"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q103"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">AHP is viewed as a/an ___________ DSS.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q104"/>
-                        <span>domain-oriented special purpose</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q104"/>
-                        <span>tool-oriented special purpose</span>
-                    </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q104"/>
-                        <span>integrated general purpose</span>
-                    </div>
-                    <div onclick="checkAnswer(4, this)">
-                        <input type="radio" name="q104"/>
-                        <span>model centered general purpose</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">AHP use hierarchical structure to represent goals, criteria and alternatives of decisions context.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q105"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q105"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Executive information system (EIS) is generally used to support ____________ decisions.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q106"/>
-                        <span>high management</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q106"/>
-                        <span>middle management</span>
-                    </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q106"/>
-                        <span>low management</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Data Mining can be used to carry out "what-if" analysis.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q107"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q107"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Simulation can be used to carry out "what-if" analysis.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q108"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q108"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Data Mining needs a hypothetical model to compute statistics.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q109"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q109"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Which of these is not a property of statistical analysis?</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q110"/>
-                        <span>Statistician interpret their own results</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q110"/>
-                        <span>Uses different types of data</span>
-                    </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q110"/>
-                        <span>Start usually with a hypothesis</span>
-                    </div>
-                    <div onclick="checkAnswer(4, this)">
-                        <input type="radio" name="q110"/>
-                        <span>Statisticians have to develop their own model</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Which of these is not a property of data mining?</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q111"/>
-                        <span>Doesn't require a hypothesis</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q111"/>
-                        <span>Algorithms can automatically develop the equations</span>
-                    </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q111"/>
-                        <span>Data mining can filter dirty data during analysis</span>
-                    </div>
-                    <div onclick="checkAnswer(4, this)">
-                        <input type="radio" name="q111"/>
-                        <span>Results are not easy to interpret</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">The Data mining techniques provide _______ to decision makers.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q112"/>
-                        <span>insights</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q112"/>
-                        <span>foresights</span>
-                    </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q112"/>
-                        <span>hindsights</span>
+                    <div onclick="toggleInput(this, 4)">
+                        <input type="radio" name="q40"/>
+                        <span>multiple descriptors</span>
                     </div>
                 </div>
                 
                 <div class="question-box">
-                    <h2 class="question">"What-If" analysis is the main difference between data centered DSS and Business Intelligence.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q113"/>
-                        <span>True</span>
+                    <h2 class="question">The following is true when a classifier suffers from overfitting</h2>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q41"/>
+                        <span>Testing error is high</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q113"/>
-                        <span>False</span>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q41"/>
+                        <span>Training error is high</span>
                     </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Extraction, Transformation and Loading (ETL) software is particularly designed to prepare data for mining operation.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q114"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q114"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Extraction, Transformation and Loading (ETL) software is particularly designed to generate Data Marts.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q115"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q115"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Cube structure along with OLAP analytical operations are the main tools for generating, viewing, manipulating ad-hoc reporting.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q116"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q116"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Data Marts can serve as a way for accelerating access for information and generating ad-hoc reports.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q117"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q117"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Data viewing based on OLAP operations uses drill down and rolling up and slice.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q118"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q118"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Data viewing based on OLAP operations uses dice and pivot and nesting.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q119"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q119"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Data warehouse is viewed as integrated, time-variant and subject-oriented analytical database.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q120"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q120"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Data warehouse separates analysis workload from transaction workload.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q121"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q121"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Declarative modeling languages concentrate on the mathematical specification of the model as well as its solution strategy.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q122"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q122"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Instituionalization is an important phase in constructing general purpose DSS.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q123"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q123"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Model base and model base management system are part of the special purpose model centered DSS.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q124"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q124"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Model base and model base management system are part of the general purpose model centered DSS.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q125"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q125"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Hindsights and Insights are the type of analysis embedded in a model centered DSS.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q126"/>
-                        <span>True</span>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q41"/>
+                        <span>It has high variance</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q126"/>
-                        <span>False</span>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q41"/>
+                        <span>It has high bias</span>
                     </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">OLAP operations and ad-hoc reports can be used with model centered DSS.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q127"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q127"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">In a decision support cycle, decision approval and follow up steps require complex mathematical models.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q128"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q128"/>
-                        <span>False</span>
-                    </div>
-                </div>
-                
-                <div class="question-box">
-                    <h2 class="question">Management Information Systems (MIS) is used to support reporting and database related capabilities along with few or simple analytical tools.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q129"/>
-                        <span>True</span>
+                    <div>
+                        <button onclick="correctQues(this, 'q41')">Submit</button>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q129"/>
-                        <span>False</span>
-                    </div>
                 </div>
                 
-                <div class="question-box">
-                    <h2 class="question">Management information systems (MIS) relies on advanced analytical tools to support decision making.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q130"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q130"/>
-                        <span>False</span>
-                    </div>
-                </div>
-
-                <div class="question-box">
-                    <h2 class="question">Management information systems (MIS) relies on simple analytical tools to support decision making.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q131"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q131"/>
-                        <span>False</span>
-                    </div>
-                </div>
-
-                <div class="question-box">
-                    <h2 class="question">GAMS as an optimization language integrates solution algorithms in its structure.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q132"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q132"/>
-                        <span>False</span>
-                    </div>
-                </div>
-
-                <div class="question-box">
-                    <h2 class="question">Structured modeling language is based on the entity relationship database approach.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q133"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q133"/>
-                        <span>False</span>
-                    </div>
-                </div>
-
-                <div class="question-box">
-                    <h2 class="question">Multi-dimensional Database model is strictly needed to interact with the online transaction process (OLTP).</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q134"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q134"/>
-                        <span>False</span>
-                    </div>
-                </div>
-
-                <div class="question-box">
-                    <h2 class="question">Business Intelligence can be viewed as a data-centered DSS.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q135"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q135"/>
-                        <span>False</span>
-                    </div>
-                </div>
-
-                <div class="question-box">
-                    <h2 class="question">GAMS as a modelling language relies on graphical model building approach.</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q136"/>
-                        <span>True</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q136"/>
-                        <span>False</span>
-                    </div>
-                </div>
-
-                <div class="question-box">
-                    <h2 class="question">Data warehouse is mainly used for:</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q137"/>
-                        <span>transaction processing.</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q137"/>
-                        <span>query and analysis.</span>
-                    </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q137"/>
-                        <span>day-to-day operations.</span>
-                    </div>
-                </div>
-
                 <div class="question-box">
-                    <h2 class="question">Declarative modeling languages concentrate only on:</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q138"/>
-                        <span>specification of the model and selection of its solvers.</span>
+                    <h2 class="question">The main issue in bag of visual words matching</h2>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q42"/>
+                        <span>We lose the order of visual words when matching two images</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q138"/>
-                        <span>solution strategy.</span>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q42"/>
+                        <span>None of the answers is correct</span>
                     </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q138"/>
-                        <span>specification of the model and its solution strategy.</span>
-                    </div>
-                    <div onclick="checkAnswer(4, this)">
-                        <input type="radio" name="q138"/>
-                        <span>specification of the model.</span>
-                    </div>
-                </div>
-
-                <div class="question-box">
-                    <h2 class="question">Models in a Decision Support cycle are used to:</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q139"/>
-                        <span>Approve and validate decisions.</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q139"/>
-                        <span>Organize and estimate information and statistics.</span>
-                    </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q139"/>
-                        <span>Test alternative solutions, policy options, and assess risk of decisions.</span>
-                    </div>
-                    <div onclick="checkAnswer(4, this)">
-                        <input type="radio" name="q139"/>
-                        <span>Identify system external data and parameters.</span>
-                    </div>
-                </div>
-
-                <div class="question-box">
-                    <h2 class="question">Extraction, Transformation and Loading (ETL) software system contributes to:</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q140"/>
-                        <span>Develop a data warehouse.</span>
-                    </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q140"/>
-                        <span>Support business intelligence tools.</span>
-                    </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q140"/>
-                        <span>Construct a model base.</span>
-                    </div>
-                    <div onclick="checkAnswer(4, this)">
-                        <input type="radio" name="q140"/>
-                        <span>Generate ad-hoc report.</span>
-                    </div>
-                </div>
-
-                <div class="question-box">
-                    <h2 class="question">What would be the role of a structured modeling language in a DSS?</h2>
-                    <div onclick="checkAnswer(1, this)">
-                        <input type="radio" name="q141"/>
-                        <span>Incorporate models in a model base.</span>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q42"/>
+                        <span>Bag of words matching is very expensive to compute</span>
                     </div>
-                    <div onclick="checkAnswer(2, this)">
-                        <input type="radio" name="q141"/>
-                        <span>Formulate or build a mathematical Model.</span>
+                    <div onclick="toggleInput(this)">
+                        <input type="checkbox" name="q42"/>
+                        <span>Bag of words matching is very expensive in storage</span>
                     </div>
-                    <div onclick="checkAnswer(3, this)">
-                        <input type="radio" name="q141"/>
-                        <span>Represent graphically the decision-making problem domain.</span>
+                    <div>
+                        <button onclick="correctQues(this, 'q42')">Submit</button>
                     </div>
                 </div>
             </div>
