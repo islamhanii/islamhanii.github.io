@@ -1,7 +1,7 @@
 /*global document, window*/
 /*jslint plusplus:true, unused:false*/
 
-var answers = {"q1":2, "q2":1, "q3":2, "q4":2, "q5":1, "q6":2, "q7":1, "q8":1, "q9":2, "q10":1, "q11":2, "q12":2, "q13":1, "q14":1,  "q15":1, "q16":2, "q17":1, "q18":2, "q19":2, "q20":1, "q21":2, "q22":1, "q23":1, "q24":1, "q25":1, "q26":1, "q27":2, "q28":2, "q29":2, "q30":2, "q31":1, "q32":2, "q33":2, "q34":1, "q35":2, "q36":2, "q37":1, "q38":1, "q39":1, "q40":1, "q41":1, "q42":1, "q43":2, "q44":2, "q45":1, "q46":2, "q47":2, "q48":1, "q49":2, "q50":1, "q51":1, "q52":1, "q53":2, "q54":1, "q55":1, "q56":2, "q57":1, "q58":2, "q59":2, "q60":2, "q61":3, "q62":1, "q63":1, "q64":1, "q65":1, "q66":1, "q67":1, "q68":1, "q69":2, "q70":1, "q71":1, "q72":1, "q73":1, "q74":2, "q75":1, "q76":2, "q77":1, "q78":1, "q79":1, "q80":1, "q81":1, "q82":1, "q83":1, "q84":1, "q85":2, "q86":2, "q87":3, "q88":2, "q89":1, "q90":1, "q91":2, "q92":2, "q93":1, "q94":1, "q95":1, "q96":2, "q97":3, "q98":1, "q99":1, "q100":2, "q101":1, "q102":2, "q103":1, "q104":2, "q105":1, "q106":1, "q107":2, "q108":1, "q109":2, "q110":2, "q111":3, "q112":1, "q113":1, "q114":2, "q115":2, "q116":1, "q117":1, "q118":2, "q119":1, "q120":1, "q121":1, "q122":2, "q123":1, "q124":2, "q125":1, "q126":2, "q127":1, "q128":2, "q129":1, "q130":2, "q131":1, "q132":2, "q133":1, "q134":2, "q135":1, "q136":2, "q137":2, "q138":1, "q139":3, "q140":1, "q141":3};
+var answers = {"q1":2, "q2":3, "q3":2, "q4":1, "q5":1, "q6":[1,4], "q7":1, "q8":2, "q9":2, "q10":2, "q11":1, "q12":1, "q13":2, "q14":2, "q15":1, "q16":1, "q17":2, "q18":1, "q19":2, "q20":2, "q21":2, "q22":2, "q23":1, "q24":2, "q25":1, "q26":2, "q27":1, "q28":[1,2,3], "q29":2, "q30":1, "q31":1, "q32":1, "q33":[1], "q34":2, "q35":[2], "q36":1, "q37":2, "q38":1, "q39":1, "q40":1, "q41":[1,3], "q42":[1]};
 
 var question = document.getElementsByClassName("question");
 
@@ -38,25 +38,73 @@ function search() {
 }
 */
 
-function checkAnswer(num, ques) {
-    "use strict";
-    if(ques.firstElementChild.disabled !== true) {
-        ques.firstElementChild.classList.add("color-input");
-        
-        let name = ques.firstElementChild.getAttribute("name");
+function toggleInput(ques, num) {
+    let choice = ques.firstElementChild;
+    if(choice.getAttribute("type") == "checkbox") {
+        choice.classList.toggle("color-input");
+        if(choice.classList.contains("color-input")) {choice.checked = true;}
+        else {choice.checked = false;}
+    }
+    else {
+        choice.checked = true;
+        choice.classList.add("color-input");
+
+        let name = choice.getAttribute("name");
         let choices = document.getElementsByName(name);
         for(let i=0; i<choices.length; i++) {
             choices[i].disabled = true;
-            if(i+1 !== num){choices[i].classList.add("finish");}
+            choices[i].classList.add("finish");
             choices[i].parentElement.style.cursor = "auto";
         }
-        
-        if(num === answers[name]) {ques.parentElement.style.borderColor = "#03c603";}
+        if(num === answers[name]) {
+            choices[num-1].classList.add("correct");
+            ques.parentElement.style.borderColor = "#03c603";
+        }
         else {
             ques.parentElement.style.borderColor = "#f00";
             choices[answers[name]-1].classList.add("correct");
         }
     }
+}
+
+function correctQues(button, ques) {
+    button.innerHTML = "Done";
+    button.style.color = "#fff";
+    button.style.backgroundColor = "#333";
+    button.style.cursor = "auto";
+    button.removeAttribute("onclick");
+
+    let choices = document.getElementsByName(ques);
+    let answer = answers[ques];
+    let nAns = answer.length;
+    let count = 0;
+    
+    for(let i=0; i<choices.length; i++) {
+        choices[i].disabled = true;
+        choices[i].classList.add("finish");
+        choices[i].parentElement.style.cursor = "auto";
+        choices[i].parentElement.removeAttribute("onclick");
+    }
+
+    for(let i=0; i<choices.length; i++) {
+        console.log(choices[i].checked);
+        if(choices[i].checked == 1) {
+            if(answer.includes(i+1)) {
+                choices[i].classList.add("correct");
+                count++;
+            }
+            else {choices[i].classList.add("wrong");}
+        }
+        else {
+            if(answer.includes(i+1)) {
+                choices[i].classList.add("correct");
+            }
+        }
+    }
+
+    if(count>nAns || count==0) {button.parentElement.parentElement.style.borderColor = "#f00";}
+    else if(count==nAns) {button.parentElement.parentElement.style.borderColor = "#03c603";}
+    else {button.parentElement.parentElement.style.borderColor = "#ffe423";}
 }
 
 
