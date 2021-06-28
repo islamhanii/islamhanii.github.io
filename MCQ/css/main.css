@@ -131,6 +131,7 @@ header svg {
 
 .question-box span {
     font-weight: 700;
+    margin-left: 5px;
 }
 
 .color-input::before {background-color: #00a1ff !important;}
@@ -153,4 +154,40 @@ header svg {
 
 .question-box button:active {
     background-color: #30a3e6;
+}
+
+/************************************************************************************************/
+
+#course-select {
+    position: fixed;
+    top: 61px;
+    left: 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 61px);
+}
+
+#course-select div {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#course-select button {
+    padding: 8px 10px;
+    border: none;
+    color: #fff;
+    background-color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#course-select button:active {
+    color: #000;
+    background-color: #00a1ff;
 }

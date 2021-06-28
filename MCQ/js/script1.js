@@ -1,27 +1,9 @@
 /*global document, window*/
 /*jslint plusplus:true, unused:false*/
 
-var answers = {"q1":2, "q2":3, "q3":2, "q4":1, "q5":1, "q6":[1,4], "q7":1, "q8":2, "q9":2, "q10":2, "q11":1, "q12":1, "q13":2, "q14":2, "q15":1, "q16":1, "q17":2, "q18":1, "q19":2, "q20":2, "q21":2, "q22":2, "q23":1, "q24":2, "q25":1, "q26":2, "q27":1, "q28":[1,2,3], "q29":2, "q30":1, "q31":1, "q32":1, "q33":[1], "q34":2, "q35":[2], "q36":1, "q37":2, "q38":1, "q39":1, "q40":1, "q41":[1,3], "q42":[1], "q43":2, "q44":1, "q45":2, "q46":2, "q47":2, "q48":2};
+var answers = {}
 
 var question = document.getElementsByClassName("question");
-
-function random() {
-    "use strict";
-    let array = [];
-    let question = document.getElementsByClassName("question-box");
-    for(let i=0; i<question.length; i++) {
-        array.push(question[i].outerHTML);
-    }
-    
-    let container = question[0].parentElement;
-    container.innerHTML = "";
-    
-    while(array.length > 0) {
-        let rand = Math.floor(Math.random() * array.length);
-        container.innerHTML = container.innerHTML + array[rand];
-        array.splice(rand, 1);
-    }
-}
 
 /*
 function search() {
@@ -39,6 +21,7 @@ function search() {
 */
 
 function toggleInput(ques, num) {
+    "use strict";
     let choice = ques.firstElementChild;
     if(choice.getAttribute("type") == "checkbox") {
         choice.classList.toggle("color-input");
@@ -69,6 +52,7 @@ function toggleInput(ques, num) {
 }
 
 function correctQues(button, ques) {
+    "use strict";
     button.innerHTML = "Done";
     button.style.color = "#fff";
     button.style.backgroundColor = "#333";
@@ -88,7 +72,6 @@ function correctQues(button, ques) {
     }
 
     for(let i=0; i<choices.length; i++) {
-        console.log(choices[i].checked);
         if(choices[i].checked == 1) {
             if(answer.includes(i+1)) {
                 choices[i].classList.add("correct");
@@ -108,8 +91,6 @@ function correctQues(button, ques) {
     else {button.parentElement.parentElement.style.borderColor = "#ffe423";}
 }
 
-
-window.onload = random;
 /*
 let searchWord = document.getElementById("search-box").firstElementChild;
 searchWord.onkeyup = search;*/
