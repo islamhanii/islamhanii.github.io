@@ -1030,7 +1030,7 @@ var database = {
     "ERP": {
         "q1": {
             "question": "What type of data is represented in the exhibit?",
-            "image": "images/img4.png",
+            "image": "images/img5.png",
             "answers": ["Structured", "Unstructured", "Quasi-structured", "Semi-structured"],
             "correct": 1
         },
