@@ -34,6 +34,7 @@ header {
     background-color: #333;
     color: #fff;
     padding: 15px 0;
+    margin-bottom: 20px;
 }
 
 header .container {
@@ -41,9 +42,7 @@ header .container {
     justify-content: center;
 }
 
-header p {
-    font-size: 20px;
-}
+header p {font-size: 20px;}
 header svg {
     width: 25px;
     padding-left: 5px;
@@ -69,9 +68,7 @@ header svg {
     border-radius: 5px;
 }
 
-#search-box input:focus {
-    border-width: 3px;
-}
+#search-box input:focus {border-width: 3px;}
 
 /*------------------------------------------------------------------------------------*/
 
@@ -125,9 +122,11 @@ header svg {
     cursor: pointer;
 }
 
-.question-box div input[type="checkbox"]::before {
-    border-radius: 20%;
-}
+.question-box div:hover input::before {background-color: #00a1ff;}
+
+.question-box div:hover input:disabled::before {background-color: #e8e8e8;}
+
+.question-box div input[type="checkbox"]::before {border-radius: 20%;}
 
 .question-box span {
     font-weight: 700;
@@ -152,31 +151,29 @@ header svg {
     cursor: pointer;
 }
 
-.question-box button:active {
-    background-color: #30a3e6;
-}
+.question-box button:active {background-color: #30a3e6;}
 
 /************************************************************************************************/
 
 #course-select {
-    position: fixed;
-    top: 61px;
-    left: 0;
-    
     display: flex;
-    align-items: center;
     justify-content: center;
     width: 100%;
-    height: calc(100vh - 61px);
 }
 
 #course-select div {
-    width: 200px;
+    width: 75%;
+    min-width: 200px;
     display: flex;
     flex-direction: column;
 }
 
-#course-select button {
+#course-select h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#course-select select {
     padding: 8px 10px;
     border: none;
     color: #fff;
@@ -185,9 +182,4 @@ header svg {
     font-weight: 700;
     margin-bottom: 10px;
     cursor: pointer;
-}
-
-#course-select button:active {
-    color: #000;
-    background-color: #00a1ff;
 }

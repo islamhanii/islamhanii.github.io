@@ -27,19 +27,24 @@
             <input type="search" name="search" placeholder="Search for a Question" autocomplete="true" autofocus/>
         </div>
         -->
+        
+        <div id="course-select">
+            <div>
+                <h2>Select Course</h2>
+                <select id="selector" name="select-course" onchange="getData(this.value)">
+                    <option selected disabled>Select Course</option>
+                    <option value="DSS">DSS</option>
+                    <option value="Computer Vision">Computer Vision</option>
+                    <option value="ERP">ERP</option>
+                </select>
+            </div>
+        </div>
 
         <section id="questions">
             <div class="container">
                 
             </div>
         </section>
-
-        <div id="course-select">
-            <div>
-                <button onclick="getData('DSS')">DSS</button>
-                <button onclick="getData('Computer Vision')">Computer Vision</button>
-            </div>
-        </div>
 
         <script src="js/database.js"></script>
         <script src="js/script1.js"></script>

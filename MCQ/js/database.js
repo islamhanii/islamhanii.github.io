@@ -1023,5 +1023,400 @@ var database = {
             "answers": ["True", "False"],
             "correct": 2
         }
+    },
+
+
+
+    "ERP": {
+        "q1": {
+            "question": "What type of data is represented in the exhibit?",
+            "image": "images/img4.png",
+            "answers": ["Structured", "Unstructured", "Quasi-structured", "Semi-structured"],
+            "correct": 1
+        },
+        "q2": {
+            "question": "What are considerations in a data science and Big Data analytics project?",
+            "answers": ["Applying the latest technologies to demonstrate technical skills",
+                        "Building data silos and bypassing data privacy rules",
+                        "Ignoring executive stakeholders and business users",
+                        "Analysis flexibility and decision making"],
+            "correct": 4
+        },
+        "q3": {
+            "question": "In addition to quantitative and technical skills, what is a key aspect of the profile of a data scientist?",
+            "answers": ["Curious and creative",
+                        "Accounting and regulatory skills",
+                        "Proficient in Microsoft Project and Excel",
+                        "Project management and administrative skills"],
+            "correct": 1
+        },
+        "q4": {
+            "question": "What is the correct order of phases in the data analytics lifecycle once the Discovery phase is complete?<br/>1. Communicate results<br/>2. Model planning<br/>3. Operationalize<br/>4. Model building<br/>5. Data preparation",
+            "answers": ["5 -> 2 -> 4 -> 3 -> 1",
+                        "5 -> 2 -> 4 -> 1 -> 3",
+                        "5 -> 2 -> 1 -> 4 -> 3",
+                        "5 -> 4 -> 2 -> 1 -> 3"],
+            "correct": 2
+        },
+        "q5": {
+            "question": "What activities occur during the discovery phase of the data analytics lifecycle?",
+            "answers": ["Build training and test datasets",
+                        "Perform ETL and data exploration",
+                        "Interview project sponsor and stakeholders",
+                        "Deploy and monitor model performance"],
+            "correct": 3
+        },
+        "q6": {
+            "question": "What tasks need to be completed when designing an analytic sandbox?",
+            "answers": ["Establish the database tables for extract, translate, and load",
+                        "Define the hardware and Hadoop network requirements",
+                        "Estimate the size of the dataset and plan for 5-10 times the size",
+                        "Discuss with business experts the best ways to join different datasets"],
+            "correct": 3
+        },
+        "q7": {
+            "question": "During the data preparation phase, you notice a high correlation between average spend on video games, age of players, and number of science fiction shows watched.<br/>Which technique could you use to address the three correlated variables?",
+            "answers": ["Use scaling to make the three variables equivalent in size",
+                        "Drop the three variables to improve the model",
+                        "Combine the three variables into one new variable",
+                        "Square the three variables to remove the correlation"],
+            "correct": 3
+        },
+        "q8": {
+            "question": "After which phase of the data analytics lifecycle should you determine if the model is robust enough?",
+            "answers": ["Discovery", "Operationalize", "Data preparation", "Model building"],
+            "correct": 4
+        },
+        "q9": {
+            "question": "A data scientist is investigating a new database column that needs to be integrated into their model. The column contains 10,000 labels with 300 unique values.<br/>Which data structure should be used when working in R?",
+            "answers": ["Array", "Data frame", "List", "Factor"],
+            "correct": 4
+        },
+        "q10": {
+            "question": "What are two data categories that represent quantitative data?",
+            "answers": ["Ordinal and interval", "Ratio and interval", "Nominal and ratio", "Nominal and ordinal"],
+            "correct": 2
+        },
+        "q11": {
+            "question": "What is the difference between the array and list data structures in R?",
+            "answers": ["Arrays are N-dimensional; Lists are only 2-dimensional",
+                        "Arrays contain only the same data type; Lists can contain different data types",
+                        "Arrays are only 2-dimensional; Lists are N-dimensional",
+                        "Arrays can contain different data types; Lists can contain only the same data type"],
+            "correct": 2
+        },
+        "q12": {
+            "question": "You have created a scatterplot of two continuous variables for 2000 records. You want to add a line to the scatterplot to check linearity of the data.<br/>Which function would best address this need?",
+            "answers": ["lm()", "abline()", "glm()", "hist()"],
+            "correct": 2
+        },
+        "q13": {
+            "question": "During a study to understand the population growth of a certain bacterial culture, you plot the data and identify a quadratic growth trend over time.<br/>Which transformation should you apply to linearize the data?",
+            "answers": ["Cube", "Square root", "Add a constant", "Square"],
+            "correct": 2
+        },
+        "q14": {
+            "question": "You have numeric data for more than 500 observations. You are interested in identifying linear relationships among these numeric variables.<br/>Which R function should you employ to get the best visualization?",
+            "answers": ["pairs()", "rug()", "plot(density())", "lm()"],
+            "correct": 1
+        },
+        "q15": {
+            "question": "In a t-test with unknown variance, what values are used to calculate the t-statistic?",
+            "answers": ["Sample mean, sample standard deviation, and sample size",
+                        "Mean, sample standard deviation, and population size",
+                        "Sample mean, standard deviation, and sample size",
+                        "Mean, standard deviation, and population size"],
+            "correct": 1
+        },
+        "q16": {
+            "question": "Which function shown in the exhibit is used to calculate the sample variance?",
+            "image": "images/img6.png",
+            "answers": ["a", "b", "c", "d"],
+            "correct": 1
+        },
+        "q17": {
+            "question": "You need to run a hypothesis test across three normally distributed populations. Which technique should you use?",
+            "answers": ["Z-test", "Wilcoxon rank sum test", "Welch's t-test", "ANOVA"],
+            "correct": 4
+        },
+        "q18": {
+            "question": "You have an automotive database containing numeric characteristics such as engine size, horsepower, and top speed. Which technique could you use to group similar cars together?",
+            "answers": ["Naïve Bayes classifier", "Logistic regression", "K-means clustering", "Association rules"],
+            "correct": 3
+        },
+        "q19": {
+            "question": "What is the output of the K-means clustering algorithm?",
+            "answers": ["Two dimensional representation of the data and the clusters",
+                        "Intercept and coefficients for each input variable in the dataset",
+                        "Center of each discovered cluster and mapping of each record to a cluster",
+                        "Centroid positioning and entropy of each record in each cluster"],
+            "correct": 3
+        },
+        "q20": {
+            "question": "A study was run to identify general dietary patterns among the residents of a small town. Twelve thousand people were surveyed and the data was subject to K-means clustering. In one of the iterations, there were six clusters formed with 38, 1560, 1799, 2560, 2893, and 3150 respondents.<br/>What should be the next step in identifying optimal clusters?",
+            "answers": ["Remove 38 respondents because the 5 clusters seem to be well distributed",
+                        "Add more categorical variables to the dataset to maximize the Within Sum of Squares (WSS) value for K=6",
+                        "Determine the optimal number of clusters by plotting the Within Sum of Squares (WSS) values as a function of K",
+                        "Multiply each variable by its standard deviation"],
+            "correct": 3
+        },
+        "q21": {
+            "question": "Refer to the exhibit, which shows pairwise counts for items purchased together.<br/>Consider the following association rules:<br/>• Milk -> Eggs<br/>• Eggs -> Milk<br/>• Bread -> Milk<br/>• Milk -> Bread<br/>Which rule has a confidence higher than 70%?",
+            "image": "images/img7.png",
+            "answers": ["Milk -> Eggs", "Eggs -> Milk", "Bread -> Milk", "Milk -> Bread"],
+            "correct": 2
+        },
+        "q22": {
+            "question": "In association rules, given X -> Y, what is confidence?",
+            "answers": ["Percentage of transactions that contain the itemset",
+                        "Difference in the probability of X and Y appearing together compared with expectations if they were statistically independent",
+                        "How many times more often X and Y occur together than expected if they were statistically independent, expressed as a ratio",
+                        "Percentage of transactions with X that also contain Y"],
+            "correct": 4
+        },
+        "q23": {
+            "question": "Refer to the exhibit.<br/>In association rules, for itemsets X and Y, which expression defines leverage?",
+            "image": "images/img8.png",
+            "answers": ["a", "b", "c", "d"],
+            "correct": 1
+        },
+        "q24": {
+            "question": "Which statement about linear regression is correct?",
+            "answers": ["Outcome variable is continuous",
+                        "Outcome variable is discrete",
+                        "All input variables must be discrete",
+                        "All input variables must be continuous"],
+            "correct": 1
+        },
+        "q25": {
+            "question": "Refer to the exhibit.<br/>What is the approximate R-squared value for a linear regression model fitted to the data associated with this scatterplot?",
+            "image": "images/img9.png",
+            "answers": ["0.01", "0.96", "4", "16"],
+            "correct": 1
+        },
+        "q26": {
+            "question": "Which analytic technique would be appropriate to estimate blood pressure based on age and weight?",
+            "answers": ["Naïve Bayesian classification", "Linear regression", "Time series analysis", "K-means clustering"],
+            "correct": 2
+        },
+        "q27": {
+            "question": "What is a good use case for logistic regression?",
+            "answers": ["Predicting the income of a customer",
+                        "Predicting the outcome of an election",
+                        "Predicting home sales prices in a city",
+                        "Forecasting quarterly sales of a company"],
+            "correct": 2
+        },
+        "q28": {
+            "question": "What does the Receiver Operating Characteristic (ROC) curve show?",
+            "answers": ["Relationship between p-value and true positive rate",
+                        "Relationship between true positive rate and false positive rate",
+                        "Relationship between true positive rate and true negative rate",
+                        "Relationship between p-value and true negative rate"],
+            "correct": 2
+        },
+        "q29": {
+            "question": "In logistic regression modeling, what is the commonly assigned probability threshold used to assign a class label?",
+            "answers": ["0.1", "0.25", "0.5", "0.9"],
+            "correct": 3
+        },
+        "q30": {
+            "question": "An IT department deployed a spam filter to reduce the amount of junk e-mail received by its employees. After six months, they notice that the spam filter is less effective than when initially deployed. They examine the system running the spam filter and it appears to be operating normally.<br/>What action would improve the effectiveness of the spam filter?",
+            "answers": ["Add more processing power to the spam filtering system",
+                        "Add more storage to the spam filtering system",
+                        "Create a linear regression model to calculate the probability of an email being spam",
+                        "Retrain the spam filter with newer examples of spam emails"],
+            "correct": 4
+        },
+        "q31": {
+            "question": "How is dimensionality defined in a \"bag of words\" document representation?",
+            "answers": ["Total number of words in the document",
+                        "Frequency of repeated words in the document",
+                        "Average number of words per sentence in the document",
+                        "Number of unique terms in the document"],
+            "correct": 4
+        },
+        "q32": {
+            "question": "Consider the following text:<br/>\"Aren't you glad that there are all these toys. Are you taking any for the children?\"<br/>What is the term frequency for the word are in the text with both case folding and a tokenizer applied to punctuation?",
+            "answers": ["0", "1", "2", "3"],
+            "correct": 3
+        },
+        "q33": {
+            "question": "In naïve Bayes implementations, how is the possibility of zero probabilities resulting from unobserved attribute/classifier pairs properly handled?",
+            "answers": ["Add a large quantity to each of the observed counts",
+                        "Double the observed counts",
+                        "Add a small quantity to each of the observed counts",
+                        "Square the observed counts"],
+            "correct": 3
+        },
+        "q34": {
+            "question": "A fair six-sided die is rolled. Let A denote the event that an odd number is rolled. Let C denote the event that a 1, 2, or 3 is rolled.<br/>What is the value of the conditional probability, P(C|A)?",
+            "answers": ["2/3", "1/4", "1/3", "1/2"],
+            "correct": 1
+        },
+        "q35": {
+            "question": "Refer to the exhibit.<br/>To predict whether or not a customer will renew their annual property insurance policy, an insurance company built and operationalized a naïve Bayes classification model. In the model, there are two class labels, renewal and non-renewal, that are assigned to each customer based on their attributes.<br/>A subset of the key attributes, their values, and corresponding conditional probabilities are provided in the exhibit.<br/>A customer has the following attributes:<br/>• Age is greater than 65 years<br/>• Owns their own home<br/>• Renewal month is August<br/>If 20% of customers do not renew their policies every year, what is the score for a non-renewal in the naïve Bayesian model for the customer described above?",
+            "image": "images/img10.png",
+            "answers": ["0.0002", "0.0004", "0.002", "0.004"],
+            "correct": 2
+        },
+        "q36": {
+            "question": "What is a consideration when building decision trees?",
+            "answers": ["Cannot handle variables that affect the outcome in a discontinuous way",
+                        "Short decision trees are likely subject to overfit",
+                        "Correlated variables can cause double-counting",
+                        "Tree structure is sensitive to small changes in the training data"],
+            "correct": 4
+        },
+        "q37": {
+            "question": "In a decision tree, what is an example of a pure node?",
+            "answers": ["25 positives; 75 negatives", "50 positives; 50 negatives", "75 positives; 25 negatives", "100 positives; 0 negatives"],
+            "correct": 4
+        },
+        "q38": {
+            "question": "What does a leaf node represent in a decision tree?",
+            "answers": ["Assigned class label",
+                        "Outcome of a test on a variable",
+                        "Root of the decision tree",
+                        "Decision point on a variable"],
+            "correct": 1
+        },
+        "q39": {
+            "question": "In a fitted ARIMA(1,2,3) model, how many differences are applied?",
+            "answers": ["0", "1", "2", "3"],
+            "correct": 3
+        },
+        "q40": {
+            "question": "In time series analysis, what function is examined to identify the order of the moving average component of an ARIMA model?",
+            "answers": ["Exponential function", "Arithmetic mean function", "Autocorrelation function", "Geometric mean function"],
+            "correct": 3
+        },
+        "q41": {
+            "question": "In time series analysis, what is an indication of a stationary sequence?",
+            "answers": ["Constant variance", "Seasonality", "Increasing trend", "Decreasing trend"],
+            "correct": 1
+        },
+        "q42": {
+            "question": "What are challenges presented by Big Data?",
+            "answers": ["New technologies, tools, business processes, and regulatory rules",
+                        "New technologies, tools, and business processes only",
+                        "New technologies, tools and regulatory rules only",
+                        "New technologies, and tools only"],
+            "correct": 1
+        },
+        "q43": {
+            "question": "What is the optimal usage scenario for the Hadoop Distributed File System?",
+            "answers": ["Large files and high throughput",
+                        "Small files and high throughput",
+                        "Large files and low latency",
+                        "Small files and low latency"],
+            "correct": 1
+        },
+        "q44": {
+            "question": "Which Hadoop service is responsible for requesting resources for, and monitoring the completion of, MapReduce processes?",
+            "answers": ["Application Master", "Name Node", "Data Node", "Application Manager"],
+            "correct": 1
+        },
+        "q45": {
+            "question": "What requests resources from YARN during a MapReduce job?",
+            "answers": ["Application Master", "Data Nodes", "Map and reduce tasks", "Applications Manager"],
+            "correct": 1
+        },
+        "q46": {
+            "question": "How does an HBase data structure differ from an ANSI standard relational database management system (RDBMS)?",
+            "answers": ["HBase supports a single table with no implicit join ability to other tables; ANSI standard RDBMS supports multiple tables with join ability",
+                        "HBase is challenged by sparse data; ANSI standard RDBMS handles missing values well by using null fields",
+                        "HBase provides a wider variety of predefined data types for data;ANSI standard RDBMS provides less variety",
+                        "HBase has strongly defined data columns; ANSI standard RDBMS is more flexible with column definitions"],
+            "correct": 1
+        },
+        "q47": {
+            "question": "What provides an extensive library of algorithm building tools to be used with the Hadoop ecosystem?",
+            "answers": ["Hive", "Mahout", "Pig", "HBase"],
+            "correct": 2
+        },
+        "q48": {
+            "question": "What are categorized as data ingestion tools for Hadoop?",
+            "answers": ["Ambari, Oozie, and Zookeeper",
+                        "Spark, Tez, and Cassandra",
+                        "Flume, Sqoop, and Storm",
+                        "Drill, Hive, and HBase"],
+            "correct": 3
+        },
+        "q49": {
+            "question": "Consider the following SQL query:<br/><br/>SELECT product_id FROM supplier_A<br/>UNION<br/>SELECT product_id FROM supplier_B;<br/><br/>What is the expected result?",
+            "answers": ["All product_id values from both tables with no duplicates or repeating rows",
+                        "All product_id values from supplier_B table but not from supplier_A table",
+                        "All product_id values from both tables with duplicates or repeating rows",
+                        "All product_id values from supplier_A table but not from supplier_B table"],
+            "correct": 1
+        },
+        "q50": {
+            "question": "Which SQL OLAP grouping extension is used to provide hierarchical groupings without examining all possible combinations?",
+            "answers": ["GROUNPING", "GROUP_ID", "CUBE", "ROLLUP"],
+            "correct": 4
+        },
+        "q51": {
+            "question": "What provides the means for matching and manipulating text strings in SQL?",
+            "answers": ["TF-IDF", "Association rules", "Regular expressions", "PACF"],
+            "correct": 3
+        },
+        "q52": {
+            "question": "Consider this SQL statement:<br/><br/>SELECT product, prod_cost, avg(prod_cost) OVER (PARTITION BY product)<br/>FROM product_detail<br/><br/>The OVER clause makes this what type of function?",
+            "answers": ["User-defined function", "Window function", "System function", "Aggregate function"],
+            "correct": 2
+        },
+        "q53": {
+            "question": "Consider the following SQL statement:<br/><br/>SELECT employee_id, year, salary, avg(salary)<br/>OVER<br/>(PARTITION BY employee_id ORDER BY year ROWS BETWEEN 2 PRECEDING AND CURRENT ROW) as result_1<br/>FROM employee<br/>ORDER BY employee_id, year<br/><br/>For each employee_id, what is returned as result_1?",
+            "answers": ["Average employee_id",
+                        "Average salary across all employee_id values",
+                        "Three year rolling average salary",
+                        "Four year rolling average salary"],
+            "correct": 3
+        },
+        "q54": {
+            "question": "In a user-defined aggregate function, what is SFUNC?",
+            "answers": ["Window function",
+                        "State transition function",
+                        "Final calculation function",
+                        "Segment-level calculation function"],
+            "correct": 2
+        },
+        "q55": {
+            "question": "After which phase of the data analytics lifecycle should you determine the best way to integrate solutions with production systems?",
+            "answers": ["Data preparation", "Discovery", "Model planning", "Communicate results"],
+            "correct": 4
+        },
+        "q56": {
+            "question": "Which participant in a data analytics project is typically responsible for assessing the validity of the model?",
+            "answers": ["Business user", "Project sponsor", "Project manager", "Data scientist"],
+            "correct": 4
+        },
+        "q57": {
+            "question": "What is a key consideration when preparing a presentation intended for sponsors?",
+            "answers": ["Describe how to implement the model",
+                        "Emphasize the business benefits of implementing the model",
+                        "Describe how current processes may be affected",
+                        "Provide details on model planning and building"],
+            "correct": 2
+        },
+        "q58": {
+            "question": "Which component of a final presentation focuses on how to deploy the model?",
+            "answers": ["Recommendations", "Executive summary", "Approach", "Project goals"],
+            "correct": 1
+        },
+        "q59": {
+            "question": "Which chart type is intended to display correlations between sets of numeric data?",
+            "answers": ["Scatterplot", "Histogram", "Line Chart", "Pie chart"],
+            "correct": 1
+        },
+        "q60": {
+            "question": "Which visualization technique should be avoided?",
+            "answers": ["Using 3-dimensional charts",
+                        "Using a small number of contrasting colors to draw distinctions",
+                        "Achieving a high data-ink ratio",
+                        "Using visuals to illustrate key points"],
+            "correct": 1
+        }
     }
 };

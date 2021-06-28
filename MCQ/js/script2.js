@@ -1,3 +1,5 @@
+var body = document.getElementById("questions").firstElementChild;
+
 function random() {
     "use strict";
     let array = [];
@@ -6,21 +8,19 @@ function random() {
         array.push(question[i].outerHTML);
     }
     
-    let container = question[0].parentElement;
-    container.innerHTML = "";
+    body.innerHTML = "";
     
     while(array.length > 0) {
         let rand = Math.floor(Math.random() * array.length);
-        container.innerHTML = container.innerHTML + array[rand];
+        body.innerHTML += array[rand];
         array.splice(rand, 1);
     }
 }
 
 function getData(name) {
     "use strict";
-    document.getElementById("course-select").style.display = "none";
+    body.innerHTML = "";
 
-    let body = document.getElementById("questions").firstElementChild;
     let questions = window.database[name];
 
     for(let question in questions) {
