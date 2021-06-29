@@ -1038,11 +1038,11 @@ var database = {
 
     /*
      ********************************************************
-     *  ERP Questions
+     *  ERP by Mohamed Saad Questions
      * ******************************************************
     */
 
-    "ERP": {
+    "ERP by Mohamed Saad": {
         "q1": {
             "question": "What type of data is represented in the exhibit?",
             "image": "images/img5.png",
@@ -1704,14 +1704,14 @@ var database = {
                         "Removing the chart title"],
             "correct": 3
         },
-        /*"q38": {
+        "q38": {
             "question": "What is a primary consideration when implementing an Apriori algorithm as a model?",
             "answers": ["It does not find any coincidental relationships",
                         "It is very complicated, so it is not easy to implement",
-                        "It is not easy to parallelize given its level of complexity",
-                        "It has exponential time complexity, so multiple database scans are needed"],
+                        "It has exponential time complexity, so multiple database scans are needed",
+                        "It is not easy to parallelize given its level of complexity"],
             "correct": 3
-        },*/
+        },
         "q39": {
             "question": "Which text strings are matched by the regular expression '^green*'?",
             "answers": ["Any string with green in the middle",
