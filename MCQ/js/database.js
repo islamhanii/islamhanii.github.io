@@ -1633,7 +1633,7 @@ var database = {
             "correct": 2
         },
         "q28": {
-            "question": "What does the Data Analytics Lifecycle help you do when working on a Big Data project? Review Later",
+            "question": "What does the Data Analytics Lifecycle help you do when working on a Big Data project?",
             "answers": ["Design the data warehouse",
                         "Provide project guidelines",
                         "Visualize the data",
@@ -1798,14 +1798,6 @@ var database = {
                         "Analyze a small data set that is provided"],
             "correct": 2
         },
-        "q53": {
-            "question": "What is a key criterion for any Big Data project?",
-            "answers": ["Data sets are uploaded in batches",
-                        "Hundred percent accurate prediction",
-                        "Analysis flexibility",
-                        "Long wait times for results"],
-            "correct": 3
-        },
         "q54": {
             "question": "What is a key advantage of an analytic sandbox over an enterprise data warehouse?",
             "answers": ["Owned by the database administrator",
@@ -1829,5 +1821,15 @@ var database = {
             "answers": ["0.56", "0.38", "0.05", "0.49"],
             "correct": 1
         }
+    },
+
+    /*
+     ********************************************************
+     *  ERP Lectures Questions
+     * ******************************************************
+    */
+
+    "ERP Lectures": {
+        "question": "Arrang following data from low to high structurd:<br/>1. XML files<br/><br/>"
     }
 };
