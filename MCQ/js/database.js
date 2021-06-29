@@ -1,4 +1,11 @@
 var database = {
+
+    /*
+     ********************************************************
+     *  DSS Questions
+     * ******************************************************
+    */
+
     "DSS": {
         "q1": {
             "question": "A transaction processing database relies on a multi-dimensional data model.",
@@ -743,7 +750,11 @@ var database = {
         }
     },
 
-    
+    /*
+     ********************************************************
+     *  Computer Vision Questions
+     * ******************************************************
+    */
 
     "Computer Vision": {
         "q1": {
@@ -1025,7 +1036,11 @@ var database = {
         }
     },
 
-
+    /*
+     ********************************************************
+     *  ERP Questions
+     * ******************************************************
+    */
 
     "ERP": {
         "q1": {
@@ -1416,6 +1431,402 @@ var database = {
                         "Using a small number of contrasting colors to draw distinctions",
                         "Achieving a high data-ink ratio",
                         "Using visuals to illustrate key points"],
+            "correct": 1
+        }
+    },
+
+    /*
+     ********************************************************
+     *  ERP 3amaly by Dardery Questions
+     * ******************************************************
+    */
+
+    "ERP 3amaly by Dardery": {
+        "q1": {
+            "question": "What is the correct sequence of phases of the Data Analytics Lifecycle?",
+            "answers": ["Understand the business problem, Identify factors and data, Create the model, Communicate results",
+                        "Understand the business problem, Create the model, Identify factors and data, Communicate results",
+                        "Understand the business problem, Create the model, Communicate results, Identify factors and data",
+                        "Identify factors and data, Understand the business problem, Create the model, Communicate results",
+                        "Identify factors and data, Understand the business problem, Communicate results, Create the model"],
+            "correct": 1
+        },
+        "q2": {
+            "question": "During which phase of the Data Analytics Lifecycle are Hadoop ecosystem tools often used?",
+            "answers": ["Data Preparation", "Communicate Results", "Discovery", "Model Planning"],
+            "correct": 1
+        },
+        "q3": {
+            "question": "What is the correct syntax for loading a .csv file into the R workspace?",
+            "answers": ["table.read('c:/documents/file.csv', sep=',', header = TRUE)",
+                        "read.table('c:/documents/file.csv', sep=',', header = TRUE)",
+                        "read.table('c:\\documents\\file.csv', sep=',', header = TRUE)",
+                        "table.read('c:\\documents\\file.csv', sep=',', header= TRUE)"],
+            "correct": 2
+        },
+        "q4": {
+            "question": "What should be shared with the Project Sponsor when communicating results?",
+            "answers": ["Technical document on how to build the model",
+                        "Business impact of implementing the model",
+                        "How business reports will change",
+                        "Code used for building the model",],
+            "correct": 2
+        },
+        "q5": {
+            "question": "In which Data Analytics Lifecycle phase is it advised to develop an initial hypothesis?",
+            "answers": ["Data Preparation", "Model Building", "Discovery", "Communicate Results"],
+            "correct": 3
+        },
+        "q6": {
+            "question": "'M' is a matrix with 10,000 rows and 500 columns. By default, what is the effect of executing the command head(M) in R?",
+            "answers": ["Shows all columns for the top 10 rows",
+                        "Creates a table with the name 'head'",
+                        "Shows all columns for the top 6 rows",
+                        "Shows the first column of the top 6 rows"],
+            "correct": 3
+        },
+        "q7": {
+            "question": "What are the key characteristics of Big Data?",
+            "answers": ["Variety, range, and velocity",
+                        "Volume, size, and value",
+                        "Vibrant, variety, and valor",
+                        "Volume, velocity, and variety"],
+            "correct": 4
+        },
+        "q8": {
+            "question": "What is a key criterion for any Big Data project?",
+            "answers": ["long wait times for results",
+                        "Data sets are uploaded in batches",
+                        "Hundred percent accurate prediction",
+                        "Analysis flexibility"],
+            "correct": 4
+        },
+        "q9": {
+            "question": "Which key business driver for analytics used by businesses is an example of customer churn?",
+            "answers": ["Optimize supply chain management",
+                        "Predict new business opportunities",
+                        "Comply with laws or regulatory requirements",
+                        "Identify the business risk"],
+            "correct": 4
+        },
+        "q10": {
+            "question": "Which symbol represents the null hypothesis?",
+            "answers": ["H^0", "H0", "H_1", "H_0"],
+            "correct": 4
+        },
+        "q11": {
+            "question": "Into which four levels of measurement can data be classified?",
+            "answers": ["Ordinal, numeric, ratio, and integer",
+                        "Object, nominal, ratio, and integer",
+                        "Object, numeric, ratio, and interval",
+                        "Ordinal, nominal, ratio, and interval"],
+            "correct": 4
+        },
+        "q12": {
+            "question": "In R, which type of graph should be used if there are too many records to obseive the structure of a scatterplot?",
+            "answers": ["Multiple pairwise plots", "Histogram", "Box and whisker plot", "Hexbin plot"],
+            "correct": 4
+        },
+        "q13": {
+            "question": "Which package is used in R for rich composite graphs?",
+            "answers": ["MASS", "Graphics", "HTTR", "ggplot2"],
+            "correct": 4
+        },
+        "q14": {
+            "question": "What is a consideration when choosing a Naiive Bayesian model for a business problem?",
+            "answers": ["Categorical values cannot be handled",
+                        "Implementation is very difficult",
+                        "Missing values are not handled well",
+                        "Numerical values cannot be handled well"],
+            "correct": 4
+        },
+        "q15": {
+            "question": "How is the false positive rate (FPR) calculated?",
+            "answers": ["FPR = all positives / false positives",
+                        "FPR = false positives / true positives",
+                        "FPR = false positives / all positives",
+                        "FPR = false positives / all negatives"],
+            "correct": 4
+        },
+        "q16": {
+            "question": "The data frame 'data' contains 50,000 records of household income data, Each record contains 200 attributes, such as the number of occupants and education level. What will be the effect of executing the command subdata <- data[1:100,] in R?",
+            "answers": ["All columns and the first 100 rows are copied from 'data' to 'subdata'",
+                        "All rows and all columns are copied from 'data' to 'subdata'",
+                        "First 100 rows and the first 100 columns are copied from ' data' to 'subdata'",
+                        "All rows for the first 100 columns are copied from 'data' to 'subdata'"],
+            "correct": 1
+        },
+        "q17": {
+            "question": "In k-means clustering, if you cannot initially decide on the k (number of clusters) for a given data set, which plot can you use to help select k?",
+            "answers": ["Within sum of squares", "Box and whisker", "Multiple pairwise", "Differences of mean"],
+            "correct": 1
+        },
+        "q18": {
+            "question": "What is HDFS?",
+            "answers": ["Distributed datastore for Hadoop", "Mapper and Reducer", "NameNode", "Job Tracker"],
+            "correct": 1
+        },
+        "q19": {
+            "question": "Which Hadoop service acts as a regulator/resolver between a client and the data node servers?",
+            "answers": ["NameNode", "Task Manager", "Host Bus Adapter", "Master node"],
+            "correct": 1
+        },
+        "q20": {
+            "question": "When is it appropriate to move beyond the Model Building phase of the Data Analytics lifecycle?",
+            "answers": ["Model is sufficiently robust",
+                        "Initial hypothesis is clear",
+                        "Data sets for the model are identified",
+                        "Model works on a small subset of the data"],
+            "correct": 1
+        },
+        "q21": {
+            "question": "A data science team is studying the financial conditions of the health services industry in a given country. In which phase of the Data Analytics Lifecycle is the team?",
+            "answers": ["Discovery", "Data Preparation", "Model Planning", "Model Building"],
+            "correct": 1
+        },
+        "q22": {
+            "question": "Into which structures can data be broadly classified?",
+            "answers": ["Structured, semi-structured, quasi-structured, and unstructured",
+                        "RDBMS, e-mail header, XML file, and image",
+                        "Semi-structured, half-structured, quarter-structured, and quasi-structured",
+                        "Structured, organized, unorganized, and unstructured"],
+            "correct": 1
+        },
+        "q23": {
+            "question": "What is a use case for time series analysis?",
+            "answers": ["Stock price of a company on the following day",
+                        "Impact of CO2 emissions on global warming",
+                        "Power consumption of a nation over the following decade",
+                        "Weather forecast for the entire following year"],
+            "correct": 1
+        },
+        "q24": {
+            "question": "Consider the linear regression equation y = 0.7 + 2.5x. What will be the res ult of a single unit increase in the value of 'x'?",
+            "answers": ["y increases by 2.5 units",
+                        "y increases by .07 units",
+                        "y increases by 0. 7 times",
+                        "y increases by 2.5 times"],
+            "correct": 1
+        },
+        "q25": {
+            "question": "What is the main consideration for conducting a Student's t-test or Welch's t-test?",
+            "answers": ["No assumptions about the distribution of data are required",
+                        "Normally distributed data is assumed",
+                        "Test cannot be conducted for very large data sets",
+                        "Type I and Type II errors are assumed to be equal"],
+            "correct": 2
+        },
+        "q26": {
+            "question": "What is the importance of the p-value in a hypothesis test such as the Wilcoxon Rank-Sum test?",
+            "answers": ["If the p-value is small (< 0.05), the null hypothesis should be accepted",
+                        "If the p-value is small (< 0.05), the null hypothesis should be rejected",
+                        "If the p-value is large (> 0.05), the null hypothesis should be rejected",
+                        "p-value does not determine whether the null hypothesis should be accepted or rejected"],
+            "correct": 2
+        },
+        "q27": {
+            "question": "Which topic should NOT be considered when creating a presentation for project sponsors?",
+            "answers": ["Key messages to consider in the decision-making process",
+                        "Technical code for implementing the model",
+                        "'Big picture' takeaways for executive level stakeholders",
+                        "'Clean' visuals for the viewer to grasp"],
+            "correct": 2
+        },
+        "q28": {
+            "question": "What does the Data Analytics Lifecycle help you do when working on a Big Data project? Review Later",
+            "answers": ["Design the data warehouse",
+                        "Provide project guidelines",
+                        "Visualize the data",
+                        "Clean the data"],
+            "correct": 2
+        },
+        "q29": {
+            "question": "What is Hadoop?",
+            "answers": ["Popular relational database",
+                        "Java Classes for managing HDFS and MapReduce jobs",
+                        "Big Data commodity storage",
+                        "Framework that allows parallel processing of all types of data"],
+            "correct": 2
+        },
+        "q30": {
+            "question": "Which type of graph is recommended for visualizing a single variable? CJ Review Later",
+            "answers": ["Any 3-D plot", "Histogram", "Hexbin plot", "Multiple pairwise plots"],
+            "correct": 2
+        },
+        "q31": {
+            "question": "How would a receiver operating characteristics (ROC) curve plot be represented?",
+            "answers": ["False positive rate on the X-axis and true negative rate on the Y-axis",
+                        "False positive rate on the X-axis and true positive rate on the Y-axis",
+                        "False positives on the X-axis and true positives on the Y-axis",
+                        "False positives on the X-axis and true negatives on the Y-axis"],
+            "correct": 2
+        },
+        "q32": {
+            "question": "Which package is used in R for working on Na'fve Bayesian classifiers?",
+            "answers": ["e1001", "e1071", "e1100", "e1701"],
+            "correct": 2
+        },
+        "q33": {
+            "question": "What makes data stationary while using time series analysis?",
+            "answers": ["De-trending", "Seasonal adjustment", "ACF", "PACF"],
+            "correct": 2
+        },
+        "q34": {
+            "question": "What is HBase?",
+            "answers": ["Query language based on SQL for building MapReduce jobs",
+                        "Database built on HDFS supporting random, real-time reads and writes",
+                        "Data flow language and execution environment",
+                        "Coordination service for building distributed applications"],
+            "correct": 2
+        },
+        "q35": {
+            "question": "What is Mahout?",
+            "answers": ["Online repository for machine learning algorithms that can be used in R",
+                        "Online library that provides eBooks on machine learning topics",
+                        "Set of machine learning algorithms that leverages Hadoop",
+                        "SQL-like language that runs on top of Hadoop"],
+            "correct": 3
+        },
+        "q36": {
+            "question": "Into which four levels of measurement can data be classified?",
+            "answers": ["Object, nominal, ratio, and integer",
+                        "Object, numeric, ratio, and interval",
+                        "Ordinal, nominal, ratio, and interval",
+                        "Ordinal, numeric, ratio, and integer"],
+            "correct": 3
+        },
+        "q37": {
+            "question": "Refer to the graphic. Which action will clear the chart junk?",
+            "image": "images/img11.png",
+            "answers": ["Removing the legend on the right",
+                        "Adding horizontal grid lines",
+                        "Removing the vertical grid lines",
+                        "Removing the chart title"],
+            "correct": 3
+        },
+        /*"q38": {
+            "question": "What is a primary consideration when implementing an Apriori algorithm as a model?",
+            "answers": ["It does not find any coincidental relationships",
+                        "It is very complicated, so it is not easy to implement",
+                        "It is not easy to parallelize given its level of complexity",
+                        "It has exponential time complexity, so multiple database scans are needed"],
+            "correct": 3
+        },*/
+        "q39": {
+            "question": "Which text strings are matched by the regular expression '^green*'?",
+            "answers": ["Any string with green in the middle",
+                        "Any string with ^green* in the middle",
+                        "Any string starting with green",
+                        "Any string ending with green"],
+            "correct": 3
+        },
+        "q40": {
+            "question": "How is the true positive rate (TPR) calculated?",
+            "answers": ["TPR = all positives / true positives",
+                        "TPR = true positives / false positives",
+                        "TPR = true positives / all positives",
+                        "TPR = true positives / false negatives"],
+            "correct": 3
+        },
+        "q41": {
+            "question": "A database application user wants to combine two tables using a common field. The user uses SQL to compare each row of table 'right' to each row of table 'left'. Only the matching rows are returned as part of the result set. Which SQL operation is being used?",
+            "answers": ["Right outer join", "Inner join", "Full outer join", "Cross join"],
+            "correct": 3
+        },
+        "q43": {
+            "question": "What is the primary disadvantage of selecting a 3-dimensional chart?",
+            "answers": ["Cannot include a legend",
+                        "Focuses on data, not graphics",
+                        "Difficult to measure the actual data",
+                        "Too difficult to create"],
+            "correct": 3
+        },
+        "q44": {
+            "question": "A financial services company needs to separate its customers into groups based on age and income. Which method should the company use?",
+            "answers": ["Linear regression", "Time series analysis", "K-means clustering", "Decision trees"],
+            "correct": 3
+        },
+        "q45": {
+            "question": "An eCommerce company wants to increase sales by recommending bundles of items that are generally purchased together to its web visitors. Which technique should be used to create an analytical model?",
+            "answers": ["Linear regression", "Time series analysis", "Apriori algorithm", "K-means clustering"],
+            "correct": 3
+        },
+        "q46": {
+            "question": "How would the lift to evaluate the appropriateness of candidate rule x -> y for the Apriori algorithm be calculated?",
+            "answers": ["lift (X -> Y) = Support (x ∪ y) / (Support (x) * Support (y))",
+                        "lift (X -> Y) = Support (x ∪ y) / Support (x) - Support (y)",
+                        "lift (X -> Y) = Support (x) - Support(y) / Support (x ∪ y)",
+                        "lift (X -> Y) = Support (x) * Support(y) / Support (x ∪ y)"],
+            "correct": 1
+        },
+        "q47": {
+            "question": "Which library is used by Greenplum for in-database analytics?",
+            "answers": ["MADlib", "Mahout library", "In-database library", "Analytics library"],
+            "correct": 1
+        },
+        "q48": {
+            "question": "When should the use of the PIG language for Hadoop be avoided?",
+            "answers": ["Working on a small portion of a dataset",
+                        "Performing real-time processing of a dataset",
+                        "Working on an entire dataset",
+                        "Working on unstructured data"],
+            "correct": 1
+        },
+        "q49": {
+            "question": "A company is planning to offer a discount on their products to increase sales during a holiday season. What is the most appropriate null hypothesis?",
+            "answers": ["Offered discount has no effect on sales",
+                        "Offered discount has minor effect on sales",
+                        "Offered discount nullifies the company's profit",
+                        "Offered discount either has an effect or does not have any effect on sales"],
+            "correct": 1
+        },
+        "q50": {
+            "question": "Which package is used to create a decision tree for a given data set in R?",
+            "answers": ["Rparted", "Rpart", "Dtree", "Decisiontree"],
+            "correct": 2
+        },
+        "q51": {
+            "question": "Which classifier is highly recommended for analyzing business problems involving non-linear or discontinuous inputs?",
+            "answers": ["Time series analysis", "Decision trees", "Logistic regression", "Naiive Bayes"],
+            "correct": 2
+        },
+        "q52": {
+            "question": "What is a key activity of a data scientist?",
+            "answers": ["Conduct research for years",
+                        "Reframe business challenges as analytics challenges",
+                        "Create quarterly sales reports",
+                        "Analyze a small data set that is provided"],
+            "correct": 2
+        },
+        "q53": {
+            "question": "What is a key criterion for any Big Data project?",
+            "answers": ["Data sets are uploaded in batches",
+                        "Hundred percent accurate prediction",
+                        "Analysis flexibility",
+                        "Long wait times for results"],
+            "correct": 3
+        },
+        "q54": {
+            "question": "What is a key advantage of an analytic sandbox over an enterprise data warehouse?",
+            "answers": ["Owned by the database administrator",
+                        "Holds pre-processed data",
+                        "Enables in-database processing",
+                        "Supports business intelligence and reporting"],
+            "correct": 3
+        },
+        "q55": {
+            "question": "During which phase of the Data Analytics Lifecycle is it necessary to determine which analytical methods will meet the business objectives?",
+            "answers": ["Data Preparation", "Discovery", "Model Building", "Model Planning"],
+            "correct": 4
+        },
+        "q56": {
+            "question": "What is NOT a tool used for visualization?",
+            "answers": ["SQL", "Spotfire", "R", "Tableau"],
+            "correct": 1
+        },
+        "q57": {
+            "question": "When using the CART algorithm to create a decision tree, which information gain determines the corresponding attribute to be selected next for partitioning?",
+            "answers": ["0.56", "0.38", "0.05", "0.49"],
             "correct": 1
         }
     }
