@@ -5,15 +5,19 @@ function random() {
     let array = [];
     let question = document.getElementsByClassName("question-box");
     for(let i=0; i<question.length; i++) {
-        array.push(question[i].outerHTML);
+        array.push(question[i]);
     }
     
     body.innerHTML = "";
     
+    let count = 1;
     while(array.length > 0) {
         let rand = Math.floor(Math.random() * array.length);
-        body.innerHTML += array[rand];
+        let question = array[rand];
+        question.firstElementChild.innerHTML = count + ". " + question.firstElementChild.innerHTML
+        body.innerHTML += question.outerHTML;
         array.splice(rand, 1);
+        count++;
     }
 }
 

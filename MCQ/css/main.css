@@ -70,6 +70,35 @@ header svg {
 
 #search-box input:focus {border-width: 3px;}
 
+#course-select {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#course-select div {
+    width: 75%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#course-select h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#course-select select {
+    padding: 8px 10px;
+    border: none;
+    color: #fff;
+    background-color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
 /*------------------------------------------------------------------------------------*/
 
 #questions {
@@ -87,7 +116,7 @@ header svg {
 
 .question-box {
     background-color: #f1f1f1;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 20px;
     
     border-left: 5px solid #00a1ff;
@@ -155,31 +184,3 @@ header svg {
 
 /************************************************************************************************/
 
-#course-select {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-#course-select div {
-    width: 75%;
-    min-width: 200px;
-    display: flex;
-    flex-direction: column;
-}
-
-#course-select h2 {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-#course-select select {
-    padding: 8px 10px;
-    border: none;
-    color: #fff;
-    background-color: #333;
-    font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    cursor: pointer;
-}

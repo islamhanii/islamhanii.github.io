@@ -1825,11 +1825,310 @@ var database = {
 
     /*
      ********************************************************
-     *  ERP Lectures Questions
+     *  Embedded Questions
      * ******************************************************
     */
 
-    "ERP Lectures": {
-        "question": "Arrang following data from low to high structurd:<br/>1. XML files<br/><br/>"
+    "Embedded": {
+        "q1": {
+            "question": "Most Embedded Systems are single-functioned and execute a single program repeatedly",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q2": {
+            "question": "End users of embedded products are interested in the functionality of the product as well as in type of the microcontroller used",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q3": {
+            "question": "The PIC18 uses a crystal oscillator to generate the clock signal and instruction execution time is measured by using the instruction cycle",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q4": {
+            "question": "In normal program execution, the program counter (PC) value is incremented by either 1 or 2",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q5": {
+            "question": "PIC18 has instructions for 8-bit multiplication and the products are stored in any available register pair",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q6": {
+            "question": "Data EEPROM does not save information because it needspower to maintain the information stored on the chip",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q7": {
+            "question": "Using Bank switching is an overhead and can be error-prone",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q8": {
+            "question": "The port register is data direction register which defines if the specific bit or whole port will be an input or an output",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q9": {
+            "question": "Most Embedded Systems are single-functioned and execute a single program repeatedly",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q10": {
+            "question": "One instruction cycle is equal to four times the crystal oscillator clock period",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q11": {
+            "question": "Special function registers are used to control the operation of peripheral functions",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q12": {
+            "question": "General function registers are used to control the operation of peripheral functions",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q13": {
+            "question": "Directives are special commands to the assembler which may or may not generate machine code",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q14": {
+            "question": "Directives are special commands to the compiler which may or may not generate machine code",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q15": {
+            "question": "We cannot move literal values directly into the general purpose RAM location in the PIC18",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q16": {
+            "question": "EEPROM are considered as add-on memory that one can add externally to the ship",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q17": {
+            "question": "After each DAW addition, the result is corrected automatically",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q18": {
+            "question": "After each BCD addition, the result is corrected automatically",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q19": {
+            "question": "The status register is data direction register which defines if the specific bit or whole port will be an input or an output",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q20": {
+            "question": "PIC18 has several instructions for 8-bit multiplication and the products are stored in any available register pair",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q21": {
+            "question": "In normal program execution, the program counter (PC)value is incremented by either 2or 4",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q22": {
+            "question": "Programmers using Assembly language need to work on the program logic at a very low level and cannot achieve high productivity",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q23": {
+            "question": "BRA n: jump to the instruction with address equals to PC+2+n",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q24": {
+            "question": "One instruction cycle is equal to twice the crystal oscillator clock period",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q27": {
+            "question": "When a function is called, the return address (location of the next step in a program) is poped from the stack",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q28": {
+            "question": "When a function is called, the return address (location of the next step in a program) is pushed to the stack",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q29": {
+            "question": "Memory pointer is a register that holds the address of a data register. This is called indirect addressing",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q30": {
+            "question": "Applications of arithmetic Instructions is to set or clear certain bits in a byte",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q31": {
+            "question": "Applications of bit-oriented Instructions is to set or clear certain bits in a byte",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q32": {
+            "question": "PIC, which stands for peripheral interface controllers a microcontroller developed by Microchip",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q33": {
+            "question": "PIC mainly used modified Princton architecture and also supports CISC architecture",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q34": {
+            "question": "PIC mainly used modified Harvard architecture and also supports RISC architecture",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q35": {
+            "question": "Any two PIC microcontrollers, for example 16F84A and 16F877A have  the same core (CPU)",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q36": {
+            "question": "Any two PIC microcontrollers, for example 16F84A and 16F877A differ in memory size and peripherals",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q37": {
+            "question": "When we say that the PIC 16 series microcontrollers are 8-bit microcontrollers you understand the ALU is 8 bits",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q38": {
+            "question": "When we say that the PIC 16 series microcontrollers are 8-bit microcontrollers you understand the File Register is 8 bits",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q39": {
+            "question": "The effect of executing the following instructions is to  configure PORTA as input port.<br/>movlw b’11110000’<br/>movwf trisb",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q40": {
+            "question": "The cache memory is used to store the program counter when subroutines are called",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q41": {
+            "question": "The stack is used to store the program counter when subroutines are called",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q42": {
+            "question": "In some cases the ALU may execute instructions that modify the program counter, such ADDWF PCL",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q43": {
+            "question": "Assume that the following code has just been executed.<br/>movlw 2f<br/>addlw 55<br/>Check the condition of the following status flags: C = 0",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q44": {
+            "question": "Assume that the following code has just been executed.<br/>movlw 2f<br/>addlw 55<br/>Check the condition of the following status flags: DC = 0",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q45": {
+            "question": "Assume that the following code has just been executed.<br/>movlw 2f<br/>addlw 55<br/>Check the condition of the following status flags: Z = 0",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q46": {
+            "question": "Assume that the following code has just been executed.<br/>movlw 2f<br/>addlw 55<br/>The binary content of the working register is 11100100",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q47": {
+            "question": "Assume that the following code has just been executed.<br/>movlw 2f<br/>addlw 55<br/>The binary content of the working register is 10000100",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q48": {
+            "question": "In 8 bit signed number operation the Overflow flag is raised when the result of signed number operation is too large",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q49": {
+            "question": "Examples of General Purpose Registers are STATUS and PC",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q50": {
+            "question": "Examples of General Purpose Registers are STATUS and PC",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q51": {
+            "question": "After each BCD addition, the result is corrected by the user not automatically",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q52": {
+            "question": "Using access bank is an overhead and can be error-prone, therefore PIC18 implemented Bank switching to reduce this problem",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q53": {
+            "question": "The variables that we store in the Data Memory during the program are deleted after we turn off the microcontroller",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q54": {
+            "question": "Data EEPROM is a memory that allows storing the variables as a result of burning the written program",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q55": {
+            "question": "PIC18 has instructions for 8-bit multiplication and the products are stored in SFR registers PRODH and PRODL",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q56": {
+            "question": "To implement indirect addressing, a File Select Register (FSR) and indirect register (INDF) are used",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q57": {
+            "question": "On power-up the PIC uses location 1 as the first location of the stack",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q58": {
+            "question": "The RCALL target address can be any where in the 2M address space",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q59": {
+            "question": "In the PIC18, the instruction cycle lasts 4 clock periods of the crystal frequency",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q60": {
+            "question": "BRA and CALL will always take 2 instruction cycles",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q61": {
+            "question": "The BNZ instruction will always take 2 instruction cycles",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q62": {
+            "question": "The BNZ instruction will always take 1 or 2 instruction cycles",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
     }
 };
