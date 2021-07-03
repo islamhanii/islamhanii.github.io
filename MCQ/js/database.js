@@ -2065,20 +2065,15 @@ var database = {
             "answers": ["True", "False"],
             "correct": 2
         },
-        "q50": {
-            "question": "Examples of General Purpose Registers are STATUS and PC",
-            "answers": ["True", "False"],
-            "correct": 2
-        },
         "q51": {
             "question": "After each BCD addition, the result is corrected by the user not automatically",
             "answers": ["True", "False"],
-            "correct": 2
+            "correct": 1
         },
         "q52": {
             "question": "Using access bank is an overhead and can be error-prone, therefore PIC18 implemented Bank switching to reduce this problem",
             "answers": ["True", "False"],
-            "correct": 2
+            "correct": 1
         },
         "q53": {
             "question": "The variables that we store in the Data Memory during the program are deleted after we turn off the microcontroller",
