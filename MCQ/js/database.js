@@ -2125,5 +2125,185 @@ var database = {
             "answers": ["True", "False"],
             "correct": 1
         },
+    },
+
+    /*
+     ********************************************************
+     *  Data Communication Questions
+     * ******************************************************
+    */
+
+    "Data Communication": {
+        "q1": {
+            "question": "MostIn ________, the amplitude of the carrier signal is varied to create signal elements. Both frequency and phase remain constant Embedded Systems are single-functioned and execute a single program repeatedly",
+            "answers": ["PSK", "ASK", "FSK", "QAM"],
+            "correct": 2
+        },
+        "q2": {
+            "question": "How many carrier frequencies are used in BPSK?",
+            "answers": ["0", "1", "2", "none of the above"],
+            "correct": 2
+        },
+        "q3": {
+            "question": "The constellation diagram of 16-QAM has ______ dots.",
+            "answers": ["4", "8", "16", "none of the above"],
+            "correct": 3
+        },
+        "q4": {
+            "question": "AM and FM are examples of ________ conversion.",
+            "answers": ["analog-to-analog", "digital-to-digital", "analog-to-digital", "digital-to-analog"],
+            "correct": 1
+        },
+        "q5": {
+            "question": "The Federal Communications Commission (FCC) allows ______ kHz for each FM station.",
+            "answers": ["20", "100", "200", "none of the above"],
+            "correct": 2
+        },
+        "q6": {
+            "question": "Analog-to-analog conversion is needed if the available bandwidth is _______.",
+            "answers": ["band-pass", "low-pass", "either (a) or (b)", "neither (a) nor (b)"],
+            "correct": 1
+        },
+        "q7": {
+            "question": "In _____ transmission, the frequency of the carrier signal is modulated to follow the changing voltage level (amplitude) of the modulating signal. The peak amplitude and phase of the carrier signal remain constant, but as the amplitude of the information signal changes, the frequency of the carrier changes correspondingly.",
+            "answers": ["AM", "FM", "PM", "none of the above"],
+            "correct": 2
+        },
+        "q8": {
+            "question": "How many carrier frequencies are used in QPSK?",
+            "answers": ["0", "2", "1", "none of the above"],
+            "correct": 2
+        },
+        "q9": {
+            "question": "Which of the following is not a digital-to-analog conversion?",
+            "answers": ["FSK", "ASK", "AM", "PSK"],
+            "correct": 3
+        },
+        "q10": {
+            "question": "_______ conversion is the process of changing one of the characteristics of an analog signal based on the information in the digital data.",
+            "answers": ["Analog-to-analog", "Digital-to-digital", "Digital-to-analog", "Analog-to-digital"],
+            "correct": 3
+        },
+        "q11": {
+            "question": "If the baud rate is 400 for a QPSK signal, the bit rate is ________ bps.",
+            "answers": ["100", "400", "800", "1600"],
+            "correct": 3
+        },
+        "q12": {
+            "question": "In ________, the phase of the carrier is varied to represent two or more different signal elements. Both peak amplitude and frequency remain constant.",
+            "answers": ["PSK", "FSK", "ASK", "QAM"],
+            "correct": 1
+        },
+        "q13": {
+            "question": "Which of the following is not an analog-to-analog conversion?",
+            "answers": ["QAM", "AM", "PM", "FM"],
+            "correct": 1
+        },
+        "q14": {
+            "question": "How many carrier frequencies are used in BASK?",
+            "answers": ["0", "1", "2", "none of the above"],
+            "correct": 2
+        },
+        "q15": {
+            "question": "Quadrature amplitude modulation (QAM) is a combination of ___________.",
+            "answers": ["PSK and FSK", "ASK and FSK", "ASK and PSK", "none of the above"],
+            "correct": 3
+        },
+        "q16": {
+            "question": "In _________, the frequency of the carrier signal is varied to represent data. Both peak amplitude and phase remain constant.",
+            "answers": ["ASK", "FSK", "PSK", "QAM"],
+            "correct": 2
+        },
+        "q17": {
+            "question": "If the bit rate for an ASK signal is 1200 bps, the baud rate is ________.",
+            "answers": ["1200", "600", "400", "300"],
+            "correct": 1
+        },
+        "q18": {
+            "question": "The constellation diagram of BPSK has ______ dots.",
+            "answers": ["0", "1", "2", "none of the above"],
+            "correct": 3
+        },
+        "q19": {
+            "question": "The constellation diagram of QPSK has ______ dots.",
+            "answers": ["4", "2", "1", "none of the above"],
+            "correct": 1
+        },
+        "q20": {
+            "question": "In _______, the peak amplitude of one signal level is 0; the other is the same as the amplitude of the carrier frequency.",
+            "answers": ["OOK", "PSK", "FSK", "none of the above"],
+            "correct": 1
+        },
+        "q21": {
+            "question": "If the bit rate for a 16-QAM signal is 4000 bps, what is the baud rate?",
+            "answers": ["1200", "1000", "400", "300"],
+            "correct": 2
+        },
+        "q22": {
+            "question": "ASK, PSK, FSK, and QAM are examples of ________ conversion.",
+            "answers": ["analog-to-analog", "digital-to-digital", "analog-to-digital", "digital-to-analog"],
+            "correct": 4
+        },
+        "q23": {
+            "question": "If the bit rate for an FSK signal is 1200 bps, the baud rate is ________.",
+            "answers": ["1200", "600", "400", "300"],
+            "correct": 1200
+        },
+        "q24": {
+            "question": "The constellation diagram of BASK has ______ dots.",
+            "answers": ["0", "1", "2", "none of the above"],
+            "correct": 3
+        },
+        "q25": {
+            "question": "The Federal Communications Commission (FCC) allows ______kHz for each AM station.",
+            "answers": ["20", "10", "5", "none of the above"],
+            "correct": 2
+        },
+        "q26": {
+            "question": "How many carrier frequencies are used in BFSK?",
+            "answers": ["2", "1", "0", "none of the above"],
+            "correct": 1
+        },
+        "q27": {
+            "question": "In _____ transmission, the phase of the carrier signal is modulated to follow the changing voltage level (amplitude) of the modulating signal.",
+            "answers": ["AM", "FM", "PM", "none of the above"],
+            "correct": 3
+        },
+        "q28": {
+            "question": "_________ conversion is the representation of analog information by an analog signal.",
+            "answers": ["Analog-to-analog", "Digital-to-digital", "Digital-to-analog", "Analog-to-digital"],
+            "correct": 1
+        },
+        "q29": {
+            "question": "In _____ transmission, the carrier signal is modulated so that its amplitude varies with the changing amplitudes of the modulating signal.",
+            "answers": ["PM", "FM", "AM", "none of the above"],
+            "correct": 3
+        },
+        "q30": {
+            "question": "In QAM, both ________ of a carrier frequency are varied.",
+            "answers": ["phase and frequency", "amplitude and phase", "frequency and amplitude", "none of the above"],
+            "correct": 2
+        },
+        "q31": {
+            "question": "________ uses two carriers, one in-phase and the other quadrature.",
+            "answers": ["QAM", "ASK", "FSK", "PSK"],
+            "correct": 1
+        },
+        "q32": {
+            "question": "Given an AM radio signal with a bandwidth of 10 KHz and the highest-frequency component at 705 KHz, what is the frequency of the carrier signal?",
+            "answers": ["710 KHz", "705 KHz", "700 KHz", "Cannot be determined from given information"],
+            "correct": 3
+        },
+        "q33": {
+            "question": "A constellation diagram shows us the __________ of a signal element, particularly when we are using two carriers (one in-phase and one quadrature).",
+            "answers": ["amplitude and frequency", "amplitude and phase", "frequency and phase", "none of the above"],
+            "correct": 2
+        },
+        "q34": {
+            "question": "If the baud rate for a 64-QAM signal is 2000, what is the bit rate?",
+            "answers": ["12000", "1000", "400", "300"],
+            "correct": 1
+        },
+        
     }
 };
