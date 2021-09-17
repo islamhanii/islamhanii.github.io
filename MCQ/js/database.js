@@ -3318,11 +3318,6 @@ var database = {
             "answers": ["PM", "FM", "AM", "None of the above"],
             "correct": 2
         },
-        "q16": {
-            "question": "How many signal element are used in BPSK? <<مش متأكد>>",
-            "answers": ["0", "1", "2", "None of the above"],
-            "correct": 3
-        },
         "q17": {
             "question": "The size and format of physical addresses vary depending on the",
             "answers": ["receiver", "message", "sender", "network"],
@@ -4217,6 +4212,226 @@ var database = {
             "question": "Amplitude Modulation (AM) is normally implemented by using a",
             "answers": ["multiplexer", "de multiplexer", "multiplier", "phase shifting"],
             "correct": 3
+        },
+        "q196": {
+            "question": "Transmission media are directly controlled by the",
+            "answers": ["physical layer", "data link layer", "network layer", "session layer"],
+            "correct": 1
+        },
+        "q197": {
+            "question": "The electromagnetic waves ranging in frequencies between 3 kHz and 1 GHz are called",
+            "answers": ["high frequency", "infrared", "microwaves", "radio waves"],
+            "correct": 4
+        },
+        "q198": {
+            "question": "The ray of light refracts and moves closer to the surface then the angle of the incidence is",
+            "answers": ["equal to the critical angle", "not equal to the critical angel", "less than the critical angle", "greater than the critical angle"],
+            "correct": 3
+        },
+        "q199": {
+            "question": "Guided media provides a conduit from one device to another, includes",
+            "answers": ["twisted pair cable", "fiber optic cable", "coaxial cable", "all of above"],
+            "correct": 4
+        },
+        "q200": {
+            "question": "RG-59 is used in",
+            "answers": ["radio", "thick Ethernet", "thin Ethernet", "cable TV"],
+            "correct": 4
+        },
+        "q201": {
+            "question": "In telecommunications, transmission media can be divided into",
+            "answers": ["four broad categories", "three broad categories", "two broad categories", "five broad categories"],
+            "correct": 3
+        },
+        "q202": {
+            "question": "The twisted pair cable in which metal casing improves the penetration of noise or crosstalk is called",
+            "answers": ["(a) insulated twisted pair cable", "(b) shielded twisted pair cable", "(c) unshielded twisted pair cable", "both (a) and (b)"],
+            "correct": 2
+        },
+        "q203": {
+            "question": "Line-of-sight propagation lies above",
+            "answers": ["3 kHz", "30 MHz", "15 MHz", "2 kHz"],
+            "correct": 2
+        },
+        "q204": {
+            "question": "In single mode, the decrease in density results in a critical angle that is close enough to",
+            "answers": ["180 degree", "360 degree", "0 degree", "90 degree"],
+            "correct": 4
+        },
+        "q204": {
+            "question": "Optical fibers use reflection to guide light through a",
+            "answers": ["channel", "metal wire", "light", "plastic"],
+            "correct": 1
+        },
+        "q205": {
+            "question": "In the electromagnetic spectrum for wireless communication, the reserved range for radio waves and microwaves is known as",
+            "answers": ["ground propagation", "sky propagation", "line-of-sight propagation", "node propagation"],
+            "correct": 1
+        },
+        "q206": {
+            "question": "7/125 is the fiber type used in which of the following propagation mode?",
+            "answers": ["single mode", "multimode", "multimode, step index", "multimode, graded index"],
+            "correct": 1
+        },
+        "q207": {
+            "question": "The long-distance communication using electric signals was started with the invention of the telegraph by Morse in",
+            "answers": ["19th century", "18th century", "20th century", "middle of 18 and 19 century"],
+            "correct": 1
+        },
+        "q208": {
+            "question": "Super High frequency (SHF) is used in",
+            "answers": ["fm radio", "satellite communication", "AM radio", "cellular phones"],
+            "correct": 2
+        },
+        "q209": {
+            "question": "The range of middle frequency is",
+            "answers": ["3-30 kHz", "900 kHz-300 kHz", "3 kHz-30 MHz", "300 kHz-3 MHz"],
+            "correct": 4
+        },
+        "q210": {
+            "question": "Unguided signals can travel from the source to destination in",
+            "answers": ["one way", "two ways", "three ways", "four ways"],
+            "correct": 3
+        },
+        "q211": {
+            "question": "Microwaves having frequency between",
+            "answers": ["1 kHz and 300 GHz", "3 kHz and 1 GHz", "300 kHz and 1 GHz", "1GHz and 300 GHz"],
+            "correct": 1
+        },
+        "q212": {
+            "question": "Propagation of light is",
+            "answers": ["unidirectional", "bidirectional", "multimode", "single mode"],
+            "correct": 1
+        },
+        "q213": {
+            "question": "The twisted pair cable consists of",
+            "answers": ["none", "1 conductor", "2 conductors", "n conductors"],
+            "correct": 3
+        },
+        "q214": {
+            "question": "Infrared signals can be used for",
+            "answers": ["long-range communication", "short-range communication", "both", "middle range communication"],
+            "correct": 2
+        },
+        "q215": {
+            "question": "The electromagnetic spectrum is divided into 8 ranges called",
+            "answers": ["bands", "propagation", "channel", "chains"],
+            "correct": 1
+        },
+        "q216": {
+            "question": "The cable that accepts and transports signals in the form of light is",
+            "answers": ["unwired", "fiber optic cable", "coaxial cable", "twisted pair cable"],
+            "correct": 2
+        },
+        "q217": {
+            "question": "The Ultra High Frequency (UHF) is using the propagation method of",
+            "answers": ["sky", "ground", "line of sight", "sky, line of sight"],
+            "correct": 3
+        },
+        "q218": {
+            "question": "Infrared waves, that can be used for short range communication have frequencies between",
+            "answers": ["300 GHz to 700 THz", "300 GHz to 800 THz", "300 GHz to 100 THz", "300 GHz to 400 THz"],
+            "correct": 4
+        },
+        "q219": {
+            "question": "How many modes are currently in used for propagating light along optical channels?",
+            "answers": ["one mode", "two modes", "three modes", "five modes"],
+            "correct": 2
+        },
+        "q220": {
+            "question": "The term that is used to measure of the thickness of the wire is",
+            "answers": ["decibels", "hertz", "gauge", "diameter"],
+            "correct": 3
+        },
+        "q221": {
+            "question": "Microwaves are used for",
+            "answers": ["short-range communication", "multicast communications", "unicast communication", "long range communication"],
+            "correct": 3
+        },
+        "q222": {
+            "question": "Fast Ethernet uses",
+            "answers": ["free space", "twisted pair cable", "fiber optic cable", "coaxial cable"],
+            "correct": 3
+        },
+        "q223": {
+            "question": "Shielded Screen Twisted pair decreases crosstalk effect and increases the data rate upto",
+            "answers": ["100Mbps", "125Mbps", "200Mbps", "600Mbps"],
+            "correct": 4
+        },
+        "q224": {
+            "question": "In line-or-sight propagation, very high-frequency signals are transmitted in straight lines directly from antenna to",
+            "answers": ["sky", "earth", "antenna", "planet"],
+            "correct": 3
+        },
+        "q225": {
+            "question": "Infrared waves are used for",
+            "answers": ["outdoor LANs", "indoor LANs", "Wireless LANs", "satellite"],
+            "correct": 2
+        },
+        "q226": {
+            "question": "The omnidirectional antennas send out signals in",
+            "answers": ["one direction", "2 directions", "no direction", "all directions"],
+            "correct": 4
+        },
+        "q227": {
+            "question": "The radio waves, microwaves and infrared waves are types of",
+            "answers": ["wireless transmission", "guided transmission", "both a and b", "unguided connection"],
+            "correct": 1
+        },
+        "q228": {
+            "question": "The term that refers to a strong material used in the fabrication of bulletproof vests is called",
+            "answers": ["Kevlar", "outer jacket", "cladding", "none of all"],
+            "correct": 1
+        },
+        "q229": {
+            "question": "Wireless communication started in",
+            "answers": ["1869", "1895", "1879", "1885"],
+            "correct": 2
+        },
+        "q230": {
+            "question": "In coaxial cable, the whole cable is protected by a",
+            "answers": ["shield", "plastic cover", "insulator", "conductor"],
+            "correct": 2
+        },
+        "q231": {
+            "question": "The most common twisted-pair cable used in communications are",
+            "answers": ["UTP", "STP", "normal twisted copper pair cables", "unguided connection"],
+            "correct": 1
+        },
+        "q232": {
+            "question": "The connector that is used for connecting cable to networking devices is called",
+            "answers": ["Subscriber Channel (SC)", "Straight-tip (ST)", "MT-RJ", "RG-ll"],
+            "correct": 2
+        },
+        "q233": {
+            "question": "The most common unshielded twisted pair connector is",
+            "answers": ["RJ-45", "RG-59", "RG-58", "RG-ll"],
+            "correct": 1
+        },
+        "q234": {
+            "question": "A signal that is the result of a conversion of data from another form is known as",
+            "answers": ["transmission medium", "data", "information", "communication"],
+            "correct": 3
+        },
+        "q235": {
+            "question": "The wireless transmission is divided into",
+            "answers": ["3 broad groups", "6 broad groups", "9 broad groups", "8 broad groups"],
+            "correct": 1
+        },
+        "q236": {
+            "question": "The wireless transmission is divided into",
+            "answers": ["3 broad groups", "6 broad groups", "9 broad groups", "8 broad groups"],
+            "correct": 1
+        },
+        "q237": {
+            "question": "In multimode propagation, the term step index refers to the",
+            "answers": ["index of refraction", "sudden change of signal", "index of density", "index of light rays"],
+            "correct": 2
+        },
+        "q238": {
+            "question": "Unshielded twisted-pair cables are used in",
+            "answers": ["telephone lines", "DSL lines", "LAN", "all of above"],
+            "correct": 4
         },
     }
 };
