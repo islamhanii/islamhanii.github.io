@@ -2129,11 +2129,11 @@ var database = {
 
     /*
      ********************************************************
-     *  Data Communication Questions
+     *  Data Communication Book Questions
      * ******************************************************
     */
 
-    "Data Communication": {
+    "Data Communication Book": {
         "q1": {
             "question": "MostIn ________, the amplitude of the carrier signal is varied to create signal elements. Both frequency and phase remain constant Embedded Systems are single-functioned and execute a single program repeatedly",
             "answers": ["PSK", "ASK", "FSK", "QAM"],
@@ -2161,7 +2161,7 @@ var database = {
         },
         "q6": {
             "question": "Analog-to-analog conversion is needed if the available bandwidth is _______.",
-            "answers": ["band-pass", "low-pass", "either (a) or (b)", "neither (a) nor (b)"],
+            "answers": ["(a) band-pass", "(b) low-pass", "either (a) or (b)", "neither (a) nor (b)"],
             "correct": 1
         },
         "q7": {
@@ -2206,7 +2206,7 @@ var database = {
         },
         "q15": {
             "question": "Quadrature amplitude modulation (QAM) is a combination of ___________.",
-            "answers": ["PSK and FSK", "ASK and FSK", "ASK and PSK", "none of the above"],
+            "answers": ["PSK and FSK", "ASK and FSK", "ASK and PSK", "ASK and BPSK"],
             "correct": 3
         },
         "q16": {
@@ -2304,6 +2304,1919 @@ var database = {
             "answers": ["12000", "1000", "400", "300"],
             "correct": 1
         },
-        
+        "q35": {
+            "question": "There are ______________ Internet service providers.",
+            "answers": ["regional", "local", "national and international", "all of the above"],
+            "correct": 4
+        },
+        "q36": {
+            "question": "______ refers to the physical or logical arrangement of a network.",
+            "answers": ["Topology", "Mode of operation", "Data flow", "none of the above"],
+            "correct": 1
+        },
+        "q37": {
+            "question": "A ______ is a data communication system spanning states, countries, or the whole world.",
+            "answers": ["MAN", "WAN", "LAN", "all of the above"],
+            "correct": 2
+        },
+        "q38": {
+            "question": "A _______ connection provides a dedicated link between two devices.",
+            "answers": ["primary", "multipoint", "point-to-point", "secondary"],
+            "correct": 3
+        },
+        "q39": {
+            "question": "Which topology requires a multipoint connection?",
+            "answers": ["Bus", "Star", "Mesh", "Ring"],
+            "correct": 1
+        },
+        "q40": {
+            "question": "A ________ is a set of rules that governs data communication.",
+            "answers": ["protocol", "forum", "standard", "none of the above"],
+            "correct": 1
+        },
+        "q41": {
+            "question": "In a ______ connection, two and only two devices are connected by a dedicated link.",
+            "answers": ["(a) multipoint", "(b) point-to-point", "(a) and (b)", "none of the above"],
+            "correct": 2
+        },
+        "q42": {
+            "question": "The information to be communicated in a data communications system is the _______.",
+            "answers": ["Medium", "Protocol", "Message", "Transmission"],
+            "correct": 3
+        },
+        "q43": {
+            "question": "________ defines how a particular pattern to be interpreted, and what action is to be taken based on that interpretation.",
+            "answers": ["Syntax", "Semantics", "Timing", "None of the above"],
+            "correct": 2
+        },
+        "q44": {
+            "question": "Frequency of failure and network recovery time after a failure are measures of the _______of a network.",
+            "answers": ["Performance", "Security", "Reliability", "Feasibility"],
+            "correct": 3
+        },
+        "q45": {
+            "question": "A television broadcast is an example of _______ transmission.",
+            "answers": ["half-duplex", "simplex", "full-duplex", "automatic"],
+            "correct": 2
+        },
+        "q46": {
+            "question": "Data flow between two devices can occur in a _______ way.",
+            "answers": ["half-duplex", "simplex", "full-duplex", "all of the above"],
+            "correct": 4
+        },
+        "q47": {
+            "question": "_______ are special-interest groups that quickly test, evaluate, and standardize new technologies.",
+            "answers": ["Standards organizations", "Regulatory agencies", "Forums", "All of the above"],
+            "correct": 3
+        },
+        "q48": {
+            "question": "Which agency developed standards for physical connection interfaces and electronic signaling specifications?",
+            "answers": ["ISO", "ITU-T", "ANSI", "EIA"],
+            "correct": 4
+        },
+        "q49": {
+            "question": "A _______ is a data communication system within a building, plant, or campus, or between nearby buildings.",
+            "answers": ["LAN", "MAN", "WAN", "none of the above"],
+            "correct": 1
+        },
+        "q50": {
+            "question": "_______ refers to two characteristics: when data should be sent and how fast it can be sent.",
+            "answers": ["Semantics", "Timing", "Syntax", "none of the above"],
+            "correct": 2
+        },
+        "q51": {
+            "question": "This was the first network.",
+            "answers": ["CSNET", "NSFNET", "ARPANET", "ANSNET"],
+            "correct": 3
+        },
+        "q52": {
+            "question": "Devices may be arranged in a ______ topology.",
+            "answers": ["mesh", "ring", "bus", "all of the above"],
+            "correct": 4
+        },
+        "q53": {
+            "question": "_______ is the protocol suite for the current Internet.",
+            "answers": ["UNIX", "NCP", "TCP/IP", "ACM"],
+            "correct": 3
+        },
+        "q54": {
+            "question": "________ is a collection of many separate networks.",
+            "answers": ["A WAN", "An internet", "A LAN", "None of the above"],
+            "correct": 2
+        },
+        "q55": {
+            "question": "In a ________ connection, three or more devices share a link.",
+            "answers": ["(a) point-to-point", "(b) multipoint", "(a) and (b)", "none of the above"],
+            "correct": 2
+        },
+        "q56": {
+            "question": "Which organization has authority over interstate and international commerce in the communications field?",
+            "answers": ["FCC", "IEEE", "ITU-T", "ISOC"],
+            "correct": 1
+        },
+        "q57": {
+            "question": "In the original ARPANET, _______ were directly connected together.",
+            "answers": ["routers", "host computers", "networks", "IMPs"],
+            "correct": 4
+        },
+        "q58": {
+            "question": "Communication between a computer and a keyboard involves ______________ transmission.",
+            "answers": ["simplex", "half-duplex", "full-duplex", "automatic"],
+            "correct": 1
+        },
+        "q59": {
+            "question": "Which topology requires a central controller or hub?",
+            "answers": ["Mesh", "Bus", "Star", "Ring"],
+            "correct": 3
+        },
+        "q60": {
+            "question": "The _______ is the physical path over which a message travels.",
+            "answers": ["Protocol", "Signal", "Medium", "All the above"],
+            "correct": 3
+        },
+        "q61": {
+            "question": "In a _______ connection, more than two devices can share a single link.",
+            "answers": ["multipoint", "point-to-point", "primary", "secondary"],
+            "correct": 1
+        },
+        "q62": {
+            "question": "_______ refers to the structure or format of the data, meaning the order in which they are presented.",
+            "answers": ["Semantics", "Syntax", "Timing", "All of the above"],
+            "correct": 2
+        },
+        "q63": {
+            "question": "An unauthorized user is a network _______ issue.",
+            "answers": ["Security", "Reliability", "Performance", "All of the above"],
+            "correct": 1
+        },
+        "q64": {
+            "question": "________ is an idea or concept that is a precursor to an Internet standard.",
+            "answers": ["RCF", "ID", "RFC", "none of the above"],
+            "correct": 3
+        },
+        "q65": {
+            "question": "In _______ transmission, the channel capacity is shared by both communicating devices at all times.",
+            "answers": ["simplex", "half-duplex", "full-duplex", "all of the above"],
+            "correct": 3
+        },
+        "q66": {
+            "question": "The ______ layer adds a header to the packet coming from the upper layer that includes the logical addresses of the sender and receiver.",
+            "answers": ["data link", "network", "physical", "none of the above"],
+            "correct": 2
+        },
+        "q67": {
+            "question": "Which of the following is an application layer service?",
+            "answers": ["File transfer and access", "Mail service", "Remote log-in", "All of the above"],
+            "correct": 4
+        },
+        "q68": {
+            "question": "When data are transmitted from device A to device B, the header from A’s layer 4 is read by B’s _______ layer.",
+            "answers": ["Transport", "Application", "Physical", "None of the above"],
+            "correct": 1
+        },
+        "q69": {
+            "question": "__________ provides full transport layer services to applications.",
+            "answers": ["UDP", "TCP", "ARP", "none of the above"],
+            "correct": 2
+        },
+        "q70": {
+            "question": "The process-to-process delivery of the entire message is the responsibility of the _______ layer.",
+            "answers": ["Transport", "Application", "Physical", "Network"],
+            "correct": 1
+        },
+        "q71": {
+            "question": "The ______ layer is responsible for moving frames from one hop (node) to the next.",
+            "answers": ["transport", "data link", "physical", "none of the above"],
+            "correct": 2
+        },
+        "q72": {
+            "question": "The _______ layer is responsible for delivering data units from one station to the next without errors.",
+            "answers": ["transport", "data link", "physical", "network"],
+            "correct": 2
+        },
+        "q73": {
+            "question": "The session, presentation, and application layers are the ______ support layers.",
+            "answers": ["(a) user", "(b) network", "both (a) and (b)", "neither (a) nor (b)"],
+            "correct": 1
+        },
+        "q74": {
+            "question": "The physical, data link, and network layers are the ______ support layers.",
+            "answers": ["(a) user", "(b) network", "both (a) and (b)", "neither (a) nor (b)"],
+            "correct": 2
+        },
+        "q75": {
+            "question": "The ________ layer is responsible for the process-to-process delivery of the entire message.",
+            "answers": ["(a) user", "(b) network", "both (a) and (b)", "neither (a) nor (b)"],
+            "correct": 2
+        },
+        "q76": {
+            "question": "The _______ layer lies between the network layer and the application layer.",
+            "answers": ["Data link", "Transport", "Physical", "None of the above"],
+            "correct": 2
+        },
+        "q77": {
+            "question": "The Internetworking Protocol (IP) is a ________ protocol.",
+            "answers": ["connection-oriented", "reliable", "both a and b", "none of the above"],
+            "correct": 4
+        },
+        "q78": {
+            "question": "The _______ layer links the network support layers and the user support layers.",
+            "answers": ["session", "transport", "data link", "network"],
+            "correct": 2
+        },
+        "q79": {
+            "question": "ICMPv6 includes _______.",
+            "answers": ["IGMP", "ARP", "RARP", "a and b"],
+            "correct": 4
+        },
+        "q80": {
+            "question": "The ____ address uniquely defines a host on the Internet.",
+            "answers": ["IP", "port", "specific", "physical"],
+            "correct": 1
+        },
+        "q81": {
+            "question": "The _______ layer coordinates the functions required to transmit a bit stream over a physical medium.",
+            "answers": ["data link", "transport", "network", "physical"],
+            "correct": 4
+        },
+        "q82": {
+            "question": "The ______ layer is responsible for the source-to-destination delivery of a packet across multiple network links.",
+            "answers": ["network", "physical", "data link", "transport"],
+            "correct": 1
+        },
+        "q83": {
+            "question": "Mail services are available to network users through the _______ layer.",
+            "answers": ["Transport", "Physical", "Data link", "Application"],
+            "correct": 4
+        },
+        "q84": {
+            "question": "The ____ created a model called the Open Systems Interconnection, which allows diverse systems to communicate.",
+            "answers": ["IEEE", "ISO", "OSI", "none of the above"],
+            "correct": 2
+        },
+        "q85": {
+            "question": "The _______ layer changes bits into electromagnetic signals.",
+            "answers": ["Physical", "Transport", "Data link", "None of the above"],
+            "correct": 1
+        },
+        "q86": {
+            "question": "IPv6 has _______ -bit addresses.",
+            "answers": ["128", "32", "64", "variable"],
+            "correct": 1
+        },
+        "q87": {
+            "question": "The_____ address identifies a process on a host.",
+            "answers": ["specific", "port", "IP", "physical"],
+            "correct": 2
+        },
+        "q88": {
+            "question": "The _________ layer enables the users to access the network.",
+            "answers": ["application", "physical", "data link", "transport"],
+            "correct": 1
+        },
+        "q89": {
+            "question": "The TCP/IP _______ layer is equivalent to the combined session, presentation, and application layers of the OSI model.",
+            "answers": ["data link", "network", "physical", "application"],
+            "correct": 4
+        },
+        "q90": {
+            "question": "When a host on network A sends a message to a host on network B, which address does the router look at?",
+            "answers": ["logical", "physical", "port", "none of the above"],
+            "correct": 1
+        },
+        "q91": {
+            "question": "As the data packet moves from the upper to the lower layers, headers are _______.",
+            "answers": ["Rearranged", "Removed", "Added", "Modified"],
+            "correct": 3
+        },
+        "q92": {
+            "question": "The physical layer is concerned with the movement of _______ over the physical medium.",
+            "answers": ["dialogs", "protocols", "bits", "programs"],
+            "correct": 3
+        },
+        "q93": {
+            "question": "To deliver a message to the correct application program running on a host, the _______ address must be consulted.",
+            "answers": ["physical", "port", "IP", "none of the above"],
+            "correct": 2
+        },
+        "q94": {
+            "question": "Ethernet uses a ________ physical address that is imprinted on the network interface card (NIC).",
+            "answers": ["32-bit", "6-byte", "64-bit", "none of the above"],
+            "correct": 2
+        },
+        "q95": {
+            "question": "The _______ layer is the layer closest to the transmission medium.",
+            "answers": ["Network", "Transport", "Physical", "Data link"],
+            "correct": 3
+        },
+        "q96": {
+            "question": "The OSI model consists of _______ layers.",
+            "answers": ["eight", "seven", "five", "three"],
+            "correct": 2
+        },
+        "q97": {
+            "question": "The ________ address, also known as the link address, is the address of a node as defined by its LAN or WAN.",
+            "answers": ["IP", "port", "specific", "physical"],
+            "correct": 4
+        },
+        "q98": {
+            "question": "Layer 2 lies between the physical layer and the _______ layer.",
+            "answers": ["Data link", "Transport", "Network", "None of the above"],
+            "correct": 3
+        },
+        "q99": {
+            "question": "Why was the OSI model developed?",
+            "answers": ["The rate of data transfer was increasing exponentially", "Standards were needed to allow any two systems to communicate", "Manufacturers disliked the TCP/IP protocol suite", "None of the above"],
+            "correct": 2
+        },
+        "q100": {
+            "question": "In the OSI model, as a data packet moves from the lower to the upper layers, headers are",
+            "answers": ["removed", "added", "rearranged", "modified"],
+            "correct": 1
+        },
+        "q101": {
+            "question": "In the OSI model, when data is transmitted from device A to device B, the header from A’s layer 5 is read by B’s _______ layer.",
+            "answers": ["session", "physical", "transport", "presentation"],
+            "correct": 1
+        },
+        "q102": {
+            "question": "The seven-layer _______ model provides guidelines for the development of universally compatible networking protocols.",
+            "answers": ["ISO", "OSI", "IEEE", "none of the above"],
+            "correct": 2
+        },
+        "q103": {
+            "question": "The Internet model consists of _______ layers.",
+            "answers": ["Eight", "Seven", "Five", "Three"],
+            "correct": 5
+        },
+        "q104": {
+            "question": "In the OSI model, what is the main function of the transport layer?",
+            "answers": ["process-to-process message delivery", "node-to-node delivery", "synchronization", "updating and maintenance of routing tables"],
+            "correct": 1
+        },
+        "q105": {
+            "question": "_______ is a process-to-process protocol that adds only port addresses, checksum error control, and length information to the data from the upper layer.",
+            "answers": ["IP", "TCP", "UDP", "none of the above"],
+            "correct": 3
+        },
+        "q106": {
+            "question": "The ______ layer establishes, maintains, and synchronizes the interactions between communicating devices.",
+            "answers": ["session", "physical", "transport", "network"],
+            "correct": 1
+        },
+        "q107": {
+            "question": "A port address in TCP/IP is ______ bits long.",
+            "answers": ["16", "32", "48", "none of the above"],
+            "correct": 1
+        },
+        "q108": {
+            "question": "In the OSI model, encryption and decryption are functions of the ________ layer.",
+            "answers": ["application", "presentation", "session", "transport"],
+            "correct": 2
+        },
+        "q109": {
+            "question": "TCP/IP is a ______ hierarchical protocol suite developed ____ the OSI model.",
+            "answers": ["five-layer; before", "six-layer; before", "seven-layer; before", "five-layer; after"],
+            "correct": 1
+        },
+        "q110": {
+            "question": "The _______ model shows how the network functions of a computer ought to be organized.",
+            "answers": ["ANSI", "CCITT", "ISO", "OSI"],
+            "correct": 4
+        },
+        "q111": {
+            "question": "The _______ layer ensures interoperability between communicating devices through transformation of data into a mutually agreed upon format.",
+            "answers": ["network", "presentation", "transport", "data link"],
+            "correct": 2
+        },
+        "q112": {
+            "question": "If the maximum amplitude of a sine wave is 2 V, the minimum amplitude is ________ V.",
+            "answers": ["2", "-1", "-2", "between -2 and 2"],
+            "correct": 3
+        },
+        "q113": {
+            "question": "_________ can impair a signal.",
+            "answers": ["Noise", "Attenuation", "Distortion", "All of the above"],
+            "correct": 4
+        },
+        "q114": {
+            "question": "________is the rate of change with respect to time.",
+            "answers": ["Time", "Frequency", "Amplitude", "Voltage"],
+            "correct": 2
+        },
+        "q115": {
+            "question": "A signal is measured at two different points. The power is P1 at the first point and P2 at the second point. The dB is 0. This means ________.",
+            "answers": ["P2 equals P1", "P2 is zero", "P2 is much larger than P1", "P2 is much smaller than P1"],
+            "correct": 1
+        },
+        "q116": {
+            "question": "Baseband transmission of a digital signal is possible only if we have a ____ channel.",
+            "answers": ["bandpass", "low-pass", "high rate", "low rate"],
+            "correct": 2
+        },
+        "q117": {
+            "question": "________ is a type of transmission impairment in which the signal loses strength due to the resistance of the transmission medium.",
+            "answers": ["Distortion", "Attenuation", "Noise", "Decibel"],
+            "correct": 2
+        },
+        "q118": {
+            "question": "A sine wave in the ______ domain can be represented by one single spike in the _____ domain.",
+            "answers": ["time; phase", "frequency; time", "time; frequency", "phase; time"],
+            "correct": 3
+        },
+        "q119": {
+            "question": "If the bandwidth of a signal is 5 KHz and the lowest frequency is 52 KHz, what is the highest frequency?",
+            "answers": ["5 KHz", "47 KHz", "57 KHz", "10 KHz"],
+            "correct": 3
+        },
+        "q120": {
+            "question": "In a time-domain plot, the horizontal axis is a measure of ________.",
+            "answers": ["phase", "signal amplitude", "frequency", "time"],
+            "correct": 4
+        },
+        "q121": {
+            "question": "_______ data are continuous and take continuous values.",
+            "answers": ["(a) digital", "(b) analog", "(a) or (b)", "none of the above"],
+            "correct": 2
+        },
+        "q122": {
+            "question": "Frequency and period are ______.",
+            "answers": ["proportional to each other", "inverse of each other", "the same", "none of the above"],
+            "correct": 2
+        },
+        "q123": {
+            "question": "When propagation speed is multiplied by propagation time, we get the ________.",
+            "answers": ["wavelength of the signal", "throughput", "distance a signal or bit has traveled", "distortion factor"],
+            "correct": 3
+        },
+        "q124": {
+            "question": "A _________ sine wave is not useful in data communications; we need to send a _______ signal.",
+            "answers": ["single-frequency; composite", "composite; single-frequency This is the correct answer", "single-frequency; double-frequency", "none of the above"],
+            "correct": 1
+        },
+        "q125": {
+            "question": "The _________ product defines the number of bits that can fill the link.",
+            "answers": ["delay-amplitude", "frequency-amplitude", "bandwidth-period", "bandwidth-delay"],
+            "correct": 4
+        },
+        "q126": {
+            "question": "_______ signals can have only a limited number of values.",
+            "answers": ["(a) Digital", "(b) Analog", "(a) or (b)", "None of the above"],
+            "correct": 1
+        },
+        "q127": {
+            "question": "Before data can be transmitted, they must be transformed to ________.",
+            "answers": ["periodic signals", "electromagnetic signals", "aperiodic signals", "low-frequency sine waves"],
+            "correct": 2
+        },
+        "q128": {
+            "question": "Data can be ________.",
+            "answers": ["(a) digital", "(b) analog", "(a) or (b)", "None of the above"],
+            "correct": 3
+        },
+        "q129": {
+            "question": "________ is a type of transmission impairment in which the signal loses strength due to the different propagation speeds of each frequency that makes up the signal.",
+            "answers": ["Noise", "Distortion", "Attenuation", "Decibel"],
+            "correct": 2
+        },
+        "q130": {
+            "question": "A sine wave is ________.",
+            "answers": ["periodic and discrete", "aperiodic and discrete", "periodic and continuous", "aperiodic and continuous"],
+            "correct": 3
+        },
+        "q131": {
+            "question": "_______ data have discrete states and take discrete values.",
+            "answers": ["(a) Analog", "(b) Digital", "(a) or (b)", "None of the above"],
+            "correct": 2
+        },
+        "q132": {
+            "question": "For a ______ channel, we need to use the Shannon capacity to find the maximum bit rate.",
+            "answers": ["noiseless", "noisy", "low-pass", "bandpass"],
+            "correct": 2
+        },
+        "q133": {
+            "question": "What is the bandwidth of a signal that ranges from 1 MHz to 4 MHz?",
+            "answers": ["1 KHz", "3 MHz", "4 MHz", "none of the above"],
+            "correct": 2
+        },
+        "q134": {
+            "question": "_____ signals can have an infinite number of values in a range.",
+            "answers": ["(a) Analog", "(b) Digital", "(a) or (b)", "None of the above"],
+            "correct": 1
+        },
+        "q135": {
+            "question": "A(n)_________ signal is a composite analog signal with an infinite bandwidth.",
+            "answers": ["(a) digital", "(b) analog", "either (a) or (b)", "neither (a) nor (b)"],
+            "correct": 1
+        },
+        "q136": {
+            "question": "A periodic signal completes one cycle in 0.001 s. What is the frequency?",
+            "answers": ["1 Hz", "100 Hz", "1 KHz", "1 MHz"],
+            "correct": 3
+        },
+        "q137": {
+            "question": "The _____ of a composite signal is the difference between the highest and the lowest frequencies contained in that signal.",
+            "answers": ["period", "bandwidth", "frequency", "amplitude"],
+            "correct": 2
+        },
+        "q138": {
+            "question": "________ is a type of transmission impairment in which an outside source such as crosstalk corrupts a signal.",
+            "answers": ["Noise", "Distortion", "Attenuation", "Decibel"],
+            "correct": 1
+        },
+        "q139": {
+            "question": "_______ describes the position of the waveform relative to time 0.",
+            "answers": ["Amplitude", "Phase", "Frequency", "Voltage"],
+            "correct": 2
+        },
+        "q140": {
+            "question": "Given two sine waves A and B, if the frequency of A is twice that of B, then the period of B is ________ that of A.",
+            "answers": ["one-half", "twice", "the same as", "indeterminate from"],
+            "correct": 2
+        },
+        "q141": {
+            "question": "As frequency increases, the period ________.",
+            "answers": ["increases", "decreases", "doubles", "remains the same"],
+            "correct": 2
+        },
+        "q142": {
+            "question": "If the available channel is a ______ channel, we cannot send a digital signal directly to the channel.",
+            "answers": ["low-pass", "low rate", "bandpass", "high rate"],
+            "correct": 3
+        },
+        "q143": {
+            "question": "For a ______ channel, the Nyquist bit rate formula defines the theoretical maximum bit rate.",
+            "answers": ["low-pass", "bandpass", "noisy", "noiseless"],
+            "correct": 4
+        },
+        "q144": {
+            "question": "In a frequency-domain plot, the horizontal axis measures the ________.",
+            "answers": ["phase", "frequency", "slope", "peak amplitude"],
+            "correct": 2
+        },
+        "q145": {
+            "question": "Which of the following encoding methods does not provide for synchronization?",
+            "answers": ["RZ", "NRZ-L", "NRZ-I", "Manchester"],
+            "correct": 2
+        },
+        "q146": {
+            "question": "If the frequency spectrum of a signal has a bandwidth of 500 Hz with the highest frequency at 600 Hz, what should be the sampling rate, according to the Nyquist theorem?",
+            "answers": ["200 samples/s", "500 samples/s", "1000 samples/s", "1200 samples/s"],
+            "correct": 4
+        },
+        "q147": {
+            "question": "In asynchronous transmission, the gap time between bytes is _______.",
+            "answers": ["variable", "fixed", "zero", "a function of the data rate"],
+            "correct": 1
+        },
+        "q148": {
+            "question": "______ substitutes eight consecutive zeros with 000VB0VB.",
+            "answers": ["B4B8", "B8ZS", "HDB3", "none of the above"],
+            "correct": 2
+        },
+        "q149": {
+            "question": "The most common technique to change an analog signal to digital data is called __________.",
+            "answers": ["sampling", "PAL", "PCM", "none of the above"],
+            "correct": 3
+        },
+        "q150": {
+            "question": "The minimum bandwidth of Manchester and differential Manchester is ______ that of NRZ.",
+            "answers": ["the same as", "twice", "thrice", "none of the above"],
+            "correct": 2
+        },
+        "q151": {
+            "question": "The signal rate is sometimes called the ____ rate.",
+            "answers": ["bit", "baud", "signal", "none of the above"],
+            "correct": 2
+        },
+        "q152": {
+            "question": "Unipolar, bipolar, and polar encoding are types of _______ encoding.",
+            "answers": ["line", "block", "NRZ", "Manchester"],
+            "correct": 1
+        },
+        "q153": {
+            "question": "________ is normally referred to as mB/nB coding; it replaces each m-bit group with an n-bit group.",
+            "answers": ["Line coding", "Block coding", "Scrambling", "None of the above"],
+            "correct": 2
+        },
+        "q154": {
+            "question": "In ______ schemes, the voltages are on the both sides of the time axis. For example, the voltage level for 0 can be positive and the voltage level for 1 can be negative.",
+            "answers": ["unipolar", "bipolar", "polar", "all of the above"],
+            "correct": 3
+        },
+        "q155": {
+            "question": "The ________ rate defines the number of data elements sent in 1s; the ______ rate is the number of signal elements sent in 1s.",
+            "answers": ["signal; data", "data; signal", "baud; bit", "none of the above"],
+            "correct": 2
+        },
+        "q156": {
+            "question": "The idea of RZ and the idea of NRZ-L are combined into the ________ scheme.",
+            "answers": ["(a) Manchester", "(b) differential Manchester", "both (a) and (b)", "neither (a) nor (b)"],
+            "correct": 1
+        },
+        "q157": {
+            "question": "________ provides synchronization without increasing the number of bits.",
+            "answers": ["Line coding", "Block coding", "Scrambling", "None of the above"],
+            "correct": 3
+        },
+        "q158": {
+            "question": "The Nyquist theorem specifies the minimum sampling rate to be_______.",
+            "answers": ["equal to the lowest frequency of a signal", "equal to the highest frequency of a signal", "twice the bandwidth of a signal", "twice the highest frequency of a signal"],
+            "correct": 4
+        },
+        "q159": {
+            "question": "PCM is an example of _______ conversion.",
+            "answers": ["analog-to-analog", "analog-to-digital", "digital-to-digital", "digital-to-analog"],
+            "correct": 2
+        },
+        "q160": {
+            "question": "There are three sampling methods: __________.",
+            "answers": ["ideal, natural, and flat-top", "ideal, sampled, and flat-top", "quantized, sampled, and ideal", "none of the above"],
+            "correct": 1
+        },
+        "q161": {
+            "question": "In _______encoding, we use three levels: positive, zero, and negative.",
+            "answers": ["unipolar", "polar", "bipolar", "none of the above"],
+            "correct": 3
+        },
+        "q162": {
+            "question": "Block coding can help in _______ at the receiver.",
+            "answers": ["(a) Synchronization", "(b) Error detection", "(c) Attenuation", "(a) and (b)"],
+            "correct": 4
+        },
+        "q163": {
+            "question": "In Manchester and differential Manchester encoding, the transition at the middle of the bit is used for __________.",
+            "answers": ["bit transfer", "synchronization", "baud transfer", "none of the above"],
+            "correct": 2
+        },
+        "q164": {
+            "question": "_______ encoding has a transition at the beginning of each 0 bit.",
+            "answers": ["Differential Manchester", "Manchester", "RZ", "All the above"],
+            "correct": 1
+        },
+        "q165": {
+            "question": "In ______, the change or lack of change in the level of the voltage determines the value of the bit.",
+            "answers": ["(a) NRZ-L", "(b) NRZ-I", "both (a) and (b)", "neither (a) nor (b)"],
+            "correct": 2
+        },
+        "q166": {
+            "question": "In ___________ there is always a transition at the middle of the bit, but the bit values are determined at the beginning of the bit. If the next bit is 0, there is a transition; if the next bit is 1, there is none.",
+            "answers": ["(a) Manchester", "(b) differential Manchester", "both (a) and (b)", "neither (a) nor (b)"],
+            "correct": 2
+        },
+        "q167": {
+            "question": "In _______ encoding, the duration of the bit is divided into two halves. The voltage remains at one level during the first half and moves to the other level in the second half. The transition at the middle of the bit provides synchronization.",
+            "answers": ["(a) Manchester", "(b) differential Manchester", "both (a) and (b)", "neither (a) nor (b)"],
+            "correct": 3
+        },
+        "q168": {
+            "question": "The ________ mode provides synchronization for the entire stream of bits must. In other words, it guarantees that the data arrive at a fixed rate.",
+            "answers": ["isochronous", "synchronous", "asynchronous", "none of the above"],
+            "correct": 1
+        },
+        "q169": {
+            "question": "The idea of RZ and the idea of NRZ-I are combined into the ________ scheme.",
+            "answers": ["(a) Manchester", "(b) differential Manchester", "both (a) and (b)", "neither (a) nor (b)"],
+            "correct": 2
+        },
+        "q169": {
+            "question": "In decoding a digital signal, the receiver calculates a running average of the received signal power, called the _______.",
+            "answers": ["base", "line", "baseline", "none of the above"],
+            "correct": 3
+        },
+        "q170": {
+            "question": "In _________ transmission, we send bits one after another without start or stop bits or gaps. It is the responsibility of the receiver to group the bits.",
+            "answers": ["synchronous", "asynchronous", "isochronous", "none of the above"],
+            "correct": 1
+        },
+        "q171": {
+            "question": "______ finds the value of the signal amplitude for each sample; ____ finds the change from the previous sample.",
+            "answers": ["DM; CM", "DM; PCM", "PCM; DM", "none of the above"],
+            "correct": 3
+        },
+        "q172": {
+            "question": "______ substitutes four consecutive zeros with 000V or B00V.",
+            "answers": ["HDB3", "B4B8", "B8ZSf", "none of the above"],
+            "correct": 1
+        },
+        "q173": {
+            "question": "The ______ scheme uses three levels (+V, 0, and -V) and three transition rules to move between the levels.",
+            "answers": ["4B5B", "MLT-3", "2B1Q", "none of the above"],
+            "correct": 2
+        },
+        "q174": {
+            "question": "While there is (are) only _____ way(s) to send parallel data, there is (are) _____ subclass(es) of serial transmission.",
+            "answers": ["one; two", "one; three", "two; three", "none of the above"],
+            "correct": 2
+        },
+        "q175": {
+            "question": "Which quantization level results in a more faithful reproduction of the signal?",
+            "answers": ["2", "8", "16", "32"],
+            "correct": 4
+        },
+        "q176": {
+            "question": "A _________ digital signal includes timing information in the data being transmitted.",
+            "answers": ["self-synchronizing", "self-transmitted", "self-modulated", "none of the above"],
+            "correct": 1
+        },
+        "q177": {
+            "question": "In _______ transmission, bits are transmitted over a single wire, one at a time.",
+            "answers": ["(a) asynchronous serial", "(b) synchronous serial", "(c) parallel", "(a) and (b)"],
+            "correct": 4
+        },
+        "q178": {
+            "question": "The first step in PCM is ________.",
+            "answers": ["quantization", "sampling", "modulation", "none of the above"],
+            "correct": 2
+        },
+        "q179": {
+            "question": "_______ encoding has a transition at the middle of each bit.",
+            "answers": ["Manchester", "Differential Manchester", "RZ", "All  of the above"],
+            "correct": 4
+        },
+        "q180": {
+            "question": "In ______ transmission, we send 1 start bit (0) at the beginning and 1 or more stop bits (1s) at the end of each byte.",
+            "answers": ["synchronous", "asynchronous", "isochronous", "none  of the above"],
+            "correct": 2
+        },
+        "q181": {
+            "question": "In _______ transmission, bits are transmitted simultaneously, each across its own wire.",
+            "answers": ["(a) Asynchronous serial", "(b) Synchronous serial", "(c) Parallel", "(a) and (b)"],
+            "correct": 3
+        },
+        "q182": {
+            "question": "Which encoding method uses alternating positive and negative values for 1s?",
+            "answers": ["AMI", "RZ", "NRZ-I", "Manchester"],
+            "correct": 1
+        },
+        "q183": {
+            "question": "The data rate is sometimes called the ___ rate.",
+            "answers": ["bit", "baud", "signal", "none of the above"],
+            "correct": 1
+        },
+        "q184": {
+            "question": "_______ provides redundancy to ensure synchronization and inherent error detection.",
+            "answers": ["Line coding", "Block coding", "Scrambling", "None of the above"],
+            "correct": 2
+        },
+        "q185": {
+            "question": "In _______ transmission, a start bit and a stop bit frame a character byte.",
+            "answers": ["(a) asynchronous serial", "(b) synchronous serial", "(c) parallel", "(a) and (b)"],
+            "correct": 2
+        },
+        "q186": {
+            "question": "Two common scrambling techniques are ________.",
+            "answers": ["B8ZS and HDB3", "AMI and NRZ", "NRZ and RZ", "Manchester and differential Manchester"],
+            "correct": 1
+        },
+        "q187": {
+            "question": "___________ conversion involves three techniques: line coding, block coding, and scrambling.",
+            "answers": ["Analog-to-analog", "Analog-to-digital", "Digital-to-analog", "Digital-to-digital"],
+            "correct": 4
+        },
+        "q188": {
+            "question": "The _____ scheme uses data patterns of size 2 and encodes the 2-bit patterns as one signal element belonging to a four-level signal.",
+            "answers": ["MLT-3", "4B5B", "2B1Q", "none of the above"],
+            "correct": 3
+        },
+        "q189": {
+            "question": "In _____, the level of the voltage determines the value of the bit.",
+            "answers": ["(a) NRZ-I", "(b) NRZ-L", "both (a) and (b)", "neither (a) nor (b)"],
+            "correct": 2
+        },
+        "q190": {
+            "question": "________ is the process of converting digital data to a digital signal.",
+            "answers": ["Line coding", "Block coding", "Scrambling", "None of the above"],
+            "correct": 1
+        },
+        "q191": {
+            "question": "In a _____ scheme, all the signal levels are on one side of the time axis, either above or below.",
+            "answers": ["unipolar", "polar", "bipolar", "all of the above"],
+            "correct": 1
+        },
+        "q192": {
+            "question": "When the angle of incidence is ____________ the critical angle, the light beam bends along the interface.",
+            "answers": ["less than", "equal to", "more than", "none of the above"],
+            "correct": 2
+        },
+        "q193": {
+            "question": "Transmission media lie below the __________ layer.",
+            "answers": ["application", "transport", "network", "physical"],
+            "correct": 4
+        },
+        "q194": {
+            "question": "_________ cable consists of an inner copper core and a second conducting outer sheath.",
+            "answers": ["Twisted-pair", "Shielded twisted-pair", "Coaxial", "Fiber-optic"],
+            "correct": 3
+        },
+        "q195": {
+            "question": "__________ consists of a central conductor and a shield.",
+            "answers": ["Twisted-pair", "Coaxial", "Fiber-optic", "none of the above"],
+            "correct": 2
+        },
+        "q196": {
+            "question": "_______ cable can carry signals of higher frequency ranges than _______ cable.",
+            "answers": ["Coaxial; twisted-pair", "Twisted-pair; fiber-optic", "Coaxial; fiber-optic", "none of the above"],
+            "correct": 1
+        },
+        "q197": {
+            "question": "_________ are used for cellular phone, satellite, and wireless LAN communications.",
+            "answers": ["Radio waves", "Infrared waves", "Microwaves", "none of the above"],
+            "correct": 3
+        },
+        "q198": {
+            "question": "The inner core of an optical fiber is _________ in composition.",
+            "answers": ["copper", "glass or plastic", "bimetallic", "liquid"],
+            "correct": 2
+        },
+        "q199": {
+            "question": "What is the major factor that makes coaxial cable less susceptible to noise than twisted-pair cable?",
+            "answers": ["insulating material", "inner conductor", "diameter of cable", "outer conductor"],
+            "correct": 4
+        },
+        "q200": {
+            "question": "Signals with a frequency below 2 MHz use _______ propagation.",
+            "answers": ["line-of-sight", "sky", "ground", "none of the above"],
+            "correct": 3
+        },
+        "q201": {
+            "question": "In an optical fiber, the inner core is _________ the cladding.",
+            "answers": ["less dense than", "denser than", "the same density as", "another name for"],
+            "correct": 2
+        },
+        "q202": {
+            "question": "________ cable consists of two insulated copper wires twisted together.",
+            "answers": ["Twisted-pair", "Coaxial", "Fiber-optic", "none of the above"],
+            "correct": 1
+        },
+        "q203": {
+            "question": "In fiber optics, the signal is __________ waves.",
+            "answers": ["radio", "light", "infrared", "very low-frequency"],
+            "correct": 2
+        },
+        "q204": {
+            "question": "Signals with a frequency above 30 MHz use _______propagation.",
+            "answers": ["line-of-sight", "sky", "ground", "none of the above"],
+            "correct": 1
+        },
+        "q205": {
+            "question": "A parabolic dish antenna is a(n) ___________ antenna.",
+            "answers": ["unidirectional", "bidirectional", "omnidirectional", "horn"],
+            "correct": 1
+        },
+        "q206": {
+            "question": "A(n) _______ medium provides a physical conduit from one device to another.",
+            "answers": ["unguided", "guided", "either (a) or (b)", "none of the above"],
+            "correct": 2
+        },
+        "q207": {
+            "question": "________ cable is used for voice and data communications.",
+            "answers": ["Twisted-pair", "Coaxial", "Fiber-optic", "none of the above"],
+            "correct": 1
+        },
+        "q208": {
+            "question": "Signals with a frequency between 2 MHz and 30 MHz use _______ propagation.",
+            "answers": ["ground", "line-of-sight", "sky", "none of the above"],
+            "correct": 3
+        },
+        "q209": {
+            "question": "Transmission media are usually categorized as ___________.",
+            "answers": ["determinate or indeterminate", "fixed or unfixed", "guided or unguided", "metallic or nonmetallic"],
+            "correct": 3
+        },
+        "q210": {
+            "question": "________ are used for short-range communications such as those between a PC and a peripheral",
+            "answers": ["Radio waves", "Infrared waves", "Microwaves", "none of the above"],
+            "correct": 2
+        },
+        "q211": {
+            "question": "_________ media transport electromagnetic waves without the use of a physical conductor.",
+            "answers": ["(a) Guided", "(b) Unguided", "Either (a) or (b)", "None of the above"],
+            "correct": 2
+        },
+        "q212": {
+            "question": "________ cables are composed of a glass or plastic inner core surrounded by cladding, all encased in an outside jacket.",
+            "answers": ["Twisted-pair", "Coaxial", "Fiber-optic", "none of the above"],
+            "correct": 3
+        },
+        "q213": {
+            "question": "Which of the following primarily uses guided media?",
+            "answers": ["radio broadcasting", "satellite communications", "local telephone system", "cellular telephone system"],
+            "correct": 3
+        },
+        "q214": {
+            "question": "When a beam of light travels through media of two different densities, if the angle of incidence is greater than the critical angle, _______ occurs.",
+            "answers": ["refraction", "reflection", "criticism", "incidence"],
+            "correct": 2
+        },
+        "q215": {
+            "question": "Which of the following is not a guided medium?",
+            "answers": ["fiber-optic cable", "coaxial cable", "twisted-pair cable", "atmosphere"],
+            "correct": 4
+        },
+        "q216": {
+            "question": "Microwaves are _________.",
+            "answers": ["omnidirectional", "bidirectional", "unidirectional", "none of the above"],
+            "correct": 3
+        },
+        "q217": {
+            "question": "________ cables carry data signals in the form of light.",
+            "answers": ["Twisted-pair", "Coaxial", "Fiber-optic", "none of the above"],
+            "correct": 3
+        },
+        "q218": {
+            "question": "Radio waves are _________.",
+            "answers": ["unidirectional", "omnidirectional", "bidirectional", "none of the above"],
+            "correct": 2
+        },
+        "q219": {
+            "question": "In a fiber-optic cable, the signal is propagated along the inner core by __________.",
+            "answers": ["refraction", "reflection", "modulation", "none of the above"],
+            "correct": 2
+        },
+    },
+
+    /*
+     ********************************************************
+     *  Data Communication Extra Questions
+     * ******************************************************
+    */
+
+    "Data Communication Extra": {
+        "q1": {
+            "question": "The total bandwidth required for AM can be determined from the bandwidth of the audio signal",
+            "answers": ["BAM = 2B", "BAM = 4B", "BAM = 6B", "BAM = 10B"],
+            "correct": 1
+        },
+        "q2": {
+            "question": "In Binary Phase Shift Keying (BPSK), there are two values of phase i.e. 90 degree and",
+            "answers": ["270", "180", "0", "360"],
+            "correct": 1
+        },
+        "q3": {
+            "question": "Total bandwidth required for Phase Modulation (PM) is",
+            "answers": ["2(1 + β )B", "2F", "2L", "2B"],
+            "correct": 1
+        },
+        "q4": {
+            "question": "The Quadrature means",
+            "answers": ["below phase", "out-of-phase", "above phase", "in phase"],
+            "correct": 2
+        },
+        "q5": {
+            "question": "modulation is needed if only a ____ channel is available",
+            "answers": ["bandpass", "broadband", "digital", "none of the above"],
+            "correct": 1
+        },
+        "q6": {
+            "question": "The projection of the point on the X axis defines the peak amplitude of the",
+            "answers": ["below phase", "out of phase", "in phase", "above phase"],
+            "correct": 3
+        },
+        "q7": {
+            "question": "Total bandwidth required for Phase Modulation (FM) is",
+            "answers": ["2(1 + β )B", "2F", "2L", "2B"],
+            "correct": 1
+        },
+        "q8": {
+            "question": "Total bandwidth required for Phase Modulation (AM) is",
+            "answers": ["2(1 + β )B", "2F", "2L", "2B"],
+            "correct": 4
+        },
+        "q9": {
+            "question": "Find the bandwidth for the AM if we need to modulate a signal with bandwidth 6-KHz",
+            "answers": ["12 KHz", "10 KHz", "30 KHz", "20 KHz"],
+            "correct": 1
+        },
+        "q10": {
+            "question": "The bandwidth of BPSK is ____that for the BFSK",
+            "answers": ["Less than", "Equal to", "No relation", "Greater than"],
+            "correct": 1
+        },
+        "q11": {
+            "question": "AM stations are allowed carrier frequencies anywhere between",
+            "answers": ["250-1000KHz", "50-100KHz", "530- 1700 kHz", "5-10KHz"],
+            "correct": 3
+        },
+        "q12": {
+            "question": "In Multilevel Frequency Shift Keying (MFSK), to send 3 bits at a time we can use",
+            "answers": ["2 frequencies", "4 frequencies", "10 frequencies", "8 frequencies"],
+            "correct": 4
+        },
+        "q13": {
+            "question": "Digital information in which the carrier signal is modified by one or more of its characteristics is called",
+            "answers": ["Demodulation", "Modulation", "Encoding", "Decoding"],
+            "correct": 2
+        },
+        "q14": {
+            "question": "In BPSK, we use a polar Non Return to Zero (NRZ) signal for",
+            "answers": ["Inverting", "Modulation", "Encoding", "Demodulation"],
+            "correct": 2
+        },
+        "q15": {
+            "question": "There is guardbands in",
+            "answers": ["PM", "FM", "AM", "None of the above"],
+            "correct": 2
+        },
+        "q16": {
+            "question": "How many signal element are used in BPSK? <<مش متأكد>>",
+            "answers": ["0", "1", "2", "None of the above"],
+            "correct": 3
+        },
+        "q17": {
+            "question": "The size and format of physical addresses vary depending on the",
+            "answers": ["receiver", "message", "sender", "network"],
+            "correct": 4
+        },
+        "q18": {
+            "question": "ICMP Stands for",
+            "answers": ["Internet Connect Message Protocol", "Internet Control Message Protocol", "International Connect Message Protocol", "International Control Message Protocol"],
+            "correct": 2
+        },
+        "q19": {
+            "question": "Transmission Control Protocol/Internet Networking Protocol have",
+            "answers": ["four layers", "five layers", "six layers", "seven layers"],
+            "correct": 1
+        },
+        "q20": {
+            "question": "The parameter that is normally achieved through a trailer added to the end of the frame is",
+            "answers": ["access control", "flow control", "error control", "physical addressing"],
+            "correct": 3
+        },
+        "q21": {
+            "question": "The packets of data that is transported by Internet protocol (IP) is called",
+            "answers": ["datagrams", "frames", "segments", "encapsulate message"],
+            "correct": 1
+        },
+        "q22": {
+            "question": "The application layer provides the basis for",
+            "answers": ["email services", "frame division", "file making", "code making"],
+            "correct": 1
+        },
+        "q23": {
+            "question": "The trailer is added only at",
+            "answers": ["physical layer", "data link layer", "transport layer", "network layer"],
+            "correct": 2
+        },
+        "q24": {
+            "question": "The 0'th layer of the Open System Interconnection (OSI) model is",
+            "answers": ["physical layer", "application layer", "presentation layer", "hardware"],
+            "correct": 4
+        },
+        "q25": {
+            "question": "Segmentation and reassembly is the responsibility of",
+            "answers": ["7th layer", "6th layer", "5th layer", "4th layer"],
+            "correct": 4
+        },
+        "q26": {
+            "question": "Port address is also known as",
+            "answers": ["service point address", "receiver point address", "sender point address", "destination point address"],
+            "correct": 1
+        },
+        "q27": {
+            "question": "In encapsulation, the data portion of a packet at level N - 1 carries the whole packet from level",
+            "answers": ["N", "N+1", "N+2", "N+3"],
+            "correct": 1
+        },
+        "q28": {
+            "question": "The physical layer is responsible for",
+            "answers": ["node to node communication", "peer to peer communication", "hop to hop communication", "point to point communication"],
+            "correct": 2
+        },
+        "q29": {
+            "question": "The Open System Interconnection (OSI) model deals with a physical, data link, network, transport, session and",
+            "answers": ["presentation layer", "application layer", "both a and b", "transport layer"],
+            "correct": 3
+        },
+        "q30": {
+            "question": "A 16-bit port address represents",
+            "answers": ["one single number", "four chunks of numbers", "two numbers", "three number"],
+            "correct": 1
+        },
+        "q31": {
+            "question": "Logical Addresses are",
+            "answers": ["16-bit long", "32-bit long", "64-bit long", "128-bit long"],
+            "correct": 2
+        },
+        "q32": {
+            "question": "Error control and flow control are the responsibilities of",
+            "answers": ["data link and network layers", "data link and physical layer", "application and presentation layer", "data link and transport layer"],
+            "correct": 4
+        },
+        "q33": {
+            "question": "The both Transmission Control Protocol (TCP) and Stream Control Transmission Protocol (SCTP) protocols are",
+            "answers": ["connection less", "connection oriented", "start but no ending", "no destination"],
+            "correct": 2
+        },
+        "q34": {
+            "question": "The layer that is in between of session and application layer is",
+            "answers": ["network", "transport", "presentation", "data link"],
+            "correct": 3
+        },
+        "q35": {
+            "question": "In the transport layer, the message is divided into transmittable",
+            "answers": ["packets", "bits", "segments", "frames"],
+            "correct": 3
+        },
+        "q36": {
+            "question": "The layer that is used to deal with the mechanical and electrical specifications are",
+            "answers": ["physical layer", "data link layer", "network layer", "transport layer"],
+            "correct": 1
+        },
+        "q37": {
+            "question": "The checksum, error control and length information are the main features of",
+            "answers": ["SCTP", "IP", "TCP", "UDP"],
+            "correct": 4
+        },
+        "q38": {
+            "question": "When a message received at the receiver end, the data link layer removes the data meant for it, then passes the rest to",
+            "answers": ["transport layer", "network layer", "physical layer", "session layer"],
+            "correct": 2
+        },
+        "q39": {
+            "question": "The term that refers to a model for understanding and designing a network architecture is called",
+            "answers": ["OSI", "ISO", "TCP", "IP"],
+            "correct": 1
+        },
+        "q40": {
+            "question": "The process on each machine that communicates at a given layer is called",
+            "answers": ["peer-to-peer", "physical transmission", "node to node", "hop to hop"],
+            "correct": 1
+        },
+        "q41": {
+            "question": "The network layer is responsible for the",
+            "answers": ["node to node communication", "source to destination", "hop to hop communication", "peer to peer transmission"],
+            "correct": 2
+        },
+        "q42": {
+            "question": "Layer that is responsible for transferring frames is",
+            "answers": ["application layer", "presentation layer", "data link layer", "session layer"],
+            "correct": 3
+        },
+        "q43": {
+            "question": "The physical addresses change from",
+            "answers": ["point to point", "hop to hop", "sender to receiver", "frame to frame"],
+            "correct": 2
+        },
+        "q44": {
+            "question": "The length of Port addresses in Transmission Control Protocol/Internet Protocol (TCP/IP) is",
+            "answers": ["4-bit long", "16-bit long", "32-bit long", "64-bit long"],
+            "correct": 2
+        },
+        "q45": {
+            "question": "The Transmission Control Protocol (TCP) divides a stream of data into smaller units that are called",
+            "answers": ["frames", "datagrams", "segments", "information"],
+            "correct": 3
+        },
+        "q46": {
+            "question": "Layered tasks involve three layers that are",
+            "answers": ["sender, receiver and protocol", "sender, receiver and carrier", "sender and transmission medium", "sender, receiver and transmission medium"],
+            "correct": 2
+        },
+        "q47": {
+            "question": "A signal with 200 mill watts power passes through 10 devices, each with an average noise of 2 microwatts, What is the value of SNR?",
+            "answers": ["5000", "10000", "150", "200"],
+            "correct": 2
+        },
+        "q48": {
+            "question": "The term that refers to associate a logical address with a physical address is",
+            "answers": ["RARP", "IGMP", "ARP", "ICMP"],
+            "correct": 3
+        },
+        "q49": {
+            "question": "The Transmission Control Protocol/Internet Protocol (TCP/IP) layer is equivalent to combined Session, Presentation and",
+            "answers": ["network layer", "application layer", "transport layer", "both a and c"],
+            "correct": 2
+        },
+        "q50": {
+            "question": "The second layer of the Open System Interconnection (OSI) model is",
+            "answers": ["physical", "data link", "transport", "session"],
+            "correct": 2
+        },
+        "q51": {
+            "question": "One computer can communicate with another computer by using",
+            "answers": ["port address", "physical address", "logical address", "specific address"],
+            "correct": 1
+        },
+        "q52": {
+            "question": "How many levels of addressing in Transmission Control Protocol/Internet Protocol (TCP/IP) protocol provides?",
+            "answers": ["one", "two", "three", "four"],
+            "correct": 4
+        },
+        "q53": {
+            "question": "The network layer of Transmission Control Protocol/Internet Protocol (TCP/IP) is responsible for",
+            "answers": ["physical addressing", "logical addressing", "port addressing", "source addressing"],
+            "correct": 2
+        },
+        "q54": {
+            "question": "In Transmission Control Protocol/Internet Protocol (TCP/IP) Protocol, a combination of the physical and data link layers are equivalent to the",
+            "answers": ["application layer", "transport layer", "internet layer", "host to network layer"],
+            "correct": 4
+        },
+        "q55": {
+            "question": "Framing, Error Control, Flow control, Access control are the responsibilities of",
+            "answers": ["1st layer", "2nd layer", "3nd layer", "4nd layer"],
+            "correct": 2
+        },
+        "q56": {
+            "question": "At the transport layer, TCP/IP defines",
+            "answers": ["Transmission Control Protocol", "User Datagram Protocol", "Stream Control Transmission Protocol", "all of above"],
+            "correct": 4
+        },
+        "q57": {
+            "question": "Network support layers are",
+            "answers": ["1, 2, 3", "4,5", "5,6,7", "4"],
+            "correct": 1
+        },
+        "q58": {
+            "question": "Which of the following user support layers allow interoperability among unrelated software system?",
+            "answers": ["1,2", "2,3 4", "1,3,6", "5,6,7"],
+            "correct": 4
+        },
+        "q59": {
+            "question": "The session layer is responsible for",
+            "answers": ["error control and flow control", "framing and access control", "dialog control and synchronization", "segmentation and reassembly"],
+            "correct": 3
+        },
+        "q60": {
+            "question": "Transmission Control Protocol/Internet Protocol (TCP/IP) does not define any specific protocol at the",
+            "answers": ["network layer", "physical and data link layers", "transport layer", "internet layer"],
+            "correct": 2
+        },
+        "q61": {
+            "question": "Route determination can be identified by",
+            "answers": ["transport layer", "application layer", "network layer", "presentation layer"],
+            "correct": 3
+        },
+        "q62": {
+            "question": "The unreliable and connectionless protocol is",
+            "answers": ["TCP", "ARP", "IP", "RARP"],
+            "correct": 3
+        },
+        "q63": {
+            "question": "Which one of the following layers of the Open System Interconnection (OSI) model responsible for synchronization?",
+            "answers": ["physical layer", "data link layer", "session layer", "presentation layer"],
+            "correct": 3
+        },
+        "q64": {
+            "question": "A signal in which 1 bit lasts 0.001 s, the Bit rate would be",
+            "answers": ["1Kbps", "500bps", "5obps", "1700bps"],
+            "correct": 3
+        },
+        "q65": {
+            "question": "The network layer provides the services for",
+            "answers": ["application layer", "physical layer", "session layer", "transport layer"],
+            "correct": 4
+        },
+        "q66": {
+            "question": "The layer that is responsible for the process to process delivery of the entire message is",
+            "answers": ["transport", "session", "application", "presentation"],
+            "correct": 1
+        },
+        "q67": {
+            "question": "How many bits can fit on a link with a 2 ms delay if the bandwidth of the link is 10Mbps?",
+            "answers": ["200bits", "20,000 bits", "200,000bits", "2bits"],
+            "correct": 2
+        },
+        "q68": {
+            "question": "The propagation time equals to",
+            "answers": ["distance/propagation speed", "propagation speed/bandwidth", "message size/ bandwidth", "bandwidth/queuing time"],
+            "correct": 1
+        },
+        "q69": {
+            "question": "What is the bit rate for high-definition TV High Definition Television (HDTV)?",
+            "answers": ["keys", "others", "multi parties", "single party"],
+            "correct": 2
+        },
+        "q70": {
+            "question": "The black and white TV is an example of",
+            "answers": ["non periodic composite signal", "periodic composite signal", "periodic simple signal", "non periodic simple signal"],
+            "correct": 1
+        },
+        "q71": {
+            "question": "The level of the signal is inversely proportional to the",
+            "answers": ["reliability of a system", "efficiency of a system", "accuracy of a system", "bandwidth of a system"],
+            "correct": 1
+        },
+        "q72": {
+            "question": "Shannon capacity gives us the value of",
+            "answers": ["lower limit", "upper limit", "specific signal level", "signal level"],
+            "correct": 2
+        },
+        "q73": {
+            "question": "Increasing the levels of a signal may reduce the",
+            "answers": ["reliability of a system", "efficiency of a system", "speed of system", "frequency of system"],
+            "correct": 1
+        },
+        "q74": {
+            "question": "If the signal does not change at all, its frequency is",
+            "answers": ["zero", "maximum", "infinite", "high"],
+            "correct": 1
+        },
+        "q75": {
+            "question": "A period of 100 ms in microseconds would be equals to",
+            "answers": ["10<sup>3</sup> µs", "10<sup>5</sup> µs", "10<sup>7</sup> µs", "10<sup>9</sup> µs"],
+            "correct": 1
+        },
+        "q76": {
+            "question": "The time required for a bit to travel from the source to the destination is known as",
+            "answers": ["discrete state", "propagation delay", "frequency", "latency"],
+            "correct": 2
+        },
+        "q77": {
+            "question": "We send a voice signal from a microphone to a recorder, the transmission is",
+            "answers": ["base band transmission", "broad band transmission", "authenticated", "broadcast"],
+            "correct": 1
+        },
+        "q78": {
+            "question": "The unit that is used to express the state of a signal is",
+            "answers": ["kilograms", "seconds", "decibel", "hertz"],
+            "correct": 3
+        },
+        "q79": {
+            "question": "The data rate depends upon",
+            "answers": ["bandwidth", "level of signals", "level of noise", "all of above"],
+            "correct": 4
+        },
+        "q80": {
+            "question": "If the value of a signal changes over a very short span of time, its frequency is",
+            "answers": ["middle", "low", "change", "high"],
+            "correct": 4
+        },
+        "q81": {
+            "question": "Bit rate is measured in",
+            "answers": ["bits per Hertz", "bits per second", "Nano seconds", "pixels per second"],
+            "correct": 2
+        },
+        "q82": {
+            "question": "Periodic analog signals can be classified as",
+            "answers": ["simple analog signal", "composite analog signal", "multiple sine waves", "all of above"],
+            "correct": 4
+        },
+        "q83": {
+            "question": "Conversion of the digital signal to an analog signal is",
+            "answers": ["modulation", "demodulation", "encapsulation", "bypass"],
+            "correct": 1
+        },
+        "q84": {
+            "question": "A sine wave is defined by",
+            "answers": ["amplitude", "frequency", "phase", "all of above"],
+            "correct": 4
+        },
+        "q85": {
+            "question": "A digital signal is a composite analog signal with",
+            "answers": ["finite bandwidth", "infinite bandwidth", "zero bandwidth", "high bandwidth"],
+            "correct": 2
+        },
+        "q86": {
+            "question": "Digital signals are represented in",
+            "answers": ["sine waves", "levels", "stages", "cosine waves"],
+            "correct": 2
+        },
+        "q87": {
+            "question": "The amount of time signal need to complete one cycle in seconds is known as",
+            "answers": ["sine wave", "digital signals", "frequency", "period"],
+            "correct": 4
+        },
+        "q88": {
+            "question": "The term that refers to the loss of strength of a signal is called",
+            "answers": ["attenuation", "distortion", "noise", "impairments"],
+            "correct": 1
+        },
+        "q89": {
+            "question": "The value of the decibel is positive if the signal is",
+            "answers": ["attenuated", "distorted", "noisy", "amplified"],
+            "correct": 4
+        },
+        "q90": {
+            "question": "The period of a signal is 100 ms. What is its frequency in kilohertz?",
+            "answers": ["100 Hz", "1 kHz", "10 Hz", "0.02 Hz"],
+            "correct": 3
+        },
+        "q91": {
+            "question": "The completion of one full pattern in a signal is known as",
+            "answers": ["period", "cycle", "frame", "segment"],
+            "correct": 2
+        },
+        "q92": {
+            "question": "In baseband transmission, the required bit rate is proportional to the",
+            "answers": ["wavelength", "frequency", "period", "bandwidth"],
+            "correct": 4
+        },
+        "q93": {
+            "question": "Change over a long period in signal means",
+            "answers": ["high frequency", "low frequency", "high phase", "high phase"],
+            "correct": 2
+        },
+        "q94": {
+            "question": "The term that refers to infinite no of values in the range is",
+            "answers": ["peak", "analog signal", "digital signal", "data encryption slots"],
+            "correct": 2
+        },
+        "q95": {
+            "question": "The propagation speed of electromagnetic signals depends on the",
+            "answers": ["medium", "period", "phase", "delay"],
+            "correct": 1
+        },
+        "q96": {
+            "question": "The transmission impairment that refers to a signal with high energy in a very short time is known as",
+            "answers": ["thermal noise", "induced noise", "cross talk", "impulse noise"],
+            "correct": 4
+        },
+        "q97": {
+            "question": "Bit length can be defined in terms of",
+            "answers": ["high and low frequency", "propagation speed", "bit duration", "byte duration"],
+            "correct": 3
+        },
+        "q98": {
+            "question": "If a noiseless channel with a bandwidth of 3000 Hz transmitting a signal with two signal levels the maximum Bit rate would be",
+            "answers": ["12000 bps", "6000 bps", "1800 bps", "zero"],
+            "correct": 2
+        },
+        "q99": {
+            "question": "The power we use at home has a frequency of 60 Hz (50 Hz in Europe). What will be the period of this sine wave is?",
+            "answers": ["0.0116s", "0.9s", "1ms", "0.016ms"],
+            "correct": 1
+        },
+        "q100": {
+            "question": "The range of frequencies a channel can pass is called bandwidth in",
+            "answers": ["bits per second", "Hertz", "kilogram", "nanosecond"],
+            "correct": 2
+        },
+        "q101": {
+            "question": "When there is heavy traffic on the network, the queuing time is",
+            "answers": ["zero", "remains same", "increases", "decreases"],
+            "correct": 3
+        },
+        "q102": {
+            "question": "The time required for a bit to travel from source to destination is known as",
+            "answers": ["latency", "propagation time", "delay", "transmission time"],
+            "correct": 2
+        },
+        "q103": {
+            "question": "In data communications, we use periodic analog signals and",
+            "answers": ["periodic digital signals", "non periodic analog signals", "non periodic digital signals", "periodic analog signals"],
+            "correct": 3
+        },
+        "q104": {
+            "question": "The range of frequencies contained in a composite signal is its",
+            "answers": ["wavelength", "bandwidth", "amplitude", "composite"],
+            "correct": 2
+        },
+        "q105": {
+            "question": "A transmission media can have signal impairment because of",
+            "answers": ["noise", "attenuation", "distortion", "all of above"],
+            "correct": 4
+        },
+        "q106": {
+            "question": "The bandwidth of the nonperiodic signals has the same range, but the frequencies are",
+            "answers": ["zero frequency", "continuous", "parallel", "high"],
+            "correct": 2
+        },
+        "q107": {
+            "question": "Period is formally expressed in",
+            "answers": ["seconds", "keys", "hertz (HZ)", "cycle"],
+            "correct": 2
+        },
+        "q108": {
+            "question": "The relationship between amplitude and frequency can be represented by",
+            "answers": ["frequency-domain plot", "frequency-domain plot", "phase domain plot", "amplitude domain plot"],
+            "correct": 1
+        },
+        "q109": {
+            "question": "Frequency is expressed in",
+            "answers": ["second", "nanosecond", "hertz", "megahertz"],
+            "correct": 3
+        },
+        "q110": {
+            "question": "If a signal changes instantaneously, its frequency is",
+            "answers": ["high", "low", "infinite", "rounded"],
+            "correct": 3
+        },
+        "q111": {
+            "question": "Given the frequency 24Hz, the corresponding period would be",
+            "answers": ["87.9ms", "41.7ms", "90ms", "12ms"],
+            "correct": 2
+        },
+        "q112": {
+            "question": "The power in our house can be represented by",
+            "answers": ["sine wave with a peak amplitude", "sine wave with amplitude", "sine wave with phase", "sine wave with frequency"],
+            "correct": 1
+        },
+        "q113": {
+            "question": "In induced noise, the impairment is created by sources like",
+            "answers": ["motor & appliances", "power lines", "the sending and receiving antenna", "motion of electrons in wire"],
+            "correct": 1
+        },
+        "q114": {
+            "question": "SNR stands for",
+            "answers": ["Shannon Noise ratio", "Shannon Noise Relation", "Signal Noise ratio", "Signal Noise Relation"],
+            "correct": 3
+        },
+        "q115": {
+            "question": "A signal completes a pattern within a measurable time frame is called",
+            "answers": ["analog", "digital", "non periodic", "periodic"],
+            "correct": 4
+        },
+        "q116": {
+            "question": "Signal to Noise Ratio (SNR) is equals to",
+            "answers": ["avg signal power/avg noise power", "avg signal power/avg distortion", "avg noise power/attenuation", "avg attenuation/avg distortion"],
+            "correct": 1
+        },
+        "q117": {
+            "question": "One Picoseconds (PS) is equivalent to",
+            "answers": ["10<sup>-3</sup> s", "10<sup>-6</sup> s", "10<sup>-9</sup> s", "10<sup>-12</sup> s"],
+            "correct": 4
+        },
+        "q118": {
+            "question": "The difference in the delay of the signal may create a difference in",
+            "answers": ["phase", "frequency", "period", "decibel"],
+            "correct": 1
+        },
+        "q119": {
+            "question": "Signal to Noise Ratio (SNR) is the ratio of the two",
+            "answers": ["signals", "powers", "noise", "frequencies"],
+            "correct": 2
+        },
+        "q120": {
+            "question": "According to Fourier analysis, any composite signal is a combination of sine waves with",
+            "answers": ["different frequencies, amplitude, and phase", "different frequencies", "same frequencies", "same frequencies with amplitude and phase"],
+            "correct": 1
+        },
+        "q121": {
+            "question": "How many factors data rate limit depends on?",
+            "answers": ["one", "two", "three", "four"],
+            "correct": 3
+        },
+        "q122": {
+            "question": "In OOOVBOVB, V stands for violation and B stands for",
+            "answers": ["Bit", "Baud", "Bandwidth", "Bipolm"],
+            "correct": 4
+        },
+        "q123": {
+            "question": "Assume we need to download text documents at the rate of 100 pages per minute. What is the required bit rate of the channel?",
+            "answers": ["1.6 Mbps", "6 Mbps", "10 Mbps", "15 Mbps"],
+            "correct": 2
+        },
+        "q124": {
+            "question": "A non-periodic signal has changed to a periodic signal with the period equal to",
+            "answers": ["2 times the bit duration", "4 times the bit duration", "8 times the bit duration", "12 times the bit duration"],
+            "correct": 2
+        },
+        "q125": {
+            "question": "The average signal rate of 2BlQ is",
+            "answers": ["N", "N/2", "N/4", "N/6"],
+            "correct": 3
+        },
+        "q126": {
+            "question": "Non return-to-zero-level (NRZ-L) and Non return-to-zero-invert (NRZ-I) both have an average signal rate of",
+            "answers": ["N", "N/2", "N/4", "N/8"],
+            "correct": 4
+        },
+        "q127": {
+            "question": "The last step in Pulse Code Modulation (PCM) is",
+            "answers": ["quantization", "sampling", "encoding", "modulation"],
+            "correct": 3
+        },
+        "q128": {
+            "question": "The relationship between the data rate and signal rate depends on the value of",
+            "answers": ["data rate (n)", "case factor (c)", "ratio (r)", "signal element(s)"],
+            "correct": 3
+        },
+        "q129": {
+            "question": "High-density bipolar (3HDB3) substitutes four consecutive zeros with OOOV or BOOV depending on the number of nonzero pulses after",
+            "answers": ["middle substitution", "first substitution", "last substitution", "both b and c"],
+            "correct": 3
+        },
+        "q130": {
+            "question": "The minimum bandwidth of the digital signal is nb times greater than the bandwidth of the",
+            "answers": ["analog signal", "digital data", "analog data", "digital analog signal"],
+            "correct": 1
+        },
+        "q131": {
+            "question": "In which of the following scheme all the signal levels are on one side of the time axis?",
+            "answers": ["unipolar", "bipolar", "polar", "multi level"],
+            "correct": 1
+        },
+        "q132": {
+            "question": "The Nyquist sampling rate is",
+            "answers": ["f", "2f", "4f", "6f"],
+            "correct": 2
+        },
+        "q133": {
+            "question": "How many communication channels are needed for serial transmission?",
+            "answers": ["1 channel", "n channels", "n+1 channels", "n-1 channels"],
+            "correct": 1
+        },
+        "q134": {
+            "question": "The block coding scheme that provides greater error detection capability than 4B/5B is",
+            "answers": ["8RIlOR", "R8ZS", "NRZ-L", "NRZ-I"],
+            "correct": 1
+        },
+        "q135": {
+            "question": "In synchronous transmission, we send bits one after the another without",
+            "answers": ["start bit", "stop bit", "gap bit", "all of above"],
+            "correct": 4
+        },
+        "q136": {
+            "question": "What is the bit rate, if the baud rate is 1000 and the type of modulation is FSK?",
+            "answers": ["1000 bps", "1500 bps", "2000 bps", "100 bps"],
+            "correct": 1
+        },
+        "q137": {
+            "question": "A system is using Non Return-to-zero-invert (NRZ-I) to transfer 10-Mbps data. What would be minimum bandwidth?",
+            "answers": ["500 kHz", "1000 kHz", "2000 kHz", "5000 kHz"],
+            "correct": 1
+        },
+        "q138": {
+            "question": "What is the number of bits per baud for Phase-shift Keying (PSK) with four different phases?",
+            "answers": ["3", "4", "2", "5"],
+            "correct": 3
+        },
+        "q139": {
+            "question": "NRZ-L and NRZ-J both have a problem of",
+            "answers": ["conversion", "phase shift", "doesn't changes at all", "DC component"],
+            "correct": 4
+        },
+        "q140": {
+            "question": "Line coding, block coding, and scrambling are three techniques of",
+            "answers": ["digital to digital conversion", "digital to analog conversion", "analog to analog conversion", "analog to digital conversion"],
+            "correct": 1
+        },
+        "q141": {
+            "question": "The coding scheme that was designed to be used in combination with Non Return-to zero-invert (NRZ-I) is",
+            "answers": ["BSZS", "8RIlOR", "4D/5D", "R8ZS"],
+            "correct": 3
+        },
+        "q142": {
+            "question": "In real life, most digital signals have the bandwidth",
+            "answers": ["infinite", "zero", "constant", "none of the above"],
+            "correct": 1
+        },
+        "q143": {
+            "question": "The term that means data is sent over four wires at the same time is",
+            "answers": ["4S", "4d", "4W", "4r"],
+            "correct": 2
+        },
+        "q144": {
+            "question": "The transmission that is used without the timing signal is called",
+            "answers": ["synchronous", "asynchronous", "parallel", "isochronous"],
+            "correct": 2
+        },
+        "q145": {
+            "question": "The unit of the signal rate is",
+            "answers": ["bits per second", "Baud", "micro seconds", "Hertz"],
+            "correct": 2
+        },
+        "q146": {
+            "question": "The term that is used as an alternative to None Return-to zero (NRZ) is",
+            "answers": ["polar", "unipolar", "multi transition", "bipolar"],
+            "correct": 4
+        },
+        "q147": {
+            "question": "The value of the error for any sample is less than",
+            "answers": ["4Δ", "2Δ", "Δ", "Δ/2"],
+            "correct": 4
+        },
+        "q148": {
+            "question": "In asynchronous transmission, we send one start bit that is",
+            "answers": ["0", "1", "10", "11"],
+            "correct": 1
+        },
+        "q149": {
+            "question": "Line coding converts a sequence of",
+            "answers": ["frames to digital signal", "bits to a digital signal", "bytes to digital signal", "packets of data to digital signals"],
+            "correct": 2
+        },
+        "q150": {
+            "question": "Line coding, block coding, and scrambling are the techniques of converting the",
+            "answers": ["analog data to analog signals", "digital data to digital signals", "analog data to digital signals", "digital signals to digital data"],
+            "correct": 2
+        },
+        "q151": {
+            "question": "The actual bandwidth of a digital signal is infinite, the effective bandwidth would be",
+            "answers": ["finite", "infinite", "always zero", "one"],
+            "correct": 1
+        },
+        "q152": {
+            "question": "The technique that is most common to change an analog signal to digital data is",
+            "answers": ["delta modulation", "pulse code modulation", "sampling", "quantizing"],
+            "correct": 2
+        },
+        "q153": {
+            "question": "The 8BIlOB block coding is a combination of",
+            "answers": ["5B/6B and 3B/3B", "5B/6B and 3B/4B", "5B/6B and 4B/4B", "4B/5B and 3B/4B"],
+            "correct": 2
+        },
+        "q154": {
+            "question": "In 8B6T, the minimum bandwidth is very close to",
+            "answers": ["2BIQ", "8B4Q", "6N18", "MLT-3"],
+            "correct": 3
+        },
+        "q155": {
+            "question": "What would be the minimum bandwidth of Manchester and differential Manchester?",
+            "answers": ["4 times that of NRZ", "4 times that of RZ", "2 times that of NRZ", "8 times that of RZ"],
+            "correct": 3
+        },
+        "q156": {
+            "question": "The inverse of the sampling interval is called the",
+            "answers": ["sampling rate", "delta rate", "baud rate", "bit rate"],
+            "correct": 1
+        },
+        "q157": {
+            "question": "A signal cannot be sampled with an",
+            "answers": ["infinite frequency", "finite frequency", "infinite bandwidth", "finite bandwidth"],
+            "correct": 3
+        },
+        "q158": {
+            "question": "In Alternate Mark Inversion(AMI), mark means",
+            "answers": ["0", "1", "infinity", "none of the above"],
+            "correct": 2
+        },
+        "q159": {
+            "question": "A telephone line cannot pass frequencies below",
+            "answers": ["800 Hz", "600 Hz", "400 Hz", "200 Hz"],
+            "correct": 4
+        },
+        "q160": {
+            "question": "A term that refers to a code that is generated to detect some or all of errors occurred during transmission is",
+            "answers": ["baseline wandering", "built in error detection", "self-detect error code", "bug resolver"],
+            "correct": 2
+        },
+        "q161": {
+            "question": "A sequence that creates the constant zero voltage does not have a",
+            "answers": ["error detection", "synchronization", "dc component", "complexity"],
+            "correct": 3
+        },
+        "q162": {
+            "question": "In 8B6T, each signal pattern has a weight of 0 or",
+            "answers": ["1", "-1", "-2", "infinity"],
+            "correct": 1
+        },
+        "q163": {
+            "question": "For Pulse Code Modulation (PCM), the quantization error is much greater than",
+            "answers": ["decoding", "encoding", "delta modulation", "multiplexing"],
+            "correct": 3
+        },
+        "q164": {
+            "question": "Baud rate is the number of",
+            "answers": ["signal elements per second", "bits per second", "frames per second", "none"],
+            "correct": 1
+        },
+        "q165": {
+            "question": "Multi-Level Transmit (MLT-3) schemes use three levels",
+            "answers": ["0, v, and -v", "0,1, and 2", "M,L, and T", "0,-1, and -2"],
+            "correct": 1
+        },
+        "q166": {
+            "question": "Block coding is normally referred to as mBlnB coding; it replaces each m-bit group with an",
+            "answers": ["n-bit group", "n-1 bit group", "n+1 bit group", "none"],
+            "correct": 1
+        },
+        "q167": {
+            "question": "The change or lack of change in the level of the voltage determines the value of the bit is known as",
+            "answers": ["NRZ", "NRZ-L", "NRZ-I", "RZ"],
+            "correct": 3
+        },
+        "q168": {
+            "question": "Which one of the following technique is always needed in digital to digital conversion?",
+            "answers": ["scrambling", "block coding", "line coding", "encoding"],
+            "correct": 3
+        },
+        "q169": {
+            "question": "The term that refers to as mBlnB coding, it replaces each m bit group with an n bit group is called",
+            "answers": ["multilevel technique", "polar techniques", "scrambling technique", "block coding scheme"],
+            "correct": 4
+        },
+        "q170": {
+            "question": "Baseline wandering is prevented by the",
+            "answers": ["scrambling technique", "polar coding", "line coding scheme", "block coding scheme"],
+            "correct": 3
+        },
+        "q171": {
+            "question": "The term that refers to the shortest unit and carries data elements is called",
+            "answers": ["signal element", "data carrier", "single element", "both a& b"],
+            "correct": 1
+        },
+        "q172": {
+            "question": "NRZ-L and NRZ-J both have an average signal rate of",
+            "answers": ["N/2 baud", "N*2 baud", "N baud", "N-2 baud"],
+            "correct": 1
+        },
+        "q173": {
+            "question": "In Multiline Transmission (MLT) rules, if the next bit is 1 and the current level is not 0 the next level is",
+            "answers": ["0", "1", "2", "3"],
+            "correct": 1
+        },
+        "q174": {
+            "question": "Parallel transmission is good in speed but it is very",
+            "answers": ["cheap", "costly", "time consuming", "slow"],
+            "correct": 2
+        },
+        "q175": {
+            "question": "What is the bit rate for high-definition TV (HDTV)?",
+            "answers": ["1.5 Gbps", "1.6 Gbps", "2 Gbps", "15 Gbps"],
+            "correct": 1
+        },
+        "q176": {
+            "question": "In bipolar encoding, we use three levels: positive, zero and",
+            "answers": ["one", "negative", "two", "three"],
+            "correct": 2
+        },
+        "q177": {
+            "question": "In Non Return-to zero-invert (NRZ-I) the inversion or the lack of inversion determines the",
+            "answers": ["value of the bytes", "value of the bits", "status of frame", "status of bits"],
+            "correct": 2
+        },
+        "q178": {
+            "question": "Asynchronous, synchronous and isochronous are three subclasses of serial transmission to send",
+            "answers": ["parallel data", "discrete data", "continuous data", "discontinuous data"],
+            "correct": 1
+        },
+        "q179": {
+            "question": "If the delta is positive, the modulator process records",
+            "answers": ["0", "1", "-1", "infinity"],
+            "correct": 2
+        },
+        "q180": {
+            "question": "Bipolar 8-zero Substitution (B8ZS) substitutes eight consecutive zeros with",
+            "answers": ["OOOVB1VB", "OOOVBOVB", "111VBOVB", "O1OVBOVB"],
+            "correct": 2
+        },
+        "q181": {
+            "question": "In the adaptive delta modulation, for better performance, the value of delta is",
+            "answers": ["fixed", "not fixed", "infinity", "zero"],
+            "correct": 2
+        },
+        "q182": {
+            "question": "Multilevel Amplitude Shift Keying (MASK) is not implemented with pure Amplitude Shift Keying (ASK), it is implemented with",
+            "answers": ["QAM", "PSK", "FSK", "binary ASK"],
+            "correct": 1
+        },
+        "q183": {
+            "question": "In a constellation diagram, a signal element type is represented as a",
+            "answers": ["dot", "line", "x component", "y component"],
+            "correct": 1
+        },
+        "q184": {
+            "question": "The term that refers to the phase continues through the boundary of two signal elements is",
+            "answers": ["non-coherent BFSK", "coherent BFSK", "binary ASK", "multilevel ASK"],
+            "correct": 2
+        },
+        "q185": {
+            "question": "The example of an analog to analog conversion is",
+            "answers": ["radio", "video", "television", "internet"],
+            "correct": 1
+        },
+        "q186": {
+            "question": "A constellation diagram can help us to define the signal's",
+            "answers": ["frequency and amplitude", "amplitude and phase", "amplitude and frequency", "frequency and phase"],
+            "correct": 2
+        },
+        "q187": {
+            "question": "The total bandwidth required for PM can be determined from the bandwidth and",
+            "answers": ["maximum amplitude", "minimum amplitude", "higher bandwidth", "frequencies"],
+            "correct": 1
+        },
+        "q188": {
+            "question": "In how many ways Analog-to-analog conversion can be accomplished",
+            "answers": ["one way", "two ways", "three ways", "four ways"],
+            "correct": 3
+        },
+        "q189": {
+            "question": "In Biphase Shift Keying (BPSK), we use a polar Non-Return to Zero (NRZ) signal for",
+            "answers": ["decoding", "encoding", "modulation", "demodulation"],
+            "correct": 3
+        },
+        "q190": {
+            "question": "The value of r in the analog transmission is",
+            "answers": ["log<sub>2</sub>L", "2log L", "log L/2", "log L"],
+            "correct": 1
+        },
+        "q191": {
+            "question": "When Amplitude Shift Keying (ASK) is implemented using only two levels then it is called",
+            "answers": ["Half Duplex ASK", "multilevel ASK", "binary ASK", "duplex ASK"],
+            "correct": 3
+        },
+        "q192": {
+            "question": "What is the bandwidth for the Amplitude Modulation (AM) if we need to modulate a 5-kHz voice?",
+            "answers": ["10 kHz", "20 kHz", "30 kHz", "40 kHz"],
+            "correct": 1
+        },
+        "q193": {
+            "question": "The most efficient and commonly used digital to analog conversion mechanism is",
+            "answers": ["ASK", "FSK", "PSK", "QAM"],
+            "correct": 4
+        },
+        "q194": {
+            "question": "Amplitude Modulation (AM) stations are allowed carrier frequencies anywhere between",
+            "answers": ["5-10 kHz", "50-100 kHz", "250-1000 kHz", "530-1700 kHz"],
+            "correct": 4
+        },
+        "q195": {
+            "question": "Amplitude Modulation (AM) is normally implemented by using a",
+            "answers": ["multiplexer", "de multiplexer", "multiplier", "phase shifting"],
+            "correct": 3
+        },
     }
 };
