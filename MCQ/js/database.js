@@ -2247,7 +2247,7 @@ var database = {
         "q23": {
             "question": "If the bit rate for an FSK signal is 1200 bps, the baud rate is ________.",
             "answers": ["1200", "600", "400", "300"],
-            "correct": 1200
+            "correct": 1
         },
         "q24": {
             "question": "The constellation diagram of BASK has ______ dots.",
@@ -2647,7 +2647,7 @@ var database = {
         "q103": {
             "question": "The Internet model consists of _______ layers.",
             "answers": ["Eight", "Seven", "Five", "Three"],
-            "correct": 5
+            "correct": 3
         },
         "q104": {
             "question": "In the OSI model, what is the main function of the transport layer?",
@@ -3062,7 +3062,7 @@ var database = {
         "q185": {
             "question": "In _______ transmission, a start bit and a stop bit frame a character byte.",
             "answers": ["(a) asynchronous serial", "(b) synchronous serial", "(c) parallel", "(a) and (b)"],
-            "correct": 2
+            "correct": 1
         },
         "q186": {
             "question": "Two common scrambling techniques are ________.",
