@@ -3556,7 +3556,7 @@ var database = {
         "q64": {
             "question": "A signal in which 1 bit lasts 0.001 s, the Bit rate would be",
             "answers": ["1Kbps", "500bps", "5obps", "1700bps"],
-            "correct": 3
+            "correct": 1
         },
         "q65": {
             "question": "The network layer provides the services for",
