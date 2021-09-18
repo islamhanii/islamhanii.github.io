@@ -47,6 +47,7 @@ function toggleInput(ques, num) {
         else {
             ques.parentElement.style.borderColor = "#f00";
             choices[answers[name]-1].classList.add("correct");
+            window.wrong.push(name);
         }
     }
 }
