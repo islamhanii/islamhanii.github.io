@@ -183,7 +183,7 @@ var database = {
             "correct": 2
         },
         "q36": {
-            "question": "Declarative  modeling languages concentrate only on the solution strategy of optimization models.",
+            "question": "Declarative modeling languages concentrate only on the solution strategy of optimization models.",
             "answers": ["True", "False"],
             "correct": 2
         },
@@ -795,7 +795,7 @@ var database = {
         },
         "q7": {
             "question": "Given the graph below, what is a reasonable number to use for clusters?",
-            "image": "images/img1.jpg",
+            "images": "images/img1.jpg",
             "answers": [4, 1, 7, 10, 2],
             "correct": 1
         },
@@ -831,7 +831,7 @@ var database = {
         },
         "q14": {
             "question": "In the following figure:",
-            "image": "images/img2.jpg",
+            "images": "images/img2.jpg",
             "answers": ["All plots show a case of underfitting",
                         "Left plot is a case of underfitting, middle plot is a case of good fitting and right plot is a case of overfitting",
                         "Left plot is a case of overfitting, middle plot is a case of good fitting and right plot is a case of overfitting",
@@ -881,7 +881,7 @@ var database = {
         },
         "q23": {
             "question": "The goal of the L2 loss in the following architecture is to predict the location of the object of interest.",
-            "image": "images/img3.jpg",
+            "images": "images/img3.jpg",
             "answers": ["True", "False"],
             "correct": 1
         },
@@ -897,7 +897,7 @@ var database = {
         },
         "q26": {
             "question": "In this problem we are using an indexing approach to match a query image to a database of images.<br/>- Suppose we already computed a set of visual words by K-means quantization, we have a total of 10,000 visual words (w1 through w10000)<br/>- Suppose the query image has the following visual words: W40, W50<br/>- Suppose we have 1 million images in the database, the table below shows the index containing visual words (only a portion of the table is shown), each visual word has an associated \"inverse document frequency\" (IDF). For each database image each image has a “term frequency” (TF) for the visual word also (given after the DB image name)For the given query image, the top 3 matching database images using TF*IDF as score are:",
-            "image": "images/img4.jpg",
+            "images": "images/img4.jpg",
             "answers": ["10, 11, 50", "12, 212, 142", "212, 142, 132", "122, 345, 765", "None of the above"],
             "correct": 2
         },
@@ -1045,7 +1045,7 @@ var database = {
     "ERP by Mohamed Saad": {
         "q1": {
             "question": "What type of data is represented in the exhibit?",
-            "image": "images/img5.png",
+            "images": "images/img5.png",
             "answers": ["Structured", "Unstructured", "Quasi-structured", "Semi-structured"],
             "correct": 1
         },
@@ -1145,7 +1145,7 @@ var database = {
         },
         "q16": {
             "question": "Which function shown in the exhibit is used to calculate the sample variance?",
-            "image": "images/img6.png",
+            "images": "images/img6.png",
             "answers": ["a", "b", "c", "d"],
             "correct": 1
         },
@@ -1177,7 +1177,7 @@ var database = {
         },
         "q21": {
             "question": "Refer to the exhibit, which shows pairwise counts for items purchased together.<br/>Consider the following association rules:<br/>• Milk -> Eggs<br/>• Eggs -> Milk<br/>• Bread -> Milk<br/>• Milk -> Bread<br/>Which rule has a confidence higher than 70%?",
-            "image": "images/img7.png",
+            "images": "images/img7.png",
             "answers": ["Milk -> Eggs", "Eggs -> Milk", "Bread -> Milk", "Milk -> Bread"],
             "correct": 2
         },
@@ -1191,7 +1191,7 @@ var database = {
         },
         "q23": {
             "question": "Refer to the exhibit.<br/>In association rules, for itemsets X and Y, which expression defines leverage?",
-            "image": "images/img8.png",
+            "images": "images/img8.png",
             "answers": ["a", "b", "c", "d"],
             "correct": 1
         },
@@ -1205,7 +1205,7 @@ var database = {
         },
         "q25": {
             "question": "Refer to the exhibit.<br/>What is the approximate R-squared value for a linear regression model fitted to the data associated with this scatterplot?",
-            "image": "images/img9.png",
+            "images": "images/img9.png",
             "answers": ["0.01", "0.96", "4", "16"],
             "correct": 1
         },
@@ -1271,7 +1271,7 @@ var database = {
         },
         "q35": {
             "question": "Refer to the exhibit.<br/>To predict whether or not a customer will renew their annual property insurance policy, an insurance company built and operationalized a naïve Bayes classification model. In the model, there are two class labels, renewal and non-renewal, that are assigned to each customer based on their attributes.<br/>A subset of the key attributes, their values, and corresponding conditional probabilities are provided in the exhibit.<br/>A customer has the following attributes:<br/>• Age is greater than 65 years<br/>• Owns their own home<br/>• Renewal month is August<br/>If 20% of customers do not renew their policies every year, what is the score for a non-renewal in the naïve Bayesian model for the customer described above?",
-            "image": "images/img10.png",
+            "images": "images/img10.png",
             "answers": ["0.0002", "0.0004", "0.002", "0.004"],
             "correct": 2
         },
@@ -1697,7 +1697,7 @@ var database = {
         },
         "q37": {
             "question": "Refer to the graphic. Which action will clear the chart junk?",
-            "image": "images/img11.png",
+            "images": "images/img11.png",
             "answers": ["Removing the legend on the right",
                         "Adding horizontal grid lines",
                         "Removing the vertical grid lines",
@@ -4432,6 +4432,564 @@ var database = {
             "question": "Unshielded twisted-pair cables are used in",
             "answers": ["telephone lines", "DSL lines", "LAN", "all of above"],
             "correct": 4
+        },
+    },
+
+    /*
+     ********************************************************
+     *  Computer Networks 1 - Chapter 2 Questions
+     * ******************************************************
+    */
+
+    "Computer Networks 1 - Chapter 2": {
+        "q1": {
+            "question": "Which is not a application layer protocol?",
+            "answers": ["HTTP", "SMTP", "FTP", "TCP"],
+            "correct": 4
+        },
+        "q2": {
+            "question": "The packet of information at the application layer is called __________",
+            "answers": ["Packet", "Message", "Segment", "Frame"],
+            "correct": 2
+        },
+        "q3": {
+            "question": "Which one of the following is an architecture paradigms?",
+            "answers": ["Peer to peer", "Client-server", "HTTP", "Both Peer-to-Peer & Client-Server"],
+            "correct": 4
+        },
+        "q4": {
+            "question": "Application developer has permission to decide the following on transport layer side",
+            "answers": ["Transport layer protocol", "Maximum buffer size", "Both Transport layer protocol and Maximum buffer size", "None of the mentioned"],
+            "correct": 3
+        },
+        "q5": {
+            "question": "Application layer offers _______ service.",
+            "answers": ["End to end", "Process to process", "Both End to end and Process to process", "None of the mentioned"],
+            "correct": 1
+        },
+        "q6": {
+            "question": "E-mail is _________",
+            "answers": ["Loss-tolerant application", "Bandwidth-sensitive application", "Elastic application", "None of the mentioned"],
+            "correct": 3
+        },
+        "q7": {
+            "question": "Pick the odd one out.",
+            "answers": ["File transfer", "File download", "E-mail", "Interactive games"],
+            "correct": 4
+        },
+        "q8": {
+            "question": "Which of the following is an application layer service?",
+            "answers": ["Network virtual terminal", "File transfer, access, and management", "Mail service", "All of the mentioned"],
+            "correct": 4
+        },
+        "q9": {
+            "question": "To deliver a message to the correct application program running on a host, the _______ address must be consulted.",
+            "answers": ["IP", "MAC", "Port", "None of the mentioned"],
+            "correct": 3
+        },
+        "q10": {
+            "question": "Which is a time-sensitive service?",
+            "answers": ["File transfer", "File download", "E-mail", "Internet telephony"],
+            "correct": 4
+        },
+        "q11": {
+            "question": "Transport services available to applications in one or another form _________",
+            "answers": ["Reliable data transfer", "Timing", "Security", "All of the mentioned"],
+            "correct": 4
+        },
+        "q12": {
+            "question": "Electronic mail uses which Application layer protocol?",
+            "answers": ["SMTP", "HTTP", "FTP", "SIP"],
+            "correct": 1
+        },
+        "q13": {
+            "question": "The ____________ translates internet domain and host names to IP address.",
+            "answers": ["domain name system", "routing information protocol", "network time protocol", "internet relay chat"],
+            "correct": 1
+        },
+        "q14": {
+            "question": "Which one of the following allows a user at one site to establish a connection to another site and then pass keystrokes from local host to remote host?",
+            "answers": ["HTTP", "FTP", "Telnet", "TCP"],
+            "correct": 3
+        },
+        "q15": {
+            "question": "Application layer protocol defines ____________",
+            "answers": ["types of messages exchanged", "message format, syntax and semantics", "rules for when and how processes send and respond to messages", "all of the mentioned"],
+            "correct": 4
+        },
+        "q16": {
+            "question": "Which one of the following protocol delivers/stores mail to reciever server?",
+            "answers": ["simple mail transfer protocol", "post office protocol", "internet mail access protocol", "hypertext transfer protocol"],
+            "correct": 1
+        },
+        "q17": {
+            "question": "The ASCII encoding of binary data is called",
+            "answers": ["base 64 encoding", "base 32 encoding", "base 16 encoding", "base 8 encoding"],
+            "correct": 1
+        },
+        "q18": {
+            "question": "Which one of the following is an internet standard protocol for managing devices on IP network?",
+            "answers": ["dynamic host configuration protocol", "simple network management protocol", "internet message access protocol", "media gateway protocol"],
+            "correct": 2
+        },
+        "q19": {
+            "question": "Which one of the following is not an application layer protocol?",
+            "answers": ["media gateway protocol", "dynamic host configuration protocol", "resource reservation protocol", "session initiation protocol"],
+            "correct": 3
+        },
+        "q20": {
+            "question": "Which protocol is a signaling communication protocol used for controlling multimedia communication sessions?",
+            "answers": ["session initiation protocol", "session modelling protocol", "session maintenance protocol", "resource reservation protocol"],
+            "correct": 1
+        },
+        "q21": {
+            "question": "Which one of the following is not correct?",
+            "answers": ["Application layer protocols are used by both source and destination devices during a communication session", "HTTP is a session layer protocol", "TCP is an application layer protocol", "All of the mentioned"],
+            "correct": 4
+        },
+        "q22": {
+            "question": "When displaying a web page, the application layer uses the _____________",
+            "answers": ["HTTP protocol", "FTP protocol", "SMTP protocol", "TCP protocol"],
+            "correct": 1
+        },
+        "q23": {
+            "question": "The number of objects in a Web page which consists of 4 jpeg images and HTML text is ________",
+            "answers": ["4", "1", "5", "7"],
+            "correct": 3
+        },
+        "q24": {
+            "question": "The default connection type used by HTTP is _________",
+            "answers": ["Persistent", "Non-persistent", "Can be either persistent or non-persistent depending on connection request", "None of the mentioned"],
+            "correct": 1
+        },
+        "q25": {
+            "question": "The time taken by a packet to travel from client to server and then back to the client is called __________",
+            "answers": ["STT", "RTT", "PTT", "JTT"],
+            "correct": 2
+        },
+        "q26": {
+            "question": "The HTTP request message is sent in _________ part of three-way handshake.",
+            "answers": ["First", "Second", "Third", "Fourth"],
+            "correct": 3
+        },
+        "q27": {
+            "question": "In the process of fetching a web page from a server the HTTP request/response takes __________ RTTs.",
+            "answers": ["2", "1", "4", "3"],
+            "correct": 2
+        },
+        "q28": {
+            "question": "The first line of HTTP request message is called _____________",
+            "answers": ["Request line", "Header line", "Status line", "Entity line"],
+            "correct": 1
+        },
+        "q29": {
+            "question": "The values GET, POST, HEAD etc are specified in ____________ of HTTP message",
+            "answers": ["Request line", "Header line", "Status line", "Entity line"],
+            "correct": 1
+        },
+        "q30": {
+            "question": "The __________ method when used in the method field, leaves entity body empty.",
+            "answers": ["POST", "SEND", "GET", "PUT"],
+            "correct": 3
+        },
+        "q31": {
+            "question": "The HTTP response message leaves out the requested object when ____________ method is used",
+            "answers": ["GET", "POST", "HEAD", "PUT"],
+            "correct": 3
+        },
+        "q32": {
+            "question": "Find the oddly matched HTTP status codes",
+            "answers": ["200 OK", "400 Bad Request", "301 Moved permanently", "304 Not Found"],
+            "correct": 4
+        },
+        "q33": {
+            "question": "Which of the following is not correct?",
+            "answers": ["Web cache doesnt has its own disk space", "Web cache can act both like server and client", "Web cache might reduce the response time", "Web cache contains copies of recently requested objects"],
+            "correct": 1
+        },
+        "q34": {
+            "question": "The conditional GET mechanism",
+            "answers": ["Imposes conditions on the objects to be requested", "Limits the number of response from a server", "Helps to keep a cache upto date", "None of the mentioned"],
+            "correct": 3
+        },
+        "q35": {
+            "question": "Which of the following is present in both an HTTP request line and a status line?",
+            "answers": ["HTTP version number", "URL", "Method", "None of the mentioned"],
+            "correct": 1
+        },
+        "q36": {
+            "question": "The IETF standards documents are called ________",
+            "answers": ["RFC", "RCF", "ID", "DFC"],
+            "correct": 1
+        },
+        "q37": {
+            "question": "In the layer hierarchy as the data packet moves from the upper to the lower layers, headers are ___________",
+            "answers": ["Added", "Removed", "Rearranged", "Modified"],
+            "correct": 1
+        },
+        "q38": {
+            "question": "The structure or format of data is called ___________",
+            "answers": ["Syntax", "Semantics", "Struct", "Formatting"],
+            "correct": 1
+        },
+        "q39": {
+            "question": "Communication between a computer and a keyboard involves ______________ transmission.",
+            "answers": ["Automatic", "Half-duplex", "Full-duplex", "Simplex"],
+            "correct": 4
+        },
+        "q40": {
+            "question": "The first Network was called ________",
+            "answers": ["CNNET", "NSFNET", "ASAPNET", "ARPANET"],
+            "correct": 4
+        },
+        "q41": {
+            "question": "A _______ is the physical path over which a message travels.",
+            "answers": ["Path", "Medium", "Protocal", "Route"],
+            "correct": 2
+        },
+        "q42": {
+            "question": "Which organization has authority over interstate and international commerce in the communications field?",
+            "answers": ["ITU-T", "IEEE", "FCC", "ISOC"],
+            "correct": 3
+        },
+        "q43": {
+            "question": "Which of this is not a network edge device?",
+            "answers": ["PC", "Smartphones", "Servers", "Switch"],
+            "correct": 4
+        },
+        "q44": {
+            "question": "A _________ set of rules that governs data communication.",
+            "answers": ["Protocols", "Standards", "RFCs", "Servers"],
+            "correct": 1
+        },
+        "q45": {
+            "question": "Three or more devices share a link in ________ connection.",
+            "answers": ["Unipoint", "Multipoint", "Point to point", "Simplex"],
+            "correct": 2
+        },
+        "q46": {
+            "question": "Expansion of FTP is __________",
+            "answers": ["Fine Transfer Protocol", "File Transfer Protocol", "First Transfer Protocol", "Fast Transfer Protocol"],
+            "correct": 2
+        },
+        "q47": {
+            "question": "FTP is built on _____ architecture.",
+            "answers": ["Client-server", "P2P", "Data centric", "Service oriented"],
+            "correct": 1
+        },
+        "q48": {
+            "question": "FTP uses _________ parallel TCP connections to transfer a file.",
+            "answers": ["1", "2", "3", "4"],
+            "correct": 2
+        },
+        "q49": {
+            "question": "Identify the incorrect statement regarding FTP.",
+            "answers": ["FTP stands for File Transfer Protocol", "FTP uses two parallel TCP connections2", "FTP sends its control information in-band", "FTP sends exactly one file over the data connection"],
+            "correct": 3
+        },
+        "q50": {
+            "question": "If 5 files are transferred from server A to client B in the same session. The number of TCP connections between A and B is _______",
+            "answers": ["5", "10", "2", "6"],
+            "correct": 4
+        },
+        "q51": {
+            "question": "FTP server _____________",
+            "answers": ["Maintains state information", "Is stateless", "Has single TCP connection for a file transfer", "Has UDP connection for file transfer"],
+            "correct": 1
+        },
+        "q52": {
+            "question": "The commands, from client to server, and replies, from server to client, are sent across the control connection in ________ bit ASCII format.",
+            "answers": ["8", "7", "3", "5"],
+            "correct": 2
+        },
+        "q53": {
+            "question": "Find the FTP reply whose message is wrongly matched.",
+            "answers": ["331 – Username OK, password required", "425 – Can’t open data connection", "452 – Error writing file", "452 – Can’t open data connection"],
+            "correct": 4
+        },
+        "q54": {
+            "question": "The data transfer mode of FTP, in which all the fragmenting has to be done by TCP is ________",
+            "answers": ["Stream mode", "Block mode", "Compressed mode", "Message mode"],
+            "correct": 1
+        },
+        "q55": {
+            "question": "The password is sent to the server using ________ command.",
+            "answers": ["PASSWD", "PASS", "PASSWORD", "PWORD"],
+            "correct": 2
+        },
+        "q56": {
+            "question": "What does REST stand for?",
+            "answers": ["Represent State Transfer", "Representational State Transfer", "Representing State Transfer", "Representation State Transfer"],
+            "correct": 2
+        },
+        "q57": {
+            "question": "Which of the following protocol is used by Restful web services as a medium of communication between client and server?",
+            "answers": ["HTTP", "FTP", "Gopher", "TELNET"],
+            "correct": 1
+        },
+        "q58": {
+            "question": "Which of the following is not a good practice to create a standard URI for a web service?",
+            "answers": ["Maintain Backward Compatibility", "Use HTTP Verb", "Using spaces for long resource names", "Use lowercase letters"],
+            "correct": 3
+        },
+        "q59": {
+            "question": "Which of the following HTTP methods should be idempotent in nature?",
+            "answers": ["OPTIONS", "DELETE", "POST", "HEAD"],
+            "correct": 2
+        },
+        "q60": {
+            "question": "Which of the following directive of Cache Control Header of HTTP response indicates that resource is cachable by only client and server?",
+            "answers": ["Public", "Private", "Nocache/nostore", "Maxage"],
+            "correct": 2
+        },
+        "q61": {
+            "question": "Which of the following HTTP Status code means CREATED, when a resource is successful created using POST or PUT request?",
+            "answers": ["200", "201", "204", "304"],
+            "correct": 2
+        },
+        "q62": {
+            "question": "Which of the following annotation of JAX RS API is used to annotate a method used to create resource?",
+            "answers": ["@Path", "@GET", "@PUT", "@POST"],
+            "correct": 3
+        },
+        "q63": {
+            "question": "Which of the following annotation of JAX RS API binds the parameter passed to method to a HTTP matrix parameter in path?",
+            "answers": ["@PathParam", "@QueryParam", "@MatrixParam", "@HeaderParam"],
+            "correct": 3
+        },
+        "q64": {
+            "question": "In REST architecture, a REST Server simply provides access to resources and REST client accesses and presents the resources.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q65": {
+            "question": "POST operation should be idempotent.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q66": {
+            "question": "Which layer is responsible for process-to-process delivery?",
+            "answers": ["Physical layer", "Network layer", "Transport layer", "Application layer"],
+            "correct": 3
+        },
+        "q67": {
+            "question": "In process-to-process delivery, two processes communicate in which of the following methods?",
+            "answers": ["Client/Server", "Source/Destination", "Message Transfer", "Peer to Peer"],
+            "correct": 1
+        },
+        "q68": {
+            "question": "Multiple processes on destinations at transport layer are identified by __________",
+            "answers": ["Mac address", "Port number", "Host number", "Host address"],
+            "correct": 2
+        },
+        "q69": {
+            "question": "Range of port numbers in Internet model is __________",
+            "answers": ["0 and 32,765(8-bit)", "0 and 32,765(16-bit)", "0 and 65,535(32-bit)", "0 and 65,535(16-bit)"],
+            "correct": 4
+        },
+        "q70": {
+            "question": "According to Internet Assigned Numbers Authority (IANA), which of the following ranges is not a part of port number ranges?",
+            "answers": ["Well-known ports", "Registered ports", "Dynamic ports", "Static ports"],
+            "correct": 4
+        },
+        "q71": {
+            "question": "The combination of an IP address and port number is called as ________",
+            "answers": ["Socket address", "Port address", "MAC address", "Host address"],
+            "correct": 1
+        },
+        "q72": {
+            "question": "Which of the following is false with respect to Connectionless service of transport layer protocol?",
+            "answers": ["Packets are not numbered", "Packets are not delayed", "No acknowledgement", "Packet may arrive out of sequence"],
+            "correct": 2
+        },
+        "q73": {
+            "question": "Correct order in the process of Connection-Oriented services is ________<br/>i. Data transfer<br/>ii. Connection release<br/>iii. Connection establishment",
+            "answers": ["i-ii-iii", "iii-ii-i", "ii-i-iii", "iii-i-ii"],
+            "correct": 4
+        },
+        "q74": {
+            "question": "In transport layer, Multiplexing is done at _________",
+            "answers": ["Channel", "Receiver site", "Sender site", "Packet"],
+            "correct": 3
+        },
+        "q75": {
+            "question": "The process of error checking and dropping of the header, delivering messages to appropriate process based on port number is called as _______",
+            "answers": ["Delivery of packets", "Error correction", "Multiplexing", "Demultiplexing"],
+            "correct": 3
+        },
+        "q76": {
+            "question": "A piece of icon or image on a web page associated with another webpage is called ______",
+            "answers": ["url", "hyperlink", "plugin", "extension"],
+            "correct": 2
+        },
+        "q77": {
+            "question": "Dynamic web page ______",
+            "answers": ["is same every time whenever it displays", "generates on demand by a program or a request from browser", "both is same every time whenever it displays and generates on demand by a program or a request from browser", " is different always in a predefined order"],
+            "correct": 2
+        },
+        "q78": {
+            "question": "What is a web browser?",
+            "answers": ["a program that can display a web page", "a program used to view html documents", "it enables user to access the resources of internet", "all of the mentioned"],
+            "correct": 4
+        },
+        "q79": {
+            "question": "Common gateway interface is used to _______",
+            "answers": ["generate executable files from web content by web server", "generate web pages", "stream videos", "download media files"],
+            "correct": 1
+        },
+        "q80": {
+            "question": "URL stands for ________",
+            "answers": ["unique reference label", "uniform reference label", "uniform resource locator", "unique resource locator"],
+            "correct": 3
+        },
+        "q81": {
+            "question": "A web cookie is a small piece of data that is _______",
+            "answers": ["sent from a website and stored in user’s web browser while a user is browsing a website", "sent from user and stored in the server while a user is browsing a website", "sent from root server to all servers", "sent from the root server to other root servers"],
+            "correct": 1
+        },
+        "q82": {
+            "question": "Which one of the following is not used to generate dynamic web pages?",
+            "answers": ["PHP", "ASP.NET", "JSP", "CSS"],
+            "correct": 4
+        },
+        "q83": {
+            "question": "An alternative to JavaScript on windows platform is _______",
+            "answers": ["VBScript", "ASP.NET", "JSP", "CSS"],
+            "correct": 1
+        },
+        "q84": {
+            "question": "What is document object model (DOM)?",
+            "answers": ["convention for representing and interacting with objects in html documents", "application programming interface", "hierarchy of objects in ASP.NET", "Cscripting languageSS"],
+            "correct": 1
+        },
+        "q85": {
+            "question": "AJAX stands for _______",
+            "answers": ["casynchronous javascript and xml", "advanced JSP and xml", "asynchronous JSP and xml", "advanced javascript and xml"],
+            "correct": 1
+        },
+    },
+
+    /*
+     ********************************************************
+     *  Computer Networks 1 - Chapter 3
+     * ******************************************************
+    */
+
+    "Computer Networks 1 - Chapter 3": {
+        "q1": {
+            "question": "Transport layer aggregates data from different applications into a single stream before passing it to ____________",
+            "answers": ["network layer", "data link layer", "application layer", "physical layer"],
+            "correct": 1
+        },
+        "q2": {
+            "question": "Which of the following are transport layer protocols used in networking?",
+            "answers": ["TCP and FTP", "UDP and HTTP", "TCP and UDP", "HTTP and FTP"],
+            "correct": 3
+        },
+        "q3": {
+            "question": "User datagram protocol is called connectionless because _____________",
+            "answers": ["all UDP packets are treated independently by transport layer", "it sends data as a stream of related packets", "it is received in the same order as sent order", "it sends data very quickly"],
+            "correct": 1
+        },
+        "q4": {
+            "question": "Transmission control protocol ___________",
+            "answers": ["is a connection-oriented protocol", "uses a three way handshake to establish a connection", "receives data from application as a single stream", "all of the mentioned"],
+            "correct": 4
+        },
+        "q5": {
+            "question": "An endpoint of an inter-process communication flow across a computer network is called __________",
+            "answers": ["socket", "pipe", "port", "machine"],
+            "correct": 1
+        },
+        "q6": {
+            "question": "Which one of the following is a version of UDP with congestion control?",
+            "answers": ["datagram congestion control protocol", "stream control transmission protocol", "structured stream transport", "user congestion control protocol"],
+            "correct": 1
+        },
+        "q7": {
+            "question": "A _____ is a TCP name for a transport service access point.",
+            "answers": ["port", "pipe", "node", "protocol"],
+            "correct": 1
+        },
+        "q8": {
+            "question": "Transport layer protocols deals with ____________",
+            "answers": ["application to application communication", "process to process communication", "node to node communication", "man to man communication"],
+            "correct": 2
+        },
+        "q9": {
+            "question": "Which of the following is a transport layer protocol?",
+            "answers": ["stream control transmission protocol", "internet control message protocol", "neighbor discovery protocol", "dynamic host configuration protocol"],
+            "correct": 1
+        },
+        "q10": {
+            "question": "Which of the following is false with respect to TCP?",
+            "answers": ["Connection-oriented", "Process-to-process", "Transport layer protocol", "Unreliable"],
+            "correct": 4
+        },
+        "q11": {
+            "question": "In TCP, sending and receiving data is done as _______",
+            "answers": ["Stream of bytes", "Sequence of characters", "Lines of data", "Packets"],
+            "correct": 1
+        },
+        "q12": {
+            "question": "TCP process may not write and read data at the same speed. So we need __________ for storage.",
+            "answers": ["Packets", "Buffers", "Segments", "Stacks"],
+            "correct": 2
+        },
+        "q13": {
+            "question": "TCP groups a number of bytes together into a packet called _______",
+            "answers": ["Packet", "Buffer", "Segment", "Stack"],
+            "correct": 3
+        },
+        "q14": {
+            "question": "Communication offered by TCP is ________ <<increase your Knowledge>>",
+            "answers": ["Full-duplex", "Half-duplex", "Semi-duplex", "Byte by byte"],
+            "correct": 1
+        },
+        "q15": {
+            "question": "To achieve reliable transport in TCP, ___________ is used to check the safe and sound arrival of data.",
+            "answers": ["Packet", "Buffer", "Segment", "Acknowledgment"],
+            "correct": 4
+        },
+        "q16": {
+            "question": "In segment header, sequence number and acknowledgement number fields refer to _______ <<increase your Knowledge>>",
+            "answers": ["Byte number", "Buffer number", "Segment number", "Acknowledgment"],
+            "correct": 1
+        },
+        "q17": {
+            "question": "Suppose a TCP connection is transferring a file of 1000 bytes. The first byte is numbered 10001. What is the sequence number of the segment if all data is sent in only one segment?",
+            "answers": ["10000", "10001", "12001", "11001"],
+            "correct": 2
+        },
+        "q18": {
+            "question": "Bytes of data being transferred in each connection are numbered by TCP. These numbers start with a _________",
+            "answers": ["Fixed number", "Random sequence of 0’s and 1’s", "One", "Sequence of zero’s and one’s"],
+            "correct": 4
+        },
+        "q19": {
+            "question": "The value of acknowledgement field in a segment defines _______",
+            "answers": ["sequence number of the byte received previously", "total number of bytes to receive", "sequence number of the next byte to be received", "sequence of zeros and ones"],
+            "correct": 3
+        },
+        "q20": {
+            "question": "The receiver of the data controls the amount of data that are to be sent by the sender is referred to as ___________",
+            "answers": ["Flow control", "Error control", "Congestion control", "Error detection"],
+            "correct": 1
+        },
+        "q21": {
+            "question": "Size of TCP segment header ranges between ___________",
+            "answers": ["16 and 32 bytes", "16 and 32 bits", "20 and 60 bytes", "20 and 60 bits"],
+            "correct": 3
+        },
+        "q22": {
+            "question": "Connection establishment in TCP is done by which mechanism?",
+            "answers": ["Flow control", "Three-Way Handshaking", "Forwarding", "Synchronization"],
+            "correct": 2
+        },
+        "q23": {
+            "question": "Connection establishment in TCP is done by which mechanism?",
+            "answers": ["Flow control", "Three-Way Handshaking", "Forwarding", "Synchronization"],
+            "correct": 2
         },
     }
 };
