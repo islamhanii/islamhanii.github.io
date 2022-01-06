@@ -10,8 +10,8 @@ class Question {
     constructor(header, images, options, correct) {
         this.#header = header;
         if(Array.isArray(images)) {
-            for(let image in images) {
-                this.#images.push(image);
+            for(let i=0; i< images.length; i++) {
+                this.#images.push(images[i]);
             }
         }
         else {
@@ -52,7 +52,7 @@ class Question {
 
         for(let i=0; i< this.#images.length; i++) {
             if(this.#images[i] !== undefined) {
-                div.innerHTML += "<img src=\"" + this.#images[i] + "\" style=\"max-width: 100%;\"/>";
+                div.innerHTML += "<img src=\"" + this.#images[i] + "\"/>";
             }
         }
 
