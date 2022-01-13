@@ -4437,11 +4437,784 @@ var database = {
     
     /*
      ********************************************************
-     *  Computer Networks 1 - Chapter 2 Questions
+     *  Computer Networks 1 - Basics Questions
      * ******************************************************
     */
 
-    "Computer Networks 1 - Chapter 2": {
+    "Computer Networks 1 - Basics": {
+        "q1": {
+            "question": "The structure or format of data is called ___________",
+            "answers": ["Syntax", "Semantics", "Struct", "Formatting"],
+            "correct": 1
+        },
+        "q2": {
+            "question": "The IETF standards documents are called ________",
+            "answers": ["RFC", "RCF", "ID", "DFC"],
+            "correct": 1
+        },
+        "q3": {
+            "question": "In the layer hierarchy as the data packet moves from the upper to the lower layers, headers are ___________",
+            "answers": ["Added", "Removed", "Rearranged", "Modified"],
+            "correct": 1
+        },
+        "q4": {
+            "question": "Communication between a computer and a keyboard involves ______________ transmission.",
+            "answers": ["Automatic", "Half-duplex", "Full-duplex", "Simplex"],
+            "correct": 4
+        },
+        "q5": {
+            "question": "The first Network was called ________",
+            "answers": ["CNNET", "NSFNET", "ASAPNET", "ARPANET"],
+            "correct": 4
+        },
+        "q6": {
+            "question": "A _______ is the physical path over which a message travels.",
+            "answers": ["Path", "Medium", "Protocal", "Route"],
+            "correct": 2
+        },
+        "q7": {
+            "question": "Which organization has authority over interstate and international commerce in the communications field?",
+            "answers": ["ITU-T", "IEEE", "FCC", "ISOC"],
+            "correct": 3
+        },
+        "q8": {
+            "question": "Which of this is not a network edge device?",
+            "answers": ["PC", "Smartphones", "Servers", "Switch"],
+            "correct": 4
+        },
+        "q9": {
+            "question": "A _________ set of rules that governs data communication.",
+            "answers": ["Protocols", "Standards", "RFCs", "Servers"],
+            "correct": 1
+        },
+        "q10": {
+            "question": "Three or more devices share a link in ________ connection.",
+            "answers": ["Unipoint", "Multipoint", "Point to point", "Simplex"],
+            "correct": 2
+        },
+        "q11": {
+            "question": "When collection of various computers seems a single coherent system to its client, then it is called _________",
+            "answers": ["computer network", "distributed system", "networking system", "mail system"],
+            "correct": 2
+        },
+        "q12": {
+            "question": "Two devices are in network if __________",
+            "answers": ["a process in one device is able to exchange information with a process in another device", "a process is running on both devices", "PIDs of the processes running of different devices are same", "a process is active and another is inactive"],
+            "correct": 1
+        },
+        "q13": {
+            "question": "Which of the following computer networks is built on the top of another network?",
+            "answers": ["prior network", "chief network", "prime network", "overlay network"],
+            "correct": 4
+        },
+        "q14": {
+            "question": "In computer network nodes are _________",
+            "answers": ["the computer that originates the data", "the computer that routes the data", "the computer that terminates the data", "all of the mentioned"],
+            "correct": 4
+        },
+        "q15": {
+            "question": "Communication channel is shared by all the machines on the network in ________",
+            "answers": ["broadcast network", "unicast network", "multicast network", "anycast network"],
+            "correct": 1
+        },
+        "q16": {
+            "question": "Bluetooth is an example of __________",
+            "answers": ["personal area network", "local area network", "virtual private network", "wide area network"],
+            "correct": 1
+        },
+        "q17": {
+            "question": "A __________ is a device that forwards packets between networks by processing the routing information included in the packet.",
+            "answers": ["bridge", "firewall", "router", "hub"],
+            "correct": 3
+        },
+        "q18": {
+            "question": "A list of protocols used by a system, one protocol per layer, is called ________",
+            "answers": ["protocol architecture", "protocol stack", "protocol suite", "protocol system"],
+            "correct": 2
+        },
+        "q19": {
+            "question": "Network congestion occurs _________",
+            "answers": ["in case of traffic overloading", "when a system terminates", "when connection between two nodes terminates", "in case of transfer failure"],
+            "correct": 1
+        },
+        "q20": {
+            "question": "Which of the following networks extends a private network across public networks?",
+            "answers": ["local area network", "virtual private network", "enterprise private network", "storage area network"],
+            "correct": 2
+        },
+        "q21": {
+            "question": "Which of this is not a constituent of residential telephone line?",
+            "answers": ["A high-speed downstream channel", "A medium-speed downstream channel", "A low-speed downstream channel", "An ultra-high speed downstream channel"],
+            "correct": 3
+        },
+        "q22": {
+            "question": "DSL telcos provide which of the following services?",
+            "answers": ["Wired phone access", "ISP", "Wired phone access and ISP", "Network routing and ISP"],
+            "correct": 3
+        },
+        "q23": {
+            "question": "The function of DSLAM is to __________",
+            "answers": ["Convert analog signals into digital signals", "Convert digital signals into analog signals", "Amplify digital signals", "De-amplify digital signals"],
+            "correct": 1
+        },
+        "q24": {
+            "question": "Which of the following terms is not associated with DSL?",
+            "answers": ["DSLAM", "CO", "Splitter", "CMTS"],
+            "correct": 4
+        },
+        "q25": {
+            "question": "HFC contains _______",
+            "answers": ["Fibre cable", "Coaxial cable", "A combination of Fibre cable and Coaxial cable", "Twisted Pair Cable"],
+            "correct": 3
+        },
+        "q26": {
+            "question": "Which of the following statements is not applicable for cable internet access?",
+            "answers": ["It is a shared broadcast medium", "It includes HFCs", "Cable modem connects home PC to Ethernet port", "Analog signal is converted to digital signal in DSLAM"],
+            "correct": 4
+        },
+        "q27": {
+            "question": "Among the optical-distribution architectures that are essentially switched ethernet is __________",
+            "answers": ["AON", "PON", "NON", "MON"],
+            "correct": 1
+        },
+        "q28": {
+            "question": "StarBand provides __________",
+            "answers": ["FTTH internet access", "Cable access", "Telephone access", "Satellite access"],
+            "correct": 4
+        },
+        "q29": {
+            "question": "Home Access is provided by __________",
+            "answers": ["DSL", "FTTP", "Cable", "All of the mentioned"],
+            "correct": 4
+        },
+        "q30": {
+            "question": "ONT is connected to splitter using _________",
+            "answers": ["High speed fibre cable", "HFC", "Optical cable", "Twisted pair cable"],
+            "correct": 3
+        },
+        "q31": {
+            "question": "Which of the following factors affect transmission rate in DSL?",
+            "answers": ["The gauge of the twisted-pair line", "Degree of electrical interfernece", "Shadow fading", "The gauge of the twisted-pair line and degree of electrical interference"],
+            "correct": 4
+        },
+        "q32": {
+            "question": "How many layers are present in the Internet protocol stack (TCP/IP model)?",
+            "answers": ["5", "7", "6", "10"],
+            "correct": 1
+        },
+        "q33": {
+            "question": "The number of layers in ISO OSI reference model is __________",
+            "answers": ["5", "7", "6", "10"],
+            "correct": 2
+        },
+        "q34": {
+            "question": "Which of the following layers is an addition to OSI model when compared with TCP IP model?",
+            "answers": ["Application layer", "Presentation layer", "Session layer", "Session and Presentation layer"],
+            "correct": 4
+        },
+        "q35": {
+            "question": "Application layer is implemented in ____________",
+            "answers": ["End system", "NIC", "Ethernet", "Packet transport"],
+            "correct": 1
+        },
+        "q36": {
+            "question": "Transport layer is implemented in ______________",
+            "answers": ["End system", "NIC", "Ethernet", "Signal transmission"],
+            "correct": 1
+        },
+        "q37": {
+            "question": "The functionalities of the presentation layer include ____________",
+            "answers": ["Data compression", "Data encryption", "Data description", "All of the mentioned"],
+            "correct": 4
+        },
+        "q38": {
+            "question": "Delimiting and synchronization of data exchange is provided by __________",
+            "answers": ["Application layer", "Session layer", "Transport layer", "Link layer"],
+            "correct": 2
+        },
+        "q39": {
+            "question": "In OSI model, when data is sent from device A to device B, the 5th layer to receive data at B is _________",
+            "answers": ["Application layer", "Session layer", "Transport layer", "Link layer"],
+            "correct": 2
+        },
+        "q40": {
+            "question": "In TCP IP Model, when data is sent from device A to device B, the 5th layer to receive data at B is ____________",
+            "answers": ["Application layer", "Session layer", "Transport layer", "Link layer"],
+            "correct": 1
+        },
+        "q41": {
+            "question": "In the OSI model, as a data packet moves from the lower to the upper layers, headers are _______",
+            "answers": ["Added", "Removed", "Rearranged", "Randomized"],
+            "correct": 2
+        },
+        "q42": {
+            "question": "Which of the following statements can be associated with OSI model?",
+            "answers": ["A structured way to discuss and easier update system components", "One layer may duplicate lower layer functionality", "Functionality at one layer no way requires information from another layer", " It is an application specific network model"],
+            "correct": 3
+        },
+        "q43": {
+            "question": "OSI stands for __________",
+            "answers": ["open system interconnection", "operating system interface", "optical service implementation", "open service Internet"],
+            "correct": 1
+        },
+        "q44": {
+            "question": "TCP/IP model does not have ______ layer but OSI model have this layer.",
+            "answers": ["session layer", "transport layer", "application layer", "network layer"],
+            "correct": 1
+        },
+        "q45": {
+            "question": "Which layer is used to link the network support layers and user support layers?",
+            "answers": ["session layer", "transport layer", "data link layer", "network layer"],
+            "correct": 2
+        },
+        "q46": {
+            "question": "Which address is used on the internet for employing the TCP/IP protocols?",
+            "answers": ["physical address and logical address", "port address", "specific address", "all of the mentioned"],
+            "correct": 4
+        },
+        "q47": {
+            "question": "TCP/IP model was developed _____ the OSI model.",
+            "answers": ["prior to", "after", "simultaneous to", "with no link to"],
+            "correct": 1
+        },
+        "q48": {
+            "question": "Which layer is responsible for process to process delivery in a general network model?",
+            "answers": ["network layer", "transport layer", "session layer", "data link layer"],
+            "correct": 2
+        },
+        "q49": {
+            "question": "Which address is used to identify a process on a host by the transport layer?",
+            "answers": ["physical address", "logical address", "port address", "specific address"],
+            "correct": 3
+        },
+        "q50": {
+            "question": "Which layer provides the services to user?",
+            "answers": ["application layer", "session layer", "presentation layer", "physical layer"],
+            "correct": 1
+        },
+        "q51": {
+            "question": "Transmission data rate is decided by ____________",
+            "answers": ["network layer", "physical layer", "data link layer", "transport layer"],
+            "correct": 1
+        },
+        "q52": {
+            "question": "Which of the following delay is faced by the packet in travelling from one end system to another?",
+            "answers": ["Propagation delay", "Queuing delay", "Transmission delay", "All of the mentioned"],
+            "correct": 4
+        },
+        "q53": {
+            "question": "For a 10Mbps Ethernet link, if the length of the packet is 32bits, the transmission delay is ____________ (in microseconds)",
+            "answers": ["3.2", "32", "0.32", "320"],
+            "correct": 1
+        },
+        "q54": {
+            "question": "The time required to examine the packet’s header and determine where to direct the packet is part of __________",
+            "answers": ["Processing delay", "Queuing delay", "Transmission delay", "Propagation delay"],
+            "correct": 1
+        },
+        "q55": {
+            "question": "Given L = number of bits in the packet, a = average rate and R = transmission rate. The Traffic intensity in the network is given by ____________",
+            "answers": ["La/R", "LR/a", "R/La", "Ra/L"],
+            "correct": 1
+        },
+        "q56": {
+            "question": "In the transfer of file between server and client, if the transmission rates along the path is 10Mbps, 20Mbps, 30Mbps, 40Mbps. The throughput is usually ___________",
+            "answers": ["20Mbps", "10Mbps", "40Mbps", "50Mbps"],
+            "correct": 2
+        },
+        "q57": {
+            "question": "If end to end delay is given by dend-end = N(dproc + dtrans + dprop) is a non congested network. The number of routers between source and destination is?",
+            "answers": ["N/2", "N", "N-1", "2N"],
+            "correct": 3
+        },
+        "q58": {
+            "question": "The total nodal delay is given by ____________",
+            "answers": ["dnodal = dproc – dqueue + dtrans + dprop", "dnodal = dproc + dtrans – dqueue", "dnodal = dproc + dqueue + dtrans + dprop", "dnodal = dproc + dqueue – dtrans – dprop"],
+            "correct": 3
+        },
+        "q59": {
+            "question": "In a network, If P is the only packet being transmitted and there was no earlier transmission, which of the following delays could be zero?",
+            "answers": ["Propagation delay", "Queuing delay", "Transmission delay", "Processing delay"],
+            "correct": 2
+        },
+        "q60": {
+            "question": "Transmission delay does not depend on _____________",
+            "answers": ["Packet length", "Distance between the routers", "Transmission rate", "Bandwidth of medium"],
+            "correct": 2
+        },
+        "q61": {
+            "question": "Propagation delay depends on ___________",
+            "answers": ["Packet length", "Distance between the routers", "Transmission rate", "Speed of the CPU"],
+            "correct": 2
+        },
+        "q62": {
+            "question": "_____________ allows LAN users to share computer programs and data.",
+            "answers": ["Communication server", "Print server", "File server", "Network"],
+            "correct": 3
+        },
+        "q63": {
+            "question": "With respect to physical media, STP cables stands for _________",
+            "answers": ["Shielded Twisted Pair Cable", "Spanning Tree Protocol Cable", "Static Transport Protocol Cable", "Shielded Two Power Cable"],
+            "correct": 1
+        },
+        "q64": {
+            "question": "A standalone program that has been modified to work on a LAN by including concurrency controls such as file and record locking is an example of ___________",
+            "answers": ["LAN intrinsic software", "LAN aware software", "Groupware", "LAN ignorant software"],
+            "correct": 1
+        },
+        "q65": {
+            "question": "The __________ portion of LAN management software restricts access, records user activities and audit data, etc.",
+            "answers": ["Configuration management", "Security management", "Performance management", "Recovery management"],
+            "correct": 2
+        },
+        "q66": {
+            "question": "What is the max length of the Shielded twisted pair cable?",
+            "answers": ["100 ft", "200 ft", "100 m", "200 m"],
+            "correct": 3
+        },
+        "q67": {
+            "question": "What is the max data transfer rate of STP cables?",
+            "answers": ["10 Mbps", "100 Mbps", "1000 Mbps", "10000 Mbps"],
+            "correct": 2
+        },
+        "q68": {
+            "question": "What is the central device in star topology?",
+            "answers": ["STP server", "Hub/switch", "PDC", "Router"],
+            "correct": 2
+        },
+        "q69": {
+            "question": "What is the max data transfer rate for optical fiber cable?",
+            "answers": ["10 Mbps", "100 Mbps", "1000 Mbps", "10000 Mbps"],
+            "correct": 4
+        },
+        "q70": {
+            "question": "Which of the following architecture uses the CSMA/CD access method?",
+            "answers": ["ARC net", "Ethernet", "Router", "STP server"],
+            "correct": 2
+        },
+        "q71": {
+            "question": "Which of this is not a guided media?",
+            "answers": ["Fiber optical cable", "Coaxial cable", "Wireless LAN", "Copper wire"],
+            "correct": 3
+        },
+        "q72": {
+            "question": "Unshielded Twisted Pair (UTP) is commonly used in __________",
+            "answers": ["DSL", "FTTP", "HTTP", "None of the mentioned"],
+            "correct": 1
+        },
+        "q73": {
+            "question": "Coaxial cable consists of _______ concentric copper conductors.",
+            "answers": ["1", "2", "3", "4"],
+            "correct": 2
+        },
+        "q74": {
+            "question": "Fiber optics posses following properties __________",
+            "answers": ["Immune electromagnetic interference", "Very less signal attenuation", "Very hard to tap", "All of the mentioned"],
+            "correct": 4
+        },
+        "q75": {
+            "question": "If an Optical Carrier is represented as OC-n, generally the link speed equals(in Mbps) __________",
+            "answers": ["n*39.8", "n*51.8", "2n*51.8", "None of the mentioned"],
+            "correct": 2
+        },
+        "q76": {
+            "question": "Terrestrial radio channels are broadly classifed into _____ groups.",
+            "answers": ["2", "3", "4", "1"],
+            "correct": 2
+        },
+        "q77": {
+            "question": "Radio channels are attractive medium because __________",
+            "answers": ["Can penetrate walls", "Connectivity can be given to mobile user", "Can carry signals for long distance", "All of the mentioned"],
+            "correct": 4
+        },
+        "q78": {
+            "question": "Geostationary satellites ___________",
+            "answers": ["Are placed at a fixed point above the earth", "Rotate the earth about a fixed axis", "Rotate the earth about a varying axis", "All of the mentioned"],
+            "correct": 1
+        },
+        "q79": {
+            "question": "A local telephone network is an example of a _______ network.",
+            "answers": ["Packet switched", "Circuit switched", "Bit switched", "Line switched"],
+            "correct": 2
+        },
+        "q80": {
+            "question": "Most packet switches use this principle ____________",
+            "answers": ["Stop and wait", "Store and forward", "Stop and forward", "Store and wait"],
+            "correct": 2
+        },
+        "q81": {
+            "question": "If there are N routers from source to destination, the total end to end delay in sending packet P(L-> number of bits in the packet R-> transmission rate) is equal to ______________",
+            "answers": ["N", "(N*L)/R", "(2N*L)/R", "L/R"],
+            "correct": 2
+        },
+        "q82": {
+            "question": "What are the Methods to move data through a network of links and switches?",
+            "answers": ["Packet switching and Line switching", "Circuit switching and Line switching", "Line switching and bit switching", "Packet switching and Circuit switching"],
+            "correct": 4
+        },
+        "q83": {
+            "question": "The required resources for communication between end systems are reserved for the duration of the session between end systems in ________ method.",
+            "answers": ["Packet switching", "Circuit switching", "Line switching", "Frequency switching"],
+            "correct": 2
+        },
+        "q84": {
+            "question": "As the resources are reserved between two communicating end systems in circuit switching, ___________ is achieved.",
+            "answers": ["authentication", "guaranteed constant rate", "reliability", "store and forward"],
+            "correct": 2
+        },
+        "q85": {
+            "question": "In _________ systems, resources are allocated on demand.",
+            "answers": ["packet switching", "circuit switching", "line switching", "frequency switching"],
+            "correct": 1
+        },
+        "q86": {
+            "question": "Which of the following is not an application layer service?",
+            "answers": ["Network virtual terminal", "File transfer, access, and management", "Mail service", "Error control"],
+            "correct": 4
+        },
+        "q87": {
+            "question": "Physical or logical arrangement of network is __________",
+            "answers": ["Topology", "Routing", "Networking", "Control"],
+            "correct": 1
+        },
+        "q88": {
+            "question": "Which network topology requires a central controller or hub?",
+            "answers": ["Star", "Mesh", "Ring", "Bus"],
+            "correct": 1
+        },
+        "q89": {
+            "question": "_______ topology requires a multipoint connection.",
+            "answers": ["Star", "Mesh", "Ring", "Bus"],
+            "correct": 4
+        },
+        "q90": {
+            "question": "Data communication system spanning states, countries, or the whole world is ________",
+            "answers": ["LAN", "WAN", "MAN", "PAN"],
+            "correct": 2
+        },
+        "q91": {
+            "question": "Data communication system within a building or campus is________",
+            "answers": ["LAN", "WAN", "MAN", "PAN"],
+            "correct": 1
+        },
+        "q92": {
+            "question": "WAN stands for __________",
+            "answers": ["World area network", "Wide area network", "Web area network", "Web access network"],
+            "correct": 2
+        },
+        "q93": {
+            "question": "In TDM, slots are further divided into __________",
+            "answers": ["Seconds", "Frames", "Packets", "Bits"],
+            "correct": 2
+        },
+        "q94": {
+            "question": "_____ is the multiplexing technique that shifts each signal to a different carrier frequency.",
+            "answers": ["FDM", "TDM", "Both FDM & TDM", "PDM"],
+            "correct": 1
+        },
+        "q95": {
+            "question": "The sharing of a medium and its link by two or more devices is called _________",
+            "answers": ["Fully duplexing", "Multiplexing", "Micropleixng", "Duplexing"],
+            "correct": 2
+        },
+        "q96": {
+            "question": "Multiplexing is used in _______",
+            "answers": ["Packet switching", "Circuit switching", "Data switching", "Packet & Circuit switching"],
+            "correct": 2
+        },
+        "q97": {
+            "question": "Which multiplexing technique used to transmit digital signals?",
+            "answers": ["FDM", "TDM", "WDM", "FDM & WDM"],
+            "correct": 2
+        },
+        "q98": {
+            "question": "If there are n signal sources of same data rate, then the TDM link has _______ slots.",
+            "answers": ["n", "n/2", "n*2", "n<sup>2</sup>"],
+            "correct": 1
+        },
+        "q99": {
+            "question": "If link transmits 4000 frames per second, and each slot has 8 bits, the transmission rate of circuit this TDM is _________",
+            "answers": ["32kbps", "500bps", "500kbps", "32bps"],
+            "correct": 1
+        },
+        "q100": {
+            "question": "The state when dedicated signals are idle are called __________",
+            "answers": ["Death period", "Poison period", "Silent  period", "Stop period"],
+            "correct": 3
+        },
+        "q101": {
+            "question": "Multiplexing provides _________",
+            "answers": ["Efficiency", "Privacy", "Anti jamming", "Both Efficiency & Privacy"],
+            "correct": 4
+        },
+        "q102": {
+            "question": "In TDM, the transmission rate of a multiplexed path is always _______ the sum of the transmission rates of the signal sources.",
+            "answers": ["Greater than", "Lesser than", "Equal to", "Equal to or greater than"],
+            "correct": 1
+        },
+        "q103": {
+            "question": "The physical layer is concerned with ___________",
+            "answers": ["bit-by-bit delivery", "process to process delivery", "application to application delivery", "port to port delivery"],
+            "correct": 1
+        },
+        "q104": {
+            "question": "Which transmission media provides the highest transmission speed in a network?",
+            "answers": ["coaxial cable", "twisted pair cable", "optical fiber", "electrical cable"],
+            "correct": 3
+        },
+        "q105": {
+            "question": "Bits can be sent over guided and unguided media as analog signal by ___________",
+            "answers": ["digital modulation", "amplitude modulation", "frequency modulation", "phase modulation"],
+            "correct": 1
+        },
+        "q106": {
+            "question": "The portion of physical layer that interfaces with the media access control sublayer is called ___________",
+            "answers": ["physical signalling sublayer", "physical data sublayer", "physical address sublayer", "physical transport sublayer"],
+            "correct": 1
+        },
+        "q107": {
+            "question": "The physical layer provides __________",
+            "answers": ["mechanical specifications of electrical connectors and cables", "electrical specification of transmission line signal level", "specification for IR over optical fiber", "all of the mentioned"],
+            "correct": 4
+        },
+        "q108": {
+            "question": "In asynchronous serial communication the physical layer provides ___________",
+            "answers": ["start and stop signalling", "flow control", "both start & stop signalling and flow control", "only start signalling"],
+            "correct": 3
+        },
+        "q109": {
+            "question": "The physical layer is responsible for __________",
+            "answers": ["line coding", "channel coding", "modulation", "all of the mentioned"],
+            "correct": 4
+        },
+        "q110": {
+            "question": "The physical layer translates logical communication requests from the ______ into hardware specific operations.",
+            "answers": ["data link layer", "network layer", "trasnport layer", "application layer"],
+            "correct": 1
+        },
+        "q111": {
+            "question": "A single channel is shared by multiple signals by ____________",
+            "answers": ["analog modulation", "digital modulation", "multiplexing", "phase modulation"],
+            "correct": 3
+        },
+        "q112": {
+            "question": "Wireless transmission of signals can be done via ___________",
+            "answers": ["radio waves", "microwaves", "infrared", "all of the mentioned"],
+            "correct": 4
+        },
+        "q113": {
+            "question": "The data link layer takes the packets from _________ and encapsulates them into frames for transmission.",
+            "answers": ["network layer", "physical layer", "transport layer", "application layer"],
+            "correct": 1
+        },
+        "q114": {
+            "question": "Which of the following tasks is not done by data link layer?",
+            "answers": ["framing", "error control", "flow control", "channel coding"],
+            "correct": 4
+        },
+        "q115": {
+            "question": "Which sublayer of the data link layer performs data link functions that depend upon the type of medium?",
+            "answers": ["logical link control sublayer", "media access control sublayer", "network interface control sublayer", "error control sublayer"],
+            "correct": 2
+        },
+        "q116": {
+            "question": "Header of a frame generally contains ______________",
+            "answers": ["synchronization bytes", "addresses", "frame identifier", "all of the mentioned"],
+            "correct": 4
+        },
+        "q117": {
+            "question": "Automatic repeat request error management mechanism is provided by ________",
+            "answers": ["logical link control sublayer", "media access control sublayer", "network interface control sublayer", "application access control sublayer"],
+            "correct": 1
+        },
+        "q118": {
+            "question": "When 2 or more bits in a data unit has been changed during the transmission, the error is called ____________",
+            "answers": ["random error", "burst error", "inverted error", "double error"],
+            "correct": 2
+        },
+        "q119": {
+            "question": "CRC stands for __________",
+            "answers": ["cyclic redundancy check", "code repeat check", "code redundancy check", "cyclic repeat check"],
+            "correct": 1
+        },
+        "q120": {
+            "question": "Which of the following is a data link protocol?",
+            "answers": ["ethernet", "point to point protocol", "HDLC", "all of the mentioned"],
+            "correct": 4
+        },
+        "q121": {
+            "question": "Which of the following is the multiple access protocol for channel access control?",
+            "answers": ["CSMA/CD", "CSMA/CA", "HDLC", "Both CSMA/CD & CSMA/CA"],
+            "correct": 4
+        },
+        "q122": {
+            "question": "The technique of temporarily delaying outgoing acknowledgements so that they can be hooked onto the next outgoing data frame is called ____________",
+            "answers": ["piggybacking", "cyclic redundancy check", "fletcher’s checksum", "parity check"],
+            "correct": 1
+        },
+        "q123": {
+            "question": "The network layer is concerned with __________ of data.",
+            "answers": ["bits", "frames", "packets", "bytes"],
+            "correct": 3
+        },
+        "q124": {
+            "question": "Which one of the following is not a function of network layer?",
+            "answers": ["routing", "inter-networking", "congestion control", "error control"],
+            "correct": 4
+        },
+        "q125": {
+            "question": "A 4 byte IP address consists of __________",
+            "answers": ["only network address", "only host address", "network address & host address", "network address & MAC address"],
+            "correct": 3
+        },
+        "q126": {
+            "question": "In virtual circuit network each packet contains ___________",
+            "answers": ["full source and destination address", "a short VC number", "only source address", "only destination address"],
+            "correct": 2
+        },
+        "q127": {
+            "question": "Which of the following routing algorithms can be used for network layer design?",
+            "answers": ["shortest path algorithm", "distance vector routing", "link state routing", "all of the mentioned"],
+            "correct": 4
+        },
+        "q128": {
+            "question": "Which of the following is not correct in relation to multi-destination routing?",
+            "answers": ["is same as broadcast routing", "contains the list of all destinations", "data is not sent by packets", "there are multiple receivers"],
+            "correct": 3
+        },
+        "q129": {
+            "question": "A subset of a network that includes all the routers but contains no loops is called ________",
+            "answers": ["spanning tree", "spider structure", "spider tree", "special tree"],
+            "correct": 1
+        },
+        "q130": {
+            "question": "Which one of the following algorithm is not used for congestion control?",
+            "answers": ["traffic aware routing", "admission control", "load shedding", "routing information protocol"],
+            "correct": 4
+        },
+        "q131": {
+            "question": "The network layer protocol for internet is __________",
+            "answers": ["ethernet", "internet protocol", "hypertext transfer protocol", "file transfer protocol"],
+            "correct": 2
+        },
+        "q132": {
+            "question": "ICMP is primarily used for __________",
+            "answers": ["error and diagnostic functions", "addressing", "forwarding", "routing"],
+            "correct": 1
+        },
+        "q133": {
+            "question": "What is internet?",
+            "answers": ["a single network", "a vast collection of different networks", "interconnection of local area networks", "interconnection of wide area networks"],
+            "correct": 2
+        },
+        "q134": {
+            "question": "To join the internet, the computer has to be connected to a _________",
+            "answers": ["internet architecture board", "internet society", "internet service provider", "different computer"],
+            "correct": 3
+        },
+        "q135": {
+            "question": "Internet access by transmitting digital data over the wires of a local telephone network is provided by _______",
+            "answers": ["leased line", "digital subscriber line", "digital signal line", "digital leased line"],
+            "correct": 2
+        },
+        "q136": {
+            "question": "ISP exchanges internet traffic between their networks by __________",
+            "answers": ["internet exchange point", "subscriber end point", "isp end point", "internet end point"],
+            "correct": 1
+        },
+        "q137": {
+            "question": "Which of the following protocols is used in the internet?",
+            "answers": ["HTTP", "DHCP", "DNS", "DNS, HTTP and DNS"],
+            "correct": 4
+        },
+        "q138": {
+            "question": "The size of an IP address in IPv6 is _________",
+            "answers": ["32 bits", "64 bits", "128 bits", "265 bits"],
+            "correct": 3
+        },
+        "q139": {
+            "question": "The size of an IP address in IPv4 is _________",
+            "answers": ["32 bits", "64 bits", "128 bits", "265 bits"],
+            "correct": 1
+        },
+        "q140": {
+            "question": "Internet works on _______",
+            "answers": ["packet switching", "circuit switching", "both packet switching and circuit switching", "data switching"],
+            "correct": 1
+        },
+        "q141": {
+            "question": "Which one of the following is not an application layer protocol used in internet?",
+            "answers": ["remote procedure call", "internet relay chat", "resource reservation protocol", "local procedure call"],
+            "correct": 3
+        },
+        "q142": {
+            "question": "Which protocol assigns IP address to the client connected in the internet?",
+            "answers": ["DHCP", "IP", "RPC", "RSVP"],
+            "correct": 1
+        },
+        "q143": {
+            "question": "Which one of the following is not used in media access control?",
+            "answers": ["ethernet", "digital subscriber line", "fiber distributed data interface", "packet switching"],
+            "correct": 4
+        },
+        "q144": {
+            "question": "Transport layer aggregates data from different applications into a single stream before passing it to ____________",
+            "answers": ["network layer", "data link layer", "application layer", "physical layer"],
+            "correct": 1
+        },
+        "q145": {
+            "question": "Which of the following are transport layer protocols used in networking?",
+            "answers": ["TCP and FTP", "UDP and HTTP", "TCP and UDP", "HTTP and FTP"],
+            "correct": 3
+        },
+        "q146": {
+            "question": "User datagram protocol is called connectionless because _____________",
+            "answers": ["all UDP packets are treated independently by transport layer", "it sends data as a stream of related packets", "it is received in the same order as sent order", "it sends data very quickly"],
+            "correct": 1
+        },
+        "q147": {
+            "question": "Transmission control protocol ___________",
+            "answers": ["is a connection-oriented protocol", "uses a three way handshake to establish a connection", "receives data from application as a single stream", "all of the mentioned"],
+            "correct": 4
+        },
+        "q148": {
+            "question": "An endpoint of an inter-process communication flow across a computer network is called __________",
+            "answers": ["socket", "pipe", "port", "machine"],
+            "correct": 1
+        },
+        "q149": {
+            "question": "Which one of the following is a version of UDP with congestion control?",
+            "answers": ["datagram congestion control protocol", "stream control transmission protocol", "structured stream transport", "user congestion control protocol"],
+            "correct": 1
+        },
+        "q150": {
+            "question": "A _____ is a TCP name for a transport service access point.",
+            "answers": ["port", "pipe", "node", "protocol"],
+            "correct": 1
+        },
+        "q151": {
+            "question": "Transport layer protocols deals with ____________",
+            "answers": ["application to application communication", "process to process communication", "node to node communication", "man to man communication"],
+            "correct": 2
+        },
+        "q152": {
+            "question": "Which of the following is a transport layer protocol?",
+            "answers": ["stream control transmission protocol", "internet control message protocol", "neighbor discovery protocol", "dynamic host configuration protocol"],
+            "correct": 1
+        },
+        "q153": {
+            "question": "Socket-style API for windows is called ____________",
+            "answers": ["wsock", "winsock", "wins", "sockwi"],
+            "correct": 2
+        },
+    },
+    /*
+     ********************************************************
+     *  Computer Networks 1 - Application Questions
+     * ******************************************************
+    */
+
+    "Computer Networks 1 - Application": {
         "q1": {
             "question": "Which is not a application layer protocol?",
             "answers": ["HTTP", "SMTP", "FTP", "TCP"],
@@ -4618,54 +5391,54 @@ var database = {
             "correct": 1
         },
         "q36": {
-            "question": "The IETF standards documents are called ________",
-            "answers": ["RFC", "RCF", "ID", "DFC"],
+            "question": "Multiple objects can be sent over a TCP connection between client and server in a persistent HTTP connection.",
+            "answers": ["True", "False"],
             "correct": 1
         },
         "q37": {
-            "question": "In the layer hierarchy as the data packet moves from the upper to the lower layers, headers are ___________",
-            "answers": ["Added", "Removed", "Rearranged", "Modified"],
+            "question": "HTTP is ________ protocol.",
+            "answers": ["application layer", "transport layer", "network layer", "data link layer"],
             "correct": 1
         },
         "q38": {
-            "question": "The structure or format of data is called ___________",
-            "answers": ["Syntax", "Semantics", "Struct", "Formatting"],
+            "question": "In the network HTTP resources are located by __________",
+            "answers": ["uniform resource identifier", "unique resource locator", "unique resource identifier", "union resource locator"],
             "correct": 1
         },
         "q39": {
-            "question": "Communication between a computer and a keyboard involves ______________ transmission.",
-            "answers": ["Automatic", "Half-duplex", "Full-duplex", "Simplex"],
-            "correct": 4
+            "question": "HTTP client requests by establishing a __________ connection to a particular port on the server.",
+            "answers": ["user datagram protocol", "transmission control protocol", "border gateway protocol", "domain host control protocol"],
+            "correct": 2
         },
         "q40": {
-            "question": "The first Network was called ________",
-            "answers": ["CNNET", "NSFNET", "ASAPNET", "ARPANET"],
-            "correct": 4
+            "question": "In HTTP pipelining ________________",
+            "answers": ["multiple HTTP requests are sent on a single TCP connection without waiting for the corresponding responses", "multiple HTTP requests can not be sent on a single TCP connection", "multiple HTTP requests are sent in a queue on a single TCP connection", "multiple HTTP requests are sent at random on a single TCP connection"],
+            "correct": 1
         },
         "q41": {
-            "question": "A _______ is the physical path over which a message travels.",
-            "answers": ["Path", "Medium", "Protocal", "Route"],
+            "question": "FTP server listens for connection on port number ____________",
+            "answers": ["20", "21", "22", "23"],
             "correct": 2
         },
         "q42": {
-            "question": "Which organization has authority over interstate and international commerce in the communications field?",
-            "answers": ["ITU-T", "IEEE", "FCC", "ISOC"],
-            "correct": 3
-        },
-        "q43": {
-            "question": "Which of this is not a network edge device?",
-            "answers": ["PC", "Smartphones", "Servers", "Switch"],
-            "correct": 4
-        },
-        "q44": {
-            "question": "A _________ set of rules that governs data communication.",
-            "answers": ["Protocols", "Standards", "RFCs", "Servers"],
+            "question": "In FTP protocol, client contacts server using ____ as the transport protocol.",
+            "answers": ["transmission control protocol", "user datagram protocol", "datagram congestion control protocol", "stream control transmission protocol"],
             "correct": 1
         },
-        "q45": {
-            "question": "Three or more devices share a link in ________ connection.",
-            "answers": ["Unipoint", "Multipoint", "Point to point", "Simplex"],
+        "q43": {
+            "question": "In Active mode FTP, the client initiates both the control and data connections.",
+            "answers": ["True", "False"],
             "correct": 2
+        },
+        "q44": {
+            "question": "The File Transfer Protocol is built on ______________",
+            "answers": ["data centric architecture", "service oriented architecture", "client server architecture", "connection oriented architecture"],
+            "correct": 3
+        },
+        "q45": {
+            "question": "In File Transfer Protocol, data transfer cannot be done in ___________",
+            "answers": ["stream mode", "block mode", "compressed mode", "message mode"],
+            "correct": 4
         },
         "q46": {
             "question": "Expansion of FTP is __________",
@@ -4738,7 +5511,7 @@ var database = {
             "correct": 2
         },
         "q60": {
-            "question": "Which of the following directive of Cache Control Header of HTTP response indicates that resource is cachable by only client and server?",
+            "question": "Which of the following directive of Cache Control Header of HTTP response indicates that resource is cacheable by only client and server?",
             "answers": ["Public", "Private", "Nocache/nostore", "Maxage"],
             "correct": 2
         },
@@ -4746,16 +5519,6 @@ var database = {
             "question": "Which of the following HTTP Status code means CREATED, when a resource is successful created using POST or PUT request?",
             "answers": ["200", "201", "204", "304"],
             "correct": 2
-        },
-        "q62": {
-            "question": "Which of the following annotation of JAX RS API is used to annotate a method used to create resource?",
-            "answers": ["@Path", "@GET", "@PUT", "@POST"],
-            "correct": 3
-        },
-        "q63": {
-            "question": "Which of the following annotation of JAX RS API binds the parameter passed to method to a HTTP matrix parameter in path?",
-            "answers": ["@PathParam", "@QueryParam", "@MatrixParam", "@HeaderParam"],
-            "correct": 3
         },
         "q64": {
             "question": "In REST architecture, a REST Server simply provides access to resources and REST client accesses and presents the resources.",
@@ -4864,131 +5627,1369 @@ var database = {
         },
         "q85": {
             "question": "AJAX stands for _______",
-            "answers": ["casynchronous javascript and xml", "advanced JSP and xml", "asynchronous JSP and xml", "advanced javascript and xml"],
+            "answers": ["asynchronous javascript and xml", "advanced JSP and xml", "asynchronous JSP and xml", "advanced javascript and xml"],
+            "correct": 1
+        },
+        "q86": {
+            "question": "When the mail server sends mail to other mail servers it becomes ____________",
+            "answers": ["SMTP server", "SMTP client", "Peer", "Master"],
+            "correct": 2
+        },
+        "q87": {
+            "question": "If you have to send multimedia data over SMTP it has to be encoded into _______",
+            "answers": ["Binary", "Signal", "ASCII", "Hash"],
+            "correct": 3
+        },
+        "q88": {
+            "question": "Expansion of SMTP is ________",
+            "answers": ["Simple Mail Transfer Protocol", "Simple Message Transfer Protocol", "Simple Mail Transmission Protocol", "Simple Message Transmission Protocol"],
+            "correct": 1
+        },
+        "q89": {
+            "question": "In SMTP, the command to write receiver’s mail address is written with the command _______",
+            "answers": ["SEND TO", "RCPT TO", "MAIL TO", "RCVR TO"],
+            "correct": 2
+        },
+        "q90": {
+            "question": "The underlying Transport layer protocol used by SMTP is ________",
+            "answers": ["TCP", "UDP", "Either TCP or UDP", "IMAP"],
+            "correct": 1
+        },
+        "q91": {
+            "question": "Choose the statement which is wrong incase of SMTP?",
+            "answers": ["It requires message to be in 7bit ASCII format", "It is a pull protocol", "It transfers files from one mail server to another mail server", "SMTP is responsible for the transmission of the mail through the internet"],
+            "correct": 2
+        },
+        "q92": {
+            "question": "Internet mail places each object in _________",
+            "answers": ["Separate messages for each object", "One message", "Varies with number of objects", "Multiple messages for each object"],
+            "correct": 1
+        },
+        "q93": {
+            "question": "Typically the TCP port used by SMTP is _________",
+            "answers": ["25", "50", "35", "15"],
+            "correct": 1
+        },
+        "q94": {
+            "question": "A session may include ________",
+            "answers": ["Zero or more SMTP transactions", "Exactly one SMTP transactions", "Always more than one SMTP transactions", "Number of SMTP transactions cant be determined"],
+            "correct": 1
+        },
+        "q95": {
+            "question": "Which of the following is an example of user agents for e-mail?",
+            "answers": ["Microsoft Outlook", "Facebook", "Google", "Tumblr"],
+            "correct": 1
+        },
+        "q96": {
+            "question": "When the sender and the receiver of an email are on different systems, we need only _________",
+            "answers": ["One MTA", "Two UAs", "Two UAs and one MTA", "Two UAs and two MTAs"],
+            "correct": 4
+        },
+        "q98": {
+            "question": "User agent does not support this ___________",
+            "answers": ["Composing messages", "Reading messages", "Replying messages", "Routing messages"],
+            "correct": 4
+        },
+        "q99": {
+            "question": "Simple mail transfer protocol (SMTP) utilizes _________ as the transport layer protocol for electronic mail transfer.",
+            "answers": ["TCP", "UDP", "DCCP", "SCTP"],
+            "correct": 1
+        },
+        "q100": {
+            "question": "SMTP connections secured by SSL are known as _____________",
+            "answers": ["SMTPS", "SSMTP", "SNMP", "STARTTLS"],
+            "correct": 1
+        },
+        "q101": {
+            "question": "Which one of the following protocol is used to receive mail messages?",
+            "answers": ["SMTP", "Post Office Protocol (POP)", "Internet Message Access Protocol (IMAP)", "FTP"],
+            "correct": 1
+        },
+        "q102": {
+            "question": "An email client needs to know the _________ of its initial SMTP server.",
+            "answers": ["IP address", "MAC address", "URL", "Name"],
+            "correct": 1
+        },
+        "q103": {
+            "question": "An SMTP session may not include _______",
+            "answers": ["zero SMTP transaction", "one SMTP transaction", "more than one SMTP transaction", "one HTTP transaction"],
+            "correct": 4
+        },
+        "q104": {
+            "question": "SMTP defines _______",
+            "answers": ["message transport", "message encryption", "message content", "message password"],
+            "correct": 1
+        },
+        "q105": {
+            "question": "Which one of the following is an SMTP server configured in such a way that anyone on the internet can send e-mail through it?",
+            "answers": ["open mail relay", "wide mail reception", "open mail reception", "short mail reception"],
+            "correct": 1
+        },
+        "q106": {
+            "question": "SMTP is not used to deliver messages to ______",
+            "answers": ["user’s terminal", "user’s mailbox", "user’s word processor", "user’s email client"],
+            "correct": 3
+        },
+        "q107": {
+            "question": "The entire hostname has a maximum of ___________",
+            "answers": ["255 characters", "127  characters", "63  characters", "31 characters"],
+            "correct": 1
+        },
+        "q108": {
+            "question": "Methods provided by Python for receiving and sending TCP messages.",
+            "answers": ["(A) s.recvfrom(),s.sendto()", "(B) s.recv(), s.send()", "Both (A) and (B)", "None of the mentioned"],
+            "correct": 2
+        },
+        "q109": {
+            "question": "Which constructor of Datagram Socket class is used to create a datagram socket and binds it with the given Port Number?",
+            "answers": ["Datagram Socket(int port)", "Datagram Socket(int port, Int Address address)", "Datagram Socket()", "Datagram Socket(int address)"],
+            "correct": 2
+        },
+        "q110": {
+            "question": "The client in socket programming must know which information?",
+            "answers": ["IP address of Server", "Port number", "Both IP address of Server & Port number", "Only its own IP address"],
+            "correct": 3
+        },
+        "q111": {
+            "question": "The URL Connection class can be used to read and write data to the specified resource that is referred by the URL.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q112": {
+            "question": "Datagram is basically just a piece of information but there is no guarantee of its content, arrival or arrival time.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q113": {
+            "question": "TCP, FTP, Telnet, SMTP, POP etc. are examples of ___________",
+            "answers": ["Socket", "IP Address", "Protocol", "MAC Address"],
+            "correct": 3
+        },
+        "q114": {
+            "question": "Which Python is used by client to opens a TCP connection to hostname?",
+            "answers": ["s.connect()", "s.accept()", "All of the mentioned", "s.bind()"],
+            "correct": 1
+        },
+        "q115": {
+            "question": "Which of the following options is not a server socket method?",
+            "answers": ["bind()", "listen()", "connect()", "accept()"],
+            "correct": 3
+        },
+        "q116": {
+            "question": "Bind() function in Python socket programming is used to",
+            "answers": ["Specify the port for service on the specified host", "Read data from the socket", "Send data to the socket", "Initiate the connection"],
+            "correct": 1
+        },
+        "q117": {
+            "question": "Cookies were originally designed for ____________",
+            "answers": ["Client side programming", "Server side programming", "Both Client side programming and Server side programming", "Socket programmingsh"],
+            "correct": 2
+        },
+        "q118": {
+            "question": "The Cookie manipulation is done using which property?",
+            "answers": ["cookie", "cookies", "manipulate", "manipulate cookie"],
+            "correct": 1
+        },
+        "q119": {
+            "question": "Which of the following explains Cookies nature?",
+            "answers": ["Non Volatile", "Volatile", "Intransient", "Transient"],
+            "correct": 4
+        },
+        "q120": {
+            "question": "Which attribute is used to extend the lifetime of a cookie?",
+            "answers": ["Higher-age", " Increase-age", " Max-age", "Lifetime"],
+            "correct": 3
+        },
+        "q121": {
+            "question": "Which of the following defines the Cookie visibility?",
+            "answers": ["Document Path", "LocalStorage", "SessionStorage", "All of the mentioned"],
+            "correct": 4
+        },
+        "q122": {
+            "question": "Which of the following can be used to configure the scope of the Cookie visibility?",
+            "answers": ["Path", "Domain", "Both Path and Domain", "Server"],
+            "correct": 4
+        },
+        "q123": {
+            "question": "How can you set a Cookie visibility scope to local Storage?",
+            "answers": ["/", "%", "#", "*"],
+            "correct": 1
+        },
+        "q124": {
+            "question": "Which of the following is a Boolean cookie attribute?",
+            "answers": ["Bool", "Secure", "Lookup", "Domain"],
+            "correct": 2
+        },
+        "q125": {
+            "question": "Which of the following function is used as a consequence of not including semicolons, Commas or whitespace in the Cookie value?",
+            "answers": ["EncodeURIComponent()", "EncodeURI()", "EncodeComponent()", "Encode()"],
+            "correct": 1
+        },
+        "q121": {
+            "question": "What is the constraint on the data per cookie?",
+            "answers": ["2 KB", "1 KB", "4 KB", "3 KB"],
+            "correct": 3
+        },
+        "q122": {
+            "question": "Multiple object can be sent over a TCP connection between client and server in",
+            "answers": ["(a) persistent HTTP", "(b) nonpersistent HTTP", "both (a) and (b)", "none of the mentioned"],
             "correct": 1
         },
     },
 
     /*
      ********************************************************
-     *  Computer Networks 1 - Chapter 3
+     *  Computer Networks 1 - Transport
      * ******************************************************
     */
 
-    "Computer Networks 1 - Chapter 3": {
+    "Computer Networks 1 - Transport": {
         "q1": {
-            "question": "Transport layer aggregates data from different applications into a single stream before passing it to ____________",
-            "answers": ["network layer", "data link layer", "application layer", "physical layer"],
-            "correct": 1
-        },
-        "q2": {
-            "question": "Which of the following are transport layer protocols used in networking?",
-            "answers": ["TCP and FTP", "UDP and HTTP", "TCP and UDP", "HTTP and FTP"],
-            "correct": 3
-        },
-        "q3": {
-            "question": "User datagram protocol is called connectionless because _____________",
-            "answers": ["all UDP packets are treated independently by transport layer", "it sends data as a stream of related packets", "it is received in the same order as sent order", "it sends data very quickly"],
-            "correct": 1
-        },
-        "q4": {
-            "question": "Transmission control protocol ___________",
-            "answers": ["is a connection-oriented protocol", "uses a three way handshake to establish a connection", "receives data from application as a single stream", "all of the mentioned"],
-            "correct": 4
-        },
-        "q5": {
-            "question": "An endpoint of an inter-process communication flow across a computer network is called __________",
-            "answers": ["socket", "pipe", "port", "machine"],
-            "correct": 1
-        },
-        "q6": {
-            "question": "Which one of the following is a version of UDP with congestion control?",
-            "answers": ["datagram congestion control protocol", "stream control transmission protocol", "structured stream transport", "user congestion control protocol"],
-            "correct": 1
-        },
-        "q7": {
-            "question": "A _____ is a TCP name for a transport service access point.",
-            "answers": ["port", "pipe", "node", "protocol"],
-            "correct": 1
-        },
-        "q8": {
-            "question": "Transport layer protocols deals with ____________",
-            "answers": ["application to application communication", "process to process communication", "node to node communication", "man to man communication"],
-            "correct": 2
-        },
-        "q9": {
-            "question": "Which of the following is a transport layer protocol?",
-            "answers": ["stream control transmission protocol", "internet control message protocol", "neighbor discovery protocol", "dynamic host configuration protocol"],
-            "correct": 1
-        },
-        "q10": {
             "question": "Which of the following is false with respect to TCP?",
             "answers": ["Connection-oriented", "Process-to-process", "Transport layer protocol", "Unreliable"],
             "correct": 4
         },
-        "q11": {
+        "q2": {
             "question": "In TCP, sending and receiving data is done as _______",
             "answers": ["Stream of bytes", "Sequence of characters", "Lines of data", "Packets"],
             "correct": 1
         },
-        "q12": {
+        "q3": {
             "question": "TCP process may not write and read data at the same speed. So we need __________ for storage.",
             "answers": ["Packets", "Buffers", "Segments", "Stacks"],
             "correct": 2
         },
-        "q13": {
+        "q4": {
             "question": "TCP groups a number of bytes together into a packet called _______",
             "answers": ["Packet", "Buffer", "Segment", "Stack"],
             "correct": 3
         },
-        "q14": {
-            "question": "Communication offered by TCP is ________ <<increase your Knowledge>>",
+        "q5": {
+            "question": "Communication offered by TCP is ________",
             "answers": ["Full-duplex", "Half-duplex", "Semi-duplex", "Byte by byte"],
             "correct": 1
         },
-        "q15": {
+        "q6": {
             "question": "To achieve reliable transport in TCP, ___________ is used to check the safe and sound arrival of data.",
             "answers": ["Packet", "Buffer", "Segment", "Acknowledgment"],
             "correct": 4
         },
-        "q16": {
-            "question": "In segment header, sequence number and acknowledgement number fields refer to _______ <<increase your Knowledge>>",
+        "q7": {
+            "question": "In segment header, sequence number and acknowledgement number fields refer to _______",
             "answers": ["Byte number", "Buffer number", "Segment number", "Acknowledgment"],
             "correct": 1
         },
-        "q17": {
+        "q8": {
             "question": "Suppose a TCP connection is transferring a file of 1000 bytes. The first byte is numbered 10001. What is the sequence number of the segment if all data is sent in only one segment?",
             "answers": ["10000", "10001", "12001", "11001"],
             "correct": 2
         },
-        "q18": {
+        "q9": {
             "question": "Bytes of data being transferred in each connection are numbered by TCP. These numbers start with a _________",
             "answers": ["Fixed number", "Random sequence of 0’s and 1’s", "One", "Sequence of zero’s and one’s"],
             "correct": 4
         },
-        "q19": {
+        "q10": {
             "question": "The value of acknowledgement field in a segment defines _______",
             "answers": ["sequence number of the byte received previously", "total number of bytes to receive", "sequence number of the next byte to be received", "sequence of zeros and ones"],
             "correct": 3
         },
-        "q20": {
+        "q11": {
             "question": "The receiver of the data controls the amount of data that are to be sent by the sender is referred to as ___________",
             "answers": ["Flow control", "Error control", "Congestion control", "Error detection"],
             "correct": 1
         },
-        "q21": {
+        "q12": {
             "question": "Size of TCP segment header ranges between ___________",
             "answers": ["16 and 32 bytes", "16 and 32 bits", "20 and 60 bytes", "20 and 60 bits"],
             "correct": 3
         },
-        "q22": {
+        "q13": {
             "question": "Connection establishment in TCP is done by which mechanism?",
             "answers": ["Flow control", "Three-Way Handshaking", "Forwarding", "Synchronization"],
             "correct": 2
         },
+        "q14": {
+            "question": "The server program tells its TCP that it is ready to accept a connection. This process is called ___________",
+            "answers": ["Active open", "Active close", "Passive open", "Passive close"],
+            "correct": 3
+        },
+        "q15": {
+            "question": "A client that wishes to connect to an open server tells its TCP that it needs to be connected to that particular server. The process is called ___________",
+            "answers": ["Active open", "Active close", "Passive open", "Passive close"],
+            "correct": 1
+        },
+        "q16": {
+            "question": "In Three-Way Handshaking process, the situation where both the TCP’s issue an active open is ___________",
+            "answers": ["Mutual open", "Mutual Close", "Simultaneous open", "Simultaneous close"],
+            "correct": 3
+        },
+        "q17": {
+            "question": "A malicious attacker sends a large number of SYNC segments to a server, pretending that each of them is coming from a different client by faking the source IP address in the datagram. Which type of attack is being performed in this situation?",
+            "answers": ["SYNC flooding attack", "Active attack", "Passive attack", "Denial-of-service attack"],
+            "correct": 1
+        },
+        "q18": {
+            "question": "SYNC flooding attack belongs to a type of security attack known as ___________",
+            "answers": ["SYNC flooding attack", "Active attack", "Passive attack", "Denial-of-service attack"],
+            "correct": 4
+        },
+        "q19": {
+            "question": "The sizes of source and destination port address in TCP header are ___________ respectively.",
+            "answers": ["16-bits and 32-bits", "16-bits and 16-bits", "32-bits and 16-bits", "32-bits and 32-bits"],
+            "correct": 2
+        },
+        "q20": {
+            "question": "What allows TCP to detect lost segments and in turn recover from that loss?",
+            "answers": ["Sequence number", "Acknowledgment number", "Checksum", "Both Sequence & Acknowledgment number"],
+            "correct": 2
+        },
+        "q21": {
+            "question": "Which of the following is false with respect to UDP?",
+            "answers": ["Connection-oriented", "Unreliable", "Transport layer protocol", "Low overhead"],
+            "correct": 1
+        },
+        "q22": {
+            "question": "Return value of the UDP port “Chargen” is _______",
+            "answers": ["String of characters", "String of integers", "Array of characters with integers", "Array of zero’s and one’s"],
+            "correct": 1
+        },
         "q23": {
-            "question": "Connection establishment in TCP is done by which mechanism?",
-            "answers": ["Flow control", "Three-Way Handshaking", "Forwarding", "Synchronization"],
+            "question": "Beyond IP, UDP provides additional services such as _______",
+            "answers": ["Routing and switching", "Sending and receiving of packets", "Multiplexing and demultiplexing", "Demultiplexing and error checking"],
+            "correct": 4
+        },
+        "q24": {
+            "question": "What is the main advantage of UDP?",
+            "answers": ["More overload", "Reliable", "Low overhead", "Fast"],
+            "correct": 3
+        },
+        "q25": {
+            "question": "Port number used by Network Time Protocol (NTP) with UDP is ________",
+            "answers": ["161", "123", "162", "124"],
+            "correct": 2
+        },
+        "q26": {
+            "question": "What is the header size of a UDP packet?",
+            "answers": ["8 bytes", "8 bits", "16 bytes", "124 bytes"],
+            "correct": 1
+        },
+        "q27": {
+            "question": "The port number is “ephemeral port number”, if the source host is _______",
+            "answers": ["NTP", "Echo", "Server", "Client"],
+            "correct": 4
+        },
+        "q28": {
+            "question": "\“Total length\” field in UDP packet header is the length of _________",
+            "answers": ["Only UDP header", "Only data", "Only checksum", "UDP header plus data"],
+            "correct": 4
+        },
+        "q29": {
+            "question": "Which is the correct expression for the length of UDP datagram?",
+            "answers": ["UDP length = IP length – IP header’s length", "UDP length = UDP length – UDP header’s length", "UDP length = IP length + IP header’s length", "UDP length = UDP length + UDP header’s length"],
+            "correct": 1
+        },
+        "q30": {
+            "question": "The ______ field is used to detect errors over the entire user datagram.",
+            "answers": ["udp header", "checksum", "source port", "destination port"],
+            "correct": 4
+        },
+    },
+
+    /*
+     ********************************************************
+     *  Computer Networks 1 - Network
+     * ******************************************************
+    */
+
+    "Computer Networks 1 - Network": {
+        "q1": {
+            "question": "Which of the following is not a characteristic of Virtual Circuit Network?",
+            "answers": ["There are setup and teardown phases in addition to the data transfer phase", "Resources can be allocated during setup phase or on demand", "All packets follow the same path established during the connection", "Virtual circuit network is implemented in application layer"],
+            "correct": 4
+        },
+        "q2": {
+            "question": "The address that is unique in the scope of the network or internationally if the network is part of an international network is called as ______",
+            "answers": ["Global address", "Network address", "Physical  address", "IP address"],
+            "correct": 1
+        },
+        "q3": {
+            "question": "The Identifier that is used for data transfer in virtual circuit network is called _______",
+            "answers": ["Global address", "Network identifier", "Virtual circuit identifier", "IP identifier"],
+            "correct": 3
+        },
+        "q4": {
+            "question": "Which of the following is not a phase of virtual circuit network?",
+            "answers": ["Setup phase", "Data transfer phase", "Termination phase", "Teardown phase"],
+            "correct": 3
+        },
+        "q5": {
+            "question": "Steps required in setup process are ___________",
+            "answers": ["Setup request and acknowledgement", "Setup request and setup response", "Setup request and setup termination", "Setup and termination steps"],
+            "correct": 1
+        },
+        "q6": {
+            "question": "During teardown phase, the source, after sending all the frames to destination, sends a _____ to notify termination.",
+            "answers": ["teardown response", "teardown request", "termination request", "termination response"],
+            "correct": 2
+        },
+        "q7": {
+            "question": "Delay of the resource allocated during setup phase during data transfer is ________",
+            "answers": ["constant", "increases for each packet", "same for each packet", "different for each packet"],
+            "correct": 3
+        },
+        "q8": {
+            "question": "Delay of the resource allocated on demand during data transfer is ________",
+            "answers": ["constant", "increases for each packet", "same for each packet", "different for each packet"],
+            "correct": 4
+        },
+        "q9": {
+            "question": "In virtual circuit network, the number of delay times for setup and teardown respectively are _______",
+            "answers": ["1 and 1", "2 and 1", "2 and 2", "1 and 2"],
+            "correct": 1
+        },
+        "q10": {
+            "question": "In data transfer phase, how many columns does the table contain?",
+            "answers": ["1", "2", "3", "4"],
+            "correct": 4
+        },
+        "q11": {
+            "question": "DHCP (dynamic host configuration protocol) provides __________ to the client.",
+            "answers": ["IP address", "MAC address", "Url", "None of the mentioned"],
+            "correct": 1
+        },
+        "q12": {
+            "question": "DHCP is used for ________",
+            "answers": ["IPv6", "IPv4", "Both IPv6 and IPv4", "None of the mentioned"],
+            "correct": 3
+        },
+        "q13": {
+            "question": "The DHCP server _________",
+            "answers": ["maintains a database of available IP addresses", "maintains the information about client configuration parameters", "grants a IP address when receives a request from a client", "all of the mentioned"],
+            "correct": 4
+        },
+        "q14": {
+            "question": "IP assigned for a client by DHCP server is",
+            "answers": ["for a limited period", "for an unlimited period", "not time dependent", "not time dependent"],
+            "correct": 1
+        },
+        "q15": {
+            "question": "DHCP uses UDP port _________ for sending data to the server.",
+            "answers": ["66", "67", "68", "69"],
+            "correct": 2
+        },
+        "q16": {
+            "question": "The DHCP server can provide the _______ of the IP addresses.",
+            "answers": ["dynamic allocation", "automatic allocation", "static  allocation", "all of the mentioned"],
+            "correct": 4
+        },
+        "q17": {
+            "question": "DDHCP client and servers on the same subnet communicate via _________",
+            "answers": ["UDP broadcast", "UDP unicast", "TCP broadcast", "TCP unicast"],
+            "correct": 4
+        },
+        "q18": {
+            "question": "After obtaining the IP address, to prevent the IP conflict the client may use _________",
+            "answers": ["internet relay chat", "broader gateway protocol", "address resolution protocol", "none of the mentioned"],
+            "correct": 3
+        },
+        "q19": {
+            "question": "What is DHCP snooping?",
+            "answers": ["techniques applied to ensure the security of an existing DHCP infrastructure", "encryption of the DHCP server requests", "algorithm for DHCP", "none of the mentioned"],
+            "correct": 1
+        },
+        "q20": {
+            "question": "If DHCP snooping is configured on a LAN switch, then clients having specific ______ can access the network.",
+            "answers": ["MAC address", "IP address", "Both MAC address and IP address", "None of the mentioned"],
+            "correct": 3
+        },
+        "q21": {
+            "question": "ATM and frame relay are ________",
+            "answers": ["virtual circuit networks", "datagram networks", "virtual private networks", "virtual public networks"],
+            "correct": 1
+        },
+        "q22": {
+            "question": "ATM uses _______________",
+            "answers": ["asynchronous frequency division multiplexing", "asynchronous time division multiplexing", "asynchronous space division multiplexing", "asynchronous amplitude division multiplexing"],
+            "correct": 2
+        },
+        "q23": {
+            "question": "ATM standard defines _______ layers.",
+            "answers": ["2", "5", "3", "4"],
+            "correct": 3
+        },
+        "q24": {
+            "question": "ATM can be used for ________",
+            "answers": ["local area network", "wide area network", "campus area network", "networks covering any range"],
+            "correct": 4
+        },
+        "q25": {
+            "question": "An ATM cell has the payload field of __________",
+            "answers": ["32 bytes", "48 bytes", "64 bytes", "128 bytes"],
+            "correct": 2
+        },
+        "q26": {
+            "question": "Frame relay has error detection at the ______",
+            "answers": ["physical layer", "data link layer", "network layer", "transport layer"],
+            "correct": 2
+        },
+        "q27": {
+            "question": "Virtual circuit identifier in frame relay is called ______",
+            "answers": ["data link connection identifier", "frame relay identifier", "cell relay identifier", "circuit connection identifier"],
+            "correct": 1
+        },
+        "q28": {
+            "question": "Frame relay has _______",
+            "answers": ["only physical layer", "only data link layer", "only network layer", "both physical and data link layer"],
+            "correct": 4
+        },
+        "q29": {
+            "question": "In frame relay networks, extended address is used _______",
+            "answers": ["to increase the range of data link connection identifiers", "for error detection", "for encryption", "for error recovery"],
+            "correct": 1
+        },
+        "q30": {
+            "question": "What is FRAD in frame relay network?",
+            "answers": ["FRAD assembles and disassembles the frames coming from other protocols", "FRAD is used for modulation and demodulation", "FRAD is used for error detection", "FRAD is used for error recovery"],
+            "correct": 1
+        },
+        "q31": {
+            "question": "Datagram switching is done at which layer of OSI model?",
+            "answers": ["Network layer", "Physical layer", "Application layer", "Transport layer"],
+            "correct": 1
+        },
+        "q32": {
+            "question": "Packets in datagram switching are referred to as ________",
+            "answers": ["Switches", "Segments", "Datagrams", "Data-packets"],
+            "correct": 3
+        },
+        "q33": {
+            "question": "Datagram networks mainly refers to _________",
+            "answers": ["Connection oriented networks", "Connection less networks", "Telephone networks", "Internetwork"],
+            "correct": 2
+        },
+        "q34": {
+            "question": "Datagrams are routed to their destinations with the help of ________",
+            "answers": ["Switch table", "Segments table", "Datagram table", "Routing table"],
+            "correct": 4
+        },
+        "q35": {
+            "question": "The main contents of the routing table in datagram networks are ___________",
+            "answers": ["Source and Destination address", "Destination address and Output port", "Source address and Output port", "Input port and Output port"],
+            "correct": 2
+        },
+        "q36": {
+            "question": "Which of the following remains same in the header of the packet in a datagram network during the entire journey of the packet?",
+            "answers": ["Destination address", "Source address", "Checksum", "Padding"],
+            "correct": 1
+        },
+        "q37": {
+            "question": "Which of the following is true with respect to the delay in datagram networks?",
+            "answers": ["Delay is greater than in a virtual circuit network", "Each packet may experience a wait at a switch", "Delay is not uniform for the packets of a message", "All of the mentioned"],
+            "correct": 4
+        },
+        "q38": {
+            "question": "During datagram switching, the packets are placed in __________ to wait until the given transmission line becomes available.",
+            "answers": ["Stack", "Queue", "Hash", "Routing table"],
+            "correct": 2
+        },
+        "q39": {
+            "question": "The probability of the error in a transmitted block _________ with the length of the block",
+            "answers": ["Remains same", "Decreases", "Increases", "Is not proportional"],
+            "correct": 3
+        },
+        "q40": {
+            "question": "Which of the following is false with respect to the datagram networks?",
+            "answers": ["Number of flows of packets are not limited", "Packets may not be in order at the destination", "Path is not reserved", "Delay is the same for all packets in a flow"],
+            "correct": 4
+        },
+        "q41": {
+            "question": "Which of the following is not applicable for IP?",
+            "answers": ["Error reporting", "Handle addressing conventions", "Datagram format", "Packet handling conventions"],
+            "correct": 1
+        },
+        "q42": {
+            "question": "Which of the following field in IPv4 datagram is not related to fragmentation?",
+            "answers": ["Flags", "Offset", "TOS", "Identifier"],
+            "correct": 3
+        },
+        "q43": {
+            "question": "The TTL field has value 10. How many routers (max) can process this datagram?",
+            "answers": ["11", "5", "10", "1"],
+            "correct": 3
+        },
+        "q44": {
+            "question": "If the value in protocol field is 17, the transport layer protocol used is _____________",
+            "answers": ["TCP", "UDP", "ICMP", "IGMP"],
+            "correct": 2
+        },
+        "q45": {
+            "question": "The data field cannot carry which of the following?",
+            "answers": ["TCP segment", "UDP segment", "ICMP messages", "SMTP messages"],
+            "correct": 3
+        },
+        "q46": {
+            "question": "What should be the flag value to indicate the last fragment?",
+            "answers": ["1", "0", "TTl value", "Protocol field value"],
+            "correct": 2
+        },
+        "q47": {
+            "question": "Which of these is not applicable for IP protocol?",
+            "answers": ["is connectionless", "offer reliable service", "offer unreliable service", "does not offer error reporting"],
+            "correct": 2
+        },
+        "q48": {
+            "question": "Which of the following demerits does Fragmentation have?",
+            "answers": ["complicates routers", "open to DOS attack", "overlapping of fragments", "all of the mentioned"],
+            "correct": 4
+        },
+        "q49": {
+            "question": "Which field helps to check rearrangement of the fragments?",
+            "answers": ["offset", "flag", "ttl", "identifer"],
+            "correct": 1
+        },
+        "q50": {
+            "question": "In classless addressing, there are no classes but addresses are still granted in ______",
+            "answers": ["IPs", "Blocks", "Codes", "Sizes"],
+            "correct": 2
+        },
+        "q51": {
+            "question": "In IPv4 Addresses, classful addressing is replaced with ________",
+            "answers": ["Classless Addressing", "Classful Addressing", "Classful Advertising", "Classless Advertising"],
+            "correct": 1
+        },
+        "q52": {
+            "question": "First address in a block is used as network address that represents the ________",
+            "answers": ["Class Network", "Entity", "Organization", "Codes"],
+            "correct": 3
+        },
+        "q53": {
+            "question": "In classful addressing, a large part of available addresses are ________",
+            "answers": ["Organized", "Blocked", "Wasted", "Communicated"],
+            "correct": 3
+        },
+        "q54": {
+            "question": "Network addresses are a very important concept of ________",
+            "answers": ["Routing", "Mask", "IP Addressing", "Classless Addressing"],
+            "correct": 3
+        },
+        "q55": {
+            "question": "Which of this is not a class of IP address?",
+            "answers": ["Class E", "Class C", "Class D", "Class F"],
+            "correct": 4
+        },
+        "q56": {
+            "question": "The header length of an IPv6 datagram is ___________",
+            "answers": ["10bytes", "25bytes", "30bytes", "40bytes"],
+            "correct": 4
+        },
+        "q57": {
+            "question": "In the IPv6 header, the traffic class field is similar to which field in the IPv4 header?",
+            "answers": ["Fragmentation field", "Fast-switching", "ToS field", "Option field"],
+            "correct": 3
+        },
+        "q58": {
+            "question": "IPv6 does not use _________ type of address.",
+            "answers": ["broadcast", "multicast", "anycast", "unicast"],
+            "correct": 1
+        },
+        "q59": {
+            "question": "Which among the following features is present in IPv6 but not in IPv4?",
+            "answers": ["Fragmentation", "Header checksum", "Options", "Anycast address"],
+            "correct": 4
+        },
+        "q60": {
+            "question": "The _________ field determines the lifetime of IPv6 datagram",
+            "answers": ["Hop limit", "TTL", "Next header", "Type of traffic"],
+            "correct": 1
+        },
+        "q61": {
+            "question": "Dual-stack approach refers to _________",
+            "answers": ["implementing Ipv4 with 2 stacks", "implementing Ipv6 with 2 stacks", "node has both IPv4 and IPv6 support", "implementing a MAC address with 2 stacks"],
+            "correct": 3
+        },
+        "q62": {
+            "question": "Suppose two IPv6 nodes want to interoperate using IPv6 datagrams, but they are connected to each other by intervening IPv4 routers. The best solution here is ________",
+            "answers": ["Use dual-stack approach", "Tunneling", "No solution", "Replace the system"],
+            "correct": 2
+        },
+        "q63": {
+            "question": "Teredo is an automatic tunneling technique. In each client the obfuscated IPv4 address is represented by bits ______",
+            "answers": ["96 to 127", "0 to 63", "80 to 95", "64 to 79"],
+            "correct": 1
+        },
+        "q64": {
+            "question": "A link local address of local addresses is used in an _______",
+            "answers": ["Isolated router", "Isolated mask", "Isolated subnet", "Isolated net"],
+            "correct": 3
+        },
+        "q65": {
+            "question": "In subcategories of reserved address in IPv6, address that is used by a host to test itself without going into network is called _________",
+            "answers": ["Unspecified address", "Loopback address", "Compatible address", "Mapped address"],
+            "correct": 2
+        },
+        "q66": {
+            "question": "A few leftmost bits in each address of IPv6 address define its category is called ________",
+            "answers": ["Prefix type", "Postfix type", "Reserved type", "Local type"],
+            "correct": 1
+        },
+        "q67": {
+            "question": "In IPv6 addresses, addresses that start with eight 0s are called ________",
+            "answers": ["Unicast addresses", "Multicast addresses", "Any cast addresses", "Reserved addresses"],
+            "correct": 4
+        },
+        "q68": {
+            "question": "Which statement(s) about IPv6 addresses are true?",
+            "answers": ["Leading zeros are required", "Two colons (::) are used to represent successive hexadecimal fields of zeros", "Two colons (::) are used to separate fields", "A single interface cannot have multiple IPv6 addresses of different types"],
+            "correct": 2
+        },
+        "q69": {
+            "question": "Internet Control Message Protocol (ICMP) has been designed to compensate _________",
+            "answers": ["Error-reporting", "Error-correction", "Host and management queries", "All of the mentioned"],
+            "correct": 4
+        },
+        "q70": {
+            "question": "Header size of the ICMP message is _________",
+            "answers": ["8-bytes", "8-bits", "16-bytes", "16-bits"],
+            "correct": 1
+        },
+        "q71": {
+            "question": "During error reporting, ICMP always reports error messages to ________",
+            "answers": ["Destination", "Source", "Next router", "Previous router"],
+            "correct": 2
+        },
+        "q72": {
+            "question": "Which of these is not a type of error-reporting message?",
+            "answers": ["Destination unreachable", "Source quench", "Router error", "Time exceeded"],
+            "correct": 3
+        },
+        "q73": {
+            "question": "ICMP error message will not be generated for a datagram having a special address such as _______",
+            "answers": ["127.0.0.0", "12.1.2", "11.1", "127"],
+            "correct": 1
+        },
+        "q74": {
+            "question": "When a router cannot route a datagram or host cannot deliver a datagram, the datagram is discarded and the router or the host sends a ____________ message back to the source host that initiated the datagram.",
+            "answers": ["Destination unreachable", "Source quench", "Router error", "Time exceeded"],
+            "correct": 1
+        },
+        "q75": {
+            "question": "The source-quench message in ICMP was designed to add a kind of ____________ to the IP.",
+            "answers": ["error control", "flow  control", "router control", "switch control"],
+            "correct": 2
+        },
+        "q76": {
+            "question": "In case of time exceeded error, when the datagram visits a router, the value of time to live field is _________",
+            "answers": ["Remains constant", "Decremented by 2", "Incremented by 1", "Decremented by 1"],
+            "correct": 4
+        },
+        "q77": {
+            "question": "Two machines can use the timestamp request and timestamp replay messages to determine the ___________ needed for an IP datagram to travel between them.",
+            "answers": ["Half-trip time", "Round-trip time", "Travel time for the next router", "Time to reach the destination/source"],
+            "correct": 2
+        },
+        "q78": {
+            "question": "During debugging, we can use the ____________ program to find if a host is alive and responding.",
+            "answers": ["traceroute", "shell", "ping", "java"],
+            "correct": 2
+        },
+        "q79": {
+            "question": "In windows ____________ can be used to trace the route of the packet from the source to the destination.",
+            "answers": ["traceroute", "tracert", "ping", "locater"],
+            "correct": 2
+        },
+        "q80": {
+            "question": "In a simple echo-request message, the value of the sum is 01010000 01011100. Then, value of checksum is ___________ (1's Compliment)",
+            "answers": ["10101111 10100011", "01010000 01011100", "10101111 01011100", "01010000 10100011"],
+            "correct": 1
+        },
+        "q81": {
+            "question": "The main reason for transition from IPv4 to IPv6 is _________",
+            "answers": ["Huge number of systems on the internet", "Very low number of system on the internet", "Providing standard address", "To provide faster internet"],
+            "correct": 1
+        },
+        "q82": {
+            "question": "Which of the following is not a transition strategy?",
+            "answers": ["Dual stack", "Tunneling", "Conversion", "Header translation"],
+            "correct": 3
+        },
+        "q83": {
+            "question": "To determine which version to use when sending a packet to a destination, the source host queries which of the following?",
+            "answers": ["Dual stack", "Header information", "Transport layer", "Domain Name Server"],
+            "correct": 4
+        },
+        "q84": {
+            "question": "The strategy used when two computers using IPv6 want to communicate with each other and the packet must pass through a region that uses IPv4 is ______________",
+            "answers": ["Dual stack", "Header information", "Conversion", "Tunneling"],
+            "correct": 4
+        },
+        "q85": {
+            "question": "The correct format of packet in tunnel that uses IPv4 region is ________<br/>i. IPv6 header<br/>ii. Payload<br/>iii. IPv4 header",
+            "answers": ["iii-i-ii", "iii-ii-i", "i-ii-iii", "i-iii-ii"],
+            "correct": 1
+        },
+        "q86": {
+            "question": "___________ is necessary when the sender wants to use IPv6, but the receiver does not understand IPv6.",
+            "answers": ["Dual stack", "Header information", "Conversion", "Tunneling"],
+            "correct": 2
+        },
+        "q87": {
+            "question": "Header translation uses ___________ to translate an IPv6 address to an IPv4 address.",
+            "answers": ["IP address", "Physical address", "Mapped address", "MAC address"],
+            "correct": 3
+        },
+        "q88": {
+            "question": "Which of the following is not a step in the Header translation procedure?",
+            "answers": ["The IPv6 mapped address is changed to an IPv4 address by extracting the rightmost 32bits", "The value of the IPv6 priority field is discarded", "The type of service field in IPv4 is set to zero", "The IPv6 flow label is considered"],
+            "correct": 4
+        },
+        "q89": {
+            "question": "In an IPv6 header, the traffic class field is similar to which field in the IPv4 header?",
+            "answers": ["Fragmentation field", "Fast switching", "TOS field", "Option field"],
+            "correct": 3
+        },
+        "q90": {
+            "question": "Which of the following is the broadcast address for a Class B network ID using the default subnetmask?",
+            "answers": ["172.16.10.255", "255.255.255.255", "172.16.255.255", "172.255.255.255"],
+            "correct": 3
+        },
+        "q91": {
+            "question": "You have an IP address of 172.16.13.5 with a 255.255.255.128 subnet mask. What is your class of address, subnet address, and broadcast address?",
+            "answers": ["Class A, Subnet 172.16.13.0, Broadcast address 172.16.13.127", "Class B, Subnet 172.16.13.0, Broadcast address 172.16.13.127", "Class B, Subnet 172.16.13.0, Broadcast address 172.16.13.255", "Class B, Subnet 172.16.0.0, Broadcast address 172.16.255.255"],
+            "correct": 2
+        },
+        "q92": {
+            "question": "If you wanted to have 12 subnets with a Class C network ID, which subnet mask would you use?",
+            "answers": ["255.255.255.252", "255.255.255.255", "255.255.255.240", "255.255.255.248"],
+            "correct": 3
+        },
+        "q93": {
+            "question": "The combination of _________ and __________ is often termed the local address of the local portion of the IP address.",
+            "answers": ["Network number and host number", "Network number and subnet number", "Subnet number and host number", "Host number"],
+            "correct": 3
+        },
+        "q94": {
+            "question": "_________ implies that all subnets obtained from the same subnet mask.",
+            "answers": ["Static subnetting", "Dynamic subnetting", "Variable length subnetting", "Dynamic length subnetting"],
+            "correct": 1
+        },
+        "q95": {
+            "question": "State whether true or false.<br/>i) A connection oriented protocol can only use unicast addresses.<br/>ii) The any cast service is included in IPV6.",
+            "answers": ["True, True", "True, False", "False, True", "False, False"],
+            "correct": 1
+        },
+        "q96": {
+            "question": "__________ is a high performance fiber optic token ring LAN running at 100 Mbps over distances upto 1000 stations connected.",
+            "answers": ["FDDI", "FDDT", "FDDR", "FOTR"],
+            "correct": 1
+        },
+        "q97": {
+            "question": "Which of the following are Gigabit Ethernets?",
+            "answers": ["1000 BASE-SX", "1000 BASE-LX", "1000 BASE-CX", "All of the mentioned"],
+            "correct": 4
+        },
+        "q98": {
+            "question": "_________ is a collective term for a number of Ethernet Standards that carry traffic at the nominal rate of 1000 Mbit/s against the original Ethernet speed of 10 Mbit/s.",
+            "answers": ["Ethernet", "Fast Ethernet", "Gigabit Ethernet", "Gigabyte Ethernet"],
+            "correct": 2
+        },
+        "q99": {
+            "question": "_________ is another kind of fiber optic network with an active star for switching.",
+            "answers": ["S/NET", "SW/NET", "NET/SW", "FS/NET"],
+            "correct": 1
+        },
+        "q100": {
+            "question": "A network administrator is connecting hosts A and B directly through their Ethernet interfaces, as shown in the illustration. Ping attempts between the hosts are unsuccessful. What can be done to provide connectivity between the hosts?<br/>i. A crossover cable should be used in place of the straight-through cable.<br/>ii. A rollover cable should be used in place of the straight-through cable.<br/>iii. The subnet masks should be set to 255.255.255.192.<br/>iv. A default gateway needs to be set on each host.<br/>v. The subnet masks should be set to 255.255.255.0.",
+            "images": "images/network1/img1.png",
+            "answers": ["i only", "ii only", "iii and iv only", "i and v only"],
+            "correct": 4
+        },
+        "q101": {
+            "question": "Your router has the following IP address on Ethernet0: 172.16.2.1/23. Which of the following can be valid host IDs on the LAN interface attached to the router?<br/>i. 172.16.1.100<br/>ii. 172.16.1.198<br/>iii. 172.16.2.255<br/>iv. 172.16.3.0",
+            "answers": ["i only", "ii and iii only", "iii and iv only", "ii only"],
+            "correct": 3
+        },
+        "q102": {
+            "question": "Which two statements describe the IP address 10.16.3.65/23?<br/>i. The subnet address is 10.16.3.0 255.255.254.0<br/>ii. The lowest host address in the subnet is 10.16.2.1 255.255.254.0<br/>iii. The last valid host address in the subnet is 10.16.2.254 255.255.254.0<br/>iv. The broadcast address of the subnet is 10.16.3.255 255.255.254.0",
+            "answers": ["i and iii", "ii and iv", "i, ii and iv", "ii, iii and iv"],
+            "correct": 2
+        },
+        "q103": {
+            "question": "What is the maximum number of IP addresses that can be assigned to hosts on a local subnet that uses the 255.255.255.224 subnet mask?",
+            "answers": ["14", "15", "16", "30"],
+            "correct": 4
+        },
+        "q104": {
+            "question": "You need to subnet a network into 5 subnets, each with at least 16 hosts. Which classful subnet mask would you use?",
+            "answers": ["255.255.255.192", "255.255.255.224", "255.255.255.240", "255.255.255.248"],
+            "correct": 2
+        },
+        "q105": {
+            "question": "You have a network that needs 29 subnets while maximizing the number of host addresses available on each subnet. How many bits must you borrow from the host field to provide the correct subnet mask?",
+            "answers": ["5", "2", "3", "4"],
+            "correct": 1
+        },
+        "q106": {
+            "question": "If an Ethernet port on a router were assigned an IP address of 172.16.112.1/25, what would be the valid subnet address of this host?",
+            "answers": ["172.16.112.0", "172.16.0.0", "172.16.96.0", "172.16.255.0"],
+            "correct": 1
+        },
+        "q107": {
+            "question": "You have an interface on a router with the IP address of 192.168.192.10/29. Including the router interface, how many hosts can have IP addresses on the LAN attached to the router interface?",
+            "answers": ["6", "8", "30", "32"],
+            "correct": 1
+        },
+        "q108": {
+            "question": "What is the subnet id of a host with an IP address 172.16.66.0/21?",
+            "answers": ["172.16.36.0", "172.16.48.0", "172.16.64.0", "172.16.0.0"],
+            "correct": 3
+        },
+        "q109": {
+            "question": "The network address of 172.16.0.0/19 provides how many subnets and hosts?",
+            "answers": ["7 subnets, 30 hosts each", "8 subnets, 8,190 hosts each", "8 subnets, 2,046 hosts each", "7 subnets, 2,046 hosts each"],
+            "correct": 2
+        },
+    },
+
+    /*
+     ********************************************************
+     *  Computer Networks 1 - Data Link
+     * ******************************************************
+    */
+
+    "Computer Networks 1 - Data Link": {
+        "q1": {
+            "question": "Frame Relay is cheaper than other _____",
+            "answers": ["LANs", "WANs", "MANs", "Multipoint Networks"],
+            "correct": 2
+        },
+        "q2": {
+            "question": "Frame Relay does not provide flow or error control, they must be provided by the ______",
+            "answers": ["Lower Level Protocol", "Highest Level Protocol", "Upper Level Protocol", "Lowest Level Protocol"],
+            "correct": 3
+        },
+        "q3": {
+            "question": "Frame relay provides error detection at the ______",
+            "answers": ["physical layer", "data link layer", "network layer", "transport layer"],
+            "correct": 2
+        },
+        "q4": {
+            "question": "Virtual circuit identifier in frame relay is called _______",
+            "answers": ["data link connection identifier", "frame relay identifier", "cell relay identifier", "circuit connection identifier"],
+            "correct": 1
+        },
+        "q5": {
+            "question": "Frame relay has only _______",
+            "answers": ["physical layer", "data link layer", "physical layer and data link layer", "network layer and data link layer"],
+            "correct": 3
+        },
+        "q6": {
+            "question": "In frame relay networks, extended address is used ________",
+            "answers": ["to increase the range of data link connection identifiers", "for error detection", "for encryption", "for error recovery"],
+            "correct": 1
+        },
+        "q7": {
+            "question": "Both HDLC and PPP are Data link layer protocols.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q8": {
+            "question": "Which protocol does the PPP protocol provide for handling the capabilities of the connection/link on the network?",
+            "answers": ["LCP", "NCP", "TCP", "Both LCP and NCP"],
+            "correct": 4
+        },
+        "q9": {
+            "question": "The PPP protocol _________",
+            "answers": ["Is designed for simple links which transport packets between two peers", "Is one of the protocols for making an Internet connection over a phone line", "Is designed for simple links which transport packets between two peers and making an Internet connection over a phone line", "Is used for sharing bandwidth"],
+            "correct": 3
+        },
+        "q10": {
+            "question": "PPP provides the _______ layer in the TCP/IP suite.",
+            "answers": ["Link", "Network", "Transport", "Application"],
+            "correct": 1
+        },
+        "q11": {
+            "question": "PPP consists of ________components",
+            "answers": ["Three (encapsulating, the Domain Name system)", "Three (encapsulating, a link control protocol, NCP)", "Two (a link control protocol, Simple Network Control protocol)", "One (Simple Network Control protocol)"],
+            "correct": 2
+        },
+        "q12": {
+            "question": "The PPP encapsulation ____________",
+            "answers": ["Provides for multiplexing of different network-layer protocols", "Requires framing to indicate the beginning and end of the encapsulation", "Establishing, configuring and testing the data-link connection", "Provides interface for handling the capabilities of the connection/link on the network"],
+            "correct": 1
+        },
+        "q13": {
+            "question": "A Link Control Protocol (LCP) is used for ____________",
+            "answers": ["Establishing, configuring and testing the data-link connection", "Establishing and configuring different network-layer protocolsANs", "Testing the different network-layer protocols", "Provides for multiplexing of different network-layer protocols"],
+            "correct": 1
+        },
+        "q14": {
+            "question": "A family of network control protocols (NCPs) ____________",
+            "answers": ["Are a series of independently defined protocols that provide a dynamic", "Are a series of independently-defined protocols that encapsulate", "Are a series of independently defined protocols that provide transparent", "The same as NFS"],
+            "correct": 2
+        },
+        "q15": {
+            "question": "Choose the correct statement from the following.",
+            "answers": ["PPP can terminate the link at any time", "PPP can terminate the link only during the link establishment phase", "PPP can terminate the link during the authentication phase", "PPP can terminate the link during the callback control phase"],
+            "correct": 1
+        },
+        "q16": {
+            "question": "The link necessarily begins and ends with this phase. During the ______ phase, the LCP automata will be in INITIAL or STARTING states.",
+            "answers": ["Link-termination phase", "Link establishment phase", "Authentication phase", "Link dead phase"],
+            "correct": 4
+        },
+        "q17": {
+            "question": "The _______ layer ensures reliable transmission on a single link.",
+            "answers": ["network", "physical", "data link", "transport"],
+            "correct": 3
+        },
+        "q18": {
+            "question": "The data link layer divides the stream of bits received from the network layer into data units called _______.",
+            "answers": ["segments", "frames", "datagrams", "messages"],
+            "correct": 2
+        },
+        "q19": {
+            "question": "The data link layer adds _______ addresses to the frame to identify the sender and receiver.",
+            "answers": ["logical", "port", "physical", "network"],
+            "correct": 3
+        },
+        "q20": {
+            "question": "The _______ layer is responsible for regulating the flow of data to prevent the receiver from being overwhelmed with data.",
+            "answers": ["data link", "network", "application", "transport"],
+            "correct": 1
+        },
+        "q21": {
+            "question": "The data link layer is responsible for _______.",
+            "answers": ["flow control", "error control", "access control", "all of the above"],
+            "correct": 4
+        },
+        "q22": {
+            "question": "The trailer is added only at",
+            "answers": ["physical layer", "data link layer", "transport layer", "network layer"],
+            "correct": 2
+        },
+        "q23": {
+            "question": "In the sliding window method of flow control, the receiver window _______ size when frames are received",
+            "answers": ["increases in", "decreases in", "doubles in", "remains its original"],
+            "correct": 2
+        },
+        "q24": {
+            "question": "In the sliding window method of flow control, the receiver window _______ size when an ACK is sent",
+            "answers": ["increases in", "decreases in", "doubles in", "remains its original"],
+            "correct": 1
+        },
+        "q25": {
+            "question": "A sender has a sliding window of size 15. The first 15 frames are sent. The first ACK received is ACK 15. What frame(s) has the receiver accepted?",
+            "answers": ["frame 15", "frame 14", "frame 0 to 14", "frame 0 to 15"],
+            "correct": 3
+        },
+        "q26": {
+            "question": "The sender's window in a sliding window protocol expands when _______.",
+            "answers": ["an ACK is received", "an ACK is sent", "a frame is sent", "a frame is received"],
+            "correct": 1
+        },
+        "q27": {
+            "question": "The stop-and-wait flow control method is the same as the sliding window method with a window size of _______.",
+            "answers": ["0", "1", "2", "none of the above"],
+            "correct": 2
+        },
+        "q28": {
+            "question": "_______ is the regulation of the amount of data that can be sent.",
+            "answers": ["Line discipline", "Flow control", "Error control", "All of the above"],
+            "correct": 2
+        },
+        "q29": {
+            "question": "Stop-and-wait is a _______ technique",
+            "answers": ["Line discipline", "Flow control", "Error control", "session management"],
+            "correct": 2
+        },
+        "q30": {
+            "question": "Sliding window is a _______ technique",
+            "answers": ["Line discipline", "Flow control", "Error control", "session management"],
+            "correct": 2
+        },
+        "q31": {
+            "question": "In the stop-and-wait method of flow control, the sender sends _______ at a time",
+            "answers": ["a variable number of frames", "only one frame", "a set number of frames", "two frames"],
+            "correct": 2
+        },
+        "q32": {
+            "question": "In the sliding window method of flow control, the sender may send _______ at a time.",
+            "answers": ["several frames", "only one frame", "a set number of frames", "two frames"],
+            "correct": 1
+        },
+        "q33": {
+            "question": "In the stop-and-wait method of flow control, after the receiver receives a data frame, _______ frame can be sent",
+            "answers": ["(a) an ACK", "(b) a NACK", "(c) an EOT", "(a) or (b)"],
+            "correct": 4
+        },
+        "q34": {
+            "question": "What is the main disadvantage of stop-and-wait flow control?",
+            "answers": ["unreliable", "inefficient", "attenuation", "dropped packets"],
+            "correct": 2
+        },
+        "q35": {
+            "question": "Reliable communication means that _______",
+            "answers": ["(a) errors must be detected", "(b) errors must be corrected", "(c) noise must be eliminated", "(a) and (b)"],
+            "correct": 4
+        },
+        "q36": {
+            "question": "Which of the following is an error detection method?",
+            "answers": ["multiplexing", "redundancy", "reciprocity", "conditioning"],
+            "correct": 2
+        },
+        "q37": {
+            "question": "Which type of redundancy check do the upper layers primarily use?",
+            "answers": ["VRC", "CRC", "LRC", "checksum"],
+            "correct": 4
+        },
+        "q38": {
+            "question": "VRC, LRC, and CRC are normally implemented in the _______ layer(s) for use in the _______ layer",
+            "answers": ["upper; data link", "network; data link", "physical; data link", "data link; physical"],
+            "correct": 3
+        },
+        "q39": {
+            "question": "Error control is mainly a function of the _______ layer.",
+            "answers": ["physical", "data link", "presentation", "application"],
+            "correct": 2
+        },
+        "q40": {
+            "question": "_______ is the handling of lost or damaged frames",
+            "answers": ["Line discipline", "Flow control", "Error control", "All of the above"],
+            "correct": 3
+        },
+        "q41": {
+            "question": "Error control consists of _______.",
+            "answers": ["error detection", "error correction", "error modification", "all of the above"],
+            "correct": 4
+        },
+        "q42": {
+            "question": "Stop-and-wait ARQ is a _______ technique.",
+            "answers": ["line discipline", "flow control", "error control", "session management"],
+            "correct": 3
+        },
+        "q43": {
+            "question": "Go-back-n ARQ is a technique for _______",
+            "answers": ["line discipline", "flow control", "error control", "session management"],
+            "correct": 3
+        },
+        "q44": {
+            "question": "Selective-reject ARQ is a technique for _______.",
+            "answers": ["line discipline", "flow control", "error control", "session management"],
+            "correct": 3
+        },
+        "q45": {
+            "question": "Sliding window ARQ is usually implemented as _______",
+            "answers": ["(a) selective reject ARQ", "(b) go-back-n ARQ", "(c) go-reject ARQ", "(a) and (b)"],
+            "correct": 4
+        },
+        "q46": {
+            "question": "A sender using stop-and-wait ARQ sends data frames numbered _______",
+            "answers": ["0 and 1 only", "sequentially, beginning with 0", "sequentially, beginning with 1", "the frames are not numbered"],
+            "correct": 1
+        },
+        "q47": {
+            "question": "A receiver using stop-and-wait ARQ sends ACK frames numbered _______",
+            "answers": ["0 and 1 only", "sequentially, beginning with 0", "sequentially, beginning with 1", "the frames are not numbered"],
+            "correct": 1
+        },
+        "q48": {
+            "question": "A receiver using stop-and-wait ARQ sends NAK frames numbered _______",
+            "answers": ["0 and 1 only", "sequentially, beginning with 0", "sequentially, beginning with 1", "the frames are not numbered"],
+            "correct": 4
+        },
+        "q49": {
+            "question": "A sender using stop-and-wait ARQ retransmits a frame when _______",
+            "answers": ["(a) a NAK is received", "(b) an ACK is received", "(c) the timer expires", "(a) and (c)"],
+            "correct": 4
+        },
+        "q50": {
+            "question": "Selective reject ARQ is a _______ error control method.",
+            "answers": ["stop-and-wait ARQ", "sliding window ARQ", "go-back-n ARQ", "any of the above"],
+            "correct": 2
+        },
+        "q51": {
+            "question": "Go-back-n ARQ is a _______ error control method",
+            "answers": ["stop-and-wait ARQ", "sliding window ARQ", "go-back-n ARQ", "any of the above"],
+            "correct": 2
+        },
+        "q52": {
+            "question": "NAK frames are not numbered in _______",
+            "answers": ["stop-and-wait ARQ", "go-back-n ARQ", "selective reject ARQ", "any of the above"],
+            "correct": 1
+        },
+        "q53": {
+            "question": "The time slot interchange uses _______ multiplexing to achieve switching",
+            "answers": ["frequency division", "asynchronous division", "time division", "switch division"],
+            "correct": 3
+        },
+        "q54": {
+            "question": "The TDM bus uses _______ multiplexing to achieve switching.",
+            "answers": ["frequency division", "asynchronous division", "time division", "switch division"],
+            "correct": 3
+        },
+        "q55": {
+            "question": "The disadvantage of _______ switching is the processing delay.",
+            "answers": ["(a) space division", "(b) asynchronous division", "(c) time division", "(b) and (c)"],
+            "correct": 3
+        },
+        "q56": {
+            "question": "A multiplexer _______ several transmission streams while a demultiplexer _______ them",
+            "answers": ["combines; separates", "compresses; decompresses", "encrypts; decrypts", "separates; combines"],
+            "correct": 1
+        },
+        "q57": {
+            "question": "One _______ can be made of many _______",
+            "answers": ["channel; paths", "path; channels", "path; links", "channel; links"],
+            "correct": 2
+        },
+        "q58": {
+            "question": "Which of the following is a digital multiplexing method?",
+            "answers": ["(a) FDM", "(b) asynchronous TDM", "(c) synchronous TDM", "(b) and (c)"],
+            "correct": 4
+        },
+        "q59": {
+            "question": "_______ is an analog multiplexing technique usually involving signals that are not in the visible light frequencies",
+            "answers": ["FDM", "TDM", "WDM", "MDM"],
+            "correct": 1
+        },
+        "q60": {
+            "question": "_______ is an digital multiplexing technique usually involving signals that are not in the visible light frequencies",
+            "answers": ["FDM", "TDM", "WDM", "MDM"],
+            "correct": 2
+        },
+        "q61": {
+            "question": "In FDM, the bandwidth of the link must be _______ the sum of the bandwidths of the signals to be combined",
+            "answers": ["equal to", "less than", "greater than", "an order of magnitude greater than"],
+            "correct": 3
+        },
+        "q62": {
+            "question": "In FDM, if five signals are to be multiplexed, at least _______ carriers, each of a different frequency, must be modulated",
+            "answers": ["1", "5", "6", "10"],
+            "correct": 2
+        },
+        "q63": {
+            "question": "FDM uses _______ to prevent modulated signals from overlapping",
+            "answers": ["physical hardware devices", "carrier frequencies", "guard bands", "demultiplexers"],
+            "correct": 3
+        },
+        "q64": {
+            "question": "In FDM, the _______ signals can all have the same frequency range",
+            "answers": ["(a) modulating", "(b) carrier", "(c) modulated", "(b) or (c)"],
+            "correct": 1
+        },
+        "q65": {
+            "question": "The FDM demultiplexer uses a series of _______ to decompose the multiplexed signal into its constituent signals",
+            "answers": ["guard bands", "filters", "repeaters", "amplifiers"],
+            "correct": 2
+        },
+        "q66": {
+            "question": "If the sum of the data rates of the sending devices is X, TDM can be applied when the data rate capacity of the transmission medium is _______.",
+            "answers": ["less than X", "greater than X", "one half X", "two times X"],
+            "correct": 2
+        },
+        "q67": {
+            "question": "In _______ the multiplexer allocates exactly the same time slot to each device at all times",
+            "answers": ["FDM", "asynchronous TDM", "synchronous TDM", "WDM"],
+            "correct": 3
+        },
+        "q68": {
+            "question": "In _______, if a device has no data to send, its time slot remains empty",
+            "answers": ["FDM", "asynchronous TDM", "synchronous TDM", "WDM"],
+            "correct": 3
+        },
+        "q69": {
+            "question": "In synchronous TDM, a _______ is a complete cycle of time slots, including one or more slots dedicated to each sending device.",
+            "answers": ["filter", "carrier", "signal", "frame"],
+            "correct": 4
+        },
+        "q70": {
+            "question": "What is the efficiency of a system using synchronous TDM if 2 of the 5 devices have nothing to send?",
+            "answers": ["20%", "50%", "60%", "100%"],
+            "correct": 3
+        },
+        "q71": {
+            "question": "In synchronous TDM, if device X has data to send, the data go to _______ in the frame",
+            "answers": ["the next available slot", "a preassigned slot", "the first slot", "none of the above"],
+            "correct": 2
+        },
+        "q72": {
+            "question": "In asynchronous TDM, if device X has data to send, the data go to _______ in the frame",
+            "answers": ["the next available slot", "a preassigned slot", "the first slot", "none of the above"],
+            "correct": 1
+        },
+        "q73": {
+            "question": "In synchronous TDM, if device X has no data to send, what happens to its allotted slot?",
+            "answers": ["The next device in line takes it.", "An error message is sent.", "The bit pattern 01010101 is sent.", "The slot remains empty."],
+            "correct": 4
+        },
+        "q74": {
+            "question": "In synchronous TDM, each frame is filled with data from the devices in a fixed order. We call this _______",
+            "answers": ["interleaving", "synchronization", "switching", "line discipline"],
+            "correct": 1
+        },
+        "q75": {
+            "question": "_______ allow the demultiplexer to synchronize with the incoming stream",
+            "answers": ["Slots", "Framing bits", "Demultiplexing bits", "Trailers"],
+            "correct": 2
+        },
+        "q76": {
+            "question": "What is the major weakness of asynchronous TDM?",
+            "answers": ["There aren't enough slots in each frame.", "There are too many slots per frame.", "Each slot requires an address.", "All of the above"],
+            "correct": 3
+        },
+        "q77": {
+            "question": "What is the major weakness of synchronous TDM?",
+            "answers": ["Some slots may remain empty.", "There aren't enough slots.", "The slots are too small.", "All of the above."],
+            "correct": 1
+        },
+        "q78": {
+            "question": "Which type of multiplexing takes data from one high-speed line and breaks it into portions that can be sent across several lower-speed lines simultaneously?",
+            "answers": ["asynchronous TDM", "synchronous TDM", "FDM", "inverse multiplexing"],
+            "correct": 4
+        },
+    },
+
+    /*
+     ********************************************************
+     *  Computer Networks 1 - Other
+     * ******************************************************
+    */
+
+    "Computer Networks 1 - Other": {
+        "q1": {
+            "question": "Computer Network is _______",
+            "answers": ["Collection of hardware components and computers", "Interconnected by communication channels", "Sharing of resources and information", "All of the Above"],
+            "correct": 4
+        },
+        "q2": {
+            "question": "What is a Firewall in Computer Network?",
+            "answers": ["The physical boundary of Network", "An operating System of Computer Network", "A system designed to prevent unauthorized access", "A web browsing Software"],
+            "correct": 3
+        },
+        "q3": {
+            "question": "DHCP is the abbreviation of",
+            "answers": ["Dynamic Host Control Protocol", "Dynamic Host Configuration Protocol", "Dynamic Hyper Control Protocol", "Dynamic Hyper Configuration Protocol"],
+            "correct": 2
+        },
+        "q4": {
+            "question": "DNS is the abbreviation of",
+            "answers": ["Dynamic Name System", "Dynamic Network System", "Domain Name System", "Domain Network Service"],
+            "correct": 3
+        },
+        "q5": {
+            "question": "What is the meaning of Bandwidth in Network?",
+            "answers": ["Transmission capacity of a communication channels", "Connected Computers in the Network", "Class of IP used in Network", "None of Above"],
+            "correct": 1
+        },
+        "q6": {
+            "question": "ADSL is the abbreviation of",
+            "answers": ["Asymmetric Dual Subscriber Line", "Asymmetric Digital System Line", "Asymmetric Dual System Line", "Asymmetric Digital Subscriber Line"],
+            "correct": 4
+        },
+        "q2": {
+            "question": "What is the use of Bridge in Network?",
+            "answers": ["LANs", "WANs", "MANs", "Multipoint"],
             "correct": 2
         },
     }
