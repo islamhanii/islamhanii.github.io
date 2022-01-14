@@ -6500,7 +6500,7 @@ var database = {
         },
         "q100": {
             "question": "A network administrator is connecting hosts A and B directly through their Ethernet interfaces, as shown in the illustration. Ping attempts between the hosts are unsuccessful. What can be done to provide connectivity between the hosts?<br/>i. A crossover cable should be used in place of the straight-through cable.<br/>ii. A rollover cable should be used in place of the straight-through cable.<br/>iii. The subnet masks should be set to 255.255.255.192.<br/>iv. A default gateway needs to be set on each host.<br/>v. The subnet masks should be set to 255.255.255.0.",
-            "images": "images/network1/img1.png",
+            "images": "images/networks1/img1.png",
             "answers": ["i only", "ii only", "iii and iv only", "i and v only"],
             "correct": 4
         },
@@ -6987,7 +6987,102 @@ var database = {
             "answers": ["Asymmetric Dual Subscriber Line", "Asymmetric Digital System Line", "Asymmetric Dual System Line", "Asymmetric Digital Subscriber Line"],
             "correct": 4
         },
-        "q2": {
+        "q7": {
+            "question": "Router operates in which layer of OSI Reference Model?",
+            "answers": ["Layer 1 (Physical Layer)", "Layer 3 (Network Layer)", "Layer 4 (Transport Layer)", "Layer 7 (Application Layer)"],
+            "correct": 2
+        },
+        "q8": {
+            "question": "Each IP packet must contain",
+            "answers": ["Only Source address", "Source and Destination address", "Source or Destination address", "Only Destination address"],
+            "correct": 2
+        },
+        "q9": {
+            "question": "_______ provides a connection-oriented reliable service for sending messages",
+            "answers": ["TCP", "IP", "UDP", "All of the above"],
+            "correct": 1
+        },
+        "q10": {
+            "question": "Which layers of the OSI model are host-to-host layers?",
+            "answers": ["Transport, Session, Persentation, Application", "Network, Transport, Session, Presentation", "Datalink, Network, Transport, Session", "Physical, Datalink, Network, Transport"],
+            "correct": 1
+        },
+        "q11": {
+            "question": "Which of the following IP address class is Multicast",
+            "answers": ["Class A", "Class B", "Class C", "Class D"],
+            "correct": 4
+        },
+        "q12": {
+            "question": "Which of the following is correct regarding Class B Address of IP address",
+            "answers": ["Network bit – 14, Host bit – 16", "Network bit – 16, Host bit – 14", "Network bit – 18, Host bit – 16", "Network bit – 12, Host bit – 14"],
+            "correct": 1
+        },
+        "q13": {
+            "question": "The last address of IP address represents",
+            "answers": ["Unicast address", "Network address", "Broadcast address", "None of above"],
+            "correct": 3
+        },
+        "q14": {
+            "question": "How many bits are there in the Ethernet address?",
+            "answers": ["64 bits", "48 bits", "32 bits", "16 bits"],
+            "correct": 2
+        },
+        "q15": {
+            "question": "Which of the following layer of OSI model also called end-to-end layer?",
+            "answers": ["Presentation layer", "Network layer", "Session layer", "Transport layer"],
+            "correct": 4
+        },
+        "q16": {
+            "question": "Why IP Protocol is considered as unreliable?",
+            "answers": ["A packet may be lost", "Packets may arrive out of order", "Duplicate packets may be generated", "All of the above"],
+            "correct": 4
+        },
+        "q17": {
+            "question": "What is the minimum header size of an IP packet?",
+            "answers": ["16 bytes", "10 bytes", "20 bytes", "32 bytes"],
+            "correct": 3
+        },
+        "q18": {
+            "question": "What is the size of Network bits & Host bits of Class A of IP address?",
+            "answers": [" Network bits 7, Host bits 24", " Network bits 8, Host bits 24", " Network bits 7, Host bits 23", " Network bits 8, Host bits 23"],
+            "correct": 1
+        },
+        "q19": {
+            "question": "What does Router do in a network?",
+            "answers": ["Forwards a packet to all outgoing links", "Forwards a packet to the next free outgoing link", "Determines on which outing link a packet is to be forwarded", "Forwards a packet to all outgoing links except the originated link"],
+            "correct": 3
+        },
+        "q20": {
+            "question": "The Internet is an example of",
+            "answers": ["Cell switched network", "circuit switched network", "Packet switched network", "All of the above"],
+            "correct": 3
+        },
+        "q21": {
+            "question": "What does protocol defines?",
+            "answers": ["Protocol defines what data is communicated.", "Protocol defines how data is communicated.", "Protocol defines when data is communicated.", "All of above"],
+            "correct": 4
+        },
+        "q22": {
+            "question": "What is the uses of subnetting?",
+            "answers": ["It divides one large network into several smaller ones", "It divides network into network classes", "It speeds up the speed of network", "None of above"],
+            "correct": 1
+        },
+        "q23": {
+            "question": "What is the benefit of the Networking?",
+            "answers": ["File Sharing", "Easier access to Resources", "Easier Backups ", "All of the above"],
+            "correct": 4
+        },
+        "q24": {
+            "question": "Which of the following is not the Networking Devices?",
+            "answers": ["Gateways", "Linux", "Routers", "Firewalls"],
+            "correct": 2
+        },
+        "q25": {
+            "question": "What is the use of Ping command?",
+            "answers": ["To test a device on the network is reachable", "To test a hard disk fault", "To test a bug in a Application", "To test a Pinter Quality"],
+            "correct": 1
+        },
+        "q20": {
             "question": "What is the use of Bridge in Network?",
             "answers": ["LANs", "WANs", "MANs", "Multipoint"],
             "correct": 2

@@ -108,13 +108,13 @@ header svg {
     padding: 10px;
     margin-bottom: 20px;
     
-    border-left: 5px solid #00a1ff;
-    border-right: 5px solid #00a1ff;
+    border-left: 5px solid #2f3640;
+    border-right: 5px solid #2f3640;
     border-radius: 10px;
 }
 
 .question-box .question {
-    color: #00a1ff;
+    color: #2f3640;
     font-size: 20px;
     
     padding-bottom: 5px;
@@ -140,7 +140,7 @@ header svg {
     cursor: pointer;
 }
 
-.question-box div:hover input::before {background-color: #00a1ff;}
+.question-box div:hover input::before {background-color: #2f3640;}
 
 .question-box div:hover input:disabled::before {background-color: #e8e8e8;}
 
@@ -151,7 +151,7 @@ header svg {
     margin-left: 5px;
 }
 
-.color-input::before {background-color: #00a1ff !important;}
+.color-input::before {background-color: #2f3640 !important;}
 
 .color-input::before,
 .finish::before {cursor: auto !important;}
