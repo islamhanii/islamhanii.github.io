@@ -7082,9 +7082,84 @@ var database = {
             "answers": ["To test a device on the network is reachable", "To test a hard disk fault", "To test a bug in a Application", "To test a Pinter Quality"],
             "correct": 1
         },
-        "q20": {
-            "question": "What is the use of Bridge in Network?",
-            "answers": ["LANs", "WANs", "MANs", "Multipoint"],
+        "q26": {
+            "question": "MAC Address is the example of",
+            "answers": ["Transport Layer", "Data Link Layer", "Application Layer", "Physical Layer"],
+            "correct": 2
+        },
+        "q27": {
+            "question": "Routing tables of a router keeps track of",
+            "answers": ["MAC Address Assignments", "Port Assignments to network devices", "Distribute IP address to network devices", "Routes to use for forwarding data to its destination"],
+            "correct": 4
+        },
+        "q28": {
+            "question": "What is the maximum header size of an IP packet?",
+            "answers": ["32 bytes", "64 bytes", "30 bytes", "60 bytes"],
+            "correct": 4
+        },
+        "q29": {
+            "question": "What is the size of Host bits in Class B of IP address?",
+            "answers": ["4", "8", "16", "32"],
+            "correct": 3
+        },
+        "q30": {
+            "question": "What is the usable size of Network bits in Class B of IP address?",
+            "answers": ["4", "8", "16", "14"],
+            "correct": 3
+        },
+        "q31": {
+            "question": "What do you mean by broadcasting in Networking?",
+            "answers": ["It means addressing a packet to all machine", "It means addressing a packet to some machine", "It means addressing a packet to a particular machine", " It means addressing a packet to except a particular machine"],
+            "correct": 1
+        },
+        "q32": {
+            "question": "Which of the following is/are Protocols of Application?",
+            "answers": ["FTP", "DNS", "Telnet", "All of above"],
+            "correct": 4
+        },
+        "q33": {
+            "question": "Which of the following protocol is/are defined in Transport layer?",
+            "answers": ["(A) FTP", "(B) TCP", "(C) UDP", "Both (B) and (C)"],
+            "correct": 4
+        },
+        "q34": {
+            "question": "What is the IP Address range of APIPA?",
+            "answers": ["169.254.0.1 to 169.254.0.254", "169.254.0.1 to 169.254.0.255", " 169.254.0.1 to 169.254.255.254", "169.254.0.1 to 169.254.255.255"],
+            "correct": 3
+        },
+        "q35": {
+            "question": "Which of the following is correct in VLSM?",
+            "answers": ["Can have subnets of different sizes", "Subnets must be in same size", "No required of subnet", "All of above"],
+            "correct": 1
+        },
+        "q36": {
+            "question": "What does the port number in a TCP connection specify?",
+            "answers": ["It specifies the communication process on the two end systems", " It specifies the quality of the data & connection", "It specify the size of data", "All of above"],
+            "correct": 1
+        },
+        "q37": {
+            "question": "Which of the following is correct in CIDR?",
+            "answers": ["Class A includes Class B network", "There are only two networks", "There are high & low class network", "There is no concept of class A, B, C networks"],
+            "correct": 4
+        },
+        "q38": {
+            "question": "What is the size of Source and Destination IP address in IP header?",
+            "answers": ["4 bits", "8 bits", "16 bits", "32 bits"],
+            "correct": 4
+        },
+        "q39": {
+            "question": "Which of the following is reliable communication?",
+            "answers": ["TCP", "IP", "UDP", "All of them"],
+            "correct": 1
+        },
+        "q40": {
+            "question": "What is the purpose of the PSH flag in the TCP header?",
+            "answers": ["Typically used to indicate end of message", "Typically used to indicate beginning of message", "Typically used to push the message", "Typically used to indicate stop the message"],
+            "correct": 3
+        },
+        "q41": {
+            "question": "What is the natural mask for a class C Network?",
+            "answers": ["255.255.255.1", "255.255.255.0", "255.255.255.254", "255.255.255.255"],
             "correct": 2
         },
     }
