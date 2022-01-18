@@ -7162,5 +7162,184 @@ var database = {
             "answers": ["255.255.255.1", "255.255.255.0", "255.255.255.254", "255.255.255.255"],
             "correct": 2
         },
+    },
+
+    /*
+     ********************************************************
+     *  Computer Networks 1 - Exams
+     * ******************************************************
+    */
+
+    "Computer Networks 1 - Exams": {
+        "q1": {
+            "question": "Program running within the host communicate using __________",
+            "answers": ["Socket", "inter-process communication", "Protocol", "port number"],
+            "correct": 2
+        },
+        "q2": {
+            "question": "To send emails between mail servers we use __________ Protocol.",
+            "answers": ["POP3", "IMAP", "mailbox", "SMTP"],
+            "correct": 4
+        },
+        "q3": {
+            "question": "________ supports congestion and flow control.",
+            "answers": ["UDP", "TCP", "HTTP", "FTP"],
+            "correct": 2
+        },
+        "q4": {
+            "question": "400 respond code appears in the HTTP header means ___________",
+            "answers": ["Bad Request", "Version Not supported", "Moved permanently", "Create, request succeeded"],
+            "correct": 1
+        },
+        "q5": {
+            "question": "In _________ hosts break application-layer messages into packets",
+            "answers": ["Circuit switch", "Packet switch", "Protocol", "Internet"],
+            "correct": 2
+        },
+        "q6": {
+            "question": "UDP is a web's __________ protocol.",
+            "answers": ["Transport Layer", "Application Layer", "Network Layer", "Session Layer"],
+            "correct": 1
+        },
+        "q7": {
+            "question": "_________ is used to send bursting data through the network",
+            "answers": ["Circuit switch", "Packet switch", "Physical switch", "Data switch"],
+            "correct": 2
+        },
+        "q8": {
+            "question": "In ___________ the destination IP address and port number are atteched to every packet created.",
+            "answers": ["TCP socket", "Datagram socket", "Server socket", "Client socket"],
+            "correct": 2
+        },
+        "q9": {
+            "question": "The time to distribute F to N clients using peer 2 peer approach",
+            "answers": ["D<sub>p2p</sub> > max{F/u<sub>s</sub>, F/d<sub>min</sub>, NF/(u<sub>s</sub> + &8721 u<sub>i</sub>)}", "D<sub>p2p</sub> > max{NF/u<sub>s</sub>, F/d<sub>min</sub>, F/(u<sub>s</sub> + &8721 u<sub>i</sub>)}", "D<sub>p2p</sub> > max{F/u<sub>s</sub>, F/d<sub>min</sub>}", "D<sub>p2p</sub> > max{NF/u<sub>s</sub>, F/d<sub>min</sub>}"],
+            "correct": 1
+        },
+        "q10": {
+            "question": "Which of the following is the logical port number for HTTP protocol client?",
+            "answers": ["20", "40", "60", "80"],
+            "correct": 4
+        },
+        "q11": {
+            "question": "In Go-Back-N ARQ, if 5 is the number of bits for the sequence number, then the maximum size of the send window is _________",
+            "answers": ["1", "15", "16", "31"],
+            "correct": 4
+        },
+        "q12": {
+            "question": "In Go-Back-N ARQ, if 5 is the number of bits for the sequence number, then the maximum size of the receiver window is _________",
+            "answers": ["1", "15", "16", "31"],
+            "correct": 1
+        },
+        "q13": {
+            "question": "In Selective Repeat, if 5 is the number of bits for the sequence number, then the maximum size of the receiver window is _________",
+            "answers": ["1", "15", "16", "31"],
+            "correct": 3
+        },
+        "q14": {
+            "question": "In the _________ Protocol, if no acknowledgment for a frame has arrived, we resend all outstanding frames",
+            "answers": ["Stop and Wait", "Go Back N", "Selective Repeat", "None is correct"],
+            "correct": 2
+        },
+        "q15": {
+            "question": "For Stop-and-Wait ARQ, for 10 data packets sent correctly, _________ acknowledgments are needed",
+            "answers": ["only 1", "Less than 10", "More than 10", "exactly 10"],
+            "correct": 4
+        },
+        "q16": {
+            "question": "Which of the following is true with respect to TCP",
+            "answers": ["Connection oriented", "Best effort", "Connection less", "Unreliable"],
+            "correct": 1
+        },
+        "q17": {
+            "question": "In TCP, sending and receiving data is done as __________",
+            "answers": ["Stream of bytes", "Sequence of characters", "Segment", "Packets"],
+            "correct": 1
+        },
+        "q18": {
+            "question": "TCP group a number of bytes together into __________",
+            "answers": ["Stream of bytes", "Sequence of characters", "Segment", "Packets"],
+            "correct": 4
+        },
+        "q19": {
+            "question": "In segment header, sequence number and acknowledment number field refers to __________",
+            "answers": ["Byte number", "Buffer number", "Segment number", "Acknowledgment"],
+            "correct": 1
+        },
+        "q20": {
+            "question": "Connection establishment in TCP is called __________",
+            "answers": ["Single Acknowledgment", "Double Acknowledgment", "Two way handshake", "Three way handshake"],
+            "correct": 4
+        },
+        "q21": {
+            "question": "_________ define the interfaces between an application and the transport layer.",
+            "answers": ["Packet", "Socket", "Segment", "buffer"],
+            "correct": 2
+        },
+        "q22": {
+            "question": "Which one of the following is not a function of network layer?",
+            "answers": ["routing", "inter-networking", "congestion control", "error control"],
+            "correct": 4
+        },
+        "q23": {
+            "question": "A 4 byte IP address consists of _________",
+            "answers": ["only network address", "only host address", "network address & host address", "network address & MAC address"],
+            "correct": 3
+        },
+        "q24": {
+            "question": "Data in network layer is transferred in the form of _________",
+            "answers": ["Layers", "Packets", "Bytes", "Bits"],
+            "correct": 2
+        },
+        "q25": {
+            "question": "What are the common protocols associated with the network layer?",
+            "answers": ["Address Resolution Protocol", "Reverse Address Resolution Protocol", "Internet Protocol", "Neighbour Discovery Protocol"],
+            "correct": 3
+        },
+        "q26": {
+            "question": "IP is connectionless",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q27": {
+            "question": "ICMP stands for ____________",
+            "answers": ["Internet Control Message Protocol", "Internet Coordinate Message Protocol", "Interconnect Coordinate Message Protocol", "Interconnect Control Message Protocol"],
+            "correct": 1
+        },
+        "q28": {
+            "question": "Suppose you purchase a wireless router and connect it to your cable modem. Suppose that you have five PCs at home that us 802.11 to wirelessly connect to your wireless router. How are IP addresses assigned to the five PCs?",
+            "answers": ["DNS", "DHCP", "ARP", "RIP"],
+            "correct": 2
+        },
+        "q29": {
+            "question": "Moving data from a network device's input to the appropriate output line is called:",
+            "answers": ["(a) Routing", "(b) Forwarding", "(c) Switching", "both (b) and (c)"],
+            "correct": 4
+        },
+        "q30": {
+            "question": "Suppose Host A sends Host B a TCP segment encapsulated in an IP datagram. When Host B receives the datagram, which IP field is used to determine whether to pass the data to TCP or UDP?",
+            "answers": ["Upper-Layer protocol field", "TTL", "Header checksum", "16-bit Identifier field"],
+            "correct": 4
+        },
+        "q31": {
+            "question": "Consider a network with prefix 128.119.40.0/24. Give an example of one IP address (of form XXX.XXX.XXX.XXX) that can be assigned to a host on this network. (Choose all that apply)",
+            "answers": ["128.119.40.12", "128.119.42.1", "128.119.40.10", "128.119.40.255"],
+            "correct": [1, 3]
+        },
+        "q": {
+            "question": "Computer Network is _______",
+            "answers": ["1", "2", "3", "4"],
+            "correct": 4
+        },
+        "q": {
+            "question": "Computer Network is _______",
+            "answers": ["1", "2", "3", "4"],
+            "correct": 4
+        },
+        "q": {
+            "question": "Computer Network is _______",
+            "answers": ["1", "2", "3", "4"],
+            "correct": 4
+        },
     }
 };
