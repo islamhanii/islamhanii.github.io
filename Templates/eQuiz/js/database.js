@@ -7806,20 +7806,1030 @@ var database = {
             "answers": ["FCFS", "SJF", "Round – robin", "Priority"],
             "correct": 2
         },
-        "q90": {
-            "question": "Which algorithm is defined in Time quantum?",
-            "answers": ["all", "all", "all", "all"],
+        "q92": {
+            "question": "A process control block ____.",
+            "answers": ["includes information on the process’s state", "stores the address of the next instruction to be processed by a different process", "determines which process is to be executed next", "is an example of a process queue"],
+            "correct": 1
+        },
+        "q93": {
+            "question": "The _____________ refers to the number of processes in memory.",
+            "answers": ["process count", "long-term scheduler", "degree of multiprogramming", "CPU scheduler"],
+            "correct": 3
+        },
+        "q94": {
+            "question": "When a child process is created, which of the following is a possibility in terms of the execution or address space of the child process?",
+            "answers": ["The child process runs concurrently with the parent", "The child process has a new program loaded into it", "The child is a duplicate of the parent", "All of the above"],
+            "correct": 4
+        },
+        "q95": {
+            "question": "A _________________ saves the state of the currently running process and restores the state of the next process to run.",
+            "answers": ["save-and-restore", "state switch", "context switch", "none of the above"],
+            "correct": 3
+        },
+        "q96": {
+            "question": "A process may transition to the Ready state by which of the following actions?",
+            "answers": ["Completion of an I/O event", "Awaiting its turn on the CPU", "Newly-admitted process", "All of the above"],
+            "correct": 4
+        },
+        "q97": {
+            "question": "In a(n) ____ temporary queue, the sender must always block until the recipient receives the message.",
+            "answers": ["zero capacity", "variable capacity", "bounded capacity", "unbounded capacity"],
+            "correct": 1
+        },
+        "q98": {
+            "question": "A blocking send() and blocking receive() is known as a(n) _________________",
+            "answers": ["synchronized message", "rendezvous", "blocked message", "asynchronous message"],
             "correct": 2
         },
-        "q90": {
-            "question": "Which algorithm is defined in Time quantum?",
-            "answers": ["all", "all", "all", "all"],
+        "q99": {
+            "question": "Which of the following is true in a Mach operating system?",
+            "answers": ["All messages have the same priority", "Multiple messages from the same sender are guaranteed an absolute ordering", "The sending thread must return immediately if a mailbox is full", "It is not designed for distributed systems"],
+            "correct": 1
+        },
+        "q100": {
+            "question": "When communicating with sockets, a client process initiates a request for a connection and is assigned a port by the host computer. Which of the following would be a valid port assignment for the host computer?",
+            "answers": ["21", "23", "80", "1625"],
+            "correct": 4
+        },
+        "q101": {
+            "question": "Which of the following statements is true?",
+            "answers": ["Shared memory is typically faster than message passing", "Message passing is typically faster than shared memory", "Message passing is most useful for exchanging large amounts of data", "Shared memory is far more common in operating systems than message passing"],
+            "correct": 1
+        },
+        "q102": {
+            "question": "Child processes inherit UNIX ordinary pipes from their parent process because:",
+            "answers": ["The pipe is part of the code and children inherit code from their parents.", "A pipe is treated as a file descriptor and child processes inherit open file descriptors from their parents.", "The STARTUPINFO structure establishes this sharing.", "All IPC facilities are shared between the parent and child processes."],
             "correct": 2
         },
-        "q90": {
-            "question": "Which algorithm is defined in Time quantum?",
-            "answers": ["all", "all", "all", "all"],
+        "q103": {
+            "question": "Which of the following statements is true?",
+            "answers": ["Named pipes do not allow bi-directional communication", "Only the parent and child processes can use named pipes for communication", "Reading and writing to ordinary pipes on both UNIX and Windows systems can be performed like ordinary file I/O", "Named pipes can only be used by communicating processes on the same machine"],
+            "correct": 3
+        },
+        "q104": {
+            "question": "What are the services operating System provides to both the users and to the programs?",
+            "answers": ["File System manipulation", "Error Detection", "Program execution", "Resource Allocation"],
+            "correct": 3
+        },
+        "q105": {
+            "question": "Which of the following few common services provided by an operating system?",
+            "answers": ["Protection", "Program execution", "I/O operations", "All of the above"],
+            "correct": 4
+        },
+        "q106": {
+            "question": "Which of the following is true about Program execution?",
+            "answers": ["Restrict to load a program into memory.", "Provides a mechanism for process synchronization.", "Do not provides a mechanism for process communication.", "Do not provides a mechanism for deadlock handling."],
             "correct": 2
+        },
+        "q107": {
+            "question": "Which of the following is false about I/O Operation?",
+            "answers": ["Operating system does not provides the access to the I/O device", "I/O operation means read or write operation", "An I/O subsystem comprises of I/O devices", "None of the above"],
+            "correct": 1
+        },
+        "q108": {
+            "question": "Which of the following is false about File system manipulation?",
+            "answers": ["Computers can store files on the disk (Primary storage), for long-term storage purpose", "Program needs to read a file or write a file", "Operating System provides an interface to the user to create/delete files", "Operating System provides an interface to create the backup of file system"],
+            "correct": 1
+        },
+        "q109": {
+            "question": "Which of the following is true about Communication?",
+            "answers": ["The OS handles routing and connection strategies, and the problems of contention and security", "Two processes often require data to be transferred between them", "Communication may be implemented by two methods, either by Shared Memory or by Message Passing", "All of the above"],
+            "correct": 4
+        },
+        "q110": {
+            "question": "Which of the following is true about Communication?",
+            "answers": ["Errors can occur anytime and anywhere", "An error may occur in CPU, in I/O devices or in the memory hardware", "OS constantly checks for possible errors", "All of the above"],
+            "correct": 4
+        },
+        "q111": {
+            "question": "The OS ensures that all access to system resources is controlled. The major activities of an operating system with respect to?",
+            "answers": ["Error handling", "Resource Management", "Protection", "Communication"],
+            "correct": 3
+        },
+        "q112": {
+            "question": "Two processes often require data to be transferred between them. The major activities of an operating system with respect to?",
+            "answers": ["Error handling", "Resource Management", "Protection", "Communication"],
+            "correct": 4
+        },
+        "q113": {
+            "question": "Which of the following is not an important functions of an operating System?",
+            "answers": ["Memory Management", "File Management", "Virus Protection", "Processor Management"],
+            "correct": 3
+        },
+        "q114": {
+            "question": "In OS, Memory management refers to management of?",
+            "answers": ["Primary Memory", "Main Memory", "Secondary Memory", "Both A and B"],
+            "correct": 4
+        },
+        "q115": {
+            "question": "In multiprogramming environment, the OS decides which process gets the processor when and for how much time. This function is called _____________.",
+            "answers": ["process scheduling", "process rescheduling", "traffic controller", "Processor Management"],
+            "correct": 1
+        },
+        "q116": {
+            "question": "What does I/O controller do?",
+            "answers": ["Keeps tracks of primary memory", "Keeps tracks of all devices", "Keeps tracks of processes", "All of the above"],
+            "correct": 2
+        },
+        "q117": {
+            "question": "What does file system do?",
+            "answers": ["Keeps track of information", "Keeps track of location", "Keeps track of information status", "All of the above"],
+            "correct": 4
+        },
+        "q118": {
+            "question": "________ is when multiple jobs are executed by the CPU simultaneously by switching between them.",
+            "answers": ["Multiprogramming", "Multitasking", "Distributed Environment", "Spooling"],
+            "correct": 2
+        },
+        "q119": {
+            "question": "Which of the following activities are true about multitasking?",
+            "answers": ["These Operating Systems were developed to provide interactive use of a computer system at a reasonable cost", "The user gives instructions to the operating system or to a program directly, and receives an immediate response", "Each user has at least one separate program in memory", "All of the above"],
+            "correct": 4
+        },
+        "q120": {
+            "question": "Multiprogramming generally?",
+            "answers": ["decreases CPU utilization", "Share the processor", "Both A and B", "None of the above"],
+            "correct": 2
+        },
+        "q121": {
+            "question": "Which of the following are the advantage of Multiprogramming?",
+            "answers": ["High and efficient CPU utilization", "CPU scheduling is not required", "memory management is good", "All of the above"],
+            "correct": 1
+        },
+        "q122": {
+            "question": "____________ refers to putting data of various I/O jobs in a buffer.",
+            "answers": ["Real Time System", "Interactivity", "Spooling", "None of the above"],
+            "correct": 3
+        },
+        "q123": {
+            "question": "Multitasking Operating Systems are also known as?",
+            "answers": ["Processing system", "Time-sharing system", "Real Time system", "Distributed system"],
+            "correct": 2
+        },
+        "q124": {
+            "question": "Which of the following is true about Process?",
+            "answers": ["A process is basically a program in execution", "The execution of a process must progress in a sequential fashion", "A process is defined as an entity which represents the basic unit of work to be implemented in the system", "All of the above"],
+            "correct": 4
+        },
+        "q125": {
+            "question": "This section contains the global and static variables.",
+            "answers": ["Heap", "Stack", "Data", "Text"],
+            "correct": 3
+        },
+        "q126": {
+            "question": "This is dynamically allocated memory to a process during its run time.",
+            "answers": ["Heap", "Stack", "Data", "Queue"],
+            "correct": 1
+        },
+        "q127": {
+            "question": "How many state are there in Process Life Cycle?",
+            "answers": ["4", "5", "6", "7"],
+            "correct": 2
+        },
+        "q128": {
+            "question": "PCB stands for?",
+            "answers": ["Process Current Block", "Parent Control Block", "Parent Current Block", "Process Control Block"],
+            "correct": 4
+        },
+        "q129": {
+            "question": "In which state, processor executes its instructions?",
+            "answers": ["Ready", "Waiting", "Running", "Start"],
+            "correct": 3
+        },
+        "q130": {
+            "question": "In PCB, This is required to allow/disallow access to system resources.",
+            "answers": ["Process State", "Process privileges", "Program Counter", "CPU Scheduling Information"],
+            "correct": 2
+        },
+        "q131": {
+            "question": "In PCB, This includes the amount of CPU used for process execution, time limits, execution ID etc.",
+            "answers": ["I/O status information", "CPU Scheduling Information", "CPU registers", "Accounting information"],
+            "correct": 4
+        },
+        "q132": {
+            "question": "The OS maintains all PCBs in?",
+            "answers": ["Process Scheduling Queues", "Job queue", "Ready queue", "Device queues"],
+            "correct": 1
+        },
+        "q133": {
+            "question": "The processes which are blocked due to unavailability of an I/O device constitute this queue.",
+            "answers": ["Process Scheduling Queues", "Job queue", "Ready queue", "Device queues"],
+            "correct": 4
+        },
+        "q134": {
+            "question": "Which scheduler is also called a job scheduler?",
+            "answers": ["Long-Term Scheduler", "Short-Term Scheduler", "Medium-Term Scheduler", "All of the above"],
+            "correct": 1
+        },
+        "q135": {
+            "question": "When the suspended process is moved to the secondary storage. This process is called?",
+            "answers": ["process mix", "swapping", "Swap-In", "Swap-Out"],
+            "correct": 2
+        },
+        "q136": {
+            "question": "Which scheduler Speed is fastest?",
+            "answers": ["Long-Term Scheduler", "Short-Term Scheduler", "Medium-Term Scheduler", "Swapping"],
+            "correct": 2
+        },
+        "q137": {
+            "question": "Which Schedular is a part of Time sharing systems?",
+            "answers": ["Long-Term Scheduler", "Short-Term Scheduler", "Medium-Term Scheduler", "Swapping"],
+            "correct": 3
+        },
+        "q138": {
+            "question": "A_________ is the mechanism to store and restore the state",
+            "answers": ["PCB", "Program Counter", "Scheduling information", "context switch"],
+            "correct": 4
+        },
+        "q139": {
+            "question": "Which of the following information is stored when the process is switched?",
+            "answers": ["I/O State information", "Accounting information", "Base and limit register value", "All of the above"],
+            "correct": 4
+        },
+        "q140": {
+            "question": "Which of the following algorithms work based on priority?",
+            "answers": ["non-preemptive", "preemptive", "Both A and B", "None of the above"],
+            "correct": 2
+        },
+        "q141": {
+            "question": "Which of the following is false regarding First Come First Serve (FCFS)?",
+            "answers": ["FCFS performance is high", "average wait time is high", "Its implementation is based on FIFO queue", "FCFS is easy to understand and implement"],
+            "correct": 1
+        },
+        "q142": {
+            "question": "In Round Robin Scheduling, Each process is provided a fix time to execute, it is called a?",
+            "answers": ["Batch Time", "Job Time", "quantum", "Period"],
+            "correct": 3
+        },
+        "q143": {
+            "question": "__________ is used to save states of preempted processes.",
+            "answers": ["Context switching", "Quantum", "Process Period", "Batch Jobs"],
+            "correct": 1
+        },
+        "q144": {
+            "question": "In Priority Based Scheduling, if Processes have same priority then which Scheduling algorithm is used?",
+            "answers": ["SJN", "FCFS", "SRT", "Round Robin"],
+            "correct": 2
+        },
+        "q145": {
+            "question": "MMU stands for?",
+            "answers": ["memory mapping unit", "memory management unit", "main memory unit", "None of the above"],
+            "correct": 2
+        },
+        "q146": {
+            "question": "While executing a program, if the program references a page which is not available in the main memory then it is known as?",
+            "answers": ["Demand Paging", "Frame Fault", "page fault", "processor fault"],
+            "correct": 3
+        },
+        "q147": {
+            "question": "Which of the following are the advantage of Demand Paging?",
+            "answers": ["Large virtual memory", "More efficient use of memory", "There is no limit on degree of multiprogramming", "All of the above"],
+            "correct": 4
+        },
+        "q148": {
+            "question": "The string of memory references is?",
+            "answers": ["Page Replacement", "Reference String", "Memory References", "Page References"],
+            "correct": 2
+        },
+        "q149": {
+            "question": "Which algorithm is based on the argument that the page with the smallest count?",
+            "answers": ["Least frequently Used", "Page Buffering algorithm", "Most frequently Used", "Least Recently Used"],
+            "correct": 3
+        },
+        "q150": {
+            "question": "Which algorithm is Based on an actively used page should have a large reference count?",
+            "answers": ["Least frequently Used", "Page Buffering algorithm", "Most frequently Used", "Least Recently Used"],
+            "correct": 4
+        },
+        "q151": {
+            "question": "Swap space exists in ____________",
+            "answers": ["Primary Memory", "secondary memory", "virtual memory", "CPU"],
+            "correct": 2
+        },
+        "q152": {
+            "question": "In FIFO, ______ in main memory is the one which will be selected for replacement.",
+            "answers": ["oldest page", "newest page", "random page", "None of the above"],
+            "correct": 1
+        },
+        "q153": {
+            "question": "A process is thrashing if ____________",
+            "answers": ["it is spending more time paging than executing", "it is spending less time paging than executing", "page fault occurs", "swapping can not take place"],
+            "correct": 1
+        },
+        "q154": {
+            "question": "What is true about memory management?",
+            "answers": ["Memory management keeps track of each and every memory location", "It decides which process will get memory at what time", "It tracks whenever some memory gets freed or unallocated and correspondingly it updates the status", "All of the above"],
+            "correct": 4
+        },
+        "q155": {
+            "question": "The set of all physical addresses corresponding to these logical addresses is referred to as?",
+            "answers": ["Logical address space", "Physical address space", "MMU address space", "Virtual address space"],
+            "correct": 2
+        },
+        "q156": {
+            "question": "In indirect communication between processes P and Q __________",
+            "answers": ["there is another process R to handle and pass on the messages between P and Q", "there is another machine between the two processes to help communication", "there is a mailbox to help communication between P and Q", "none of the mentioned"],
+            "correct": 3
+        },
+        "q157": {
+            "question": "The difference between a program and a process is that a program is an ________ entity while a process is a _________ entity.",
+            "answers": ["passive, active", "active, passive", "dynamic, static", "static, dynamic"],
+            "correct": 1
+        },
+        "q158": {
+            "question": "Concurrent access to shared data may result in ____________",
+            "answers": ["data consistency", "data insecurity", "data inconsistency", "none of the mentioned"],
+            "correct": 3
+        },
+        "q159": {
+            "question": "Which of the following are TRUE for direct communication:",
+            "answers": ["(a) A communication link can be associated with N number of process(N = max. number of processes supported by system)", "(b) A communication link can be associated with exactly two processes", "(c) Exactly one link exists between each pair of processes", "Both (b) and (c)"],
+            "correct": 4
+        },
+        "q160": {
+            "question": "The problem of indefinite blockage of low-priority jobs in general priority scheduling algorithm can be solved using:",
+            "answers": ["Dirty bit", "Compaction", "Aging", "Swapping"],
+            "correct": 3
+        },
+        "q161": {
+            "question": "To access the services of the operating system, the interface is provided by the ___________",
+            "answers": ["Library", "System calls", "Assembly instructions", "API"],
+            "correct": 2
+        },
+        "q162": {
+            "question": "CPU scheduling is the basis of ___________",
+            "answers": ["multiprogramming operating systems", "larger memory sized systems", "multiprocessor systems", "none of the mentioned"],
+            "correct": 1
+        },
+        "q163": {
+            "question": "Which one of the following error will be handle by the operating system?",
+            "answers": ["power failure", "lack of paper in printer", "connection failure in the network", "all of the mentioned"],
+            "correct": 4
+        },
+        "q164": {
+            "question": "What is the main function of the command interpreter?",
+            "answers": ["to get and execute the next user-specified command", "to provide the interface between the API and application program", "to handle the files in operating system", "none of the mentioned"],
+            "correct": 1
+        },
+        "q165": {
+            "question": "If a process fails, most operating system write the error information to a ______",
+            "answers": ["log file", "another running process", "new file", "none of the mentioned"],
+            "correct": 1
+        },
+        "q166": {
+            "question": "Which facility dynamically adds probes to a running system, both in user processes and in the kernel?",
+            "answers": ["DTrace", "DLocate", "DMap", "DAdd"],
+            "correct": 1
+        },
+        "q167": {
+            "question": "The OS X has ____________",
+            "answers": ["monolithic kernel", "hybrid kernel", "microkernel", "monolithic kernel with modules"],
+            "correct": 2
+        },
+        "q168": {
+            "question": "In operating system, each process has its own __________",
+            "answers": ["address space and global variables", "open files", "pending alarms, signals and signal handlers", "all of the mentioned"],
+            "correct": 4
+        },
+        "q169": {
+            "question": "In Unix, Which system call creates the new process?",
+            "answers": ["fork", "create", "new", "none of the mentioned"],
+            "correct": 1
+        },
+        "q170": {
+            "question": "A process can be terminated due to __________",
+            "answers": ["normal exit", "fatal error", "killed by another process", "all of the mentioned"],
+            "correct": 4
+        },
+        "q171": {
+            "question": "What is the ready state of a process?",
+            "answers": ["when process is scheduled to run after some execution", "when process is unable to run until some task has been completed", "when process is using the CPU", "none of the mentioned"],
+            "correct": 1
+        },
+        "q172": {
+            "question": "What is interprocess communication?",
+            "answers": ["communication within the process", "communication between two process", "communication between two threads of same process", "none of the mentioned"],
+            "correct": 2
+        },
+        "q173": {
+            "question": "A set of processes is deadlock if __________",
+            "answers": ["each process is blocked and will remain so forever", "each process is terminated", "all processes are trying to kill each other", "none of the mentioned"],
+            "correct": 1
+        },
+        "q174": {
+            "question": "Which system call can be used by a parent process to determine the termination of child process?",
+            "answers": ["wait", "exit", "fork", "get"],
+            "correct": 1
+        },
+        "q175": {
+            "question": "A process stack does not contain __________",
+            "answers": ["Function parameters", "Local variables", "Return addresses", "PID of child process"],
+            "correct": 4
+        },
+        "q176": {
+            "question": "The address of the next instruction to be executed by the current process is provided by the __________",
+            "answers": ["CPU registers", "Program counter", "Process stack", "Pipe"],
+            "correct": 2
+        },
+        "q177": {
+            "question": "A Process Control Block(PCB) does not contain which of the following?",
+            "answers": ["Code", "Stack", "Bootstrap program", "Data"],
+            "correct": 3
+        },
+        "q178": {
+            "question": "The state of a process is defined by __________",
+            "answers": ["the final activity of the process", "the activity just executed by the process", "the activity to next be executed by the process", "the current activity of the process"],
+            "correct": 4
+        },
+        "q179": {
+            "question": "Which of the following is not the state of a process?",
+            "answers": ["New", "Old", "Waiting", "Running"],
+            "correct": 2
+        },
+        "q180": {
+            "question": "What is the degree of multiprogramming?",
+            "answers": ["the number of processes executed per unit time", "the number of processes in the ready queue", "the number of processes in the I/O queue", "v"],
+            "correct": 4
+        },
+        "q181": {
+            "question": "What is the objective of multiprogramming?",
+            "answers": ["Have a process running at all time", "Have multiple programs waiting in a queue ready to run", "To increase CPU utilization", "None of the mentioned"],
+            "correct": 3
+        },
+        "q182": {
+            "question": "Which of the following do not belong to queues for processes?",
+            "answers": ["Job Queue", "PCB queue", "Device Queue", "Ready Queue"],
+            "correct": 2
+        },
+        "q183": {
+            "question": "What will happen when a process terminates?",
+            "answers": ["It is removed from all queues", "It is removed from all, but the job queue", "Its process control block is de-allocated", "Its process control block is never de-allocated"],
+            "correct": 1
+        },
+        "q184": {
+            "question": "What is a long-term scheduler?",
+            "answers": ["It selects processes which have to be brought into the ready queue", "It selects processes which have to be executed next and allocates CPU", "It selects processes which heave to remove from memory by swapping", "None of the mentioned"],
+            "correct": 1
+        },
+        "q185": {
+            "question": "If all processes I/O bound, the ready queue will almost always be ______ and the Short term Scheduler will have a ______ to do.",
+            "answers": ["full, little", "full, lot", "empty, little", "empty, lot"],
+            "correct": 3
+        },
+        "q186": {
+            "question": "What is a medium-term scheduler?",
+            "answers": ["It selects which process has to be brought into the ready queue", "It selects which process has to be executed next and allocates CPU", "It selects which process to remove from memory by swapping", "None of the mentioned"],
+            "correct": 3
+        },
+        "q187": {
+            "question": "The primary distinction between the short term scheduler and the long term scheduler is __________",
+            "answers": ["The length of their queues", "The type of processes they schedule", "The frequency of their execution", "None of the mentioned"],
+            "correct": 3
+        },
+        "q188": {
+            "question": "The only state transition that is initiated by the user process itself is __________",
+            "answers": ["block", "wakeup", "dispatch", "none of the mentioned"],
+            "correct": 1
+        },
+        "q189": {
+            "question": "In a time-sharing operating system, when the time slot given to a process is completed, the process goes from the running state to the __________",
+            "answers": ["Blocked state", "Ready state", "Suspended state", "Terminated state"],
+            "correct": 2
+        },
+        "q190": {
+            "question": "In a multiprogramming environment __________",
+            "answers": ["the processor executes more than one process at a time", "the programs are developed by more than one person", "more than one process resides in the memory", "a single user can execute many programs at the same time"],
+            "correct": 3
+        },
+        "q191": {
+            "question": "Suppose that a process is in “Blocked” state waiting for some I/O service. When the service is completed, it goes to the __________",
+            "answers": ["Running state", "Ready state", "Suspended state", "Terminated state"],
+            "correct": 2
+        },
+        "q192": {
+            "question": "The context of a process in the PCB of a process does not contain __________",
+            "answers": ["the value of the CPU registers", "the process state", "memory-management information", "context switch time"],
+            "correct": 4
+        },
+        "q193": {
+            "question": "Which of the following does not interrupt a running process?",
+            "answers": ["A device", "Timer", "Scheduler process", "Power failure"],
+            "correct": 3
+        },
+        "q194": {
+            "question": "Time taken to switch between user and kernal models is __________ the time taken to switch between two processes.",
+            "answers": ["More than", "Independent of", "Less than", "Equal to"],
+            "correct": 3
+        },
+        "q195": {
+            "question": "_________ is a memory management scheme that permits the physical address space of a process to be noncontigous.",
+            "answers": ["Segmentation", "Paging", "Fragmentaion", "Swapping"],
+            "correct": 2
+        },
+        "q196": {
+            "question": "The working set model is used in memory management to implement the concept of:",
+            "answers": ["Thrashing", "Segmentation", "Principle of locality", "Paging"],
+            "correct": 3
+        },
+        "q197": {
+            "question": "The response time must be long in time-sharing systems.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q198": {
+            "question": "The hardware allows privileged instructions to be executed in kernel and user modes.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q200": {
+            "question": "The bootstrap program must locate the operating-system kernel to load it into memory.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q201": {
+            "question": "There are three general methods to pass parameters to the operating system.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q202": {
+            "question": "The virtual machine concept is difficult to implement due to the effort required to provide an exact duplicate to the underlying machine.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q203": {
+            "question": "It is important that the CPU scheduler select CPU-bound processes more than I/O-bound processes.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q204": {
+            "question": "A process is a cooperating process if it has a set of child processes.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q205": {
+            "question": "A major problem with SRTF scheduling algorithms is convoy effect.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q206": {
+            "question": "The multilevel feedback queue scheduling algorithm allows a process to move between queues.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q207": {
+            "question": "Each process must request permission to enter its critical section.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q208": {
+            "question": "Both the first-fit and best-fit strategies for memory allocation suffer from internal fragmentation.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q209": {
+            "question": "Segmentation is a memory-management scheme that supports the user view of memory.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q210": {
+            "question": "Virtual memory involves the separation of logical memory as perceived by users from physical memory.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q211": {
+            "question": "Local page replacement requires that each process select from only its own set of allocated frames.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q212": {
+            "question": "Thrashing decrease the CPU utilization as a result of increasing the degree of multiprogramming.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q213": {
+            "question": "The main function of the operating system is to provide an interface between hardware and application programs used by users.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q214": {
+            "question": "The bootstrap program needed for computer start up is stored in RAM.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q215": {
+            "question": "The Secondary storage is considered as an extension of main memory that provides large volatile storage capacity.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q216": {
+            "question": "Command line interpreter is one of the OS services applied to system users.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q217": {
+            "question": "One approach to dealing with multiple interrupts is to disable all interrupts while an interrupt is being processed.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q218": {
+            "question": "A mode bit added to computer hardware to indicate if the current process has been interrupted.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q219": {
+            "question": "In layer structured approach of operating system, it is divided into a number of layers that doesn’t interact with each other.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q220": {
+            "question": "One of the reasons to transfer the process from CPU is the expiration of a quantum of CPU time allocated to that process",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q221": {
+            "question": "Process is considered as a passive entity while program is considered as an active entity.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q222": {
+            "question": "The ready queue contains all life process in the system.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q223": {
+            "question": "Throughput is the time needed by the process to interact with the computers system user.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q224": {
+            "question": "Preemptive scheduling allows a process to be interrupted in the midst of its execution, taking the CPU away and allocating it to another process.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q225": {
+            "question": "The decrease of time quantum in RR algorithm increases the system efficiency.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q226": {
+            "question": "The producer-consumer problem is an example that illustrates the need for synchronization.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q227": {
+            "question": "Mutual Exclusion is essential to solve the critical section problem.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q228": {
+            "question": "Peterson solution is used to avoid Busy waiting problem in software solution.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q230": {
+            "question": "The user program deals with physical addresses.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q231": {
+            "question": "Compaction is a technique that could be applied to overcome the problem of internal fragmentation.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q232": {
+            "question": "Contiguous memory allocation is considered as the simplest memory management approach.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q233": {
+            "question": "Round robin scheduling is a non-preemptive scheduling algorithm.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q234": {
+            "question": "FCFS scheduling algorithm could result in starvation.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q235": {
+            "question": "The program stack can be used to pass a system call parameters to the operating systems.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q236": {
+            "question": "The main target of CPU scheduling is to maximize the turnaround time.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q237": {
+            "question": "Logical and physical addresses differ in execution time address binding.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q238": {
+            "question": "First-fit and best-fit better than worst-fit in terms of speed and storage utilization.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q239": {
+            "question": "Concurrent access to shared data may result in data inconsistency.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q240": {
+            "question": "A process may never be removed from the semaphore queue in which it is suspended.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q241": {
+            "question": "Counting semaphore can be implemented using binary semaphore.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q242": {
+            "question": "An operating system acts as an intermediary between the computer user and the computer hardware.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q243": {
+            "question": "System calls provide an end user interface to the services made available by an operating system.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q244": {
+            "question": "Each process has a segment of code, called a critical section, in which the process may be changing shared data.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q245": {
+            "question": "Any solution to the critical-section problem must satisfy at least one of three requirements.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q246": {
+            "question": "Operating systems have a specific device driver for each device controllers.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q247": {
+            "question": "Processing of a real-time system must be done within the predefined time constraints, or the system will fail.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q248": {
+            "question": "Functions that make up an API typically invoke the actual system calls on behalf of the application programmer.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q249": {
+            "question": "The fundamental idea behind a virtual machine is to abstract the hardware of different computers into a single execution environment.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q250": {
+            "question": "The objective of multiprogramming is to have some process running at all times, to minimize CPU waiting time.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q251": {
+            "question": "If any two processes want to communicate with each other, a communication link must exist between them.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q252": {
+            "question": "Magnetic disks are nonvolatile and in general are faster than solid-state disks.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q253": {
+            "question": "Almost all single processor systems have other special-purpose processors as well.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q254": {
+            "question": "Multicore can be less efficient than multiple chips with single cores because between-chip communication is faster than on-chip communication.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q255": {
+            "question": "The function of the command interpreter is to provide the interface between the API and application program.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q256": {
+            "question": "Kernel is the first part of operating system to load into memory during booting.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q257": {
+            "question": "The state of a process is defined by the activity just executed by the process.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q258": {
+            "question": "The degree of multiprogramming is the number of processes in the ready queue.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q259": {
+            "question": "To access the services of operating system, the interface is provided by the system calls.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q260": {
+            "question": "Operating systems have a common device driver for all device controllers.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q261": {
+            "question": "Solid-state disks are nonvolatile and in general are slower than magnetic disks.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q262": {
+            "question": "The instruction to switch to user mode is an example of a privileged instruction.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q263": {
+            "question": "Processing of a real-time system must be done within the predefined space constraints, or the system will fail.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q264": {
+            "question": "With direct communication, the messages are sent to and received from mailboxes, or ports.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q265": {
+            "question": "Program execution and resource allocation are example of operating-system services provides functions that are helpful to the user.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q266": {
+            "question": "As processes enter the system, they are put into a ready queue, which consists of all processes in the system.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q267": {
+            "question": "CPU scheduler is a short-term scheduler that is invoked frequently while Job scheduler is a long-term one that is invoked infrequently.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q268": {
+            "question": "Context-switch time is overhead; the system does no useful work while switching.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q269": {
+            "question": "A parent process may terminate the execution of children processes using the exit() system call.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q270": {
+            "question": "In message passing, if both sender and receiver are synchronous, this is called rendezvous.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q271": {
+            "question": "Named pipes must be accessed through a parent-child relationship.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q272": {
+            "question": "An atomic instruction is a type of instructions that can be interrupted during its execution.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q273": {
+            "question": "Continuous memory allocation is a technique is considered as the simplest memory management approach.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q274": {
+            "question": "An operating system is a program that acts as intermediary between a user of a computer and the computer middleware",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q275": {
+            "question": "Most common multiple-processor system uses asymmetric multiprocessing",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q276": {
+            "question": "Handheld computers are resource poor, optimized fo usability and bettary life.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q277": {
+            "question": "I/O devices and the CPU can execute concurrently",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q278": {
+            "question": "Main memory can be viewed as a cache for secondary storage.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q279": {
+            "question": "CPU moves data only from main memory to devices local buffer.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q280": {
+            "question": "Each multi-threaded process has a common program counter to specify location of the next instruction to execute.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q281": {
+            "question": "The operating system is responsible for creating and deleting both user and system processes.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q282": {
+            "question": "Security is any mechanism for controlling the access of processes or users to the resources defined by a computer system.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q283": {
+            "question": "Viriualization allows an operating system to run as an applications within other operating system.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q284": {
+            "question": "The view most users see of the operating system is defined by system program rather than system calls.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q285": {
+            "question": "The caller need know everything about how the system call is implemented.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q286": {
+            "question": "Policies determine how to do something, but mechanisms decide what will be done",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q287": {
+            "question": "The short-term scheduler controls the degree of multiprogramming",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q289": {
+            "question": "A pair of processes communicating over a network employs a pair of sockets.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q290": {
+            "question": "Some operating systems include the command interpreter in the kernal and others treat it as a special program that is running when a job is initiated.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q291": {
+            "question": "The short-term scheduler may need to be invoked only when a process leaves the system.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q292": {
+            "question": "Process execution consists of a cycle of CPU execution and I/O wait.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q293": {
+            "question": "A decision of CPU scheduling may take place when a process switches from waiting to ready state.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q293": {
+            "question": "Many modern computer systems provide special hardware support; as mutex lock, to solve the critical-section problem.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q294": {
+            "question": "A process can be swapped temporarily out of memory to a backing store and then brought back into memory for continued execution.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q295": {
+            "question": "A memory address generated by the CPU is commonly referred to as a physical address.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q296": {
+            "question": "Both the first-flt and best-fit strategies for memory allocation suffer from internal fragmentation.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q297": {
+            "question": "A lazy swapper never swaps a page into memory unless that page will be needed.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q298": {
+            "question": "Thrashing increases the CPU utilization as a result of increasing the degree of multiprogramming",
+            "answers": ["True", "False"],
+            "correct": 1
         },
     },
 };
