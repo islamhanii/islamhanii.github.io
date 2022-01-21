@@ -7341,5 +7341,485 @@ var database = {
             "answers": ["1", "2", "3", "4"],
             "correct": 4
         },
-    }
+    },
+
+    /*
+     ********************************************************
+     *  Operating Systems Questions
+     * ******************************************************
+    */
+
+    "Operating Systems": {
+        "q1": {
+            "question": "An operating system does not perform useful function by itself, but it provides an environment within which other programs can do useful work.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q2": {
+            "question": "Multiprocessor systems have two or more processors in close communication, sharing the computer bus with separate clock, memory,and peripheral devices.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q3": {
+            "question": "The dual mode of operation provides us with the means for protecting the operating system from errant users and errant users from one another.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q4": {
+            "question": "After synchronous I/O starts, control returns to user program without waiting for I/O completion.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q5": {
+            "question": "The program stack can be used to pass a system call parameters to the operating system.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q6": {
+            "question": "Short-term scheduler controls the degree of multiprogramming.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q7": {
+            "question": "In a hierarchical storage structure, each data item appears at least in two levels of the storage system.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q8": {
+            "question": "In case of direct communication, a link is established only if processes share a common mailbox.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q9": {
+            "question": "Some of system programs are simply user interfaces to system calls; others are considerably more complex.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q10": {
+            "question": "The objective of multiprogramming is to have some process running at all times, to minimize CPU utilization.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q11": {
+            "question": "Round robin scheduling is a nonpreemptive scheduling algorithm.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q12": {
+            "question": "A major problem with FCFS scheduling algorithm is starvation.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q13": {
+            "question": "The operating system decides between conflicting requests for efficient and fair resource use.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q14": {
+            "question": "A device controller informs CPU that it has finished its operation by causing a trap.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q15": {
+            "question": "Incoming interrupts are enabled while another interrupt is being processed.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q16": {
+            "question": "The registers can be used to pass a system call parameters to the operating system.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q17": {
+            "question": "Resource allocation is a one of operating-system services provides functions that are helpful to the user.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q18": {
+            "question": "Many operating systems now include both CLI and GUI interfaces.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q19": {
+            "question": "The job scheduler selects which processes should be brought into the ready queue.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q20": {
+            "question": "An independent process can affect the execution of another process.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q21": {
+            "question": "Scheduling criteria can be computed for most scheduling algorithms using the distribution formulas of system processes CPU burst and arrival time.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q22": {
+            "question": "SJF is a priority scheduling where priority is the predicted next CPU burst time.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q23": {
+            "question": "The operating system controls execution of programs to prevent errors and improper use of the computer.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q24": {
+            "question": "Caching is copying information into inexpensive storage system.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q25": {
+            "question": "Long-term scheduler controls the degree of multiprogramming.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q26": {
+            "question": "The waiting queue is a set of all processes residing in main memory and waiting to execute.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q27": {
+            "question": "The main target of CPU scheduling is to maximize response time.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q28": {
+            "question": "The Process address space refers to the binary form of the program code.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q29": {
+            "question": "In asymmetric multiprocessor system, the kernel can execute on any processor, and typically each processor does self-scheduling from the set of available processes.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q30": {
+            "question": "A process that cannot execute until some event occurs is said to be in the ready state.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q31": {
+            "question": "Unlike process, thread doesn’t transit among a series of states",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q32": {
+            "question": "First-come-first-served (FCFS) is a simple scheduling policy that tends to favor I/O-bound processes over CPU bound process",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q33": {
+            "question": "The DMA operation does not require generation of interrupts",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q34": {
+            "question": "When a process enters the system, it is kept in the ready queue.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q35": {
+            "question": "Multilevel Queue Scheduling requires scheduling to be done between queues.",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q36": {
+            "question": "The average turnaround time of a process always improve as the time quantum Increase",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q37": {
+            "question": "Usage of DMA is the only method that enables the OS to effectively applying the multiprogramming feature.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q38": {
+            "question": "First-come-first-served (FCFS) is a simple scheduling policy that tends to favor I/O-bound processes over processor bound processes.",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q39": {
+            "question": "A short-term scheduling algorithm favours I/O bound process",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q40": {
+            "question": "The DMA operation requires to get only the address of I/O device",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q41": {
+            "question": "PCB is a program that control exe of process",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q42": {
+            "question": "Concureny pbs not effect on uni-processors",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q43": {
+            "question": "The Kernel process is referred as less-privileged process",
+            "answers": ["True", "False"],
+            "correct": 2
+        },
+        "q44": {
+            "question": "User thread are fast to create and manage than Kernel thread",
+            "answers": ["True", "False"],
+            "correct": 1
+        },
+        "q45": {
+            "question": "Which module gives control of the CPU to the process selected by the short-term scheduler?",
+            "answers": ["dispatcher", "interrupt", "scheduler", "none of the mentioned"],
+            "correct": 1
+        },
+        "q46": {
+            "question": "The processes that are residing in main memory and are ready and waiting to execute are kept on a list called _____________",
+            "answers": ["ready queue", "job queue", "execution queue", "process queue"],
+            "correct": 1
+        },
+        "q47": {
+            "question": "The interval from the time of submission of a process to the time of completion is termed as ____________",
+            "answers": ["waiting time", "turnaround time", "response time", "throughput"],
+            "correct": 2
+        },
+        "q48": {
+            "question": "Which scheduling algorithm allocates the CPU first to the process that requests the CPU first?",
+            "answers": ["first-come, first-served scheduling", "shortest job scheduling", "priority scheduling", "none of the mentioned"],
+            "correct": 1
+        },
+        "q49": {
+            "question": "In priority scheduling algorithm ____________",
+            "answers": ["CPU is allocated to the process with highest priority", "CPU is allocated to the process with lowest priority", "Equal priority processes can not be scheduled", "None of the mentioned"],
+            "correct": 1
+        },
+        "q50": {
+            "question": "In priority scheduling algorithm, when a process arrives at the ready queue, its priority is compared with the priority of ____________",
+            "answers": ["all process", "currently running process", "parent process", "initial process"],
+            "correct": 2
+        },
+        "q51": {
+            "question": "Which algorithm is defined in Time quantum?",
+            "answers": ["shortest job scheduling algorithm", "round robin scheduling algorithm", "priority scheduling algorithm", "multilevel queue scheduling algorithm"],
+            "correct": 2
+        },
+        "q52": {
+            "question": "Process are classified into different groups in ____________",
+            "answers": ["shortest job scheduling algorithm", "round robin scheduling algorithm", "priority scheduling algorithm", "multilevel queue scheduling algorithm"],
+            "correct": 4
+        },
+        "q53": {
+            "question": "In multilevel feedback scheduling algorithm ____________",
+            "answers": ["a process can move to a different classified ready queue", "classification of ready queue is permanent", "processes are not classified into groups", "none of the mentioned"],
+            "correct": 1
+        },
+        "q54": {
+            "question": "Which one of the following can not be scheduled by the kernel?",
+            "answers": ["kernel level thread", "user level thread", "process", "none of the mentioned"],
+            "correct": 2
+        },
+        "q55": {
+            "question": "CPU scheduling is the basis of ___________",
+            "answers": ["multiprocessor systems", "multiprogramming operating systems", "larger memory sized systems", "none of the mentioned"],
+            "correct": 2
+        },
+        "q56": {
+            "question": "With multiprogramming ______ is used productively.",
+            "answers": ["time", "space", "money", "all of the mentioned"],
+            "correct": 1
+        },
+        "q57": {
+            "question": "What are the two steps of a process execution?",
+            "answers": ["I/O & OS Burst", "CPU & I/O Burst", "Memory & I/O Burst", "OS & Memory Burst"],
+            "correct": 2
+        },
+        "q58": {
+            "question": "An I/O bound program will typically have ____________",
+            "answers": ["a few very short CPU bursts", "many very short I/O bursts", "many very short CPU bursts", "a few very short I/O bursts"],
+            "correct": 3
+        },
+        "q59": {
+            "question": "A process is selected from the ______ queue by the ________ scheduler, to be executed.",
+            "answers": ["blocked, short term", "wait, long term", "ready, short term", "ready, long term"],
+            "correct": 3
+        },
+        "q60": {
+            "question": "In the following cases non – preemptive scheduling occurs?",
+            "answers": ["When a process switches from the running state to the ready state", "When a process switches from the waiting state to the ready state", "When a process goes from the running state to the waiting state", "All of the mentioned"],
+            "correct": 2
+        },
+        "q61": {
+            "question": "The switching of the CPU from one process or thread to another is called ____________",
+            "answers": ["process switch", "task switch", "context switch", "all of the mentioned"],
+            "correct": 4
+        },
+        "q62": {
+            "question": "What is Dispatch latency?",
+            "answers": ["the speed of dispatching a process from running to the ready state", "the time of dispatching a process from running to ready state and keeping the CPU idle", "the time to stop one process and start running another one", "none of the mentioned"],
+            "correct": 3
+        },
+        "q63": {
+            "question": "Scheduling is done so as to ____________",
+            "answers": ["increase CPU utilization", "decrease CPU utilization", "keep the CPU more idle", "none of the mentioned"],
+            "correct": 1
+        },
+        "q64": {
+            "question": "Scheduling is done so as to ____________",
+            "answers": ["increase the throughput", "decrease the throughput", "increase the duration of a specific amount of work", "none of the mentioned"],
+            "correct": 1
+        },
+        "q65": {
+            "question": "What is Turnaround time?",
+            "answers": ["the total waiting time for a process to finish execution", "the total time spent in the ready queue", "the total time spent in the running queue", "the total time from the completion till the submission of a process"],
+            "correct": 4
+        },
+        "q66": {
+            "question": "Scheduling is done so as to ____________",
+            "answers": ["increase the turnaround time", "decrease the turnaround time", "keep the turnaround time same", "there is no relation between scheduling and turnaround time"],
+            "correct": 2
+        },
+        "q67": {
+            "question": "What is Waiting time?",
+            "answers": ["the total time in the blocked and waiting queues", "the total time spent in the ready queue", "the total time spent in the running queue", "the total time from the completion till the submission of a process"],
+            "correct": 2
+        },
+        "q68": {
+            "question": "Scheduling is done so as to ____________",
+            "answers": ["increase the waiting time", "keep the waiting time the same", "decrease the waiting time", "none of the mentioned"],
+            "correct": 3
+        },
+        "q69": {
+            "question": "What is Response time?",
+            "answers": ["the total time taken from the submission time till the completion time", "the total time taken from the submission time till the first response is produced", "the total time taken from submission time till the response is output", "none of the mentioned"],
+            "correct": 2
+        },
+        "q70": {
+            "question": "Round robin scheduling falls under the category of ____________",
+            "answers": ["Non-preemptive scheduling", "Preemptive scheduling", "All of the mentioned", "None of the mentioned"],
+            "correct": 2
+        },
+        "q71": {
+            "question": "With  round robin scheduling algorithm in a time shared system ____________",
+            "answers": ["using very  large time slices converts it into First come First served scheduling algorithm", "using very small time slices converts it into First come First served scheduling algorithm", "using extremely small time slices increases performance", "using very small time slices converts it into Shortest Job First algorithm"],
+            "correct": 1
+        },
+        "q72": {
+            "question": "The portion of the process scheduler in an operating system that dispatches processes is concerned with ____________",
+            "answers": ["assigning ready processes to waiting queue", "assigning ready processes to CPU", "all of the mentioned", "assigning running processes to blocked queue"],
+            "correct": 2
+        },
+        "q73": {
+            "question": "Complex scheduling algorithms ____________",
+            "answers": ["are very appropriate for very large computers", "use minimal resources", "use many resources", "all of the mentioned"],
+            "correct": 1
+        },
+        "q74": {
+            "question": "What is FIFO algorithm?",
+            "answers": ["first executes the job that came in last in the queue", "first executes the job that came in first in the queue", "first executes the job that needs minimal processor", "first executes the job that has maximum processor needs"],
+            "correct": 2
+        },
+        "q75": {
+            "question": "The strategy of making processes that are logically runnable to be temporarily suspended is called ____________",
+            "answers": ["Non preemptive scheduling", "Preemptive scheduling", "Shortest job first", "First come First served"],
+            "correct": 2
+        },
+        "q76": {
+            "question": "What is Scheduling?",
+            "answers": ["making proper use of processor", "allowing a job to use the processor", "all of the mentioned", "none of the mentioned"],
+            "correct": 2
+        },
+        "q77": {
+            "question": "There are 10 different processes running on a workstation. Idle processes are waiting for an input event in the input queue. Busy processes are scheduled with the Round-Robin time sharing method. Which out of the following quantum times is the best value for small response times, if the processes have a short runtime, e.g. less than 10ms?",
+            "answers": ["tQ = 15ms", "tQ = 40ms", "tQ = 45ms", "tQ = 50ms"],
+            "correct": 2
+        },
+        "q78": {
+            "question": "Orders are processed in the sequence they arrive if _______ rule sequences the jobs.",
+            "answers": ["earliest due date", "slack time remaining", "first come, first served", "critical ratio"],
+            "correct": 3
+        },
+        "q79": {
+            "question": "Which of the following algorithms tends to minimize the process flow time?",
+            "answers": ["First come First served", "Shortest Job First", "Earliest Deadline First", "Longest Job First"],
+            "correct": 2
+        },
+        "q80": {
+            "question": "Under multiprogramming, turnaround time for short jobs is usually ________ and that for long jobs is slightly ___________",
+            "answers": ["Lengthened; Shortened", "Shortened; Lengthened", "Shortened; Shortened", "Shortened; Unchanged"],
+            "correct": 2
+        },
+        "q81": {
+            "question": "Which of the following statements are true? (GATE 2010)<br/>I. Shortest remaining time first scheduling may cause starvation<br/>II. Preemptive scheduling may cause starvation<br/>III. Round robin is better than FCFS in terms of response time",
+            "answers": ["I only", "I and III only", "II and III only", "I, II and III"],
+            "correct": 4
+        },
+        "q82": {
+            "question": "Which is the most optimal scheduling algorithm?",
+            "answers": ["FCFS – First come First served", "SJF – Shortest Job First", "RR – Round Robin", "None of the mentioned"],
+            "correct": 2
+        },
+        "q83": {
+            "question": "The real difficulty with SJF in short term scheduling is ____________",
+            "answers": ["it is too good an algorithm", "knowing the length of the next CPU request", "it is too complex to understand", "none of the mentioned"],
+            "correct": 2
+        },
+        "q84": {
+            "question": "The FCFS algorithm is particularly troublesome for ____________",
+            "answers": ["time sharing systems", "multiprogramming systems", "multiprocessor systems", "operating systems"],
+            "correct": 2
+        },
+        "q85": {
+            "question": "Consider the following set of processes, the length of the CPU burst time given in milliseconds.<br/>Assuming the below process being scheduled with the SJF scheduling algorithm.",
+            "images": "images/img12.png",
+            "answers": ["The waiting time for process P1 is 0ms", "The waiting time for process P1 is 3ms", "The waiting time for process P1 is 9ms", "The waiting time for process P1 is 16ms"],
+            "correct": 2
+        },
+        "q86": {
+            "question": "Preemptive Shortest Job First scheduling is sometimes called ____________",
+            "answers": ["Fast SJF scheduling", "SRTN scheduling – Shortest Remaining Time Next", "HRRN scheduling – Highest Response Ratio Next", "EDF scheduling – Earliest Deadline First"],
+            "correct": 2
+        },
+        "q87": {
+            "question": "An SJF algorithm is simply a priority algorithm where the priority is ____________",
+            "answers": ["the predicted next CPU burst", "the inverse of the predicted next CPU burst", "the current CPU burst", "anything the user wants"],
+            "correct": 1
+        },
+        "q88": {
+            "question": "Choose one of the disadvantages of the priority scheduling algorithm?",
+            "answers": ["it schedules in a very complex manner", "its scheduling takes up a lot of time", "none of the mentioned", "it can lead to some low priority process waiting indefinitely for the CPU"],
+            "correct": 4
+        },
+        "q89": {
+            "question": "What is ‘Aging’?",
+            "answers": ["keeping track of cache contents", "keeping track of what pages are currently residing in memory", "keeping track of how many times a given page is referenced", "increasing the priority of jobs to ensure termination in a finite time"],
+            "correct": 4
+        },
+        "q90": {
+            "question": "A solution to the problem of indefinite blockage of low – priority processes is ____________",
+            "answers": ["Starvation", "Wait queue", "Ready queue", "Aging"],
+            "correct": 4
+        },
+        "q91": {
+            "question": "Which of the following scheduling algorithms gives minimum average waiting time?",
+            "answers": ["FCFS", "SJF", "Round – robin", "Priority"],
+            "correct": 2
+        },
+        "q90": {
+            "question": "Which algorithm is defined in Time quantum?",
+            "answers": ["all", "all", "all", "all"],
+            "correct": 2
+        },
+        "q90": {
+            "question": "Which algorithm is defined in Time quantum?",
+            "answers": ["all", "all", "all", "all"],
+            "correct": 2
+        },
+        "q90": {
+            "question": "Which algorithm is defined in Time quantum?",
+            "answers": ["all", "all", "all", "all"],
+            "correct": 2
+        },
+    },
 };
