@@ -3380,7 +3380,7 @@ var database = {
         },
         "q29": {
             "question": "The Open System Interconnection (OSI) model deals with a physical, data link, network, transport, session and",
-            "answers": ["presentation layer", "application layer", "both a and b", "transport layer"],
+            "answers": ["(a) presentation layer", "(b) application layer", "both a and b", "transport layer"],
             "correct": 3
         },
         "q30": {
@@ -4375,7 +4375,7 @@ var database = {
         },
         "q227": {
             "question": "The radio waves, microwaves and infrared waves are types of",
-            "answers": ["wireless transmission", "guided transmission", "both a and b", "unguided connection"],
+            "answers": ["(a) wireless transmission", "(b) guided transmission", "both a and b", "unguided connection"],
             "correct": 1
         },
         "q228": {
@@ -7918,7 +7918,7 @@ var database = {
         },
         "q114": {
             "question": "In OS, Memory management refers to management of?",
-            "answers": ["Primary Memory", "Main Memory", "Secondary Memory", "Both A and B"],
+            "answers": ["(A) Primary Memory", "(B) Main Memory", "(C) Secondary Memory", "Both A and B"],
             "correct": 4
         },
         "q115": {
@@ -7948,7 +7948,7 @@ var database = {
         },
         "q120": {
             "question": "Multiprogramming generally?",
-            "answers": ["decreases CPU utilization", "Share the processor", "Both A and B", "None of the above"],
+            "answers": ["(A) decreases CPU utilization", "(B) Share the processor", "Both A and B", "None of the above"],
             "correct": 2
         },
         "q121": {
@@ -8048,7 +8048,7 @@ var database = {
         },
         "q140": {
             "question": "Which of the following algorithms work based on priority?",
-            "answers": ["non-preemptive", "preemptive", "Both A and B", "None of the above"],
+            "answers": ["(A) non-preemptive", "(B) preemptive", "Both A and B", "None of the above"],
             "correct": 2
         },
         "q141": {
