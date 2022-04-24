@@ -7,8 +7,9 @@ searchButton.onclick = function() {
     window.location.href = text;
 }*/
 
+var loaderObj = new Loader();
+
 function publisher(url = "http://127.0.0.1:8000/api/books") {
-    let loaderObj = new Loader();
     loaderObj.dataLoader(url);
 }
 

@@ -13,6 +13,25 @@
     </head>
 
     <body>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-warning" role="button" onclick="publisher('http://127.0.0.1:8000/api/books')">Bookstore</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Books
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" role="button" onclick="publisher('http://127.0.0.1:8000/api/books')">All</a></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
         <div id="main" class="container mt-5 mb-4"></div>
 
         <script src="js/popper.min.js"></script>
