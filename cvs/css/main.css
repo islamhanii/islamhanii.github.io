@@ -2,3 +2,7 @@
     font-family: Poppins;
     src: url("../fonts/Poppins-Regular.ttf");
 }
+@font-face {
+    font-family: Cairo;
+    src: url("../fonts/Cairo-Regular.ttf");
+}
